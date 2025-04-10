@@ -19,11 +19,11 @@ Ta reda på hur ni kan hitta och få kontakt med potentiella utgivare för samar
 
 Om du vill identifiera utgivare går du till fliken **[!UICONTROL Connect]** > **[!UICONTROL Discover publishers]**.
 
-![Upptäck utgivarsidan](/help/assets/connect/discover-publishers/discover-publishers-overview.png)
+![Upptäck utgivarsidan](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
 Välj **[!UICONTROL View publisher]** om du vill veta mer om utgivaren. Du kan också visa och inspektera alla publika målgrupper som utgivaren har valt att dela.
 
-![Visa utgivarprofil](/help/assets/connect/discover-publishers/view-publisher-profile.png)
+![Visa utgivarprofil](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 
 ## Mina anslutningar
 
@@ -31,7 +31,7 @@ Använd vyn **[!UICONTROL My connections]** för att förstå var någon åtgär
 
 Under **[!UICONTROL Action required]** kan du se en lista över alla anslutningar där en inbjudan har skickats men anslutningen ännu inte har upprättats. Du kan behöva utföra en åtgärd från din organisation eller från medarbetaren.
 
-![Åtgärdsvyn krävs på skärmen Mina anslutningar](/help/assets/connect/discover-publishers/action-required-view.png)
+![Åtgärdsvyn krävs på skärmen Mina anslutningar](/help/assets/connect/discover-publishers/action-required-view.png){zoomable="yes"}
 
 Några orsaker till varför en anslutning visas i vyn **[!UICONTROL Action required]** är:
 
@@ -42,4 +42,4 @@ Några orsaker till varför en anslutning visas i vyn **[!UICONTROL Action requi
 
 I vyn **[!UICONTROL Existing connections]** kan du utforska befintliga anslutningar med medarbetare och fortsätta att skapa projekt för att börja samarbeta med kampanjer.
 
-![Vyn Befintliga anslutningar på skärmen Mina anslutningar](/help/assets/connect/discover-publishers/existing-connections-view.png)
+![Vyn Befintliga anslutningar på skärmen Mina anslutningar](/help/assets/connect/discover-publishers/existing-connections-view.png){zoomable="yes"}

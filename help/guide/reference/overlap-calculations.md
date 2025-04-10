@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Beräkna överlappningsantal och procentsatser
 
-I Adobe Real-Time CDP Collaboration är det viktigt att förstå målgruppernas överlappning för att optimera era marknadsföringsstrategier och säkerställa ett effektivt samarbete mellan annonsörer och utgivare. I det här dokumentet förklaras hur överlappningsantal och procentsatser i olika produktområden beräknas med hjälp av exempeldata.
+I Adobe Real-Time CDP Collaboration är det avgörande att förstå hur olika målgrupper överlappar varandra för att optimera era marknadsföringsstrategier och säkerställa ett effektivt samarbete mellan annonsörer och utgivare. I det här dokumentet förklaras hur överlappningsantal och procentsatser i olika produktområden beräknas med exempeldata.
 
 ## Exempeldata - identitetsantal
 
@@ -37,13 +37,13 @@ I det här exemplet kan du anta att:
 | ID-identiteter för Liveramp | 500 kB | 200 kB | 700 kB | 1,4 MB |
 | Totalt antal identiteter | 800 kB | 650 kB | 950 kB | 2,4 MB |
 
-### Utgivarens målgrupper
+### Utgivare
 
-| Utgivarens målgrupper | P1 | P2 | P3 | ALLA |
+| Utgivare | P1 | P2 | P3 | ALLA |
 |---------------------|------|------|------|------|
 | Hash-kodade e-postidentiteter | 150 kB | 600 kB | 550 kB | 1,3 MB |
-| Identiteter för Liveramp-ID | 400 kB | 350 kB | 100 000 | 850 km-lopp |
-| Totalt antal identiteter | 550 km-lopp | 950 km-lopp | 800 km-lopp | 2,3 MB |
+| Identiteter för Liveramp-ID | 400 kB | 350 kB | 100 000 | 850 kB |
+| Totalt antal identiteter | 550 kB | 950 kB | 800 kB | 2,3 MB |
 
 ## Beräkna överlappningsräknare och procentandelar
 
@@ -54,7 +54,7 @@ I det här exemplet kan du anta att:
 |                     | A1 - P1 | A2 - P2 | A3 - P3 |
 |---------------------|---------|---------|---------|
 | Överlappa med Hash-kodad e-post | 100 000 | 300 kB | 150 kB |
-| Överlappa med liveramp-ID | 200 km-lopp | 150 kB | 50 kB |
+| Överlappa med överlägg av överlägg-ID | 200 kB | 150 kB | 50 kB |
 | Total överlappning | 300 kB | 450 kB | 200 kB |
 
 #### Advertiser Each vs Publisher ALL
@@ -69,8 +69,8 @@ I det här exemplet kan du anta att:
 
 |                     | A ALL - P1 | A ALL - P2 | A ALL - P3 |
 |---------------------|------------|------------|------------|
-| Överlappning av hashad e-post | 120 km-lopp | 530 km-lopp | 200 km-lopp |
-| Överlappa med liveramp-ID | 350 kB | 330 kB | 50 kB |
+| Överlappa med Hash-kodad e-post | 120 kB | 530 kB | 200 kB |
+| Överlappa med överlägg av överlägg-ID | 350 kB | 330 kB | 50 kB |
 | Total överlappning | 470 kB | 860 kB | 250 kB |
 
 #### Advertiser ALL vs Publisher ALL
@@ -79,9 +79,9 @@ I det här exemplet kan du anta att:
 |---------------------|---------------|
 | Överlappa med Hash-kodad e-post | 850 kB |
 | Överlappa med överlägg av överlägg-ID | 730 kB |
-| Total överlappning | Cirka 1,58 miljoner |
+| Total överlappning | 1,58 MB |
 
-## Upptäck modul
+## Identifieringsmodul
 
 Modulen **[!UICONTROL Discover]** i Adobe Real-Time CDP Collaboration ger värdefulla insikter om era målgruppsdata. Genom att förstå vilka målgrupper som överlappar kan ni identifiera potentiella samarbetsmöjligheter mellan utgivare och annonsörer. Avsnittet **[!UICONTROL Audience Insights]** i modulen **[!UICONTROL Discover]** hjälper dig att analysera antalet överlappningar och procentandelar mellan olika målgrupper.
 
@@ -91,7 +91,7 @@ Visa exempelberäkningar och formler för olika överlappningsscenarier nedan.
 
 ### Alla annonsörer och alla förlag
 
-| Annonsörspubliker | Utgivare | Identitetsantal (A) | Överlappande identiteter (B) | Överlappningsprocent | Matcha nyckeluppdelning | Fördelning av matchnyckel % |
+| Annonsörspubliker | Utgivare | Identitetsantal (A) | Överlappande identiteter (B) | Överlappningsprocent | Matcha nyckeluppdelning | Matcha nyckelfördelning % |
 |----------------------|---------------------|--------------------|----------------------------|-----------------|---------------------|-----------------------|
 | ALLA | ALLA | Totalt antal identiteter för ALLA annonsörer <br> Identitetsantal = 1M + 1,4M = 2,4M | Total överlappning mellan ALLA annonsörer och ALLA utgivarmålgrupper för alla matchningsnycklar <br> Överlappande identiteter = 1,58 MB | Procent av överlappande identiteter över det totala antalet identiteter för alla annonsörer <br> Överlappning % = (B / A) * 100 = (1,58 MB / 2,4 MB) * 100 = 65,83 % <br> Överlappningsprocent = 65,83 % | Överlappande identiteter per matchningsnyckel <br> Överlappa med Hashed-e-post = 850K <br> Överlappa med Liveramp-ID = 730K | Procent av matchningsnyckelöverlappning över totalt antal överlappande identiteter <br> Matcha nyckel % för hashad e-post = (850 kB / 1,58 MB) * 100 = 53,8 % <br> för Liveramp ID = (730 kB / 1,58 MB) * 100 = 46,2 % |
 
@@ -109,6 +109,6 @@ Visa exempelberäkningar och formler för olika överlappningsscenarier nedan.
 
 ### En annonsörgrupp och en utgivare
 
-| Annonsörspubliker | Utgivare | Identitetsantal (A) | Överlappande identiteter (B) | Överlappningsprocent | Matcha nyckeluppdelning | Fördelning av matchnyckel % |
+| Annonsörspubliker | Utgivare | Identitetsantal (A) | Överlappande identiteter (B) | Överlappningsprocent | Matcha nyckeluppdelning | Matcha nyckelfördelning % |
 |----------------------|---------------------|--------------------|----------------------------|-----------------|---------------------|-----------------------|
-| 1 A2 | 1 P2 | Totalt antal identiteter för annonsörens valda målgrupp A2 <br> Antal identiteter = 450K + 200K = 650K | Total överlappning mellan vald annonsörsmålgrupp A2 och vald utgivarmålgrupp P2 för alla matchningsnycklar <br> Överlappande identiteter = 450K | Procent av överlappande identiteter över identitetsantal för min valda målgrupp (A2) <br> Överlappning % = (B / A) * 100 = (450 kB / 650 kB) * 100 = 69,23 % <br> Överlappningsprocent = 69,23 % | Överlappande identiteter per matchningsnyckel <br> Överlappa med Hashed-e-post = 300K <br> Överlappa med Liveramp-ID = 150K | Procent av matchningsnyckelöverlappning över totalt antal överlappande identiteter <br> Matcha nyckel % för hashad e-post = (300 kB / 450 kB) * 100 = 66,67 % <br> för Liveramp-ID = (150 kB / 450 kB) * 100 = 3,3 % |
+| 1 A2 | 1 P2 | Totalt antal identiteter för den valda målgruppen A2 <br> Identitetsantal = 450K + 200K = 650K | Total överlappning mellan vald annonsörer A2 och vald utgivarmålgrupp P2 för alla matchningsnycklar <br> Överlappande identiteter = 450 kB | Procent av överlappande identiteter över identitetsantal för min valda målgrupp (A2) <br> Överlappning % = (B / A) * 100 = (450 kB / 650 kB) * 100 = 69,23 % <br> Överlappningsprocent = 69,23 % | Överlappande identiteter per matchningsnyckel <br> Överlappa med Hashed-e-post = 300K <br> Överlappa med Liveramp-ID = 150K | Procent av matchningsnyckelöverlappning över totalt antal överlappande identiteter <br> Matcha nyckel % för hashad e-post = (300 kB / 450 kB) * 100 = 66,67 % <br> för Liveramp-ID = (150 kB / 450 kB) * 100 = 3,3 % |

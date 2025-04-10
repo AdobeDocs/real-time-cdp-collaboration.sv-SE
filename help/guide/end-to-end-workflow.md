@@ -37,7 +37,7 @@ Som utgivare kan du börja med att [introducera ditt företag](/help/guide/setup
 
 Bestäm vilka målgruppsdata som ska importeras och vilka målgrupper som ska kunna identifieras och visas för de annonsörer som vill ansluta till dig i produktdelen **[!UICONTROL Connect]**.
 
-När du importerar målgrupper till Real-Time CDP Collaboration måste du tagga och kategorisera målgrupperna. Real-Time CDP Collaboration följer den etablerade [IAB-taxonomin](https://www.iab.com/guidelines/content-taxonomy/) för att kategorisera målgrupper.
+När du importerar målgrupper till Real-Time CDP Collaboration måste du tagga och kategorisera målgrupperna. Real-Time CDP Collaboration följer den etablerade [IAB-taxonomin](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"} för att kategorisera målgrupper.
 
 Bestäm vilka annonsörer du vill arbeta med och kontakta annonsören för att diskutera samarbetsvillkor utanför produkten. När du kommit överens om en uppsättning villkor väntar du på att annonsören ska utöka en formell inbjudan om anslutning för att ansluta till dig. I allmänhet bör ni också övervaka väntande anslutningsförfrågningar från annonsörer som vill arbeta med er i kampanjer. Granska de anslutningsinställningar som föreslås av den potentiella medarbetaren och godkänn eller ändra dem innan du påbörjar samarbetet.
 

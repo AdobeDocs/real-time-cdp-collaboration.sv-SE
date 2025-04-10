@@ -32,7 +32,7 @@ Du har två standardroller som fyller i två vanliga fall av åtkomstkontroll. D
 
 ## Skapa specifika åtkomstroller {#specific-access-roles}
 
-Du kommer troligen att vilja skapa ytterligare roller som ger olika åtkomstnivåer för olika användare. När du skapar roller kan du hantera olika åtkomstnivåer genom att välja specifika behörigheter i resursen **[!UICONTROL Collaborations]**. Mer information om hur du skapar och hanterar roller finns i guiden [roller](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}.
+Du kommer troligen att vilja skapa ytterligare roller som ger olika åtkomstnivåer för olika användare. När du skapar roller kan du hantera olika åtkomstnivåer genom att välja specifika behörigheter i resursen **[!UICONTROL Collaborations]**. Mer information om hur du skapar och hanterar roller finns i handboken [roles](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}.
 
 >[!NOTE]
 > För att få åtkomst till Real-Time CDP Collaboration måste en användare ha åtkomst till sandlådan **[!UICONTROL Prod]** i Experience Platform. Om du vill ge en användare åtkomst till den här sandlådan måste de tilldelas en roll som innehåller behörigheten **[!UICONTROL Prod]** i resursen **[!UICONTROL Sandboxes]**.

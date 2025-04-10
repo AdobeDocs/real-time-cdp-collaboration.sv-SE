@@ -25,7 +25,7 @@ ht-degree: 3%
    * [Korsningar av identiteter](./setup/identity-crosswalk.md)
    * [Lägga till och hantera mätdata](./setup/onboard-measurement-data.md)
    * [Granskningsloggar](./setup/audit-logs.md)
-* Kommunicera med utgivaren eller annonsören {#connect}
+* Anslut till utgivaren eller annonsören {#connect}
    * [Upptäck förlag](./connect/discover-publishers.md)
    * [Identifiera annonsörer](./connect/discover-advertisers.md)
    * [Kommunicera med annonsörer eller utgivare](./connect/establishing-connections.md)
@@ -39,7 +39,7 @@ ht-degree: 3%
    * [Översikt](/help/guide/permissions/overview.md)
    * [Hantera användaråtkomst](/help/guide/permissions/manage-user-access.md)
    * [Hantera roller](/help/guide/permissions/manage-roles.md)
-* Exempel på användningsområden {#use-cases}
+* Exempel på användningsfall {#use-cases}
    * [Kampanjmätning](./use-cases/campaign-measurement.md)
    * [Prospektering](./use-cases/prospecting.md)
    * [Återmarknadsföring](./use-cases/retargeting.md)
