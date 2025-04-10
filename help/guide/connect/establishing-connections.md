@@ -27,7 +27,7 @@ På en hög nivå ser arbetsflödet ut så här för att upprätta en anslutning
 4. Annonsören skickar anslutningsinställningar som bland annat matchar nycklar. De här anslutningsinställningarna representerar produktvillkoren för samarbetet.
 5. Utgivaren accepterar anslutningsinställningar. Utgivaren kan vid behov avvisa de ursprungliga anslutningsinställningarna och begära att annonsören skickar ändrade anslutningsinställningar.
 
-![Högnivådiagram över anslutningsprocessen mellan annonser och utgivare.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png)
+![Högnivådiagram över anslutningsprocessen mellan annonser och utgivare.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png){zoomable="yes"}
 
 När objekten ovan är slutförda kan medarbetarna fortsätta med att [skapa ett projekt](/help/guide/collaborate/manage-projects.md#create-project) för att [köra överlappningsrapporter](/help/guide/collaborate/discover.md) och starta reklamkampanjer.
 
@@ -39,11 +39,11 @@ När objekten ovan är slutförda kan medarbetarna fortsätta med att [skapa ett
 
 Om du vill konfigurera en anslutning väljer du **[!UICONTROL Connect]** när du bläddrar i utgivarens lager på skärmen Identifieringsutgivare.
 
-![Anslut väljare](/help/assets/connect/establish-connection/connect-selection.png)
+![Anslut väljare](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 Nu är inbjudan ute och du kan förhandsgranska anslutningsinställningarna, men inte redigera dem. Du kan visa den väntande inbjudan på fliken **[!UICONTROL My connections]**. Anslutningens status är **[!UICONTROL Invite sent]**.
 
-![Väntande inbjudan har skickats till utgivaren visas i vyn Mina anslutningar.](/help/assets/connect/establish-connection/pending-invite-sent.png)
+![Väntande inbjudan har skickats till utgivaren visas i vyn Mina anslutningar.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
 När medarbetaren godkänt inbjudan kan du konfigurera anslutningsinställningarna och skicka dem till medarbetaren för granskning och godkännande.
 
@@ -76,23 +76,23 @@ När medarbetaren godkänt inbjudan kan du konfigurera anslutningsinställningar
 
 När inbjudan har skickats kan du förhandsgranska anslutningsinställningarna. Inbjudan måste accepteras innan du kan slutföra konfigurationen av anslutningen.
 
-![Vyn med anslutningsinställningar i förhandsgranskningsläget.](/help/assets/connect/establish-connection/preview-connection-settings.png)
+![Vyn med anslutningsinställningar i förhandsgranskningsläget.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
 
 När anslutningen har godkänts av din medarbetare kan du nu börja konfigurera anslutningsinställningarna för anslutningen. Anslutningsinställningarna definierar villkoren för ditt samarbete, t.ex. de användningsfall som du ska utföra tillsammans, matchningsnycklar som du ska använda i projekt och mycket annat.
 
 Om du vill konfigurera och dela anslutningsinställningar med din medarbetare går du till **[!UICONTROL My connections]**. För alla anslutningar med statusen **[!UICONTROL Pending]** kan du välja **[!UICONTROL Set up connection]** för att konfigurera anslutningsinställningarna.
 
-![Vyn Mina anslutningar med en väntande anslutning och anslutningsalternativet Konfigurera markeras.](/help/assets/connect/establish-connection/pending-connection.png)
+![Vyn Mina anslutningar med en väntande anslutning och anslutningsalternativet Konfigurera markeras.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
 Du kan redigera och definiera fälten nedan:
 
-![Konfigurera anslutningsvy](/help/assets/connect/establish-connection/connection-view.png)
+![Konfigurera anslutningsvy](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
 
 +++Användningsfall
 
 Användningsexempel är förifyllda med alla tillgängliga användningsfall. Du kan välja vilka användningsfall din anslutning ska använda genom att välja **[!UICONTROL Edit]** och stänga av de användningsfall du inte vill använda. De valda användningsfallen påverkar vilka vyer och alternativ som är [tillgängliga i dina projekt](../collaborate/manage-projects.md#project-use-cases).
 
-![Användningsfall](/help/assets/connect/establish-connection/view-use-cases.png)
+![Användningsfall](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 +++
 
@@ -131,9 +131,9 @@ Du kan ta bort alla anslutningar med medarbetare som du inte vill fortsätta arb
 1. Navigera till **[!UICONTROL Connect]** > **[!UICONTROL My connections]**.
 2. Välj **[!UICONTROL View connection]** på anslutningskortet för att få åtkomst till anslutningen som du vill ta bort.
 3. Markera borttagningsikonen ![ta bort-ikonen](/help/assets/common/delete.svg) för att visa bekräftelsedialogrutan för borttagning av anslutning.
-   ![Ta bort anslutningsikonen är markerad.](/help/assets/connect/establish-connection/delete-icon-highlighted.png)
+   ![Ta bort anslutningsikonen är markerad.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
 4. Bekräfta borttagningen genom att välja **[!UICONTROL Delete]**.
-   ![Dialog som bekräftar borttagning av en anslutning. ](/help/assets/connect/establish-connection/delete-connection-dialog.png)
+   ![Dialog som bekräftar borttagning av en anslutning. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
 >

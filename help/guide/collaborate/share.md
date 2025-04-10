@@ -25,7 +25,7 @@ Som annonsörer kan du lära dig att dela målgrupper med utgivare så att de ka
 
 Om du vill börja dela målgrupper går du till fliken **[!UICONTROL Share]** på projektarbetsytan. Endast **annonsörorganisationer** kan dela målgrupper för kampanjer. På den här fliken kan du granska och hantera delade målgrupper.
 
-**Välj plustecknet (+),** eller alternativet **[!UICONTROL Share audience]** om inga tidigare målgrupper har delats, för att starta målgruppsdelningsprocessen.
+Välj **plustecknet (+)** eller alternativet **[!UICONTROL Share audience]** om inga tidigare målgrupper har delats, för att starta målgruppsdelningsprocessen.
 
 ![Standardvy utan delade målgrupper.](/help/assets/collaborate/share/share-new-audiences.png)
 
@@ -35,21 +35,21 @@ En ny panel visas där du kan välja vilka målgrupper du vill dela med din meda
 
 ### Välj målgrupper att dela
 
-I fönstret för val av målgrupp kan du söka efter specifika målgrupper att dela genom att ange målgruppens namn i sökfältet. Välj **[!UICONTROL Browse audiences]** och använd de tillgängliga sorteringsalternativen för att hitta exakt de målgrupper du behöver.
+I fönstret för målgruppsval kan du söka efter specifika målgrupper som du vill dela genom att ange målgruppsnamnet i sökfältet. Välj **[!UICONTROL Browse audiences]** och använd de tillgängliga sorteringsalternativen för att hitta exakt de målgrupper du behöver.
 
-![Bläddra i målgruppsvyn med valda målgrupper.](/help/assets/collaborate/share/browse-audiences-view.png)
+![Bläddra bland målgrupper med valda målgrupper.](/help/assets/collaborate/share/browse-audiences-view.png)
 
-### Redigera matchningsnycklar och ange inriktningsalternativ
+### Redigera matchningsnycklar och ange målinriktningsalternativ
 
-När du har valt önskade målgrupper att dela kan du nu välja andra konfigurationsalternativ för delningsaktiviteten.
+När du har valt vilka målgrupper du vill dela kan du nu välja andra konfigurationsalternativ för delningsaktiviteten.
 
-![Redigera matchningsnycklar och mål- eller undertrycksväljare markerade](/help/assets/collaborate/share/match-keys-and-targeting.png)
+![Redigera matchningsnycklar och markera mål- eller utelämna väljare](/help/assets/collaborate/share/match-keys-and-targeting.png)
 
 Välj **[!UICONTROL Edit match keys]** för att ange vilka matchningsnycklar som ska användas för identiteterna i målgruppen. De här alternativen ärvs från de inställningar som valdes när anslutningen mellan medarbetare först konfigurerades. Du kan ta bort matchningsnycklar som har valts vid den tidpunkten om de inte gäller för den här specifika kampanjen, men du kan inte lägga till nya matchningsnycklar just nu.
 
 ![Redigera matchningsnycklar.](/help/assets/collaborate/share/update-match-keys.png)
 
-För varje målgrupp väljer du om du vill att medlemmarna i målgruppen ska vara riktade eller undertryckta i kampanjen. Undertryckta profiler kommer specifikt inte att vara en del av den målgrupp som aktiveras av utgivaren.
+För varje målgrupp väljer du om du vill att medlemmarna i den målgruppen ska målgruppsanpassas eller undertryckas i kampanjen. Undertryckta profiler kommer inte att ingå i den målgrupp som aktiveras av utgivaren.
 
 ### Ange uppdateringsfrekvens och intervall för målgruppen
 
@@ -63,9 +63,9 @@ När du är nöjd med dina val väljer du **[!UICONTROL Share]** för att slutf�
 
 >[!SUCCESS]
 >
->Du kan nu se en ny målgruppsdelningsaktivitet på fliken **[!UICONTROL Sharing]** . Om du vill kan du gå tillbaka och redigera något av de val du har gjort.
+>Du kan nu se en ny målgruppsdelningsaktivitet på fliken **[!UICONTROL Sharing]**. Om du vill kan du gå tillbaka och redigera de markeringar du har gjort.
 
-## Visa målgrupper som för närvarande delas
+## Visa de målgrupper som för närvarande delas
 
 På fliken **[!UICONTROL Sharing]** kan du visa de målgrupper som för närvarande delas mellan medarbetarna, grupperade tillsammans i målgruppsdelningsaktiviteter.
 
@@ -89,11 +89,11 @@ The banner at the top of the page shows figures across all audience sharing acti
 
 Inom varje målgruppsdelningsaktivitet kan ni få information om varje delad målgrupp.
 
-| Metrisk | Beskrivning |
+| Mått | Beskrivning |
 |---------|----------|
-| **[!UICONTROL Identity count]** | Anger antalet profiler för alla identiteter som är knutna till den här målgruppen, enligt den senaste utvärderingen av antalet identiteter. Dessa siffror uppdateras var 24:e timme. |
-| **[!UICONTROL Overlapping identities]** | Anger antalet överlappande identiteter mellan medlemmarna i den här målgruppen och den totala populationen av profiler i medarbetarens inventering. |
-| **[!UICONTROL Match key breakdown]** | Visar antalet identiteter för varje identitet som används i målgruppen. Till exempel kan ett totalt identitetsantal på 500 000 användare bestå av 400 000 användare som har en nyckel av den hash-kodade e-postidentiteten och 100 000 användare som har en mobil-ID-identitet. Observera att i det exempel som beskrivs här kan samma person vara närvarande två gånger i målgruppen med sina e-post- och mobil-ID-identiteter. |
+| **[!UICONTROL Identity count]** | Anger antalet profiler för alla identiteter som är kopplade till den här målgruppen enligt den senaste utvärderingen av antalet identiteter. Dessa siffror uppdateras var 24:e timme. |
+| **[!UICONTROL Overlapping identities]** | Anger antalet överlappande identiteter mellan medlemmarna i den här målgruppen och den totala populationen profiler i medarbetarens lager. |
+| **[!UICONTROL Match key breakdown]** | Visar antalet identiteter för varje identitet som används i målgruppen. Ett totalt antal identiteter för 500 kB-användare kan till exempel bestå av 400 kB-användare som har inaktiverat den hashas-e-postidentiteten och 100 kB-användare som har inaktiverat en mobil-ID. Observera att i det exempel som beskrivs här kan samma person vara närvarande två gånger i målgruppen med sina e-post- och mobil-ID-identiteter. |
 | **[!UICONTROL Objective]** | **[!UICONTROL Suppress]** eller **[!UICONTROL Target]**. Anger om en målgrupps medlemmar ska målgruppsanpassas eller uteslutas från kampanjer. |
 
 Sidan innehåller även kontroller för dig till **[!UICONTROL Pause sharing]** och **[!UICONTROL Edit audiences]**.
@@ -102,8 +102,8 @@ Sidan innehåller även kontroller för dig till **[!UICONTROL Pause sharing]** 
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_share_edit_audiences_usecases"
->title="Rikta in eller ignorera användningsfall"
->abstract="<p>Välj **Mål** om du vill att profilerna i målgruppen ska visas annonser i kampanjen.</p> <p>Välj **Suppress** om du vill utesluta profilerna i målgruppen från kampanjmeddelandena.</p>"
+>title="Mål eller utelämna användningsfall"
+>abstract="<p>Välj **Mål** om du vill att profilerna i målgruppen ska visas annonser i kampanjen.</p> <p>Välj **Ingen** om du vill utesluta profilerna i målgruppen från kampanjmeddelandet.</p>"
 
 Välj **[!UICONTROL Edit audiences]** om du vill ändra vilka målgrupper som delas i en målgruppsdelningsmodul samt ändra flera konfigurationer som är relaterade till hur målgrupper delas.
 

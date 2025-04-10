@@ -91,15 +91,15 @@ Därefter måste du se till att rätt marknadsföringsåtgärder anges för impo
 
 Använd marknadsföringsåtgärder för att styra vilka målgruppsdata som ska importeras till Real-Time CDP Collaboration från Experience Platform. Marknadsföringsåtgärden **Data Collaboration** stöder etiketter för C4-, C5- och C9-dataanvändning. Marknadsföringsåtgärden **Data Science** stöder C9-dataanvändningsetiketten.
 
-Läs mer om etiketterna för dataanvändning i [C4, C5 och C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract).
+Läs mer om etiketterna för dataanvändning i [C4, C5 och C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Med kryssrutan *aktiverad* exkluderas alla data som är markerade med etiketterna som anropas ovan i Experience Platform och *hämtas* inte till Real-Time CDP Collaboration.
 * Med kryssrutan *inaktiverad* finns det ingen begränsning för data från Experience Platform som kan importeras till Real-Time CDP Collaboration.
 
 Läs mer om dataanvändningsetiketter i Experience Platform-dokumentationen:
 
-* [Översikt över etiketter för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview)
-* [Etikettordlista för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference)
+* [Översikt över etiketter för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Etikettordlista för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Marknadsföringsåtgärder som krävs för datasamarbete.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -337,7 +337,7 @@ Välj om målgruppen ska vara privat eller användbar och kan identifieras i ans
 
 >[!IMPORTANT]
 >
->Oavsett åtkomststatus (public, private eller custom) bidrar alla målgruppers populationer till **[!UICONTROL All audiences]**-populationen i vyn för överlappningsanalys för Audience Discovery. <br> ![Den systemgenererade målgruppen **Alla målgrupper** i överlappningsanalysen för Audience Discovery omfattar målgrupper med alla anslutningsåtkomststatusar (public, private, custom).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "Den systemgenererade **Alla målgrupper** i överlappningsanalysen **Audience Discovery** omfattar målgrupper med alla anslutningsåtkomststatusar (public, private, custom).")
+>Oavsett åtkomststatus (public, private eller custom) bidrar alla målgruppers populationer till **[!UICONTROL All audiences]**-populationen i vyn för överlappningsanalys för Audience Discovery. <br> ![Den systemgenererade målgruppen **Alla målgrupper** i överlappningsanalysen för Audience Discovery omfattar målgrupper med alla anslutningsåtkomststatusar (public, private, custom).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "Den systemgenererade **Alla målgrupper** i överlappningsanalysen **Audience Discovery** omfattar målgrupper med alla anslutningsåtkomststatusar (public, private, custom)."){width="100" zoomable="yes"}
 
 Tillgängligheten för målgrupper som kan användas i projekt med medarbetare skiljer sig åt beroende på inställningen för anslutningsåtkomst. Du kan alltid ändra anslutningsåtkomsten från privat till offentlig, men du kan inte ändra den inställningen igen när en målgrupp har delats med medarbetare.
 
