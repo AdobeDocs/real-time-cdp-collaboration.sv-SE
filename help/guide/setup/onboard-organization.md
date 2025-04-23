@@ -4,9 +4,9 @@ description: Läs om hur du kan integrera och hantera olika aspekter av din orga
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a93ba1bc2aa043fcc1519ec2e1cc79435175d71c
+source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Välj de matchningsnycklar som du vill använda när du förenar medlemmar i utg
 
 ![Välj nycklar.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
-Välj upp till fem matchningsnycklar som du tänker använda. När du senare konfigurerar anslutningar kan du ta bort oönskade matchningsnycklar, men inte lägga till nya. Ange tröskelvärdet för antal identiteter (minimiantal) för varje vald matchningsnyckel. Matcha nycklar med färre än minimiantalet visas inte i identitetsdelningarna för vissa användningsfall.
+Välj upp till fem matchningsnycklar som du tänker använda. När du senare konfigurerar anslutningar kan du ta bort oönskade matchningsnycklar, men inte lägga till nya.
 
 Tillgängliga matchningsnycklar i Real-Time CDP Collaboration kan vara av tre typer:
 
