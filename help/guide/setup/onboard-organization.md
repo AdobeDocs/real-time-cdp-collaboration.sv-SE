@@ -4,9 +4,9 @@ description: Läs om hur du kan integrera och hantera olika aspekter av din orga
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
+source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,11 @@ Arbetsflödet för att konfigurera din organisation omfattar de två sidorna ned
 >Alla *matchande nycklar* som du väljer på organisationsnivå kommer sedan att tricksas ned till [projektnivå](/help/guide/collaborate/manage-projects.md) i samarbetet mellan annonsörer och utgivare. På projektnivå kan du sedan ta bort matchningsnycklar, men du kan *inte* lägga till fler som inte har valts på organisationsnivå på den här skärmen.
 
 ### Ställ in information {#set-up-details}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_contact_email"
+>title="E-postadress"
+>abstract="Ange ett team- eller rollbaserat e-postmeddelande, till exempel `collaboration@yourcompany.com`. Personliga eller individuella e-postadresser ska inte användas."
 
 ![Information och användningsexempel för att konfigurera en organisation](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
