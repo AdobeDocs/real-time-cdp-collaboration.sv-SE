@@ -4,7 +4,7 @@ description: Förstå arbetsflödet från början till slut genom att använda R
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Med Adobe Real-Time Customer Data Platform (CDP) Collaboration kan annonsörer och utgivare samarbeta i kampanjer på ett sätt som sätter integriteten först. Läs den här sidan om du vill veta mer om arbetsflödet för att få ut så mycket som möjligt av produkten, som annonsörer eller utgivare.
+Med Adobe Real-Time Customer Data Platform (CDP) Collaboration kan annonsörer och utgivare samarbeta i kampanjer på ett sekretessorienterat sätt. Läs den här sidan om du vill veta mer om arbetsflödet för att få ut så mycket som möjligt av produkten, som annonsörer eller utgivare.
 
 ## Arbetsflöde från början till slut för annonsörer {#advertiser}
 

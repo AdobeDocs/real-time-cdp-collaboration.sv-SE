@@ -4,9 +4,9 @@ description: Lär dig använda Adobe Real-Time Customer Data Platform (CDP) Coll
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 ## Översikt
 
-Med Adobe Real-Time Customer Data Platform (CDP) Collaboration kan ni identifiera, aktivera och mäta värdefulla målgrupper utan att behöva förlita er på cookies från tredje part. Den här lösningen möjliggör avancerat datasamarbete mellan annonsörer och utgivare, vilket hjälper er att skapa personaliserade och slagkraftiga kundupplevelser i en sekretesssäker, centraliserad miljö.
+Med Adobe Real-Time Customer Data Platform (CDP) Collaboration kan ni identifiera, aktivera och mäta värdefulla målgrupper utan att behöva förlita er på cookies från tredje part. Lösningen möjliggör avancerat datasamarbete mellan annonsörer och utgivare, vilket hjälper er att skapa personaliserade och slagkraftiga kundupplevelser i en sekretesscentrerad, centraliserad miljö.
 
 ![Real-Time CDP Collaboration hemsida](/help/assets/overview/homepage.png){zoomable="yes"}
 
 ## Identifiera målgrupper via betrodda partners
 
-Utgivare och annonsörer kan samarbeta i en sekretesssäker miljö för att matcha målgrupper, upptäcka potentiella nya kunder och maximera avkastningen på tillgängliga annonslager. Det lättanvända gränssnittet gör att ni kan identifiera dessa målgrupper i en icke-kodad miljö, vilket kopplar samman förstklassiga utgivare och annonsörer för att få möjlighet till datasamarbete.
+Utgivare och annonsörer kan samarbeta i en sekretesscentrerad miljö för att matcha målgrupper, upptäcka potentiella nya kunder och maximera avkastningen på tillgängliga annonslager. Det lättanvända gränssnittet gör att ni kan identifiera dessa målgrupper i en icke-kodad miljö, vilket kopplar samman förstklassiga utgivare och annonsörer för att få möjlighet till datasamarbete.
 
 ## Skala räckvidd och leverera flerkanalskampanjer
 
@@ -31,9 +31,9 @@ Utgivare kan på ett säkert sätt få tillgång till och aktivera annonsörerna
 
 ## Förstå kampanjernas resultat som helhet
 
-Använd mätverktyg för samarbete för att spåra effekten av era kampanjer. Utgivare kan rapportera kampanjresultat till varumärken, förbättra aktuella och framtida annonser och justera annonsutgifterna. Annonsörer kan dela integritetssäkra engagemangs- och konverteringsinsikter, integrera exponering, kanal och konverteringsdata och använda prioriterade mätpartner för fullständiga insikter. Observera att en del av den automatiserade mätningen inte är tillgänglig i den första versionen.
+Använd mätverktyg för samarbete för att spåra effekten av era kampanjer. Utgivare kan rapportera kampanjresultat till varumärken, förbättra aktuella och framtida annonser och justera annonsutgifterna. Annonsörer kan dela integritetscentrerade engagemangs- och konverteringsinsikter, integrera exponering, kanal och konverteringsdata och använda förstnämnda mätningspartners för fullständiga insikter. Observera att en del av den automatiserade mätningen inte är tillgänglig i den första versionen.
 
-## Sekretessfokuserad
+## Sekretesscentrerad
 
 Inbäddade kontroller säkerställer att kraven på styrning och integritet uppfylls och guidar den ansvarsfulla användningen av målgruppsdata i alla steg i arbetsflödena.
 
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## Kom igång {#get-started}
 
-För att börja använda Real-Time CDP Collaboration måste systemadministratörer ge sig själva, produktadministratörer och slutanvändare åtkomst. Det finns flera obligatoriska steg beroende på användaren och vilken åtkomstnivå som krävs. Gå till guiden [översikt över åtkomstkontroll](/help/guide/permissions/overview.md){target=_"blank"} för att komma igång.
+För att börja använda Real-Time CDP Collaboration måste systemadministratörer ge sig själva, produktadministratörer och slutanvändare åtkomst. Det finns flera obligatoriska steg beroende på användaren och vilken åtkomstnivå som krävs. Gå till [åtkomstkontrollsöversikten](/help/guide/permissions/overview.md){target=_&quot;blank&quot;} för att komma igång.
 
 När ni har åtkomst kan ni börja skapa er organisation och koppla era datakällor till Adobe Real-Time CDP Collaboration för att importera målgrupper. Läs arbetsflödet från [annonser och utgivare från början till slut](/help/guide/end-to-end-workflow.md) för att komma igång.
 

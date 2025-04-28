@@ -4,7 +4,7 @@ description: Förstå de viktigaste fördelarna och användningsområdena för A
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
+source-git-commit: 89a966d6487c309fd29f3183513fc48518b85089
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time CDP Collaboration har de viktigaste funktionerna för att effektivt identifiera, aktivera och mäta era målgrupper och se till att era marknadsföringsstrategier är robusta och datadrivna, allt detta i ett sekretessfokuserat sammanhang.
+Adobe Real-Time CDP Collaboration har de viktigaste funktionerna för att effektivt identifiera, aktivera och mäta era målgrupper och se till att era marknadsföringsstrategier är robusta och datadrivna, allt detta i ett sekretessfokuserat rum.
 
 ![Fördelar och användningsområden för Real-Time CDP Collaboration](/help/assets/benefits-use-cases/discover-activate-measure.png)
 

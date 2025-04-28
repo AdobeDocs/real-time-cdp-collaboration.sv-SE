@@ -4,7 +4,7 @@ description: Läs om hur du kan integrera och hantera olika aspekter av din orga
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -81,7 +81,7 @@ När du är nöjd med ditt val kan du använda **[!UICONTROL Next]** för att g�
 >title="Partners-ID som stöds"
 >abstract="Partner-ID:n som är kopplade till profiler utökar räckvidden till en viss profil."
 
-Matchande nycklar, som e-postadresser, enhets-ID:n eller kund-ID:n, hjälper annonsörer och utgivare att samarbeta genom att möjliggöra korrekt och sekretesskompatibel datasynkronisering, vilket ger en mer exakt målgruppsanpassning och mätning.
+Matcha nycklar, som e-postadresser, enhets-ID:n eller kund-ID:n, hjälper annonsörer och utgivare att samarbeta genom att aktivera korrekt och sekretesscentrerad datasynkronisering, vilket ger en mer exakt målgruppsanpassning och mätning.
 
 ![Bild som visar tillgängliga identifierare för den första utgåvan av Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
 
