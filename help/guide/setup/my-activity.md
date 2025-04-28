@@ -4,9 +4,9 @@ description: Lär dig hur du spårar din organisations kreditförbrukningsaktivi
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: a69d4405c47824c8afabc84782dc9f8a9d70763a
+source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ På aktivitetspanelen visas en omfattande lista med alla kreditförbrukande åtg
 | **[!UICONTROL Connection ID]** | En unik identifierare för varje anslutning som är associerad med en kreditförbrukande aktivitet, som representeras av en alfanumerisk sträng. |
 | **[!UICONTROL Connection name]** | Namnet på den medarbetare som är associerad med anslutningen och den kreditförbrukande aktiviteten. |
 | **[!UICONTROL Activity]** | Den typ av aktivitet som har utförts, till exempel **Aktivering - delning**, **Aktivering - utlänning** eller **målgruppshantering**. |
-| **[!UICONTROL Inputs processed]** | Det totala antalet indata (till exempel ID:n eller rader) som bearbetats för aktiviteten, mätt i miljoner. Detta hjälper dig att förstå kostnaderna för aktiviteten genom att korrelera den med din CPM (kostnad per tusen) för att beräkna grovkostnaden. |
+| **[!UICONTROL Inputs processed]** | Det totala antalet indata (till exempel ID:n eller rader) som bearbetats för aktiviteten. |
 | **[!UICONTROL Total credits used]** | Det totala antalet krediter som används av aktiviteten. |
 | **[!UICONTROL My credit share]** | Organisationens andel av de krediter som används för aktiviteten. |
 

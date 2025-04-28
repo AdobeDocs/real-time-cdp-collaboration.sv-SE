@@ -4,9 +4,9 @@ description: Lär dig skapa och hantera projekt i Adobe Real-Time CDP Collaborat
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 55835f1e37975793f3a96c79e7c3a5bfeabfc88e
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,11 @@ Du kan bara använda filter för att visa projekt som du har startat med vissa m
 ![Filtrerad vy över projekt med en medarbetare.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Skapa projekt {#create-project}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_manage_projects_advertiser_name"
+>title="Advertiser-namn"
+>abstract="Välj annonsörens namn i listrutan. Alternativen är förkonfigurerade av utgivaren i anslutningsinställningarna för att säkerställa kompatibilitet med deras system."
 
 Om du vill skapa ett projekt väljer du plustecknet **+** i det övre högra hörnet. Om det här är ditt första projekt går du till **[!UICONTROL Collaborate]** > **[!UICONTROL My Projects]** och väljer **[!UICONTROL Create a project]**.
 
