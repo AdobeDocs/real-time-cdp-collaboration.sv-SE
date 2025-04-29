@@ -4,9 +4,9 @@ description: Läs om hur du kan integrera och hantera olika aspekter av din orga
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
+source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -52,10 +52,11 @@ Arbetsflödet för att konfigurera din organisation omfattar de två sidorna ned
 3. Välj din **[!UICONTROL Company role]**. Du kan välja mellan **[!UICONTROL Advertiser]** och **[!UICONTROL Publisher]**. Läs arbetsflödesdokumentet [från början till slut](/help/guide/end-to-end-workflow.md) om du vill se likheter och små skillnader i arbetsflödet mellan de två rolltyperna för organisationen.
 4. Välj **[!UICONTROL Industry]** för din organisation. Några exempel är **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]** eller **[!UICONTROL Financial services]**.
 5. Välj **[!UICONTROL Region]** för din organisation. I den aktuella versionen av produkten är **[!UICONTROL North America]** det förinställda standardvalet.
-6. <span class="preview"> Endast utgivare</span>: När du konfigurerar en utgivarorganisation måste du läsa och bekräfta att du kan identifieras av annonsörer i utgivarkatalogen.
+6. Lägg till en **[!UICONTROL Contact email]** för din organisation. Detta ska vara en team- eller rollbaserad e-postadress. Personliga e-postadresser ska inte anges.
+7. <span class="preview"> Endast utgivare</span>: När du konfigurerar en utgivarorganisation måste du läsa och bekräfta att du kan identifieras av annonsörer i utgivarkatalogen.
    ![Utgivarspecifikt meddelande om deltagande.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-7. Överför en **[!UICONTROL Logo]** för ditt företag. För närvarande stöds bilder av SVG-typ.
-8. Välj en bild för företagets rubrikbild.
+8. Överför en **[!UICONTROL Logo]** för ditt företag. För närvarande stöds bilder av SVG-typ.
+9. Välj en bild för företagets rubrikbild.
 
 När du är nöjd med ditt val kan du använda **[!UICONTROL Next]** för att gå till nästa sida och välja önskade matchningsnycklar som din organisation ska använda.
 
