@@ -4,9 +4,9 @@ description: Följ de senaste versionerna av Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: 5b331e2de1c91dd566f1139e57d44a47dd01dba5
+source-git-commit: fd19bb0fb0f09f5d704ce05ae719119287cbdc30
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '411'
 ht-degree: 5%
 
 ---
@@ -15,19 +15,14 @@ ht-degree: 5%
 
 {{limited-availability-release-note}}
 
-**Senast uppdaterad**: mars 2025.
-
-<!--**Last update**: April, 2025. uncomment when ready to release and delete line above-->
+**Senast uppdaterad**: april 2025.
 
 Versionsinformationen innehåller information om de funktioner som finns i Real-Time Customer Data Platform Collaboration. Real-Time CDP Collaboration-releaser fungerar enligt en kontinuerlig leveransmodell, vilket möjliggör en ungefärlig månadsvis publiceringsgräns. Versionsinformationen uppdateras ofta, så kontrollera dem regelbundet.
 
-<!--
-
 ## April 2025 {#april-2025}
 
-* A new **Inputs Processed** column has been added to the credit consumption activity table. This column displays the total number of inputs (for example, IDs or rows) processed for each activity. [Read more](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Inputs processed column highighted in My activity view.](/help/assets/release-notes/2025/inputs-processed-column.png "Inputs processed column highighted in My activity view."){width="250" align="center" zoomable="yes"}
-
--->
+* En ny kolumn, **Bearbetade indata**, har lagts till i registret för kreditförbrukningsaktivitet. I den här kolumnen visas det totala antalet indata (till exempel ID eller rader) som bearbetas för varje aktivitet. [Läs mer](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Inmatar bearbetad kolumn som är markerad i Min aktivitetsvy.](/help/assets/release-notes/2025/inputs-processed-column.png "Inmatar bearbetad kolumn som är markerad i Min aktivitetsvy."){width="250" align="center" zoomable="yes"}
+* Ett nytt e-postalternativ för kontakt har lagts till för att skapa konto. Detta hjälper partnersamarbetspartners att kontakta dig vid behov under anslutningsprocessen. [Läs mer](../setup/onboard-organization.md).
 
 ## Mars 2025 {#march-2025}
 
