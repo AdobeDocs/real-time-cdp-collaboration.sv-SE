@@ -2,7 +2,7 @@
 title: Hantera dataanslutningar
 description: Lär dig hantera dataanslutningar, inklusive matchningsnycklar, schemaläggning, användningsfall och målgruppsfiltrering i Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ Innan du hanterar dina dataanslutningar här bör du först konfigurera dem unde
 
 >[!IMPORTANT]
 >
->Det går inte att ta bort en dataanslutning i Real-Time CDP Collaboration användargränssnitt. Om du vill ta bort en dataanslutning kontaktar du Adobe eller [skapar en kundsupportanmälan](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
+>Det går inte att ta bort en dataanslutning i Real-Time CDP Collaboration användargränssnitt. Om du vill ta bort en dataanslutning kontaktar du Adobe eller [skapar en kundsupportanmälan](https://experienceleague.adobe.com/home?lang=sv-SE&amp;support-tab=open-ticket#support){target="_blank"}.
 
 Om du vill visa befintliga dataanslutningar går du till **[!UICONTROL Setup]** > **[!UICONTROL My audiences]** och väljer **[!UICONTROL Manage data connections]**.
 

@@ -2,7 +2,7 @@
 title: Översikt över inställningar
 description: Förstå alla tillgängliga alternativ och arbetsflöden i installationsavsnittet för Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 source-git-commit: 714e61b7b6f05f59f1fa6ab589a5176cbe31ea7c
 workflow-type: tm+mt
