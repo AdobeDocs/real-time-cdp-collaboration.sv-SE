@@ -2,11 +2,11 @@
 title: Anlita och hantera organisationen
 description: Läs om hur du kan integrera och hantera olika aspekter av din organisation i Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
+source-git-commit: 27faef284a07be114ea0a9a7beeae75ec6265d53
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,8 @@ Arbetsflödet för att konfigurera din organisation omfattar de två sidorna ned
 4. Välj **[!UICONTROL Industry]** för din organisation. Några exempel är **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]** eller **[!UICONTROL Financial services]**.
 5. Välj **[!UICONTROL Region]** för din organisation. I den aktuella versionen av produkten är **[!UICONTROL North America]** det förinställda standardvalet.
 6. Lägg till en **[!UICONTROL Contact email]** för din organisation. Detta ska vara en team- eller rollbaserad e-postadress. Personliga e-postadresser ska inte anges.
-7. <span class="preview"> Endast utgivare</span>: När du konfigurerar en utgivarorganisation måste du läsa och bekräfta att du kan identifieras av annonsörer i utgivarkatalogen.
-   ![Utgivarspecifikt meddelande om deltagande.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-8. Överför en **[!UICONTROL Logo]** för ditt företag. För närvarande stöds bilder av SVG-typ.
-9. Välj en bild för företagets rubrikbild.
+7. Överför en **[!UICONTROL Logo]** för ditt företag. För närvarande stöds bilder av SVG-typ.
+8. Välj en bild för företagets rubrikbild.
 
 När du är nöjd med ditt val kan du använda **[!UICONTROL Next]** för att gå till nästa sida och välja önskade matchningsnycklar som din organisation ska använda.
 
