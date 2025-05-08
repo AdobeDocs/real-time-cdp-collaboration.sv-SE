@@ -2,7 +2,7 @@
 title: Importera och hantera målgrupper
 description: Läs om hur du importerar och hanterar målgrupper i Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: d2ab8e0814d3228e85e03f0e2c1636a6d7167b88
 workflow-type: tm+mt
@@ -51,8 +51,8 @@ Välj plustecknet **+** på fliken **[!UICONTROL My audiences]** och välj **Må
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Marknadsföringsåtgärder"
 >abstract="<p>Använd marknadsföringsåtgärder för att styra vilka målgruppsdata som ska importeras till Real-Time CDP Collaboration från Experience Platform. Marknadsföringsåtgärden <strong>Data Collaboration</strong> stöder etiketter för C4-, C5- och C9-dataanvändning. Marknadsföringsåtgärden <strong>Data Science</strong> stöder C9-dataanvändningsetiketten.</p> <p> <ul><li> Med kryssrutan <em>aktiverad</em> exkluderas alla data som är markerade med etiketterna som anropas ovan i Experience Platform och <strong>hämtas </strong> inte till Real-Time CDP Collaboration.</li><li> Med kryssrutan <em>inaktiverad</em> finns det ingen begränsning för data från Experience Platform som kan importeras till Real-Time CDP Collaboration.</li></ul></p>"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html" text="Översikt över etiketter för dataanvändning"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="Etikettordlista för dataanvändning"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=sv-SE" text="Översikt över etiketter för dataanvändning"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=sv-SE" text="Etikettordlista för dataanvändning"
 
 >[!IMPORTANT]
 >
@@ -91,15 +91,15 @@ Därefter måste du se till att rätt marknadsföringsåtgärder anges för impo
 
 Använd marknadsföringsåtgärder för att styra vilka målgruppsdata som ska importeras till Real-Time CDP Collaboration från Experience Platform. Marknadsföringsåtgärden **Data Collaboration** stöder etiketter för C4-, C5- och C9-dataanvändning. Marknadsföringsåtgärden **Data Science** stöder C9-dataanvändningsetiketten.
 
-Läs mer om etiketterna för dataanvändning i [C4, C5 och C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Läs mer om etiketterna för dataanvändning i [C4, C5 och C9](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Med kryssrutan *aktiverad* exkluderas alla data som är markerade med etiketterna som anropas ovan i Experience Platform och *hämtas* inte till Real-Time CDP Collaboration.
 * Med kryssrutan *inaktiverad* finns det ingen begränsning för data från Experience Platform som kan importeras till Real-Time CDP Collaboration.
 
 Läs mer om dataanvändningsetiketter i Experience Platform-dokumentationen:
 
-* [Översikt över etiketter för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Etikettordlista för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Översikt över etiketter för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Etikettordlista för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Marknadsföringsåtgärder som krävs för datasamarbete.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -136,13 +136,13 @@ Ange sedan ett namn och en beskrivning så att du kan känna igen den här dataa
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Identitetsnamnutrymmen"
 >abstract="Välj ett identitetsnamnutrymme bland de standardnamnutrymmen och anpassade identitetsnamnutrymmen som finns i din Experience Platform-organisation."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Standard- och identitetsnamnutrymmen i Experience Platform"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=sv-SE#standard" text="Standard- och identitetsnamnutrymmen i Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profilattribut"
 >abstract="Välj attribut från unionsschemat för klassen Profile i Experience Platform. I den här vyn visas attribut som finns i unionens schema och tillhör klassen XDM Individual Profile."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Unionsschema i Experience Platform"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=sv-SE" text="Unionsschema i Experience Platform"
 
 ![Skärmen Kartfält visar källfält som är mappade till målfält.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
