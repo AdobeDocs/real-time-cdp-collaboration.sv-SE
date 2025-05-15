@@ -2,11 +2,11 @@
 title: Hantera dataanslutningar
 description: Lär dig hantera dataanslutningar, inklusive matchningsnycklar, schemaläggning, användningsfall och målgruppsfiltrering i Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 8d620828bb0fb0bf116396f884b1bbd35d7c5d69
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -19,21 +19,11 @@ ht-degree: 0%
 
 Använd dataanslutningar i Real-Time CDP Collaboration för att importera målgrupper från olika källor. Lär dig hur du hanterar matchningsnycklar och schemalägger dataimport för dina befintliga dataanslutningar. Dessutom kan ni filtrera målgrupperna utifrån olika attribut för mer detaljerade insikter.
 
-Innan du hanterar dina dataanslutningar här bör du först konfigurera dem under [målgruppsarbetsflödet för onboarding](./onboard-audiences.md). Detta säkerställer att rätt datakällor är anslutna för användning i Real-Time CDP Collaboration.
-
 ## Visa dataanslutningar
 
->[!IMPORTANT]
->
->Det går inte att ta bort en dataanslutning i Real-Time CDP Collaboration användargränssnitt. Om du vill ta bort en dataanslutning kontaktar du Adobe eller [skapar en kundsupportanmälan](https://experienceleague.adobe.com/home?lang=sv-SE&amp;support-tab=open-ticket#support){target="_blank"}.
+Om du vill visa befintliga dataanslutningar går du till **[!UICONTROL Setup]** och väljer fliken **[!UICONTROL My data connections]**. Alla dina aktuella dataanslutningar visas med en kort översikt för varje anslutning. Om du vill visa information om en dataanslutning, inklusive matchningsnycklar, schemaläggningsinformation och målgrupper, väljer du **[!UICONTROL View data connection]** på motsvarande anslutning.
 
-Om du vill visa befintliga dataanslutningar går du till **[!UICONTROL Setup]** > **[!UICONTROL My audiences]** och väljer **[!UICONTROL Manage data connections]**.
-
-![Konfigurera arbetsyta med Hantera dataanslutningar markerat.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}
-
-Detta ger en översikt över alla era nuvarande dataanslutningar, med information om antalet målgrupper i var och en av dem, datakällan för dataanslutningen med mera. Välj **[!UICONTROL View data connection]** om du vill visa information om matchningsnycklar, schemaläggning och målgrupper som är en del av den här dataanslutningen.
-
-![Hantera dataanslutningar med anslutningar Visa dataanslutningar markerade. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}
+![Arbetsytan Konfigurera med flikvyn Mina dataanslutningar visas och markeras.](/help/assets/setup/manage-data-connection/my-data-connections.png){zoomable="yes"}
 
 ### Matcha nycklar {#match-keys}
 
@@ -42,11 +32,11 @@ Detta ger en översikt över alla era nuvarande dataanslutningar, med informatio
 >title="Matcha nycklar"
 >abstract="Matchningsnycklar avgör hur data från olika källor matchas. Välj de matchande nycklar som är mest relevanta för dina användningsfall och sekretesspolicyer."
 
-Matchningsnycklar är identifierare som används för att stämma av medlemmar mellan olika målgrupper från olika datakällor. Tillgängliga matchningsnycklar är:
+Matchningsnycklar är identifierare som används för att stämma av medlemmar mellan olika målgrupper från olika datakällor. Du kan inte redigera de matchningsnycklar som du ursprungligen valde för din dataanslutning.
+
+Tillgängliga matchningsnycklar är:
 
 - **Hash-kodad e-post**
-
-Du kan inte redigera matchningsnycklarna som används i den här dataanslutningen.
 
 ![En arbetsyta för dataanslutningar med avsnittet Matcha nycklar markerat.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -61,9 +51,21 @@ Du kan inte redigera de schemaläggningsalternativ som du valde från början f�
 
 ![En arbetsyta för dataanslutningar med avsnittet Schemaläggning markerat.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
+## Ta bort dataanslutning
+
+Om du tar bort en dataanslutning tas alla underliggande målgrupper, associerade inställningar och användning bort på plattformen. Det går inte att ångra den här åtgärden.
+
+Om du vill ta bort en befintlig dataanslutning markerar du ikonen Ta bort (![ikonen Ta bort](/help/assets/common/delete.svg)) på en enskild dataanslutnings arbetsyta.
+
+![En arbetsyta för dataanslutningar med borttagningsalternativet markerat.](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
+
+En bekräftelsedialogruta visas. Välj **[!UICONTROL Delete]** om du vill ta bort dataanslutningen.
+
+![Dialogrutan Ta bort dataanslutning med alternativet Ta bort markerat.](/help/assets/setup/manage-data-connection/delete-data-connection-confirm.png){zoomable="yes"}
+
 ## Hantera målgrupper {#manage-audiences}
 
-När du visar en lista över målgrupper från din dataanslutning kan du välja att visa målgrupperna, redigera deras kategorier eller ta bort dem från dataanslutningen.
+En lista över målgrupper som är kopplade till dataanslutningen visas längst ned på arbetsytan. I listan visas en kort översikt över varje målgrupp, inklusive dess status, källa och anslutningsåtkomst. Om du vill redigera en målgrupps kategorier, anslutningsåtkomst eller metadatavisbarhet markerar du målgruppens namn. En fullständig guide om hur du hanterar en målgrupp finns i guiden [Visa enskilda målgrupper](./onboard-audiences.md#view-individual-audiences).
 
 ![En arbetsyta för dataanslutningar med målgrupperna markerade.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
