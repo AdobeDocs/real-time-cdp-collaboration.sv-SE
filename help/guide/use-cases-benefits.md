@@ -2,9 +2,9 @@
 title: Viktiga fördelar och användningsområden för Adobe Real-Time CDP Collaboration
 description: Förstå de viktigaste fördelarna och användningsområdena för Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: 89a966d6487c309fd29f3183513fc48518b85089
+source-git-commit: c2a20aad386314f654d5451126390da4228f5572
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
@@ -33,15 +33,3 @@ I en framtida release kan du arbeta med de utvalda identitetspartnerna för att 
 
 Kombinera och utforska kända kundengagemang från olika källor som webbvisningar och mycket annat.
 Visa kampanjresultat i förenklade och anpassningsbara rapporter.
-
-<!--
-
-## Sample use cases
-
-Some use cases that you can explore are:
-
-* [Prospecting](/help/guide/use-cases/prospecting.md)
-* [Retargeting](/help/guide/use-cases/retargeting.md)
-* [Suppression](/help/guide/use-cases/suppression.md)
-
--->

@@ -2,9 +2,9 @@
 user-guide-title: Real-Time Customer Data Platform Collaboration
 breadcrumb-title: Real-Time Customer Data Platform Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration möjliggör smidig och säker datadelning och samarbete mellan annonsörer och utgivare, vilket underlättar målgruppsinsikter i realtid och personaliserade marknadsföringsstrategier.
-source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
+source-git-commit: c2a20aad386314f654d5451126390da4228f5572
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '122'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
    * [Korsningar av identiteter](./setup/identity-crosswalk.md)
    * [Lägga till och hantera mätdata](./setup/onboard-measurement-data.md)
    * [Granskningsloggar](./setup/audit-logs.md)
-* Anslut till utgivaren eller annonsören {#connect}
+* Kommunicera med utgivaren eller annonsören {#connect}
    * [Upptäck förlag](./connect/discover-publishers.md)
    * [Identifiera annonsörer](./connect/discover-advertisers.md)
    * [Kommunicera med annonsörer eller utgivare](./connect/establishing-connections.md)
@@ -39,11 +39,6 @@ ht-degree: 3%
    * [Översikt](/help/guide/permissions/overview.md)
    * [Hantera användaråtkomst](/help/guide/permissions/manage-user-access.md)
    * [Hantera roller](/help/guide/permissions/manage-roles.md)
-* Exempel på användningsfall {#use-cases}
-   * [Kampanjmätning](./use-cases/campaign-measurement.md)
-   * [Prospektering](./use-cases/prospecting.md)
-   * [Återmarknadsföring](./use-cases/retargeting.md)
-   * [Undertryckning](./use-cases/suppression.md)
 * Referens {#reference}
    * [Vanliga frågor och felsökningstips](./faqs/common-questions.md)
    * [Ordlista](./glossary.md)
