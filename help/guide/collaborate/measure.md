@@ -2,11 +2,11 @@
 title: Mät prestanda
 description: Mät kampanjernas resultat i olika kanaler. Lär dig hur du använder och tolkar olika rapporter.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,27 @@ Innan du kan komma åt mätrapporterna i Real-Time CDP Collaboration har du reda
 * [Ansluten](/help/guide/connect/establishing-connections.md) till en annonsör eller utgivare med användningsfallet **Kampanjmätning** aktiverat och har börjat samarbeta i [projekt](/help/guide/collaborate/manage-projects.md)
 * Kör en kampanj och [överförde mätdata](/help/guide/setup/onboard-measurement-data.md) till Real-Time CDP Collaboration.
 
-## Visa rapporter
+<!--
+
+## Create a report {#create-report}
+
+Hidden until functionality is live. At that point, move the contextualhelp from below into this section. 
+
+The syntax rtcdp_collaboration_measurement_create_report is currently implemented in the UI. However, a preference would be to imlement the other contextualhelp ID from below instead, since that explicitly includes campaignID in the syntax. Need to sync up with UI team. More details in CORE-116991.
+
+-->
+
+## Visa rapporter {#view-reports}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_create_report_campaignID"
+>title="Kampanj-ID"
+>abstract="Platshållare för att lägga till relevant information i användargränssnittet om vad kampanj-ID:n är."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_create_report"
+>title="Kampanj-ID"
+>abstract="Platshållare för att lägga till relevant information i användargränssnittet om vad kampanj-ID:n är."
 
 Så här visar du de rapporter som finns på fliken Mått:
 
