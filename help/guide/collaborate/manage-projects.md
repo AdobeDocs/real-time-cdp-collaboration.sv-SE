@@ -2,12 +2,12 @@
 title: Skapa och hantera projekt
 description: Lär dig skapa och hantera projekt i Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 1%
+source-wordcount: '442'
+ht-degree: 0%
 
 ---
 
@@ -32,13 +32,18 @@ Du kan bara använda filter för att visa projekt som du har startat med vissa m
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
 >title="Advertiser-namn"
->abstract="Välj annonsörens namn i listrutan. Alternativen är förkonfigurerade av annonsören i anslutningsinställningarna för att säkerställa kompatibilitet med utgivarsystem."
+>abstract="Välj annonsörens namn i listrutan. Alternativen är förkonfigurerade av utgivaren i anslutningsinställningarna för att säkerställa kompatibilitet med deras system."
 
 Om du vill skapa ett projekt väljer du plustecknet **+** i det övre högra hörnet. Om det här är ditt första projekt går du till **[!UICONTROL Collaborate]** > **[!UICONTROL My Projects]** och väljer **[!UICONTROL Create a project]**.
 
 ![Välj plustecken eller Skapa ett projekt för att konfigurera ett nytt projekt.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-Välj sedan den medarbetare som du skapar projektet med. Ange **[!UICONTROL project name]** och **[!UICONTROL description]** för ditt projekt, välj en bildrubrik för att enkelt särskilja projektet och bekräfta ditt val.
+Välj sedan följande inställningar:
+
+* Medarbetaren som du skapar projektet med
+* Välj ett annonsörnamn om utgivaren har konfigurerat flera annonsörnamn i anslutningsinställningarna. I annat fall är annonsörens namn markerat som annonsörnamn. Eller om utgivaren konfigurerade ett annonsörsnamn i anslutningsinställningarna är det namnet förifyllt i det här urvalet. [Läs mer](/help/guide/connect/establishing-connections.md#connection-settings) om annonsörernas namn.
+* Ange **[!UICONTROL project name]** och **[!UICONTROL description]** för ditt projekt
+* Välj en bildrubrik om du enkelt vill se projektet och bekräfta ditt val.
 
 ![Obligatoriska alternativ för att konfigurera ett nytt projekt](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 

@@ -2,11 +2,11 @@
 title: Kommunicera med annonsörer eller utgivare
 description: Lär dig hur du skapar kopplingar och börjar samarbeta i projekt när du har upptäckt potentiella medarbetare.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,8 @@ När medarbetaren godkänt inbjudan kan du konfigurera anslutningsinställningar
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-namn"
->abstract="Anger de alias som annonsören är känd med. "
+>abstract="<p>Valfri inställning. Anger det namn och ID som annonsören är känd av.</p><p>Annonsörsnamnet som du lägger till här är förifyllt i steget Skapa projekt.</p><ul><li>Om utgivaren har konfigurerat flera namn väljer du ett i listan.</li><li>Om bara ett namn är konfigurerat markeras det automatiskt.</li><li>Om inga namn är konfigurerade kommer fältet att fyllas i i förväg med annonsörens kontonamn från Real-Time CDP Collaboration.</li></ul>"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
 
 När inbjudan har skickats kan du förhandsgranska anslutningsinställningarna. Inbjudan måste accepteras innan du kan slutföra konfigurationen av anslutningen.
 
@@ -127,6 +128,22 @@ Använd kreditdelningsavsnittet för att avgöra vilken av de två samarbetande 
 Innan du kan fortsätta med den här anslutningen måste du bekräfta att det finns ett datadelningsavtal mellan de två parterna.
 
 ![Juridiska avtal.](/help/assets/connect/establish-connection/legal-agreement.png)
+
++++
+
++++Advertiser-namn
+
+Som utgivare som arbetar med anslutningsinställningarna kan du välja att lägga till annonsörnamn som du känner till i dina system. Som utgivare kan du lägga till flera annonsörnamn i en anslutning, till exempel om den annonsörer du arbetar med har en närvaro i flera olika länder. När du senare under processen [skapar ett projekt](/help/guide/collaborate/manage-projects.md#create-project) som du vill samarbeta med, kan du eller din medarbetare välja annonsörnamnet som du vill associera med projektet.
+
+![Lägg till annonserarnamn modal.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+
+Så här fungerar valet av annonsörnamn när du skapar ett projekt:
+
+1. **Inget annonsörnamn har angetts**: Om inga annonsörnamn har lagts till används annonserarens namn som annonsörsnamn som standard i Real-Time CDP Collaboration.
+2. **En annonsörnamnsuppsättning**: Om ett annonsörnamn läggs till använder Real-Time CDP Collaboration automatiskt det namnet som annonsörnamn för projektet.
+3. **Flera annonsörnamn anges**: Om fler än ett annonsörnamn läggs till kan du eller din medarbetare välja något av de angivna namnen när projektet skapas.
+
+![Advertiser-namn.](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 
