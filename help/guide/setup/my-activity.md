@@ -2,7 +2,7 @@
 title: Spåra din kreditförbrukningsaktivitet
 description: Lär dig hur du spårar din organisations kreditförbrukningsaktivitet i Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 source-git-commit: 7e9e6ae51d9741891e916c0dfd5ec0047a995c21
 workflow-type: tm+mt
@@ -62,7 +62,7 @@ Kolumnen **[!UICONTROL Activity]** visar olika typer av kreditförbrukande åtg�
 
 Så här hanterar du din kreditförbrukning effektivt:
 
-1. **Förstå** kreditförbrukningen som är associerad med varje aktivitet. Se [Real-Time CDP Collaboration produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} för en tabell över samarbetskrediter som används per aktivitet.
+1. **Förstå** kreditförbrukningen som är associerad med varje aktivitet. Se [Real-Time CDP Collaboration produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} för en tabell över samarbetskrediter som används per aktivitet.
 2. **Övervaka regelbundet**: Kontrollera din aktivitetspanel ofta för att få information om användningsmönster.
 3. **Spåra via anslutning**: Använd anslutningsnamnet för att identifiera vilka partnerskap som förbrukar flest krediter.
 
