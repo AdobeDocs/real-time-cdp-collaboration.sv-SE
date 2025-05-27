@@ -2,11 +2,11 @@
 title: Spåra din kreditförbrukningsaktivitet
 description: Lär dig hur du spårar din organisations kreditförbrukningsaktivitet i Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
+source-git-commit: 7e9e6ae51d9741891e916c0dfd5ec0047a995c21
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -53,27 +53,16 @@ På aktivitetspanelen visas en omfattande lista med alla kreditförbrukande åtg
 
 Kolumnen **[!UICONTROL Activity]** visar olika typer av kreditförbrukande åtgärder.
 
-* **[!UICONTROL Audience Management]**: Medarbetare förbrukas när målgrupper importeras till Real-Time CDP Collaboration. Krediter förbrukas som en funktion av antalet ID (i miljoner) som indexerats inom Real-Time CDP Collaboration för alla målgrupper och frekvensen för indexeringen (varje dag, var tredje dag eller varje vecka) under faktureringsperioden. Läs mer om [att importera och hantera målgrupper](/help/guide/setup/onboard-audiences.md).
-* **[!UICONTROL Activation - Sharing]** - Krediter förbrukas som en funktion av antalet ID:n som aktiveras från Real-Time CDP Collaboration under faktureringsperioden. Läs mer om att [dela](/help/guide/collaborate/share.md) och [aktivera målgrupper](/help/guide/collaborate/activate.md) i Real-Time CDP Collaboration.
-* **[!UICONTROL Activation - Egress]** - Krediter förbrukas som en funktion av antalet ID:n som aktiveras från Real-Time CDP Collaboration under faktureringsperioden. Läs mer om att [dela](/help/guide/collaborate/share.md) och [aktivera målgrupper](/help/guide/collaborate/activate.md) i Real-Time CDP Collaboration.
-* **[!UICONTROL Audience Overlaps]** - Medlen förbrukas när målgruppsöverlappningar analyseras med dataskisser. Datakisser är förenklade sammanfattningar av målgruppsdata som hjälper till att avgöra hur likartade två målgrupper är samtidigt som datasekretessen bevaras. Läs mer om [målgruppsöverlappningar på fliken Upptäck](/help/guide/collaborate/discover.md).
+* **[!UICONTROL Audience Management]**: Medarbetare förbrukas när målgrupper hämtas till Real-Time CDP Collaboration. Krediter förbrukas som en funktion av antalet ID (i miljoner) som indexerats inom Real-Time CDP Collaboration för alla målgrupper och frekvensen för indexeringen (varje dag, var tredje dag eller varje vecka). Läs handboken [Importera och hantera målgrupper](/help/guide/setup/onboard-audiences.md) om du vill veta mer.
+* **[!UICONTROL Activation - Matching]** - Medarbetare förbrukas som en funktion av antalet ID som matchas och förbereds för aktivering. Läs handboken [Aktivera målgrupper](/help/guide/collaborate/activate.md) om du vill veta mer.
+* **[!UICONTROL Activation - Egress]** - Medarbetare förbrukas som en funktion av antalet ID:n som skickas till ett mål. Detta debiteras alltid den medarbetare som tar emot publiken. Läs handboken [Aktivera målgrupper](/help/guide/collaborate/activate.md) om du vill veta mer.
 * **[!UICONTROL Audience Measurement]** - Kör aktiviteter i Real-Time CDP Collaboration för att generera rapporter och insikter om kampanjresultat. Krediter förbrukas baserat på antalet rader i kampanjrapporter för alla kampanjer och rapporteringsfrekvensen (varje dag, var tredje dag eller varje vecka).
-
-
-<!--
-
-**[!UICONTROL Audience Overlaps]** – Credits are consumed as a function of the number of matched IDs across 2 or more shared audiences throughout the billing period. Read more about [audience overlaps in the discover tab](/help/guide/collaborate/discover.md).
-
-Collaboration Measurement – Credits are consumed as a function of the number of rows existing in campaign reports across all campaigns, and the frequency of that reporting (daily, every three days, or weekly).
-
--->
-
 
 ## Hantera din kreditförbrukning {#manage-credit-consumption}
 
 Så här hanterar du din kreditförbrukning effektivt:
 
-1. **Förstå** kreditförbrukningen som är associerad med varje aktivitet. Se [Real-Time CDP Collaboration produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} för en tabell över samarbetskrediter som används per aktivitet.
+1. **Förstå** kreditförbrukningen som är associerad med varje aktivitet. Se [Real-Time CDP Collaboration produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} för en tabell över samarbetskrediter som används per aktivitet.
 2. **Övervaka regelbundet**: Kontrollera din aktivitetspanel ofta för att få information om användningsmönster.
 3. **Spåra via anslutning**: Använd anslutningsnamnet för att identifiera vilka partnerskap som förbrukar flest krediter.
 
