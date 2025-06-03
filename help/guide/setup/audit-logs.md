@@ -2,9 +2,9 @@
 title: Granskningsloggar
 description: Lär dig hur du använder funktionen Granskningsloggar i Real-Time CDP Collaboration för att spåra användaraktiviteter och ändringar.
 audience: admin
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Använd granskningsloggsfunktionen i Real-Time CDP Collaboration för att spåra
 
 ![Skärm med översikt på hög nivå över granskningsloggsfunktionen](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Mer information om granskningsloggar finns i [dokumentationen för Adobe Experience Platform-granskningsloggar](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Mer information om granskningsloggar finns i [dokumentationen för Adobe Experience Platform-granskningsloggar](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Åtkomst till granskningsloggar
 
@@ -61,7 +61,7 @@ Granskningsloggar samlar in detaljerad information om användaraktiviteter, inkl
 * **Resurs**: Resursen som ändrades eller skapades.
 * **Tidsstämpel**: Tidpunkten då åtgärden utfördes.
 
-Dessa loggar ger en omfattande spårbarhet för alla aktiviteter i din Real-Time CDP Collaboration-instans, vilket är användbart för datastyrning och regelefterlevnad. Läs mer om att [hantera granskningsloggar i användargränssnittet](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Dessa loggar ger en omfattande spårbarhet för alla aktiviteter i din Real-Time CDP Collaboration-instans, vilket är användbart för datastyrning och regelefterlevnad. Läs mer om att [hantera granskningsloggar i användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Filtrera granskningsloggar
 
@@ -74,7 +74,7 @@ Användargränssnittet för granskningsloggar innehåller flera filter som du ka
 * **Status**: Åtgärdens status (till exempel: tillåten, nekad).
 * **Datumintervall**: Datumintervallet som du vill visa loggar för.
 
-Läs mer om [filtrering av granskningsloggar](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+Läs mer om [filtrering av granskningsloggar](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ### Exempel på användning
 
