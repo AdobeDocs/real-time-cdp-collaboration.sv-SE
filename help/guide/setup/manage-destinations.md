@@ -2,7 +2,7 @@
 title: Konfigurera och hantera mål
 description: Lär dig hur du konfigurerar och hanterar mål i Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
 workflow-type: tm+mt
 source-wordcount: '375'

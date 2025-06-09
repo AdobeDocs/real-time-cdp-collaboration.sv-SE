@@ -2,7 +2,7 @@
 title: Upptäck förlag
 description: Som annonsörer kan du lära dig att upptäcka potentiella utgivare att samarbeta med Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt

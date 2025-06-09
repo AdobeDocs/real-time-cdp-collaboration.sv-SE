@@ -2,7 +2,7 @@
 title: Identifiera annonsörer
 description: Upptäck potentiella annonsörer som kan samarbeta med Adobe Real-Time CDP Collaboration
 audience: admin, publisher
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: caee65fa-63bf-4cb1-80c7-6fdc38c4285b
