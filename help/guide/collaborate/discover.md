@@ -2,11 +2,11 @@
 title: Upptäck överlappningar och jämför målgrupper
 description: Upptäck överlappningar mellan era och medarbetarnas målgrupper. Lär dig hur ni hittar de bästa målgrupperna som kan användas i era kampanjer.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -19,27 +19,29 @@ ht-degree: 0%
 >
 >Arbetsytan **[!UICONTROL Discover]** är bara tillgänglig om **målgruppsidentifiering** har aktiverats [ under anslutningsprocessen](../connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./manage-projects.md#project-use-cases).
 
-När du har [skapat ett projekt](/help/guide/collaborate/manage-projects.md) i en samarbetsyta mellan en annonsörer och en utgivare kan du nu jämföra dina målgrupper med dina medarbetares målgrupper. På så sätt kan ni upptäcka överlappningar mellan olika målgrupper och få insikter nedbrutna efter matchningsnycklar eller identiteter. Detta hjälper annonsörer att avgöra vilka målgrupper de ska dela med utgivare för aktivering.
+När du har [skapat ett projekt](/help/guide/collaborate/manage-projects.md) kan du jämföra dina målgrupper med dina medarbetare. Detta hjälper er att identifiera relevanta målgrupper för kampanjer och avgöra vilka som ska skickas till utgivare för aktivering.
 
 >[!IMPORTANT]
 >
 >Alla [dataskisser](/help/guide/glossary.md#sketches) som inte uppdateras eller uppdateras kommer att tas bort efter 7 dagar. När detta händer kommer siffrorna som visas i de olika överlappande rapporterna på den här sidan att nollställas och målgruppsdelning blir otillgänglig för dessa utgångna målgrupper. Dataskiseringar uppdateras automatiskt för målgrupper med ett [aktivt uppdateringsschema](/help/guide/setup/onboard-audiences.md#schedule).
 
-![Identifiera överlappningar](/help/assets/collaborate/discover-overlaps/discover-overlaps.png)
+De matchningsnycklar som används för att identifiera och jämföra målgrupper ställs in [under anslutningsprocessen](/help/guide/connect/establishing-connections.md#connection-settings). Matchningsnycklar används för att beräkna överlappningen mellan era målgrupper och kan aktiveras och inaktiveras. Om du vill redigera matchningsnycklarna väljer du alternativet **[!UICONTROL Edit match keys]**. Detta
 
-De matchningsnycklar som används för att identifiera och jämföra målgrupper anges när du [ansluter till en utgivare](/help/guide/connect/establishing-connections.md#connection-settings). Om du vill ändra de överlappningsprocentsatser som anges som förberedelse för pågående kampanjer kan du ta bort matchningsnycklar, men du kan inte lägga till nya matchningsnycklar just nu. Gå till [anslutningsinställningarna](/help/guide/connect/establishing-connections.md#connection-settings) mellan medarbetarna för att göra det.
+![Flikarbetsytan Upptäck, som visar målgruppsinsikter.](/help/assets/collaborate/discover/discover-overview.png)
 
-![Skärmen Redigera matchande tangenter](/help/assets/collaborate/discover-overlaps/edit-match-keys.png)
+Dialogrutan **[!UICONTROL Edit match keys]** öppnas, där du kan inaktivera matchningsnycklarna som du inte vill använda. Välj **[!UICONTROL Save]** om du vill spara ändringarna.
+
+![Dialogrutan Redigera matchningsnycklar på arbetsytan Identifiera.](/help/assets/collaborate/discover/edit-match-keys.png)
 
 ## Förhandskrav {#prerequisites}
 
-Om du vill utnyttja funktionerna på fliken **[!UICONTROL Discover]** i arbetsflödet **[!UICONTROL Collaborate]** till fullo har du redan:
+Om du vill börja använda fliken **[!UICONTROL Discover]** i ditt projekt måste du ha:
 
-* [Importerade målgrupper](/help/guide/setup/onboard-audiences.md)
-* [Ansluten](/help/guide/connect/establishing-connections.md) till en annonsör eller utgivare med **Användningsfall för målgruppsidentifiering** aktiverat
+* [Importerade målgrupper](/help/guide/setup/onboard-audiences.md) till din organisation
+* [Ansluten](/help/guide/connect/establishing-connections.md) till en medarbetare med användningsfallet **Målgruppsidentifiering** aktiverat
 * [Skapade ett projekt](/help/guide/collaborate/manage-projects.md) mellan dig och en medarbetare
 
-När ovanstående förutsättningar är uppfyllda kan ni börja utforska och jämföra överlappningen mellan er och medarbetarens målgrupper.
+När dessa förutsättningar är uppfyllda kan ni börja utforska och jämföra överlappningen mellan er och medarbetarens målgrupper.
 
 ## Jämför målgrupper {#compare-audiences}
 
@@ -51,39 +53,36 @@ När ovanstående förutsättningar är uppfyllda kan ni börja utforska och jä
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="Ditt identitetsantal"
->abstract="Antalet profiler med den valda identiteten som är en del av den valda målgruppen"
-
->[!CONTEXTUALHELP]
+>abstract="Antalet unika ID:n inom den valda målgruppen, baserat på matchningsnycklarna som du och din medarbetare har kommit överens om för projektet."
+>
+[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Identitetsantal för medarbetare"
->abstract="Antalet profiler med den valda identiteten som är en del av medarbetarens valda målgrupp"
+>abstract="Antalet unika ID:n inom medarbetarens målgrupp, baserat på matchningsnycklarna som du och medarbetaren har kommit överens om för projektet."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="Antal överlappande identiteter"
->abstract="Antalet profiler med den valda identiteten som finns både i din och medarbetarens målgrupp"
+>abstract="Antalet unika ID:n som finns både i din och medarbetarens målgrupper, baserat på matchningsnycklarna som du och din medarbetare har kommit överens om för projektet."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
 >title="Procentandel överlappande identiteter"
->abstract="Procentandelen profiler som överlappar den valda målgruppen för er och medarbetaren."
+>abstract="Procentandelen överlappande identiteter mellan dig och medarbetarens valda målgrupp."
 
-Använd jämförelsekortet för att få omfattande information om överlappningen mellan er och medarbetarens målgrupper. Du kan välja att jämföra följande målgruppskombinationer:
+Använd jämförelseområdet för att få utförlig information om överlappningen mellan er och medarbetarens målgrupper. Om du vill ändra målgruppsvalet använder du listrutesväljaren högst upp i avsnittet **[!UICONTROL Compare audiences]**. Du kan välja en eller alla målgrupper och en eller alla dina medarbetares målgrupper att jämföra med varandra.
 
-* En av era målgrupper mot en av era medarbetare
-* En av era målgrupper mot alla era medarbetares målgrupper
-* Alla era målgrupper mot en av era medarbetares målgrupper
-* Alla era målgrupper mot alla era medarbetares målgrupper
+![Arbetsytan Identifiera med målgruppsväljaren markerad i avsnittet Jämför målgrupper.](/help/assets/collaborate/discover/compare-audiences-selector.png)
 
-Den information som visas gäller:
+I avsnittet för att jämföra målgrupper kan du se följande mätvärden, som baseras på de matchningsnycklar som du och din medarbetare har kommit överens om för projektet:
 
 | Mått | Beskrivning |
 |---------|----------|
-| **[!UICONTROL Identity count]** (din) | Antalet profiler med en vald identitet som ingår i den valda målgruppen. |
-| **[!UICONTROL Identity count]** (din medarbetare) | Antalet profiler med en vald identitet som ingår i medarbetarens valda målgrupp. |
-| **[!UICONTROL Overlapping identities]** | Antalet profiler med en vald identitet som finns både i din och medarbetarens målgrupp. |
-| **[!UICONTROL Overlap percentage]** | Procentandelen profiler som överlappar den valda målgruppen för er och medarbetaren. |
-| **[!UICONTROL Identities breakdown by match key]** | Baserat på de matchningsnycklar du och din medarbetare kommit överens om för projektet kan du visa identitetsdispositionen i överlappningsberäkningarna med enskilda matchningsnycklar. |
+| **[!UICONTROL Identity count]** (din) | Antalet unika ID:n inom de valda målgrupperna. |
+| **[!UICONTROL Identity count]** (din medarbetare) | Antalet unika ID:n inom medarbetarens målgrupp(er). |
+| **[!UICONTROL Overlapping identities]** | Antalet unika ID:n som finns både i din och medarbetarens målgrupper. |
+| **[!UICONTROL Overlap %]** | Procentandelen profiler som överlappar den valda målgruppen för er och medarbetaren. |
+| **[!UICONTROL Identities breakdown by match key]** | Uppdelningen av identiteter för varje matchningsnyckel som valts i projektet, baserat på valda målgrupper för varje medarbetare. |
 
 {style="table-layout:auto"}
 
@@ -98,29 +97,65 @@ Den information som visas gäller:
 >title="Relevanta målgrupper"
 >abstract="Utifrån överlappningsprocentsatser kan dessa utgivarmålgrupper vara ett bra val för er kampanj. <br><br> <b>Identitetsantalet</b> är utgivarens målgruppsstorlek. <br><br> <b>Överlappande identiteter</b> representerar överlappningen mellan den rekommenderade utgivarens målgrupp och alla annonsörers målgrupper. <br><br> <b>Överlappningen %</b> representerar antalet överlappande identiteter dividerat med storleken på <i>alla</i> annonsörer."
 
-Vyn **[!UICONTROL Relevant audiences]** i modulen **[!UICONTROL Discover]** innehåller en strukturerad lista över de fem främsta målgrupperna baserat på överlappningsprocenten. Med den här funktionen kan ni snabbt identifiera målgrupperna med den största överlappningen med era aktuella data, vilket gör att ni kan inrikta era kampanjer mer effektivt.
+Avsnittet **[!UICONTROL Relevant audiences]** på fliken **[!UICONTROL Discover]** innehåller en förvaltad lista över de fem främsta målgrupperna baserat på överlappningsprocenten mellan medarbetarens målgrupp och alla dina målgrupper. Med den här funktionen kan ni snabbt identifiera målgrupper med den högsta överlappningen, så att ni kan inrikta er på kampanjer mer effektivt. Växla mellan de relevanta målgrupperna med hjälp av sidväljarna i det övre högra hörnet av avsnittet.
 
-* **[!UICONTROL Identity count]** är utgivarens målgruppsstorlek.
-* **[!UICONTROL Overlapping identities]** representerar överlappningen mellan den rekommenderade utgivarens målgrupp och alla annonsörers målgrupper.
-* **[!UICONTROL Overlap %]** representerar antalet överlappande identiteter dividerat med storleken på *alla* annonsörer.
+![Arbetsytan Identifiera med avsnittet Relevanta målgrupper markerat.](/help/assets/collaborate/discover/relevant-audiences.png)
 
-![Vyn Relevanta målgrupper](/help/assets/collaborate/discover-overlaps/relevant-audiences-highlighted.png)
+>[!NOTE]
+>
+>Visningen av dina medarbetares målgrupper beror på inställningen som medarbetaren valde för en målgrupp i avsnittet [metadatasynlighet](/help/guide/setup/onboard-audiences.md#metadata-visibility). Om din medarbetare har angett alla målgrupper som privata visas inga målgrupper i det här avsnittet.
+
+I avsnittet **[!UICONTROL Relevant audiences]** visas följande information för varje rekommenderad målgrupp:
+
+| Mått | Beskrivning |
+|---------|----------|
+| **[!UICONTROL Identity count]** | Namnet på unika ID:n inom målgruppen. |
+| **[!UICONTROL Overlapping identities]** | Antalet unika ID:n som överlappar mellan den rekommenderade målgruppen och alla era målgrupper. |
+| **[!UICONTROL Overlap %]** | Procentandelen överlappande identiteter mellan den rekommenderade målgruppen och alla era målgrupper. |
+| **[!UICONTROL Audience categories]** | De kategorier som din medarbetare har tilldelat publiken. |
+| **[!UICONTROL Match keys]** | De matchningsnycklar som medarbetaren valt för målgruppen. |
+
+{style="table-layout:auto"}
+
+>[!NOTE]
+>
+>Visningen av dina medarbetares målgrupper beror på inställningen som medarbetaren valde för en målgrupp i avsnittet [metadatasynlighet](/help/guide/setup/onboard-audiences.md#metadata-visibility). Om din medarbetare har angett alla målgrupper som privata visas inga målgrupper i det här avsnittet.
 
 ## Upptäck överlappningar {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="Upptäck överlappningar med enskilda målgrupper"
->abstract="Få insikter om den här målgruppens befolkning och hur den överlappar medarbetarens värld av identiteter."
+>abstract="Få insikter om överlappningar mellan era målgrupper och medarbetarnas målgrupper."
 
-![Upptäck överlappningar med olika målgruppsvy](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
+Upptäck överlappningar för att få insikter i hur era målgrupper står sig jämfört med era medarbetares målgrupper. Som standard jämförs alla era målgrupper i det här avsnittet med alla era medarbetares målgrupper. Använd sidnumreringskontrollen längst ned i avsnittet för att navigera bland de tillgängliga målgrupperna.
 
-Få omfattande information om någon av era medarbetares målgrupper och visa överlappande information som jämför dessa målgrupper med antingen hela din populationsmängd för alla era målgrupper eller mot specifika målgrupper.
+![Arbetsytan Identifiera med avsnittet Identifiera överlappning markerat.](/help/assets/collaborate/discover/discover-overlaps.png)
 
->[!TIP]
+>[!NOTE]
 >
->En del av de siffror som visas på skärmbilden kanske inte alltid är tillgängliga för alla målgrupper. Hur synliga de är beror på inställningen som medarbetaren valde för en målgrupp i avsnittet [metadatasynlighet](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+>Visningen av dina medarbetares målgrupper beror på inställningen som medarbetaren valde för en målgrupp i avsnittet [metadatasynlighet](/help/guide/setup/onboard-audiences.md#metadata-visibility). Om din medarbetare har angett alla målgrupper som privata visas inga målgrupper i det här avsnittet.
+
+Välj **[!UICONTROL Change audience]** om du vill ändra ditt målgruppsval.
+
+![Arbetsytan Identifiera med alternativet Ändra målgrupp markerat.](/help/assets/collaborate/discover/change-audience.png)
+
+Dialogrutan **[!UICONTROL Change audience]** öppnas, där du kan jämföra en viss målgrupp med dina medarbetares målgrupper. Markera önskade målgrupper eller rensa dina markeringar för att markera alla målgrupper och välj sedan **[!UICONTROL Save]**.
+
+![Dialogrutan Ändra målgrupp på arbetsytan Identifiera.](/help/assets/collaborate/discover/change-audience-selection.png)
+
+När du har valt önskade målgrupper visar avsnittet **[!UICONTROL Discover overlaps]** följande information för varje målgrupp:
+
+| Mått | Beskrivning |
+|---------|----------|
+| **[!UICONTROL Identity count]** | Namnet på unika ID:n inom målgruppen. |
+| **[!UICONTROL Overlapping identities]** | Antalet unika ID:n som överlappar mellan den rekommenderade målgruppen och alla era målgrupper. |
+| **[!UICONTROL Overlap %]** | Procentandelen överlappande identiteter mellan den rekommenderade målgruppen och alla era målgrupper. |
+| **[!UICONTROL Audience categories]** | De kategorier som din medarbetare har tilldelat publiken. |
+| **[!UICONTROL Match keys]** | De matchningsnycklar som medarbetaren valt för målgruppen. |
+
+{style="table-layout:auto"}
 
 ## Nästa steg
 
-När du har utforskat och identifierat de önskade målgrupperna är det dags att [dela](/help/guide/collaborate/share.md) de målgrupper som ska användas i kampanjerna med utgivaren.
+När du har utforskat och identifierat de önskade målgrupperna är det dags att [aktivera](/help/guide/collaborate/activate.md) de målgrupper som ska användas i kampanjerna.

@@ -2,11 +2,11 @@
 title: Arbetsflöde från slut till slut
 description: Förstå arbetsflödet från början till slut genom att använda Real-Time CDP Collaboration som annonsörer eller utgivare
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ Med Adobe Real-Time Customer Data Platform (CDP) Collaboration kan annonsörer o
 
 Som annonsörer börjar du med att [introducera ditt företag](/help/guide/setup/onboard-organization.md) på Real-Time CDP Collaboration. Använd [konfigurationssidan](/help/guide/setup/setup-overview.md) för att skicka och sedan redigera företagsinställningarna, lägga till dina önskade matchningsnycklar som du ska arbeta med och bestämma vilka data som ska hämtas. I den första versionen kan du bara [importera målgrupper](/help/guide/setup/onboard-audiences.md) från Adobe Experience Platform.
 
-![Identifiera, dela, mät för annonsörer.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+![Identifiera, aktivera, mät för annonsörer.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
 Använd fliken [Upptäck för att hitta utgivare](/help/guide/connect/discover-publishers.md) som du vill arbeta med för kampanjer. Kontakta utgivaren och diskutera samarbetsvillkor utanför produkten. När du har kommit överens om en uppsättning villkor kan du [skicka en anslutningsinbjudan](/help/guide/connect/establishing-connections.md) och föreslå samarbetsinställningar för att ansluta till utgivaren.
 
 När utgivaren har godkänt din anslutningsbegäran är det dags att utforska de överlappande målgrupperna mellan organisationen och deras. Konfigurera ett projekt för en kampanj och [kör överlappningsrapporter](/help/guide/collaborate/discover.md) för att identifiera de bästa målgrupperna för nästa annonskampanj, beroende på användningsfallet för samarbete - målgruppsanpassning, nedtryckning och andra.
 
-När du har identifierat de idealiska målgrupperna är det dags att [dela dem med utgivaren](/help/guide/collaborate/share.md) så att de kan aktivera målgrupperna och därmed starta kampanjen.
+När du har identifierat de idealiska målgrupperna är det dags att [aktivera dem](/help/guide/collaborate/activate.md).
 
 Det sista steget i samarbetsloopen är [measurement](/help/guide/collaborate/measure.md). För att mäta eller känna till era affärsresultat kan ni ladda upp mätdata som annonsloggar och sedan köra rapporterna i programmet för att förstå hur era målgrupper har lyckats.
 
 ## Arbetsflöde från början till slut {#publisher}
 
-Som utgivare kan du börja med att [introducera ditt företag](/help/guide/setup/onboard-organization.md) på Real-Time CDP Collaboration. Använd [inställningssidan](/help/guide/setup/setup-overview.md) för att redigera olika företagsinställningar. Se till att du t.ex. tar med de identiteter ditt företag arbetar med.
+Som utgivare kan du börja med att [introducera ditt företag](/help/guide/setup/onboard-organization.md) på Real-Time CDP Collaboration. Använd [inställningssidan](/help/guide/setup/setup-overview.md) för att redigera olika företagsinställningar.
 
 Bestäm vilka målgruppsdata som ska importeras och vilka målgrupper som ska kunna identifieras och visas för de annonsörer som vill ansluta till dig i produktdelen **[!UICONTROL Connect]**.
 
@@ -43,7 +43,7 @@ Bestäm vilka annonsörer du vill arbeta med och kontakta annonsören för att d
 
 När du har godkänt deras anslutningsbegäran är det dags att utforska de överlappande målgrupperna mellan dig och din medarbetare. Annonsören kommer att skapa ett projekt för en kampanj och köra överlappande rapporter mellan sina målgrupper och er utifrån deras önskade mål - prospektering, nedslag med mera.
 
-När annonsören upptäcker de idealiska målgrupperna för en kampanj och delar dessa med er, kan ni aktivera dem och därmed starta kampanjen.
+När annonsören upptäcker de idealiska målgrupperna för en kampanj och skickar dessa till dig, kan ni aktivera dem och starta kampanjen.
 
 Det sista steget i samarbetsslingan är mätning. För att få veta hur era kampanjer fungerade laddar ni som ett sista steg upp mätdata som annonsloggar och kör sedan rapporterna i programmet för att förstå hur målgrupperna klarade sig.
 

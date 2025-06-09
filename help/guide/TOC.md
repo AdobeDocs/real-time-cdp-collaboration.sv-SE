@@ -2,10 +2,10 @@
 user-guide-title: Real-Time Customer Data Platform Collaboration
 breadcrumb-title: Real-Time Customer Data Platform Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration möjliggör smidig och säker datadelning och samarbete mellan annonsörer och utgivare, vilket underlättar målgruppsinsikter i realtid och personaliserade marknadsföringsstrategier.
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 3%
+source-wordcount: '130'
+ht-degree: 6%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 3%
    * [Anlita och hantera er organisation](./setup/onboard-organization.md)
    * [Importera och hantera målgrupper](./setup/onboard-audiences.md)
    * [Hantera dataanslutningar](./setup/manage-data-connection.md)
+   * [Konfigurera och hantera mål](./setup/manage-destinations.md)
    * [Spåra din kreditförbrukningsaktivitet](/help/guide/setup/my-activity.md)
    * [Korsningar av identiteter](./setup/identity-crosswalk.md)
    * [Lägga till och hantera mätdata](./setup/onboard-measurement-data.md)
@@ -32,9 +33,11 @@ ht-degree: 3%
 * Samarbeta {#collaborate}
    * [Hantera projekt](./collaborate/manage-projects.md)
    * [Upptäck](./collaborate/discover.md)
-   * [Dela](./collaborate/share.md)
    * [Aktivera](./collaborate/activate.md)
    * [Mät](./collaborate/measure.md)
+* Mål {#destinations}
+   * [Översikt](./destinations/overview.md)
+   * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Behörigheter {#permissions}
    * [Översikt](/help/guide/permissions/overview.md)
    * [Hantera användaråtkomst](/help/guide/permissions/manage-user-access.md)

@@ -2,11 +2,11 @@
 title: Upptäck förlag
 description: Som annonsörer kan du lära dig att upptäcka potentiella utgivare att samarbeta med Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Om du vill identifiera utgivare går du till fliken **[!UICONTROL Connect]** > *
 
 ![Upptäck utgivarsidan](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
-Välj **[!UICONTROL View publisher]** om du vill veta mer om utgivaren. Du kan också visa och inspektera alla publika målgrupper som utgivaren har valt att dela.
+Välj **[!UICONTROL View publisher]** om du vill veta mer om utgivaren. Du kan också visa och inspektera alla målgrupper som publiceraren [har angett som public](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ![Visa utgivarprofil](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 

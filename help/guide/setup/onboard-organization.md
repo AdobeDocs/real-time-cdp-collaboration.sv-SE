@@ -2,41 +2,30 @@
 title: Anlita och hantera organisationen
 description: Läs om hur du kan integrera och hantera olika aspekter av din organisation i Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
 
-# Anlita och hantera organisationen
+# Anlita och hantera er organisation
 
 {{limited-availability-release-note}}
 
 Lär dig hur du kan få med din organisation på Real-Time CDP Collaboration och hantera olika aspekter av ditt företag. På den här sidan beskrivs stegen för hur du kan integrera en organisation i Adobe Real-Time CDP Collaboration, inklusive hur du ställer in matchningsnycklar, önskade identiteter och fler alternativ.
 
-![Konfigurationssida](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
+![Organisationens inställningsarbetsyta visar de aktuella inställningarna.](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
 
 ## Inledande konfiguration av organisation
 
-Du måste först konfigurera din organisation och organisationsinformation. Navigera till **[!UICONTROL Setup]** i den vänstra listen, markera symbolen **+** i det övre högra hörnet och välj **[!UICONTROL Account]**.
+Du måste först konfigurera din organisation och organisationsinformation. Om det här är din första organisation dirigeras du direkt genom introduktionsprocessen och börjar med att konfigurera din [kontoinformation](#set-up-details).
 
->[!TIP]
->
->När du har konfigurerat ett första konto som du vill arbeta med kan du använda samma arbetsflöde för att skapa ytterligare konton i samma organisation.
+Om du vill lägga till fler organisationer går du till **[!UICONTROL Setup]** i den vänstra listen och väljer ikonen Lägg till (![ikonen Lägg till.](/help/assets/icons/plus.png)) i det övre högra hörnet. Välj sedan **[!UICONTROL Account]**.
 
-![Välj Konto om du vill lägga till en ny organisation i Real-Time CDP Collaboration](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
-
-Arbetsflödet för att konfigurera din organisation omfattar de två sidorna nedan:
-
-* [Ställ in information](#set-up-details)
-* [Konfigurera matchningsnycklar](#set-up-match-keys)
-
->[!IMPORTANT]
->
->Alla *matchande nycklar* som du väljer på organisationsnivå kommer sedan att tricksas ned till [projektnivå](/help/guide/collaborate/manage-projects.md) i samarbetet mellan annonsörer och utgivare. På projektnivå kan du sedan ta bort matchningsnycklar, men du kan *inte* lägga till fler som inte har valts på organisationsnivå på den här skärmen.
+![Konfigurationsarbetsytan med kontoalternativet markerat.](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
 
 ### Ställ in information {#set-up-details}
 
@@ -45,18 +34,24 @@ Arbetsflödet för att konfigurera din organisation omfattar de två sidorna ned
 >title="E-postadress"
 >abstract="Ange ett team- eller rollbaserat e-postmeddelande, till exempel `collaboration@yourcompany.com`. Personliga eller individuella e-postadresser ska inte användas."
 
-![Information och användningsexempel för att konfigurera en organisation](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+Om du vill börja med att introducera din organisation måste du först konfigurera organisationsinformationen. Detta kräver att du lägger till följande information:
 
-1. Lägg till en **[!UICONTROL Organization name]** för ditt företag.
-2. Lägg till en **[!UICONTROL Description]** om ditt företag.
-3. Välj din **[!UICONTROL Company role]**. Du kan välja mellan **[!UICONTROL Advertiser]** och **[!UICONTROL Publisher]**. Läs arbetsflödesdokumentet [från början till slut](/help/guide/end-to-end-workflow.md) om du vill se likheter och små skillnader i arbetsflödet mellan de två rolltyperna för organisationen.
-4. Välj **[!UICONTROL Industry]** för din organisation. Några exempel är **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]** eller **[!UICONTROL Financial services]**.
-5. Välj **[!UICONTROL Region]** för din organisation. I den aktuella versionen av produkten är **[!UICONTROL North America]** det förinställda standardvalet.
-6. Lägg till en **[!UICONTROL Contact email]** för din organisation. Detta ska vara en team- eller rollbaserad e-postadress. Personliga e-postadresser ska inte anges.
-7. Överför en **[!UICONTROL Logo]** för ditt företag. För närvarande stöds bilder av SVG-typ.
-8. Välj en bild för företagets rubrikbild.
+* Lägg till en **[!UICONTROL Organization name]** för ditt företag.
+* Lägg till en **[!UICONTROL Description]** om ditt företag.
+* Välj din **[!UICONTROL Company role]**. Du kan välja mellan **[!UICONTROL Advertiser]** och **[!UICONTROL Publisher]**. Läs arbetsflödesdokumentet [från början till slut](/help/guide/end-to-end-workflow.md) om du vill se likheter och små skillnader i arbetsflödet mellan de två rolltyperna för organisationen.
+* Välj **[!UICONTROL Industry]** för din organisation. Några exempel är **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]** eller **[!UICONTROL Financial services]**.
+* Välj **[!UICONTROL Region]** för din organisation. I den aktuella versionen av produkten är **[!UICONTROL North America]** det förinställda standardvalet.
+* Lägg till en **[!UICONTROL Contact email]** för din organisation. Detta ska vara en team- eller rollbaserad e-postadress. Personliga e-postadresser ska inte anges.
+* Överför en **[!UICONTROL Logo]** för ditt företag. För närvarande stöds bilder av SVG-typ.
+* Välj en bild för företagets rubrikbild.
 
-När du är nöjd med ditt val kan du använda **[!UICONTROL Next]** för att gå till nästa sida och välja önskade matchningsnycklar som din organisation ska använda.
+>[!NOTE]
+>
+>Även om du kan redigera de flesta av dessa uppgifter när som helst går det inte att redigera **[!UICONTROL Role]** och **[!UICONTROL Region]** efter den första konfigurationen.
+
+![Arbetsytan Konfigurera organisation visas med avsnittet Detaljer.](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+
+När du är klar använder du **[!UICONTROL Next]** för att gå till nästa sida och välja de matchningsnycklar som din organisation ska använda.
 
 ### Ställ in matchningsnycklar {#set-up-match-keys}
 
@@ -80,10 +75,9 @@ När du är nöjd med ditt val kan du använda **[!UICONTROL Next]** för att g�
 >title="Partners-ID som stöds"
 >abstract="Partner-ID:n som är kopplade till profiler utökar räckvidden till en viss profil."
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_activation_matchkeys"
->title="Aktiveringsmatchningsnycklar"
->abstract="Aktiveringsmatchningsnycklar visas baserat på din organisations valda matchningsnycklar."
+>[!IMPORTANT]
+>
+>De matchningsnycklar som du väljer under organisationens konfiguration avgör vilka matchningsnycklar som är tillgängliga för de anslutningar som du skapar med andra organisationer. Du kan ta bort matchningsnycklar under anslutningskonfigurationen, men du kan inte lägga till nya matchningsnycklar senare. Det är viktigt att du väljer alla matchningsnycklar som du tänker använda i framtida kampanjer under konfigurationen av organisationen.
 
 Matcha nycklar, som e-postadresser, enhets-ID:n eller kund-ID:n, hjälper annonsörer och utgivare att samarbeta genom att aktivera korrekt och sekretesscentrerad datasynkronisering, vilket ger en mer exakt målgruppsanpassning och mätning.
 
@@ -91,7 +85,7 @@ Matcha nycklar, som e-postadresser, enhets-ID:n eller kund-ID:n, hjälper annons
 
 Välj de matchningsnycklar som du vill använda när du förenar medlemmar i utgivar- och annonsörernas målgrupper. Ta med matchningsnycklar som företaget kan arbeta med. Planera för framtiden och välj de matchningsnycklar som du tror att du kommer att använda i framtida annonskampanjer. Om du behöver välja ytterligare matchningsnycklar för din organisation kan du även göra det senare i arbetsflödet för [redigeringsorganisationen](#edit-organization).
 
-![Välj nycklar.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
+![Arbetsytan Konfigurera organisation med avsnittet Matcha nycklar visas.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
 Välj upp till fem matchningsnycklar som du tänker använda. När du senare konfigurerar anslutningar kan du ta bort oönskade matchningsnycklar, men inte lägga till nya.
 
@@ -105,30 +99,21 @@ De tillgängliga matchningsnycklarna för den första utgåvan av Real-Time CDP 
 
 * Hash-kodad e-post
 
-<!--
-
-not available in the Limited GA release
-
-* Hashed phone
-* IPv4
-
--->
-
 När det är klart väljer du **[!UICONTROL Complete]** för att slutföra arbetsflödet för organisationskonfiguration.
 
 ## Redigera organisation {#edit-organization}
 
-När du har konfigurerat din organisation kan du när som helst redigera vissa aspekter av organisationen. Om du vill redigera din organisation väljer du **[!UICONTROL Edit]** i vyn **[!UICONTROL My organization]**.
+När du har konfigurerat din organisation kan du när som helst redigera vissa aspekter av organisationen. Om du vill redigera din organisation väljer du **[!UICONTROL Edit]** i avsnittet **[!UICONTROL My organization]** på arbetsytan **[!UICONTROL Setup]**.
 
-![Redigera organisationskontroll är markerat.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
+![Arbetsytan Konfigurera med fliken Min organisation och alternativet Redigera markerat.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
 
-Nu kan du uppdatera företagsnamnet, beskrivningen, logotypen och organisationsprofilbilden.
+Du kan nu redigera din organisationsinformation, med undantag för **[!UICONTROL Role]** och **[!UICONTROL Region]**.
 
-![Redigerbara alternativ för organisationer.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
+![Dialogrutan Redigera organisationsinformation.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
 
-Du kan också uppdatera de matchningsnycklar som du valde från början när du introducerade organisationen, samt det lägsta tröskelvärdet för identiteter som motsvarar matchningsnycklar som ska vara synliga och användbara i målgruppsöverlappningar och andra produktområden. Välj **[!UICONTROL Edit]** på fliken **[!UICONTROL Match keys]** om du vill lägga till fler matchningsnycklar eller uppdatera identitetströsklar.
+Du kan också uppdatera de matchningsnycklar som du valde från början när du kom igång med organisationen. Välj **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Match keys]** om du vill lägga till fler matchningsnycklar.
 
-![Redigera matchningsnycklar](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
+![Arbetsytan Konfigurera med alternativet Redigera markerat i avsnittet Matcha nycklar för organisationen.](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
 
 ## Nästa steg
 

@@ -2,12 +2,12 @@
 title: Skapa och hantera projekt
 description: Lär dig skapa och hantera projekt i Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 0%
+source-wordcount: '383'
+ht-degree: 1%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Projekt är central i ditt arbetsflöde i Real-Time CDP Collaboration. När du har identifierat och kopplat upp dig till de medarbetare du vill arbeta med är det dags att skapa ett projekt. Använd projektutrymmet för att köra överlappningsberäkningar för att jämföra era målgrupper med medarbetarens målgrupper och identifiera relevanta målgrupper som ni kan använda i kampanjer. Målgrupperna delas sedan mellan medarbetare, aktiveras av utgivare, och båda parter kan sedan visa mätrapporter om målgruppens resultat.
+Projekt är central i ditt arbetsflöde i Real-Time CDP Collaboration. Efter att ha anslutit till medarbetare kan du skapa ett projekt för att köra målgruppsöverlappningsberäkningar och identifiera relevanta målgrupper för kampanjer.
 
 >[!TIP]
 >
 >Projekt bör i allmänhet vara kopplade till en enda kampanj.
 
-![Visa alla projekt, ofiltrerade.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
+![Kontrollpanelen Samarbeta visar alla aktuella projekt.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
 
 Du kan bara använda filter för att visa projekt som du har startat med vissa medarbetare, vilket visas nedan:
 
@@ -34,29 +34,32 @@ Du kan bara använda filter för att visa projekt som du har startat med vissa m
 >title="Advertiser-namn"
 >abstract="Välj annonsörens namn i listrutan. Alternativen är förkonfigurerade av utgivaren i anslutningsinställningarna för att säkerställa kompatibilitet med deras system."
 
-Om du vill skapa ett projekt väljer du plustecknet **+** i det övre högra hörnet. Om det här är ditt första projekt går du till **[!UICONTROL Collaborate]** > **[!UICONTROL My Projects]** och väljer **[!UICONTROL Create a project]**.
+Navigera till **[!UICONTROL Collaborate]** och sedan till **[!UICONTROL My Projects]**. Om det här är ditt första projekt kan du välja **[!UICONTROL Create a project]**. I annat fall kan du välja ikonen Lägg till (![ikonen Lägg till).](/help/assets/icons/plus.png)) för att skapa ett nytt projekt när som helst.
 
 ![Välj plustecken eller Skapa ett projekt för att konfigurera ett nytt projekt.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-Välj sedan följande inställningar:
+Dialogrutan **[!UICONTROL Create project]** visas. Välj **[!UICONTROL Collaborator]** som du skapar projektet med via listrutan. Om du är utgivare och anger annonsörnamn under anslutningsinställningarna kan du välja **[!UICONTROL Advertiser name]**.
 
-* Medarbetaren som du skapar projektet med
-* Välj ett annonsörnamn om utgivaren har konfigurerat flera annonsörnamn i anslutningsinställningarna. I annat fall är annonsörens namn markerat som annonsörnamn. Eller om utgivaren konfigurerade ett annonsörsnamn i anslutningsinställningarna är det namnet förifyllt i det här urvalet. [Läs mer](/help/guide/connect/establishing-connections.md#connection-settings) om annonsörernas namn.
-* Ange **[!UICONTROL project name]** och **[!UICONTROL description]** för ditt projekt
-* Välj en bildrubrik om du enkelt vill se projektet och bekräfta ditt val.
+>[!NOTE]
+>
+> Om du konfigurerade ett annonsörsnamn i anslutningsinställningarna visas det som standard. Om inget annonsörnamn har ställts in är annonsörens **[!UICONTROL Name]** förmarkerat som **[!UICONTROL Advertiser name]**.
+
+![Skapa projektdialogruta med medarbetare markerad och annonsörens namn markerat.](/help/assets/collaborate/manage-view-projects/create-project-advertiser-names.png){zoomable="yes"}
+
+Lägg sedan till **[!UICONTROL Project name]** och **[!UICONTROL Description]** för ditt projekt. Välj sedan en bild som ska representera projektet. Den här bilden hjälper till att skilja på projektet på sidan med projektöversikten. När du är klar väljer du **[!UICONTROL Create]** för att skapa projektet.
 
 ![Obligatoriska alternativ för att konfigurera ett nytt projekt](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
-Nu kan du visa ditt nya projekt och dess information.
+Du kan nu visa ditt nya projekt, dess information och tillgängliga avsnitt baserat på de användningsfall som valts under anslutningskonfigurationen.
+
+![Arbetsytan för projektöversikt.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
 
 ## Användningsexempel för projekt {#project-use-cases}
 
-Granska enskilda projekt för att köra överlappningsrapporter, identifiera och dela målgrupper med dina medarbetare och visa mätningsinformation. Om du vill visa omfattande information om de här områdena som utgör ett enskilt projekt väljer du **[!UICONTROL View]**. Projektytan består av upp till fyra avsnitt, där du kan välja bland en mängd olika alternativ och kontroller. Vilka projektavsnitt som är tillgängliga beror på vilka användningsområden som har valts i anslutningsprocessen, enligt följande:
+I projektöversikten visas de användningsfall som valts under anslutningsinställningen. De här användningsexemplen definierar de funktioner som är tillgängliga i projektet. Användningsexempel:
 
 | Användningsfall | Projektavsnitt |
 | --- | --- |
 | Kampanjmätning | Det här användningsfallet ger åtkomst till avsnittet [Åtgärd](/help/guide/collaborate/measure.md) och alla tillgängliga funktioner. |
 | Målgruppsidentifiering | Det här användningsexemplet ger åtkomst till avsnittet [Discover](/help/guide/collaborate/discover.md) och alla tillgängliga funktioner. |
-| Målgruppsdelning och -aktivering | Det här användningsexemplet ger åtkomst till avsnitten [Dela](/help/guide/collaborate/share.md) och [Aktivera](/help/guide/collaborate/activate.md) (endast utgivaren) och alla tillgängliga funktioner. |
-
-![Projektvyn med tillgängliga avsnitt markerade.](/help/assets/collaborate/manage-view-projects/project-sections.png){zoomable="yes"}
+| Målgruppsaktivering | Det här användningsexemplet ger åtkomst till avsnittet [Aktivera](/help/guide/collaborate/activate.md) och alla tillgängliga funktioner. |

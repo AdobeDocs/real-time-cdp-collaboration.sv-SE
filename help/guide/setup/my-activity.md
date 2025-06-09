@@ -2,9 +2,9 @@
 title: Spåra din kreditförbrukningsaktivitet
 description: Lär dig hur du spårar din organisations kreditförbrukningsaktivitet i Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -46,7 +46,7 @@ På aktivitetspanelen visas en omfattande lista med alla kreditförbrukande åtg
 | **[!UICONTROL Date]** | Det datum då aktiviteten inträffade, vilket visas i formatet MM/DD/ÅÅÅÅ. |
 | **[!UICONTROL Connection ID]** | En unik identifierare för varje anslutning som är associerad med en kreditförbrukande aktivitet, som representeras av en alfanumerisk sträng. |
 | **[!UICONTROL Connection name]** | Namnet på den medarbetare som är associerad med anslutningen och den kreditförbrukande aktiviteten. |
-| **[!UICONTROL Activity]** | Den typ av aktivitet som har utförts, till exempel **Aktivering - delning**, **Aktivering - utlänning** eller **målgruppshantering**. |
+| **[!UICONTROL Activity]** | Den typ av aktivitet som har utförts, till exempel **Aktivering - matchning**, **Aktivering - Klänning** eller **Målgruppshantering**. |
 | **[!UICONTROL Inputs processed]** | Det totala antalet indata (till exempel ID:n eller rader) som bearbetats för aktiviteten. |
 | **[!UICONTROL Total credits used]** | Det totala antalet krediter som används av aktiviteten. |
 | **[!UICONTROL My credit share]** | Organisationens andel av de krediter som används för aktiviteten. |
@@ -66,7 +66,7 @@ Kolumnen **[!UICONTROL Activity]** visar olika typer av kreditförbrukande åtg�
 
 Så här hanterar du din kreditförbrukning effektivt:
 
-1. **Förstå** kreditförbrukningen som är associerad med varje aktivitet. Se [Real-Time CDP Collaboration produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} för en tabell över samarbetskrediter som används per aktivitet.
+1. **Förstå** kreditförbrukningen som är associerad med varje aktivitet. Se [Real-Time CDP Collaboration produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} för en tabell över samarbetskrediter som används per aktivitet.
 2. **Övervaka regelbundet**: Kontrollera din aktivitetspanel ofta för att få information om användningsmönster.
 3. **Spåra via anslutning**: Använd anslutningsnamnet för att identifiera vilka partnerskap som förbrukar flest krediter.
 

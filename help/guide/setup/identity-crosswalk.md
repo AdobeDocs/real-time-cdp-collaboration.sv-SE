@@ -2,13 +2,13 @@
 title: Korsningar av identiteter
 description: Lär dig allt om korsningar av identiteter i Real-Time CDP Collaboration, inklusive hur du kan ta fram korsningar av identiteter från olika källor och hur du hanterar korsningar av identiteter
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Som ett första steg måste du importera identitetskorsningar till Real-Time CDP
 
 ## Importera identitetskorsningar till Real-Time CDP Collaboration {#import-crosswalk}
 
-Navigera till fliken **[!UICONTROL Setup]** > **[!UICONTROL Identity crosswalks]**, markera plustecknet **+** och välj **[!UICONTROL Identity crosswalk]**
+Gå till fliken **[!UICONTROL Setup]** > **[!UICONTROL Identity crosswalks]** och välj ikonen Lägg till (![ikonen Lägg till.](/help/assets/icons/plus.png)) och välj **[!UICONTROL Identity crosswalk]**
 
 ![Inspelning av hur du kommer till skärmen för att lägga till identitetskorsning](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
@@ -46,7 +46,7 @@ Välj en källa som du vill importera identitetskorsningen från. I den första 
 >
 >Korsningarna som du importerar från Experience Platform kallas *datamängder* i plattformen.
 
-När du har valt Experience Platform som källa för dina korsningar väljer du [Experience Platform-sandlådan](https://experienceleague.adobe.com/sv/docs/experience-platform/sandbox/home) som du importerar identitetskorsningen från.
+När du har valt Experience Platform som källa för dina korsningar väljer du [Experience Platform-sandlådan](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) som du importerar identitetskorsningen från.
 
 ![Inspelning av hur du väljer en övergångskälla](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
 

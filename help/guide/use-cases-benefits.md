@@ -2,9 +2,9 @@
 title: Viktiga fördelar och användningsområden för Adobe Real-Time CDP Collaboration
 description: Förstå de viktigaste fördelarna och användningsområdena för Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
@@ -21,8 +21,7 @@ Adobe Real-Time CDP Collaboration har de viktigaste funktionerna för att effekt
 
 ## Upptäck {#discover}
 
-Använd kontrollpaneler och rapporter för att identifiera målgrupper för samarbete mellan varumärken och förlag.
-Som annonsörer som arbetar med Real-Time CDP Collaboration överlappar åtkomsten till och förståelsen av målgrupper av olika slag för att frigöra möjligheter till återmarknadsföring, undertryckande och eventuell prospektering från ett stort antal förlag.
+Använd kontrollpaneler och rapporter för att identifiera målgrupper för samarbete mellan varumärken och förlag. Som annonsörer som arbetar med Real-Time CDP Collaboration överlappar åtkomsten till och förståelsen av målgrupper av olika slag för att frigöra möjligheter till återmarknadsföring, undertryckande och eventuell prospektering från ett stort antal förlag.
 
 ## Aktivera {#activate}
 
@@ -31,5 +30,4 @@ I en framtida release kan du arbeta med de utvalda identitetspartnerna för att 
 
 ## Mät {#measure}
 
-Kombinera och utforska kända kundengagemang från olika källor som webbvisningar och mycket annat.
-Visa kampanjresultat i förenklade och anpassningsbara rapporter.
+Kombinera och utforska kända kundengagemang från olika källor som webbvisningar och mycket annat. Visa kampanjresultat i förenklade och anpassningsbara rapporter.

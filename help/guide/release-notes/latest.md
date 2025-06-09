@@ -2,11 +2,11 @@
 title: Senaste versionsinformation för Real-Time CDP Collaboration
 description: Följ de senaste versionerna av Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '392'
 ht-degree: 5%
 
 ---
@@ -26,11 +26,11 @@ Versionsinformationen innehåller information om de funktioner som finns i Real-
 
 ## Mars 2025 {#march-2025}
 
-* När du [importerar målgrupper](/help/guide/setup/onboard-audiences.md) till Real-Time CDP Collaboration kan du nu ange en målgruppsuppdateringsfrekvens från **var 1:e till 6:e dag** för att bättre hantera [Audience Management-kreditaktiviteten](/help/guide/setup/my-activity.md#types-of-activities). [Läs mer](/help/guide/setup/onboard-audiences.md#schedule). <br> ![Schemaläggningsskärmen visar olika frekvensintervall för uppdatering av målgruppsmedlemskap.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png "Schemaläggningsskärmen visar olika frekvensintervall för uppdatering av målgruppsmedlemskap."){width="250" align="center" zoomable="yes"}
+* När du [importerar målgrupper](/help/guide/setup/onboard-audiences.md) till Real-Time CDP Collaboration kan du nu ange en målgruppsuppdateringsfrekvens från **var och en till sex dagar** för att bättre hantera [målgruppshanteringens kreditaktivitet](/help/guide/setup/my-activity.md#types-of-activities). [Läs mer](/help/guide/setup/onboard-audiences.md#schedule). <br> ![Schemaläggningsskärmen visar olika frekvensintervall för uppdatering av målgruppsmedlemskap.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Schemaläggningsskärmen visar olika frekvensintervall för uppdatering av målgruppsmedlemskap."){width="250" align="center" zoomable="yes"}
 * När du upprättar en anslutning med en medarbetare kan du nu välja bland fördefinierade **användningsfall**. Det valda användningsfallet avgör vilka projektavsnitt och vilken produktfunktionalitet som blir tillgänglig. [Läs mer](/help/guide/collaborate/manage-projects.md#project-use-cases).
    * *Kampanjmätning* aktiverar projektavsnittet **Åtgärd**.
    * *Målgruppsidentifiering* aktiverar projektavsnittet **Discover**.
-   * *Målgruppsdelning och aktivering* aktiverar projektavsnitten **Dela** och **Aktivera** *(endast utgivaren)*. <br> ![Använd fall som är markerade i anslutningsvyn.](/help/assets/release-notes/2025/use-cases.png "Använd fall som är markerade i anslutningsvyn."){width="250" align="center" zoomable="yes"}
+   * *Målgruppsaktivering* aktiverar **Aktivera** projektavsnitt <br>
 * Nu kan du ta bort anslutningar med medarbetare som du inte längre vill arbeta med. [Läs mer](/help/guide/connect/establishing-connections.md#delete-connections).
 
 
