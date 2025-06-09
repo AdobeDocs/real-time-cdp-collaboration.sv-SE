@@ -55,7 +55,7 @@ När dessa förutsättningar är uppfyllda kan ni börja utforska och jämföra 
 >title="Ditt identitetsantal"
 >abstract="Antalet unika ID:n inom den valda målgruppen, baserat på matchningsnycklarna som du och din medarbetare har kommit överens om för projektet."
 >
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Identitetsantal för medarbetare"
 >abstract="Antalet unika ID:n inom medarbetarens målgrupp, baserat på matchningsnycklarna som du och medarbetaren har kommit överens om för projektet."
