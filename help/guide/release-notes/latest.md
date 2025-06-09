@@ -2,7 +2,7 @@
 title: Senaste versionsinformation för Real-Time CDP Collaboration
 description: Följ de senaste versionerna av Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 source-git-commit: 92e347e3258817a983d8eaed9cf2b962b3443cbc
 workflow-type: tm+mt
@@ -24,7 +24,7 @@ Versionsinformationen innehåller information om de funktioner som finns i Real-
 * Real-Time CDP Collaboration är nu tillgängligt för kunder i **Australien** och **Nya Zeeland**. Det är automatiskt tillgängligt för kunder som har Real-Time CDP Prime och Ultimate i dessa länder.
 * Real-Time CDP Collaboration erbjuder nu [självbetjäningsdesigner](../setup/manage-destinations.md) via fliken Mina designer under Konfigurera. Med destinationer kan ni aktivera målgrupper på tredjepartsplattformar, som annonsnätverk eller datahanteringsplattformar, för att nå era kunder i olika kanaler. För närvarande stöds endast Adobe Experience Platform-mål. Om du är intresserad av att konfigurera ett annat mål kontaktar du Adobe. Mer information om destinationer finns i guiden [Målöversikt](../destinations/overview.md).
 
-   * Destinationer lägger även till stöd för att visa Real-Time CDP Collaboration-målgrupper i [Adobe Experience Platform målportalen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.).
+   * Destinationer lägger även till stöd för att visa Real-Time CDP Collaboration-målgrupper i [Adobe Experience Platform målportalen](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.).
 
 * Nu kan du redigera målgruppens uppdateringsfrekvens för befintliga dataanslutningar i Real-Time CDP Collaboration. För närvarande kan ni välja att uppdatera era målgrupper dagligen eller varannan till var sjätte dag. Läs guiden [Hantera dataanslutningar](../setup/manage-data-connection.md#scheduling) om du vill veta mer om hur du redigerar målgruppens uppdateringsfrekvens.
 * Kreditdelningar mellan medarbetare ställs nu in för varje användningsfall som väljs i anslutningen. Du kan ange olika regler för kreditförbrukning för varje användningsfall för att bättre kontrollera hur dina krediter används. Mer information om kreditdelningsfunktionerna finns i guiden [anslutningsinställningar](../connect/establishing-connections.md#connection-settings). Läs handboken [Kreditaktivitetstyper](../setup/my-activity.md#types-of-activities) om du vill veta mer om hur krediter förbrukas. <br> ![Skärmen Anslutningsinställningar visar funktionen för kreditdelning.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
