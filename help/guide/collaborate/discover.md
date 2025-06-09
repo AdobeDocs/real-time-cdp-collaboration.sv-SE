@@ -2,7 +2,7 @@
 title: Upptäck överlappningar och jämför målgrupper
 description: Upptäck överlappningar mellan era och medarbetarnas målgrupper. Lär dig hur ni hittar de bästa målgrupperna som kan användas i era kampanjer.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
 workflow-type: tm+mt
@@ -55,7 +55,7 @@ När dessa förutsättningar är uppfyllda kan ni börja utforska och jämföra 
 >title="Ditt identitetsantal"
 >abstract="Antalet unika ID:n inom den valda målgruppen, baserat på matchningsnycklarna som du och din medarbetare har kommit överens om för projektet."
 >
->[!CONTEXTUALHELP]
+[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Identitetsantal för medarbetare"
 >abstract="Antalet unika ID:n inom medarbetarens målgrupp, baserat på matchningsnycklarna som du och medarbetaren har kommit överens om för projektet."
