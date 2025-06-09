@@ -2,7 +2,7 @@
 title: Konfigurera Adobe Experience Platform som mål
 description: Lär dig hur du konfigurerar och hanterar Adobe Experience Platform som mål i Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
 workflow-type: tm+mt
 source-wordcount: '733'
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Konfigurera den här destinationen för att aktivera målgrupper från ditt projekt till Adobe Experience Platform. Genom att aktivera målgrupper för Adobe Experience Platform kan ni utnyttja plattformens funktioner för målgruppssegmentering, analys och aktivering i olika marknadsföringskanaler. Mer information om Adobe Experience Platform finns i [Experience Platform-översikten](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
+Konfigurera den här destinationen för att aktivera målgrupper från ditt projekt till Adobe Experience Platform. Genom att aktivera målgrupper för Adobe Experience Platform kan ni utnyttja plattformens funktioner för målgruppssegmentering, analys och aktivering i olika marknadsföringskanaler. Mer information om Adobe Experience Platform finns i [Experience Platform-översikten](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Konfigurera sedan **[!UICONTROL Audience Expiration]**. Som standard är målgru
 >title="Målnamnutrymmen"
 >abstract="Målnamnutrymmen anger vilket identitetsnamnutrymme som matchningsnyckeln ska mappas till i Adobe Experience Platform. Hash-kodade matchningsnycklar måste mappas till ett målnamnutrymme som stöder hash-värden."
 
-Därefter måste du skapa en aktiveringsmappning som definierar hur målgruppsdata ska skickas till Adobe Experience Platform. Du kan mappa varje [matchningsnyckel](../setup/onboard-organization.md#set-up-match-keys) som du valde när du skapade din organisation till ett målnamnområde. Målnamnutrymmena anger vilket [ID-namnområde](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} matchningsnyckeln ska mappas till i Adobe Experience Platform.
+Därefter måste du skapa en aktiveringsmappning som definierar hur målgruppsdata ska skickas till Adobe Experience Platform. Du kan mappa varje [matchningsnyckel](../setup/onboard-organization.md#set-up-match-keys) som du valde när du skapade din organisation till ett målnamnområde. Målnamnutrymmena anger vilket [ID-namnområde](https://experienceleague.adobe.com/sv/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} matchningsnyckeln ska mappas till i Adobe Experience Platform.
 
 >
 >
