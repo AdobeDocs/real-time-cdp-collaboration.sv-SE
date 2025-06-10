@@ -2,11 +2,11 @@
 title: Kommunicera med annonsörer eller utgivare
 description: Lär dig hur du skapar kopplingar och börjar samarbeta i projekt när du har upptäckt potentiella medarbetare.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c9b96753a9a78bd85002ede3369c5f20eb430548
+source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1370'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,14 @@ När medarbetaren godkänt inbjudan kan du konfigurera anslutningsinställningar
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-namn"
 >abstract="<p>Valfri inställning. Anger det namn och ID som annonsören är känd av.</p><p>Annonsörsnamnet som du lägger till här är förifyllt i steget Skapa projekt.</p><ul><li>Om utgivaren har konfigurerat flera namn väljer du ett i listan.</li><li>Om bara ett namn är konfigurerat markeras det automatiskt.</li><li>Om inga namn är konfigurerade kommer fältet att fyllas i i förväg med annonsörens kontonamn från Real-Time CDP Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_activation"
+>title="Målgruppsaktivering"
+>abstract="Med målgruppsaktivering kan ni välja vilka medarbetare som kan initiera målgruppsaktivering."
+
+<!-- Move and update the above popover when bidirectional is active. -->
 
 När inbjudan har skickats kan du förhandsgranska anslutningsinställningarna. Inbjudan måste accepteras innan du kan slutföra konfigurationen av anslutningen.
 
