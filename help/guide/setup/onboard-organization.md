@@ -2,11 +2,11 @@
 title: Anlita och hantera organisationen
 description: Läs om hur du kan integrera och hantera olika aspekter av din organisation i Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 860138b95abc4d6af94bbbf722cf498463570c1b
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,13 @@ Om du vill lägga till fler organisationer går du till **[!UICONTROL Setup]** i
 >id="rtcdp_collaboration_setup_contact_email"
 >title="E-postadress"
 >abstract="Ange ett team- eller rollbaserat e-postmeddelande, till exempel `collaboration@yourcompany.com`. Personliga eller individuella e-postadresser ska inte användas."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_connect_code"
+>title="Anslut kod"
+>abstract="Anslutningskoden är en unik identifierare för din organisation. Det används för att skapa kontakter med andra organisationer i Real-Time CDP Collaboration."
+
+<!-- Move the above to new section for invite on this page when its created -->
 
 Om du vill börja med att introducera din organisation måste du först konfigurera organisationsinformationen. Detta kräver att du lägger till följande information:
 
