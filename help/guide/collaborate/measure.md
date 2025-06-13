@@ -2,11 +2,11 @@
 title: Mät prestanda
 description: Mät kampanjernas resultat i olika kanaler. Lär dig hur du använder och tolkar olika rapporter.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Arbetsytan **[!UICONTROL Measure]** är bara tillgänglig om **Campaign-måttet** aktiverades [ under anslutningsprocessen](../connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./manage-projects.md#project-use-cases).
+>Arbetsytan **[!UICONTROL Measure]** är bara tillgänglig om användningsfallet **Measurement** aktiverades [ under anslutningsprocessen](../connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./manage-projects.md#project-use-cases).
 
 Läs mer om tillgängliga rapporter i Real-Time CDP Collaboration och förstå hur ni mäter och analyserar hur era marknadsföringskampanjer fungerar i olika kanaler.
 
@@ -25,7 +25,7 @@ Läs mer om tillgängliga rapporter i Real-Time CDP Collaboration och förstå h
 
 Innan du kan komma åt mätrapporterna i Real-Time CDP Collaboration har du redan:
 
-* [Ansluten](/help/guide/connect/establishing-connections.md) till en annonsör eller utgivare med användningsfallet **Kampanjmätning** aktiverat och har börjat samarbeta i [projekt](/help/guide/collaborate/manage-projects.md)
+* [Ansluten](/help/guide/connect/establishing-connections.md) till en annonsör eller utgivare med användningsfallet **Mått** aktiverat och börjat samarbeta i [projekt](/help/guide/collaborate/manage-projects.md)
 * Kör en kampanj och [överförde mätdata](/help/guide/setup/onboard-measurement-data.md) till Real-Time CDP Collaboration.
 
 <!--

@@ -2,13 +2,13 @@
 title: Ordlista
 description: Förstå nyckelterminologi för Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -128,4 +128,4 @@ Om skisserna inte uppdateras regelbundet kommer målgruppernas överlappningsrap
 
 ### Användningsfall
 
-Ett användningsfall definierar ett specifikt affärsscenario eller problem som kan åtgärdas med Adobe Real-Time CDP Collaboration. I Real-Time CDP Collaboration finns exempel på användningsområden som målgruppsidentifiering eller kampanjmätning som kan bidra till att uppnå ett visst mål.
+Ett användningsfall definierar ett specifikt affärsscenario eller problem som kan åtgärdas med Adobe Real-Time CDP Collaboration. I Real-Time CDP Collaboration finns exempel på användningsområden som målgruppsidentifiering eller -mätning som kan bidra till att uppnå ett visst mål.
