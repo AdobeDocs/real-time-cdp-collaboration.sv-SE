@@ -134,7 +134,7 @@ Titta på demonstrationsvideon Collaboration Audience Referencing nedan om du vi
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Du kan även läsa dokumentet om att [göra målgrupper tillgängliga i Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Du kan även läsa dokumentet om att [göra målgrupper tillgängliga i Real-Time CDP Collaboration](https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ## Steg 4: Aktivera målgrupper (till Experience Platform eller ett molnmål) {#activate-audiences}
 
@@ -146,7 +146,7 @@ Använd användargränssnittet i Collaboration för att aktivera målgrupper fö
 
 ### Alternativ A: Aktivera till Experience Platform
 
-Utför följande steg som beskrivs i guiden [Konfigurera Adobe Experience Platform som ett mål](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Utför följande steg som beskrivs i guiden [Konfigurera Adobe Experience Platform som ett mål](https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Skapa ett mål** - Använd användargränssnittet för att konfigurera ett Experience Platform-mål (sandlådenivå).
 - **Kartmatchningsnycklar** - Välj identifierare (t.ex. `hashedEmail`).
@@ -237,7 +237,7 @@ Efter aktiveringen kontrollerar du att målgrupperna har levererats eller gjorts
 
 När konfigurationen och datadistributionen är klar är organisationen nu redo att ansluta till medarbetare genom att skicka eller acceptera inbjudningar och skicka in projektinställningar för godkännande. Den här anslutningsprocessen innebär att skicka eller ta emot inbjudningar, granska och skicka anslutningsinställningar (till exempel användningsfall och kreditförbrukning) och bekräfta relationen.
 
-Använd arbetsytan **[!UICONTROL Connect]** på den vänstra navigeringsmenyn i Collaboration-gränssnittet för att bläddra bland tillgängliga utgivare (det går inte att bläddra bland annonsörer för närvarande). En översikt över det här flödet finns i handboken [Anslut med annonsörer eller utgivare](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
+Använd arbetsytan **[!UICONTROL Connect]** på den vänstra navigeringsmenyn i Collaboration-gränssnittet för att bläddra bland tillgängliga utgivare (det går inte att bläddra bland annonsörer för närvarande). En översikt över det här flödet finns i handboken [Anslut med annonsörer eller utgivare](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
 
 ## Nästa steg
 
