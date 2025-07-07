@@ -1,17 +1,18 @@
 ---
 title: Snabbstart för Real-Time CDP Collaboration Onboarding
-description: Lär dig hur du kan integrera din organisation i Real-Time CDP Collaboration, inklusive hur du skapar roller och organisationer, skapar målgruppslicenser, aktiverar och mäter. Den här guiden hjälper annonsörer och utgivare att konfigurera samarbetsinställningar och börja använda delade målgrupper på ett säkert och effektivt sätt.
+description: Lär dig hur du kan integrera din organisation i Real-Time CDP Collaboration, inklusive hur du skapar roller och organisationer, hämtar målgrupper, aktiverar och mäter. Den här guiden hjälper annonsörer och utgivare att konfigurera samarbetsinställningar och börja använda delade målgrupper på ett säkert och effektivt sätt.
 audience: admin, publisher, advertiser
-source-git-commit: 4435788917dd82cb127525e054f7f09803e1dcdf
+exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
+source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
 
 # Snabbstart för Real-Time CDP Collaboration
 
-Kom igång med Real-Time Customer Data Platform (CDP) Collaboration genom att konfigurera organisationen, tilldela målgrupper och aktivera och mäta sekretessfokuserat material.
+Kom igång med Real-Time CDP Collaboration genom att konfigurera organisationen, skaffa målgrupper och aktivera och mäta sekretessfokuserad aktivering.
 
 ## Förhandskrav
 
@@ -41,7 +42,7 @@ Din organisations åtkomstroller avgör vad användare kan se och göra i Real-T
 
 I den här videon får du lära dig hur du tilldelar produktåtkomst och behörigheter till Collaboration med användargränssnittet i Admin Console och Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452234/?learn=on&enablevpops&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Steg 2: Konfigurera din Real-Time CDP Collaboration-organisation {#set-up-your-organization}
 
@@ -73,7 +74,7 @@ Definiera er organisations roll i Collaboration, tillhandahåll varumärkesresur
 
 - **Konfigurera matchningsnycklar** - Välj de identifierare som används för målgruppsmatchning (för närvarande är hashed email den enda matchningsnyckeln som stöds).
 
-När organisationen har skapats och varumärket och matchningsnycklarna har konfigurerats är organisationen redo att börja etablera målgrupper och aktivera data.
+När organisationen har skapats och varumärket och matchningsnycklarna har konfigurerats är organisationen redo att börja anlita målgrupper och aktivera data.
 
 Mer information om den inledande konfigurationen av organisationen, bland annat hur du definierar roller, överför varumärkesresurser och konfigurerar matchningsnycklar, finns i [den inledande konfigurationsdokumentet för organisationen](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
 
@@ -83,7 +84,7 @@ Titta på en stegvis genomgång av annonsinställningarna, inklusive kontoskapan
 
 ## Steg 3: Source målgrupper (från Experience Platform eller en molnkälla) {#source-audiences}
 
-Välj ett eller båda av följande datalager för att hämta målgrupper. Använd Collaboration användargränssnitt eller koordinera med Adobe för att erbjuda målgrupper i ett sekretessbelagt format.
+Välj ett eller båda av följande datalager för att hämta målgrupper. Använd Collaboration användargränssnitt eller koordinera med Adobe för att hämta målgrupper i ett sekretessbelagt format.
 
 ### Alternativ A: Source från Experience Platform
 
@@ -99,7 +100,7 @@ Om du vill konfigurera en molnkälla (till exempel [!DNL AWS S3] eller [!DNL Sno
 >
 >Alla målgrupper i den överförda filen är helt källkodade i det här skedet. Åtkomst till specifika partnerorganisationer tillhandahålls separat via Collaboration användargränssnitt.
 
-### Tillhandahålla målgrupper
+### Konfigurera målgrupper
 
 Konfigurera hur målgrupper förbereds, matchas och styrs för användning i anslutningar.
 
@@ -117,8 +118,8 @@ Konfigurera hur målgrupper förbereds, matchas och styrs för användning i ans
 >
 >**Maximalt antal målgrupper per medarbetarroll:**
 >
->- **Advertisers** kan etablera upp till 25 målgrupper.
->- **Utgivare** kan etablera upp till 250 målgrupper (var och en med minst 5 000 ID).
+>- **Advertisers** kan hämta upp till 25 målgrupper.
+>- **Utgivare** kan hämta upp till 250 målgrupper (var och en med minst 5 000 ID).
 
 >[!IMPORTANT]
 >
@@ -134,7 +135,7 @@ Titta på demonstrationsvideon Collaboration Audience Referencing nedan om du vi
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Du kan även läsa dokumentet om att [göra målgrupper tillgängliga i Real-Time CDP Collaboration](https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Du kan även läsa dokumentet om att [göra målgrupper tillgängliga i Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ## Steg 4: Aktivera målgrupper (till Experience Platform eller ett molnmål) {#activate-audiences}
 
@@ -146,7 +147,7 @@ Använd användargränssnittet i Collaboration för att aktivera målgrupper fö
 
 ### Alternativ A: Aktivera till Experience Platform
 
-Utför följande steg som beskrivs i guiden [Konfigurera Adobe Experience Platform som ett mål](https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Utför följande steg som beskrivs i guiden [Konfigurera Adobe Experience Platform som ett mål](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Skapa ett mål** - Använd användargränssnittet för att konfigurera ett Experience Platform-mål (sandlådenivå).
 - **Kartmatchningsnycklar** - Välj identifierare (t.ex. `hashedEmail`).
@@ -237,11 +238,17 @@ Efter aktiveringen kontrollerar du att målgrupperna har levererats eller gjorts
 
 När konfigurationen och datadistributionen är klar är organisationen nu redo att ansluta till medarbetare genom att skicka eller acceptera inbjudningar och skicka in projektinställningar för godkännande. Den här anslutningsprocessen innebär att skicka eller ta emot inbjudningar, granska och skicka anslutningsinställningar (till exempel användningsfall och kreditförbrukning) och bekräfta relationen.
 
-Använd arbetsytan **[!UICONTROL Connect]** på den vänstra navigeringsmenyn i Collaboration-gränssnittet för att bläddra bland tillgängliga utgivare (det går inte att bläddra bland annonsörer för närvarande). En översikt över det här flödet finns i handboken [Anslut med annonsörer eller utgivare](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
+Använd arbetsytan **[!UICONTROL Connect]** på den vänstra navigeringsmenyn i Collaboration-användargränssnittet för att bläddra bland tillgängliga utgivare.
+
+>[!NOTE]
+>
+>För närvarande kan bara annonsörer bläddra bland utgivare. Utgivare kan inte bläddra bland eller initiera anslutningar med annonsörer.
+
+En översikt över det här flödet finns i handboken [Anslut med annonsörer eller utgivare](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
 
 ## Nästa steg
 
-Du har nu slutfört introduktionen och konfigurerat organisationen för säkert samarbete. Utforska sedan följande resurser för att fördjupa din förståelse för aktivering, mätning och datastyrning:
+Du har nu slutfört den första konfigurationen och konfigurerat din organisation för säkert samarbete. Utforska sedan följande resurser för att fördjupa din förståelse för aktivering, mätning och datastyrning:
 
 - [Arbetsflödesdokumentation för målaktivering](./collaborate/activate.md)
 - [Användningsexempel för mätning](./collaborate/measure.md)
