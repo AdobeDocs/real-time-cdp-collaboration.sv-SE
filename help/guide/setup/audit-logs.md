@@ -2,7 +2,7 @@
 title: Granskningsloggar
 description: Lär dig hur du använder funktionen Granskningsloggar i Real-Time CDP Collaboration för att spåra användaraktiviteter och ändringar.
 audience: admin
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
@@ -23,7 +23,7 @@ Använd granskningsloggsfunktionen i Collaboration för att spåra användarakti
 
 ![Skärm med översikt på hög nivå över granskningsloggsfunktionen.](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Mer information om granskningsloggar finns i [Experience Platform granskningsloggsdokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Mer information om granskningsloggar finns i [Experience Platform granskningsloggsdokumentation](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Åtkomst till granskningsloggar
 
@@ -62,7 +62,7 @@ Granskningsloggar samlar in detaljerad information om användaraktiviteter, inkl
 * **Åtgärd**: Den specifika åtgärd som har utförts, till exempel skapa eller ta bort.
 * **Användare**: E-postadressen till användaren som utförde åtgärden.
 
-Dessa loggar ger en omfattande spårbarhet för alla aktiviteter i din Collaboration-instans, vilket är användbart för datastyrning och regelefterlevnad. Läs mer om att [hantera granskningsloggar i användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Dessa loggar ger en omfattande spårbarhet för alla aktiviteter i din Collaboration-instans, vilket är användbart för datastyrning och regelefterlevnad. Läs mer om att [hantera granskningsloggar i användargränssnittet](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Filtrera granskningsloggar {#filter-audit-logs}
 
@@ -75,7 +75,7 @@ Användargränssnittet för granskningsloggar innehåller flera filter som du ka
 * **Status**: Åtgärdens status, till exempel Tillåt eller Neka.
 * **Datumintervall**: Datumintervallet som du vill visa loggar för.
 
-Läs mer om [filtrering av granskningsloggar](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+Läs mer om [filtrering av granskningsloggar](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ## Fördelar
 

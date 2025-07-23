@@ -2,7 +2,7 @@
 title: Arbetsflöde från slut till slut
 description: Förstå arbetsflödet från början till slut genom att använda Real-Time CDP Collaboration som annonsörer eller utgivare
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt

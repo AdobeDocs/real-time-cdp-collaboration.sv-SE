@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaboration snabbstartsguide
 description: Lär dig hur du kan integrera din organisation i Real-Time CDP Collaboration, inklusive hur du skapar roller och organisationer, hämtar målgrupper, aktiverar och mäter. Den här guiden hjälper annonsörer och utgivare att konfigurera samarbetsinställningar och börja använda delade målgrupper på ett säkert och effektivt sätt.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
@@ -125,7 +125,7 @@ Titta på videon nedan om du vill se en genomgång av hur du hämtar målgrupper
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Du kan även läsa dokumentet om att [hämta målgrupper i Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Du kan även läsa dokumentet om att [hämta målgrupper i Collaboration](https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ### Alternativ B: Source från Snowflake eller Amazon S3
 
@@ -230,7 +230,7 @@ Använd arbetsytan **[!UICONTROL Connect]** på den vänstra navigeringsmenyn f�
 >
 >För närvarande kan bara annonsörer bläddra bland utgivare. Utgivare kan inte bläddra bland eller initiera anslutningar med annonsörer.
 
-En översikt över det här flödet finns i [handboken om att ansluta till annonsörer eller utgivare](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
+En översikt över det här flödet finns i [handboken om att ansluta till annonsörer eller utgivare](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
 
 ## Nästa steg
 
