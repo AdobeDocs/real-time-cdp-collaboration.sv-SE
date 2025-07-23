@@ -2,11 +2,11 @@
 title: Hantera användaråtkomst via behörigheter
 description: Hantera behörigheter och ge användare åtkomst till olika komponenter i Real-Time CDP Collaboration användargränssnitt.
 audience: admin
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
-source-git-commit: a1328ab6da15bb48f62e313659baf7c7723ffc32
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Hantera behörigheter och användaråtkomst för enskilda komponenter i Real-Time CDP Collaboration via Experience Cloud [Permissions](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} -gränssnitt. Med behörigheter kan system- och produktadministratörer definiera [roller](./manage-roles.md) för att hantera användaråtkomst till specifika funktioner och resurser.
+Hantera behörigheter och användaråtkomst för enskilda komponenter i Adobe Real-Time CDP Collaboration via Experience Cloud [Permissions](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} -gränssnitt. Med behörigheter kan system- och produktadministratörer definiera [roller](./manage-roles.md) för att hantera användaråtkomst till specifika funktioner och resurser.
 
 ## Konfigurera åtkomst till behörigheter {#permissions-access}
 
@@ -53,7 +53,7 @@ Användaren har nu administratörsbehörighet för produkten och kan utföra adm
 
 ### Administratörer: konfigurera användaråtkomst till Experience Platform {#user-access}
 
-Nu när du har gett användaren produktadministratörsbehörighet måste du ge användaren åtkomst till Experience Platform-produkten. Som en del av åtkomstkonfigurationerna tilldelar du de användarspecifika [produktprofilerna](https://helpx.adobe.com/se/enterprise/using/manage-product-profiles.html).
+Nu när du har gett användaren produktadministratörsbehörighet måste du ge användaren åtkomst till Experience Platform-produkten. Som en del av åtkomstkonfigurationerna tilldelar du de användarspecifika [produktprofilerna](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html).
 
 >[!TIP]
 >
@@ -83,7 +83,7 @@ Användaren bör nu ha produktadministratörs- och produktåtkomst till Experien
 
 ### Administratörer: konfigurera åtkomst till Experience Platform UI {#product-access}
 
-I Real-Time CDP Collaboration arbetar administratörer och slutanvändare med data från Experience Platform, till exempel målgrupper och granskningsloggar. Dessa data lagras i instanser av Experience Platform som kallas sandlådor. För att användare ska kunna interagera med dessa data måste du tilldela användaren [standardroller](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/home#default-roles){target="_blank"}.
+I Real-Time CDP Collaboration arbetar administratörer och slutanvändare med data från Experience Platform, till exempel målgrupper och granskningsloggar. Dessa data lagras i instanser av Experience Platform som kallas sandlådor. För att användare ska kunna interagera med dessa data måste du tilldela användaren [standardroller](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"}.
 
 Börja med att navigera till [Adobe Experience Cloud](https://experience.adobe.com/). Du bör nu se **[!UICONTROL Experience Platform]** och **[!UICONTROL Permissions]** inuti **[!UICONTROL Quick access]**.
 
@@ -113,11 +113,11 @@ Nu har du tillgång till Experience Platform och behörigheter. I det sista steg
 
 ### Administratörer: konfigurera Real-Time CDP Collaboration-åtkomst {#RTCDP-collaboration-access}
 
-Om du vill ge användare åtkomst till Real-Time CDP Collaboration använder du ett åtkomstkontrollskoncept som kallas roller. Roller definierar åtkomstnivån som en administratör eller användare har till [resurser](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/home#permissions) i din organisation.
+Om du vill ge användare åtkomst till Collaboration använder du ett åtkomstkontrollskoncept som kallas roller. Roller definierar åtkomstnivån som en administratör eller användare har till [resurser](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) i din organisation.
 
-När du konfigurerar individuell åtkomst till Real-Time CDP Collaboration tilldelar du användarroller som innehåller behörigheter från samarbetsresursen. Du kan använda guiden [hantera roller](./manage-roles.md) för att ta reda på mer om:
+När du konfigurerar individuell åtkomst till Collaboration tilldelar du användarroller som innehåller behörigheter från samarbetsresursen. Du kan använda guiden [hantera roller](./manage-roles.md) för att ta reda på mer om:
 
-- de [två standardrollerna](./manage-roles.md#standard-roles) och de åtkomstnivåer de ger till Real-Time CDP Collaboration
+- de [två standardrollerna](./manage-roles.md#standard-roles) och de åtkomstnivåer de ger till Collaboration
 - skapar [anpassade roller](./manage-roles.md#specific-access-roles) med Collaboration-resursen
 - listan över behörigheter som ingår i samarbetsresursen
 

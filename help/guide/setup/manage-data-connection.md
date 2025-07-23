@@ -2,11 +2,11 @@
 title: Hantera dataanslutningar
 description: Lär dig hantera dataanslutningar, inklusive matchningsnycklar, schemaläggning, användningsfall och målgruppsfiltrering i Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Översikt
 
-Använd dataanslutningar i Real-Time CDP Collaboration för att importera målgrupper från olika källor. Lär dig hur du hanterar matchningsnycklar och schemalägger dataimport för dina befintliga dataanslutningar. Dessutom kan ni filtrera målgrupperna utifrån olika attribut för mer detaljerade insikter.
+Använd dataanslutningar i Real-Time CDP Collaboration för att hämta målgrupper från olika plattformar. Lär dig hur du hanterar matchningsnycklar och schemalägger datauppdatering för dina befintliga dataanslutningar. Dessutom kan ni filtrera målgrupperna utifrån olika attribut för mer detaljerade insikter.
 
 ## Visa dataanslutningar
 
@@ -59,7 +59,7 @@ När en dataanslutning har skapats kan du uppdatera uppdateringsfrekvensen direk
 >
 >När ni hämtar målgrupper från Adobe Experience Platform blir målgrupperna tillgängliga inom 24 timmar efter det att dataanslutningen har upprättats. Efter den första importen uppdateras målgruppsdata enligt den angivna frekvensen.
 
-Mer information om schemaläggning finns i avsnittet [schemaläggning](/help/guide/setup/onboard-audiences.md#schedule) i guiden för att introducera målgrupper.
+Mer information om schemaläggning finns i avsnittet [schemaläggning](/help/guide/setup/onboard-audiences.md#schedule) i guiden för att konfigurera målgrupper.
 
 ![En dataanslutnings arbetsyta med avsnittet Schemaläggning markerat.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
@@ -69,11 +69,11 @@ Du kan redigera frekvensen för en befintlig dataanslutning för att bättre kon
 
 I dialogrutan **[!UICONTROL Scheduling]** väljer du listrutan för att uppdatera **[!UICONTROL Frequency]**. Ställ in uppdateringsfrekvensen så att den körs dagligen eller varannan till var sjätte dag. När du är klar väljer du **[!UICONTROL Save]** för att tillämpa ändringarna.
 
-![Dialogrutan Schemaläggning innehåller alternativ för att ange frekvens och datumintervall.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
+![Dialogrutan Schemaläggning innehåller alternativ för att ange frekvens och datumintervall.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## Ta bort dataanslutning
 
-Om du tar bort en dataanslutning tas alla underliggande målgrupper, associerade inställningar och användning bort på plattformen. Det går inte att ångra den här åtgärden.
+Om du tar bort en dataanslutning tas alla underliggande målgrupper, associerade inställningar och användning bort i Collaboration. Det går inte att ångra den här åtgärden.
 
 Om du vill ta bort en befintlig dataanslutning markerar du ikonen Ta bort (![ikonen Ta bort](/help/assets/common/delete.svg)) på en enskild dataanslutnings arbetsyta.
 

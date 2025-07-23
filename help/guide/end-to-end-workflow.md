@@ -2,9 +2,9 @@
 title: Arbetsflöde från slut till slut
 description: Förstå arbetsflödet från början till slut genom att använda Real-Time CDP Collaboration som annonsörer eller utgivare
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Med Adobe Real-Time Customer Data Platform (CDP) Collaboration kan annonsörer o
 
 ## Arbetsflöde från början till slut för annonsörer {#advertiser}
 
-Som annonsörer börjar du med att [introducera ditt företag](/help/guide/setup/onboard-organization.md) på Real-Time CDP Collaboration. Använd [konfigurationssidan](/help/guide/setup/setup-overview.md) för att skicka och sedan redigera företagsinställningarna, lägga till dina önskade matchningsnycklar som du ska arbeta med och bestämma vilka data som ska hämtas. I den första versionen kan du bara [importera målgrupper](/help/guide/setup/onboard-audiences.md) från Adobe Experience Platform.
+Som annonsörer börjar du med att [introducera ditt företag](/help/guide/setup/onboard-account.md) på Real-Time CDP Collaboration. Använd [konfigurationssidan](/help/guide/setup/setup-overview.md) för att skicka och sedan redigera företagsinställningarna, lägga till dina önskade matchningsnycklar som du ska arbeta med och bestämma vilka data som ska hämtas. I den första versionen kan du bara [importera målgrupper](/help/guide/setup/onboard-audiences.md) från Adobe Experience Platform.
 
 ![Identifiera, aktivera, mät för annonsörer.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
@@ -33,7 +33,7 @@ Det sista steget i samarbetsloopen är [measurement](/help/guide/collaborate/mea
 
 ## Arbetsflöde från början till slut {#publisher}
 
-Som utgivare kan du börja med att [introducera ditt företag](/help/guide/setup/onboard-organization.md) på Real-Time CDP Collaboration. Använd [inställningssidan](/help/guide/setup/setup-overview.md) för att redigera olika företagsinställningar.
+Som utgivare kan du börja med att [introducera ditt företag](/help/guide/setup/onboard-account.md) på Real-Time CDP Collaboration. Använd [inställningssidan](/help/guide/setup/setup-overview.md) för att redigera olika företagsinställningar.
 
 Bestäm vilka målgruppsdata som ska importeras och vilka målgrupper som ska kunna identifieras och visas för de annonsörer som vill ansluta till dig i produktdelen **[!UICONTROL Connect]**.
 

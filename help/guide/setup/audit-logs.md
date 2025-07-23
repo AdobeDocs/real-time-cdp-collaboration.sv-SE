@@ -2,11 +2,11 @@
 title: Granskningsloggar
 description: Lär dig hur du använder funktionen Granskningsloggar i Real-Time CDP Collaboration för att spåra användaraktiviteter och ändringar.
 audience: admin
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '866'
 ht-degree: 1%
 
 ---
@@ -15,39 +15,39 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-För att öka insynen i och synligheten för aktiviteter som utförs i systemet kan du granska användaraktivitet för olika tjänster och funktioner i form av granskningsloggar i Adobe Real-Time Customer Data Platform (CDP). Loggarna utgör en verifieringskedja som kan hjälpa till med felsökning i Real-Time CDP Collaboration och hjälpa ditt företag att effektivt följa företagets policyer för datahantering och lagstadgade krav.
+För att öka insynen i och synligheten för aktiviteter som utförs i systemet kan du granska användaraktivitet för olika tjänster och funktioner i form av granskningsloggar i Adobe Experience Platform. Loggarna utgör en verifieringskedja som kan hjälpa till med felsökning i Adobe Real-Time CDP Collaboration och hjälpa ditt företag att effektivt följa företagets policyer för datahantering och lagstadgade krav.
 
 I grundläggande bemärkelse anger en granskningslogg *vem* utförde *vad*-åtgärden och *när*. Varje åtgärd som registreras i en logg innehåller metadata som anger åtgärdstyp, datum och tid, e-post-ID för användaren som utförde åtgärden samt ytterligare attribut som är relevanta för åtgärdstypen.
 
-Använd granskningsloggsfunktionen i Real-Time CDP Collaboration för att spåra användaraktiviteter och ändringar på plattformen. Den här funktionen är integrerad med Adobe Experience Platform granskningstjänst och användargränssnittet för den här funktionen finns i Experience Platform.
+Använd granskningsloggsfunktionen i Collaboration för att spåra användaraktiviteter och ändringar på plattformen. Den här funktionen är integrerad med Experience Platform granskningstjänst och användargränssnittet för den här funktionen finns i Experience Platform.
 
-![Skärm med översikt på hög nivå över granskningsloggsfunktionen](/help/assets/setup/audit-logs/audit-logs-overview.png)
+![Skärm med översikt på hög nivå över granskningsloggsfunktionen.](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Mer information om granskningsloggar finns i [dokumentationen för Adobe Experience Platform-granskningsloggar](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Mer information om granskningsloggar finns i [Experience Platform granskningsloggsdokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Åtkomst till granskningsloggar
 
-Du kan komma åt granskningsloggar på två sätt, vilket beskrivs i avsnitten nedan. Båda alternativen visar en lista med granskningsloggar som hämtar olika aktiviteter som utförs i Real-Time CDP Collaboration användargränssnitt
+Du kan komma åt granskningsloggar på två sätt, vilket beskrivs i avsnitten nedan. Båda alternativen visar en lista med granskningsloggar som hämtar olika aktiviteter som utförs i Collaboration.
 
-### Få åtkomst till granskningsloggar från Real-Time CDP Collaboration användargränssnitt
+### Få åtkomst till granskningsloggar från Collaboration användargränssnitt
 
-1. Gå till fliken **[!UICONTROL My Activity]** i Real-Time CDP Collaboration-gränssnittet.
-2. Klicka på länken Experience Platform i gränssnittstexten längst upp på sidan.
+1. Gå till fliken **[!UICONTROL My Activity]** i arbetsytan för **[!UICONTROL Setup]** i Collaboration.
+2. Klicka på länken Experience Platform i texten längst upp på sidan.
 
-![Åtkomst till granskningsloggar från Real-Time CDP Collaboration-gränssnittet](/help/assets/setup/audit-logs/access-from-collaboration-ui.png)
+![Åtkomst till granskningsloggar från fliken Min aktivitet i Collaboration.](/help/assets/setup/audit-logs/access-from-collaboration-ui.png)
 
 ### Få åtkomst till granskningsloggar direkt i Experience Platform användargränssnitt
 
-1. Navigera till användargränssnittet för Adobe Experience Platform och välj avsnittet **[!UICONTROL Audits]** på den vänstra menyn. Kontakta organisationens systemadministratörer för att få den behörighet som krävs om du inte kan visa granskningsloggar.
+1. Navigera till [Experience Platform](https://platform.adobe.com/) och välj avsnittet **[!UICONTROL Audits]** på den vänstra menyn. Kontakta organisationens systemadministratörer för att få den behörighet som krävs om du inte kan visa granskningsloggar.
 
-![Åtkomst till granskningsloggar från Experience Platform-gränssnittet](/help/assets/setup/audit-logs/access-from-experience-platform-ui.png)
+![Få åtkomst till granskningsloggar från Experience Platform.](/help/assets/setup/audit-logs/access-from-experience-platform-ui.png)
 
 ## Visa och använda granskningsloggar
 
 Så här visar du granskningsloggarna:
 
-1. Navigera till avsnittet **[!UICONTROL Audits]** i Adobe Experience Platform-gränssnittet.
-2. Använd filtren för att begränsa loggarna utifrån dina kriterier.
+1. Navigera till avsnittet **[!UICONTROL Audits]** i Experience Platform.
+2. Använd [filters](#filter-audit-logs) för att begränsa loggarna utifrån dina kriterier.
 3. Välj en loggpost om du vill visa detaljerad information, inklusive tidsstämpel, begärande-ID, resursinformation och åtgärdsstatus.
 
 ![Detaljerad granskningslogg](/help/assets/setup/audit-logs/filters-and-detailed-view.png)
@@ -56,35 +56,30 @@ Så här visar du granskningsloggarna:
 
 Granskningsloggar samlar in detaljerad information om användaraktiviteter, inklusive:
 
-* **Användar-ID**: Identifieraren för användaren som utförde åtgärden.
-* **Åtgärd**: Den typ av åtgärd som har utförts (t.ex. skapa, uppdatera, ta bort).
-* **Resurs**: Resursen som ändrades eller skapades.
-* **Tidsstämpel**: Tidpunkten då åtgärden utfördes.
+* **Tidsstämpel**: Exakt datum och tid för åtgärden som utfördes i formatet månad/dag/år/timme:minute AM/PM.
+* **Resursnamn**: Namnet på resursen som åtgärden utfördes på.
+* **Kategori**: Den typ av resurs som åtgärden utfördes på.
+* **Åtgärd**: Den specifika åtgärd som har utförts, till exempel skapa eller ta bort.
+* **Användare**: E-postadressen till användaren som utförde åtgärden.
 
-Dessa loggar ger en omfattande spårbarhet för alla aktiviteter i din Real-Time CDP Collaboration-instans, vilket är användbart för datastyrning och regelefterlevnad. Läs mer om att [hantera granskningsloggar i användargränssnittet](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Dessa loggar ger en omfattande spårbarhet för alla aktiviteter i din Collaboration-instans, vilket är användbart för datastyrning och regelefterlevnad. Läs mer om att [hantera granskningsloggar i användargränssnittet](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
-### Filtrera granskningsloggar
+### Filtrera granskningsloggar {#filter-audit-logs}
 
 Användargränssnittet för granskningsloggar innehåller flera filter som du kan använda för att söka efter specifika loggar:
 
-* **Kategori**: Refererar till resurstypen (till exempel: samarbetsinstans, anslutning, projekt).
-* **Åtgärd**: Den typ av åtgärd som har utförts (till exempel: skapa, ta bort, uppdatera).
+* **Kategori**: Den typ av resurs som åtgärden utfördes på, till exempel Collaboration Instance eller Collaboration Connection Invite.
+* **Åtgärd**: Den typ av åtgärd som utfördes. Vilka åtgärder som är tillgängliga beror på vilken kategori du har valt. Exempel: åtgärder för Collaboration Instance är skapa, uppdatera och ta bort.
 * **ID för begäran**: En unik identifierare för begäran.
-* **E-postadress för användare**: E-postadressen till användaren som utförde åtgärden.
-* **Status**: Åtgärdens status (till exempel: tillåten, nekad).
+* **Användare**: E-postadressen till användaren som utförde åtgärden.
+* **Status**: Åtgärdens status, till exempel Tillåt eller Neka.
 * **Datumintervall**: Datumintervallet som du vill visa loggar för.
 
-Läs mer om [filtrering av granskningsloggar](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
-
-### Exempel på användning
-
-Granskningsloggar genereras och visas i Experience Platform granskningsgränssnitt när du utför åtgärder i Real-Time CDP Collaboration-gränssnittet, som att hantera målgrupper, utöka anslutningsinbjudningar, skapa projekt och så vidare. Åtgärder för att skapa eller uppdatera delar av ett projekt hämtas till exempel enligt nedan:
-
-![Exempel på granskningsloggar som genereras när delar av ett projekt skapas och uppdateras.](/help/assets/setup/audit-logs/create-project-audits.png)
+Läs mer om [filtrering av granskningsloggar](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ## Fördelar
 
-Förstå några av fördelarna med att använda granskningsloggar:
+Granskningsloggar har flera fördelar för organisationer som använder Collaboration:
 
 * **Datastyrning**: Använd granskningsloggar för att se till att alla aktiviteter inom plattformen spåras och kan spåras.
 * **Regelefterlevnad**: Funktionen ger en översikt över användaraktiviteter för att uppfylla lagstadgade krav.
@@ -98,14 +93,14 @@ Tabellen nedan innehåller en referens för alla kategorier och åtgärder för 
 
 | Kategori | Instruktioner | Beskrivning |
 |-------------------------------|------------------------------------------|-------------|
-| **[!UICONTROL Collaboration Instance]** | skapa, uppdatera, ta bort | Hantera organisationskonton, inklusive att skapa, uppdatera och ta bort organisationer. Läs mer om att [konfigurera organisationer](/help/guide/setup/onboard-organization.md). |
-| **[!UICONTROL Collaboration Connection Invite]** | skapa, uppdatera, ta bort, godkänna, avvisa | Hantera anslutningsinbjudningar, inklusive att skapa, uppdatera, ta bort, godkänna och avvisa inbjudningar. Läs mer om [anslutningsinbjudningar](/help/guide/connect/establishing-connections.md). |
-| **[!UICONTROL Collaboration Connection]** | skapa, uppdatera, ta bort, godkänna, avvisa, begära godkännande | Hantera samarbetsanslutningar, inklusive att skapa, uppdatera, ta bort, godkänna, avslå och begära godkännande för anslutningar. |
-| **[!UICONTROL Collaboration Data Connection]** | skapa, uppdatera, ta bort | Hantera dataanslutningar för samarbete för att importera och hantera målgrupper, inklusive att skapa, uppdatera och ta bort dataanslutningar. Läs mer om [hantering av dataanslutningar](/help/guide/setup/manage-data-connection.md). |
-| **[!UICONTROL Collaboration Data Entity]** | skapa, uppdatera, ta bort | Hantera dataentiteter för samarbete, inklusive att skapa, uppdatera och ta bort dataentiteter. Dataenheter i detta sammanhang avser målgrupper. Läs mer om [att importera och hantera målgrupper](/help/guide/setup/onboard-audiences.md). |
-| **[!UICONTROL Collaboration Project]** | skapa, uppdatera, ta bort | Hantera projekt i samarbete, inklusive att skapa, uppdatera och ta bort projekt. Läs mer om [att hantera projekt](/help/guide/collaborate/manage-projects.md). |
-| **[!UICONTROL Collaboration Module]** | skapa, uppdatera, ta bort | Hantera olika moduler i samarbetsprojekt, inklusive att skapa, uppdatera och ta bort olika moduler i användargränssnittet. Till exempel möjligheten att [aktivera målgrupper](/help/guide/collaborate/activate.md). |
+| **[!UICONTROL Collaboration Instance]** | skapa, uppdatera, ta bort | Hantera konton, inklusive att skapa, uppdatera och ta bort konton. Mer information finns i guiden [Konfigurera dina konton](/help/guide/setup/onboard-account.md). |
+| **[!UICONTROL Collaboration Connection Invite]** | skapa, uppdatera, ta bort, godkänna, avvisa | Hantera anslutningsinbjudningar, inklusive att skapa, uppdatera, ta bort, godkänna och avvisa inbjudningar. Mer information finns i guiden [upprättar anslutningar](/help/guide/connect/establishing-connections.md). |
+| **[!UICONTROL Collaboration Connection]** | skapa, uppdatera, ta bort, godkänna, avvisa, begära godkännande | Hantera anslutningar, inklusive att skapa, uppdatera, ta bort, godkänna, avslå och begära godkännande för anslutningar. |
+| **[!UICONTROL Collaboration Data Connection]** | skapa, uppdatera, ta bort | Hantera dataanslutningarna där du hämtar och hanterar målgrupper, inklusive att skapa, uppdatera och ta bort dataanslutningar. Mer information finns i guiden [Hantera dataanslutningar](/help/guide/setup/manage-data-connection.md). |
+| **[!UICONTROL Collaboration Data Entity]** | skapa, uppdatera, ta bort | Hantera datatabeller för Collaboration, inklusive att skapa, uppdatera och ta bort datatabeller. Dataenheter i detta sammanhang avser målgrupper. Mer information finns i guiden [Källa och hantera målgrupper](/help/guide/setup/onboard-audiences.md). |
+| **[!UICONTROL Collaboration Project]** | skapa, uppdatera, ta bort | Hantera projekt i Collaboration, inklusive att skapa, uppdatera och ta bort projekt. Mer information finns i guiden [Hantera projekt](/help/guide/collaborate/manage-projects.md). |
+| **[!UICONTROL Collaboration Module]** | skapa, uppdatera, ta bort | Hantera olika moduler i projekt, inklusive att skapa, uppdatera och ta bort olika moduler i användargränssnittet. Till exempel möjligheten att [aktivera målgrupper](/help/guide/collaborate/activate.md). |
 
 {style="table-layout:auto"}
 
-Genom att utnyttja granskningsloggsfunktionen kan ni föra en tydlig och detaljerad förteckning över alla aktiviteter i er Real-Time CDP Collaboration-instans och säkerställa öppenhet och ansvar.
+Genom att utnyttja granskningsloggsfunktionen kan ni föra en tydlig och detaljerad förteckning över alla aktiviteter inom Collaboration, vilket säkerställer öppenhet och ansvar.

@@ -1,16 +1,19 @@
 ---
-title: Snabbstart för Real-Time CDP Collaboration Onboarding
+title: Real-Time CDP Collaboration snabbstartsguide
 description: Lär dig hur du kan integrera din organisation i Real-Time CDP Collaboration, inklusive hur du skapar roller och organisationer, hämtar målgrupper, aktiverar och mäter. Den här guiden hjälper annonsörer och utgivare att konfigurera samarbetsinställningar och börja använda delade målgrupper på ett säkert och effektivt sätt.
 audience: admin, publisher, advertiser
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: b5f76b1001f97304332f731490613a8597a182c1
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
 
-# Snabbstart för Real-Time CDP Collaboration
+# Real-Time CDP Collaboration snabbstartsguide
+
+
 
 Kom igång med Real-Time CDP Collaboration genom att konfigurera organisationen, skaffa målgrupper och aktivera och mäta sekretessfokuserad aktivering.
 
@@ -19,11 +22,11 @@ Kom igång med Real-Time CDP Collaboration genom att konfigurera organisationen,
 Innan du börjar bör du kontrollera att du har följande:
 
 - En aktiv Real-Time CDP Collaboration-licens.
-- [System- eller produktadministratörsåtkomst till Adobe Experience Platform](./permissions/overview.md#use-cases).
+- [System- eller produktadministratörsåtkomst till Adobe Experience Platform](./permissions/overview.md).
 - [Åtkomst har etablerats för slutanvändare](./permissions/manage-user-access.md).
 - [Roller som skapats för din organisation och tilldelats användare](./permissions/manage-roles.md).
 - Tillgång till varumärkesresurser, t.ex. organisationens namn, logotyp och banderoll.
-- En [definierad matchningsnyckelstrategi](./setup/onboard-organization.md#set-up-match-keys) (för närvarande är hash-kodad e-post den enda matchningsnyckeln som stöds).
+- En [definierad matchningsnyckelstrategi](./setup/onboard-account.md#set-up-match-keys) (för närvarande är hash-kodad e-post den enda matchningsnyckeln som stöds).
 - (Valfritt) Åtkomst till en molnkälla som stöds (Amazon S3 eller Snowflake) om du inte använder Experience Platform för målgruppshantering.
 
 ## Steg 1: Slutför rollbaserad konfiguration {#complete-role-based-setup}
@@ -32,7 +35,7 @@ Innan du börjar bör du kontrollera att du har följande:
 >
 >Det här steget gäller både annonsörer och utgivare.
 
-Din organisations åtkomstroller avgör vad användare kan se och göra i Real-Time CDP Collaboration. Innan du fortsätter bör du kontrollera att rollbaserade behörigheter är korrekt konfigurerade för att säkerställa lämplig åtkomst och synlighet på plattformen.
+Din organisations åtkomstroller avgör vad användare kan se och göra i Collaboration. Innan du fortsätter bör du kontrollera att rollbaserade behörigheter är korrekt konfigurerade för att säkerställa lämplig åtkomst och synlighet på plattformen.
 
 **Resurser:**
 
@@ -40,52 +43,52 @@ Din organisations åtkomstroller avgör vad användare kan se och göra i Real-T
 - [Dokumentation för rollkonfiguration](./permissions/manage-roles.md)
 
 
-I den här videon får du lära dig hur du tilldelar produktåtkomst och behörigheter till Collaboration med användargränssnittet i Admin Console och Experience Platform.
+I den här videon får du lära dig hur du tilldelar produktåtkomst och behörigheter till Collaboration med Admin Console och Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452234/?learn=on&enablevpops&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
-## Steg 2: Konfigurera din Real-Time CDP Collaboration-organisation {#set-up-your-organization}
+## Steg 2: Konfigurera ditt Collaboration-konto {#set-up-your-account}
 
 >[!NOTE]
 >
 >Det här steget gäller både annonsörer och utgivare.
 
-Innan du kan lägga till målgrupper måste du konfigurera din organisation i Collaboration. Detta styr hur organisationen visas och fungerar i gränssnittet.
+Innan du kan hämta målgrupper måste du konfigurera ditt konto i Collaboration. Detta styr hur du ser ut och vad du har tillgång till i gränssnittet.
 
 Om du inte har den behörighet som krävs kan du gå tillbaka till steg 1 eller kontakta organisationens administratör för hjälp med att slutföra konfigurationen.
 
-Definiera er organisations roll i Collaboration, tillhandahåll varumärkesresurser och konfigurera matchningsnycklar för att anpassa målgrupper över olika anslutningar.
+Definiera kontots roll i Collaboration, tillhandahåll varumärkesresurser och konfigurera matchningsnycklar för att justera målgrupper över olika anslutningar.
 
 >[!NOTE]
 >
->Du kan skapa en eller flera medarbetare (till exempel annonser eller utgivarprofiler) under installationen. Vissa fält, som varumärkesprofilering och e-post för kontakt, kan uppdateras senare på arbetsytan i **[!UICONTROL Settings]**.
+>Du kan skapa ett eller flera konton (till exempel annonsörer och utgivare) under installationen. Vissa fält, som varumärkesprofilering och e-post för kontakt, kan uppdateras senare på arbetsytan i **[!UICONTROL Settings]**.
 
-- **Tilldela en roll** - Avgör om din organisation fungerar som annonsörer, utgivare eller både och. Din roll definierar vilka samarbetsfunktioner du har, som att initiera målgruppsdelning (annonsörer) eller göra målgrupper tillgängliga (utgivare). Mer information om hur roller påverkar arbetsflödet för samarbete finns i [Handboken för arbetsflöde från början till slut](./end-to-end-workflow.md).
+- **Tilldela en roll** - Avgör om ditt konto är en annonsör eller utgivare. Din roll definierar vilka funktioner du har i Collaboration. Mer information om hur roller påverkar arbetsflödet för samarbete finns i [handboken för arbetsflöde från början till slut](./end-to-end-workflow.md).
 - **Varumärkesresurser** - Lägg till följande i ditt konto:
-   - Märkesnamn (högst 100 tecken)
-   - Varumärkesbeskrivning (högst 1 000 tecken)
-   - Varumärkeslogotyp (SVG &lt;20 kB, ideellt fyrkantig)
+   - Kontonamn (max 100 tecken)
+   - Beskrivning (max 1 000 tecken)
+   - Logotyp (SVG &lt;20 kB, ideellt fyrkantig)
 
-  >[!NOTE]
-  >
-  >Om du skapar ett utgivarkonto och vill vara synligt för alla i Collaboration anslutningskatalog kontaktar du Adobe. Utgivarkonton kräver en anpassad varumärkesbanderoll (JPG 2688x1536). Den här filen kan delas direkt med din representant.
+>[!NOTE]
+>
+>Om du skapar ett utgivarkonto och vill vara synligt för alla i Collaboration anslutningskatalog kontaktar du Adobe. Utgivarkonton kräver en anpassad varumärkesbanderoll (JPG 2688x1536). Den här filen kan delas direkt med din representant.
 
 - **E-postadress till kontakt** - Ange ett e-postmeddelande till samarbetspartners som ska användas när en anslutning har upprättats.
 - **Konfigurera matchningsnycklar** - Välj de identifierare som används för målgruppsmatchning (för närvarande är hashed email den enda matchningsnyckeln som stöds).
 
-Mer information om den inledande konfigurationen av organisationen, bland annat hur du definierar roller, överför varumärkesresurser och konfigurerar matchningsnycklar, finns i [den inledande konfigurationsdokumentet för organisationen](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
+Mer information om inledande kontokonfiguration, inklusive hur du definierar roller, överför varumärkesresurser och konfigurerar matchningsnycklar, finns i handboken [Första kontokonfiguration](./setup/onboard-account.md#initial-account-setup){target="_blank"}.
 
-Titta på en stegvis genomgång av annonsinställningarna, inklusive kontoskapande, branding och nyckelkonfigurationer.
+I den här videon får du en stegvis genomgång av en annonsörinställning, som att skapa konto, profilera och matcha nyckelkonfiguration.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452264/?learn=on&enablevpops)
 
 ## Steg 3: Source målgrupper (från Experience Platform eller en molnkälla) {#source-audiences}
 
-När organisationen har skapats och varumärket och matchningsnycklarna har konfigurerats är ni redo att börja anlita målgrupper. Välj någon av följande källmetoder baserat på ditt datalager och företagets behov.
+När ditt konto har skapats och ditt varumärke och dina matchningsnycklar har konfigurerats är du redo att börja anlita målgrupper. Välj någon av följande källmetoder baserat på ditt datalager och företagets behov.
 
 ### Alternativ A: Source från Experience Platform
 
-[Använd användargränssnittet i Collaboration för att länka en sandlåda som innehåller målgrupper](./setup/onboard-audiences.md). Använd denna självbetjäningsmetod för att referera till befintliga målgruppssegment inifrån Experience Platform-instansen.
+[Använd Collaboration för att länka en sandlåda som innehåller målgrupper](./setup/onboard-audiences.md). Använd denna självbetjäningsmetod för att referera till befintliga målgruppssegment inifrån Experience Platform-instansen.
 
 #### Konfigurera målgrupper
 
@@ -99,7 +102,7 @@ Konfigurera hur målgrupper förbereds, matchas och styrs för användning i ans
 
 >[!NOTE]
 >
->Du kan lägga till eller ta bort målgrupper och uppdatera uppdateringsschemat direkt i användargränssnittet i Collaboration. Om du vill ändra andra inställningar, till exempel matchningsnycklar eller medgivandeläge, måste du ta bort och återskapa dataanslutningen.
+>Du kan lägga till eller ta bort målgrupper och uppdatera uppdateringsschemat direkt i Collaboration. Om du vill ändra andra inställningar, till exempel matchningsnycklar eller medgivandeläge, måste du ta bort och återskapa dataanslutningen.
 
 >[!IMPORTANT]
 >
@@ -114,15 +117,15 @@ Konfigurera hur målgrupper förbereds, matchas och styrs för användning i ans
 >
 >Alla matchningsnycklar måste vara **trimmade**, **nedsänkta** och **SHA256-hashed**.\
 >Om du anger hash-värden som använder versaler konverteras de automatiskt till gemener i Collaboration.\
->Om källan innehåller **klartextidentifierare** använder du alternativet **[!UICONTROL Apply transformation]** i användargränssnittet för att tillämpa hashning. Det här alternativet är endast tillgängligt när du hämtar målgrupper från Experience Platform och stöds inte för molnbaserade källor.
+>Om källan innehåller **klartextidentifierare** använder du alternativet **[!UICONTROL Apply transformation]** för att tillämpa hashning. Det här alternativet är endast tillgängligt när du hämtar målgrupper från Experience Platform och stöds inte för molnbaserade källor.
 >
->Mer information finns i avsnittet [kartfält](./setup/onboard-audiences.md#map-fields) i guiden Importera och hantera målgrupper.
+>Mer information finns i avsnittet [kartfält](./setup/onboard-audiences.md#map-fields) i källan och i handboken för målgrupper.
 
-Titta på demonstrationsvideon Collaboration Audience Referencing nedan om du vill se en genomgång av hur du refererar till målgrupper med Collaboration-gränssnittet.
+Titta på videon nedan om du vill se en genomgång av hur du hämtar målgrupper med Collaboration.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Du kan även läsa dokumentet om att [göra målgrupper tillgängliga i Real-Time CDP Collaboration](https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Du kan även läsa dokumentet om att [hämta målgrupper i Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ### Alternativ B: Source från Snowflake eller Amazon S3
 
@@ -132,7 +135,7 @@ Om du vill konfigurera en molnkälla (till exempel [!DNL AWS S3] eller [!DNL Sno
 >
 >Molnbaserade målgruppsfiler måste följa det schema som beskrivs i PDF för målgruppsspecifikation. Filerna måste innehålla hash-kodade identifierare (nedsänkt SHA256), obligatoriska metadatafält som `segment_name` och `activation_id`, och format som stöds som CSV eller Parquet måste användas. Adobe normaliserar inte data före aktiveringen. TTL används utifrån målgruppens livstid.
 >
->Alla målgrupper i den överförda filen är helt källkodade i det här skedet. Åtkomst till specifika partnerorganisationer tillhandahålls separat via Collaboration användargränssnitt.
+>Alla målgrupper i den överförda filen är helt källkodade i det här skedet. Visningsinställningen [för målgrupper](/help/guide/setup/onboard-audiences.md#metadata-visibility) avgör om dina medarbetare kan visa din målgrupp och hanteras via Collaboration användargränssnitt.
 
 ## Steg 4: Aktivera målgrupper (till Experience Platform eller ett molnmål) {#activate-audiences}
 
@@ -140,11 +143,11 @@ Om du vill konfigurera en molnkälla (till exempel [!DNL AWS S3] eller [!DNL Sno
 >
 >Det här steget gäller både annonsörer och utgivare.
 
-Använd användargränssnittet i Collaboration för att aktivera målgrupper för antingen din Experience Platform-instans eller ett molnmål.
+Aktivera sedan målgrupperna antingen i din Experience Platform-instans eller i ett molnmål.
 
 ### Alternativ A: Aktivera till Experience Platform
 
-Utför följande steg som beskrivs i guiden [Konfigurera Adobe Experience Platform som ett mål](https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Utför följande steg som beskrivs i [Konfigurera Adobe Experience Platform som en målguide](/help/guide/destinations/experience-platform.md).
 
 - **Skapa ett mål** - Använd användargränssnittet för att konfigurera ett Experience Platform-mål (sandlådenivå).
 - **Kartmatchningsnycklar** - Välj identifierare (t.ex. `hashedEmail`).
@@ -219,15 +222,15 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 ## Steg 6: Kommunicera med medarbetare {#connect-with-collaborators}
 
-När konfigurationen och datadistributionen är klar är organisationen nu redo att ansluta till medarbetare genom att skicka eller acceptera inbjudningar och skicka in projektinställningar för godkännande. Den här anslutningsprocessen innebär att skicka eller ta emot inbjudningar, granska och skicka anslutningsinställningar (till exempel användningsfall och kreditförbrukning) och bekräfta relationen.
+När konfigurationen är klar är organisationen nu redo att ansluta till medarbetare genom att skicka eller acceptera inbjudningar och skicka in projektinställningar för godkännande. Den här anslutningsprocessen innebär att skicka eller ta emot inbjudningar, granska och skicka anslutningsinställningar (t.ex. användningsfall och kreditförbrukning) och bekräfta anslutningen.
 
-Använd arbetsytan **[!UICONTROL Connect]** på den vänstra navigeringsmenyn i Collaboration-användargränssnittet för att bläddra bland tillgängliga utgivare.
+Använd arbetsytan **[!UICONTROL Connect]** på den vänstra navigeringsmenyn för att bläddra bland tillgängliga utgivare.
 
 >[!NOTE]
 >
 >För närvarande kan bara annonsörer bläddra bland utgivare. Utgivare kan inte bläddra bland eller initiera anslutningar med annonsörer.
 
-En översikt över det här flödet finns i handboken [Anslut med annonsörer eller utgivare](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
+En översikt över det här flödet finns i [handboken om att ansluta till annonsörer eller utgivare](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
 
 ## Nästa steg
 

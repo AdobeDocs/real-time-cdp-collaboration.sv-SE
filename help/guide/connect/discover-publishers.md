@@ -2,11 +2,11 @@
 title: Upptäck förlag
 description: Som annonsörer kan du lära dig att upptäcka potentiella utgivare att samarbeta med Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -15,30 +15,30 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Ta reda på hur ni kan hitta och få kontakt med potentiella utgivare för samarbete med Adobe Real-Time CDP Collaboration. Den här guiden ger insikter om hur ni identifierar lämpliga partners och utnyttjar deras målgruppsdata för att förbättra era marknadsföringssatsningar.
+Upptäck och kontakta potentiella utgivare i Adobe Real-Time CDP Collaboration. Den här guiden ger insikter om hur ni identifierar idealiska samarbetspartners och använder deras målgrupper för att förbättra era marknadsföringskampanjer.
 
 Om du vill identifiera utgivare går du till fliken **[!UICONTROL Connect]** > **[!UICONTROL Discover publishers]**.
 
-![Upptäck utgivarsidan](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
+![Kontrollpanelen Identifiera utgivare på arbetsytan för anslutning.](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
 Välj **[!UICONTROL View publisher]** om du vill veta mer om utgivaren. Du kan också visa och inspektera alla målgrupper som publiceraren [har angett som public](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
-![Visa utgivarprofil](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
+![Information om en enskild utgivare](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 
 ## Mina anslutningar
 
-Använd vyn **[!UICONTROL My connections]** för att förstå var någon åtgärd krävs på din sida och för att få en glimt av alla utgivare som du är ansluten till.
+Arbetsytan **[!UICONTROL My connections]** ger en översikt över dina anslutningar och markerar alla åtgärder som du behöver.
 
-Under **[!UICONTROL Action required]** kan du se en lista över alla anslutningar där en inbjudan har skickats men anslutningen ännu inte har upprättats. Du kan behöva utföra en åtgärd från din organisation eller från medarbetaren.
+Under **[!UICONTROL Action required]** kan du se en lista över alla anslutningar där en inbjudan har skickats men anslutningen ännu inte har upprättats. Du eller din medarbetare kan behöva utföra en åtgärd.
 
 ![Åtgärdsvyn krävs på skärmen Mina anslutningar](/help/assets/connect/discover-publishers/action-required-view.png){zoomable="yes"}
 
 Några orsaker till varför en anslutning visas i vyn **[!UICONTROL Action required]** är:
 
-* Din organisation har skickat en inbjudan om samarbete till en annan organisation och du väntar på att de ska godkänna. Nu kan du förhandsgranska de [anslutningsinställningar](/help/guide/glossary.md#connection-settings) som du senare kan skicka till den potentiella medarbetaren.
-* Din organisation har skickat en inbjudan om samarbete till en annan organisation och de har accepterat den. Nu kan du fortsätta och konfigurera anslutningsinställningarna och skicka dem till medarbetaren för godkännande.
-* Din organisation har skickat anslutningsinställningar till medarbetaren och du väntar på att de ska godkänna eller avvisa de föreslagna anslutningsinställningarna.
-* Din organisation har skickat anslutningsinställningar till medarbetaren och de har avvisat ditt förslag. Du kan nu granska anslutningsinställningarna och skicka om.
+* Ditt konto har skickat en anslutningsinbjudan till en medarbetare och du väntar på att de ska godkänna. Nu kan du förhandsgranska de [anslutningsinställningar](/help/guide/glossary.md#connection-settings) som du senare kan skicka till den potentiella medarbetaren.
+* Ditt konto har skickat en anslutningsinbjudan till en medarbetare och de har accepterat den. Nu kan du fortsätta och konfigurera anslutningsinställningarna och skicka dem till medarbetaren för godkännande.
+* Ditt konto har skickat anslutningsinställningar till medarbetaren och du väntar på att de ska godkänna eller avvisa de föreslagna anslutningsinställningarna.
+* Ditt konto har skickat anslutningsinställningar till medarbetaren och de har avvisat ditt förslag. Du kan nu granska anslutningsinställningarna och skicka om.
 
 I vyn **[!UICONTROL Existing connections]** kan du utforska befintliga anslutningar med medarbetare och fortsätta att skapa projekt för att börja samarbeta med kampanjer.
 

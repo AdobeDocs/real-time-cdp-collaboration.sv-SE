@@ -2,10 +2,11 @@
 title: Översikt över dekorationer
 description: Läs mer om destinationer i Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '343'
 ht-degree: 1%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 Destinationer är integrationer som används för att skicka målgrupper till externa plattformar. Dessa integreringar gör att ni kan aktivera målgrupper över olika marknadsföringskanaler och plattformar för användning i kampanjer och kundengagemang.
 
-För närvarande är mål endast tillgängliga för utgivare i Real-Time CDP Collaboration. Utgivare kan konfigurera destinationer för att skicka målgrupper till externa plattformar, som Adobe Experience Platform, för användning i kampanjer. Annonsörer kan sedan [aktivera målgrupper i ett projekt](../collaborate/activate.md) som skickas till utgivarens konfigurerade mål.
+För närvarande är mål endast tillgängliga för utgivare i Adobe Real-Time CDP Collaboration. Utgivare kan konfigurera destinationer för att skicka målgrupper till externa plattformar, som Adobe Experience Platform, för användning i kampanjer. Annonsörer kan sedan [aktivera målgrupper i ett projekt](../collaborate/activate.md) som skickas till utgivarens konfigurerade mål.
 
 >[!IMPORTANT]
 >
@@ -28,7 +29,7 @@ Om du vill konfigurera ett mål går du till **[!UICONTROL Setup]** och väljer 
 
 >[!NOTE]
 >
-> För närvarande är endast Adobe Experience Platform tillgängligt som självbetjäningsmål inom Real-Time CDP Collaboration. Om du är intresserad av att konfigurera ett mål som Amazon S3 eller Snowflake kontaktar du Adobe.
+> För närvarande är endast Adobe Experience Platform tillgängligt som självbetjäningsmål inom Collaboration. Om du är intresserad av att konfigurera ett mål som Amazon S3 eller Snowflake kontaktar du Adobe.
 
 ![Fliken Mina mål på arbetsytan Konfigurera visar tillgängliga mål.](/help/assets/destinations/overview/my-destinations-overview.png)
 
@@ -38,7 +39,7 @@ Om du vill börja konfigurera ett mål väljer du alternativet **[!UICONTROL Set
 
 ### Tillgängliga destinationer {#available-destinations}
 
-Följande mål kan konfigureras i Real-Time CDP Collaboration. Om du vill visa konfigurationsguiden för det målet väljer du målnamnet i tabellen nedan. Om du är intresserad av att konfigurera ett mål som för närvarande inte är tillgängligt kontaktar du Adobe.
+Följande mål kan konfigureras i Collaboration. Om du vill visa konfigurationsguiden för det målet väljer du målnamnet i tabellen nedan. Om du är intresserad av att konfigurera ett mål som för närvarande inte är tillgängligt kontaktar du Adobe.
 
 | Mål | Tillgänglighet |
 | --- | --- |

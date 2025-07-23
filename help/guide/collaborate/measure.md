@@ -2,11 +2,11 @@
 title: Mät prestanda
 description: Mät kampanjernas resultat i olika kanaler. Lär dig hur du använder och tolkar olika rapporter.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 0%
 >
 >Arbetsytan **[!UICONTROL Measure]** är bara tillgänglig om användningsfallet **Measurement** aktiverades [ under anslutningsprocessen](../connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./manage-projects.md#project-use-cases).
 
-Läs mer om tillgängliga rapporter i Real-Time CDP Collaboration och förstå hur ni mäter och analyserar hur era marknadsföringskampanjer fungerar i olika kanaler.
+Läs mer om tillgängliga rapporter i Adobe Real-Time CDP Collaboration och förstå hur ni mäter och analyserar hur era marknadsföringskampanjer fungerar i olika kanaler.
 
 ## Förhandskrav
 
-Innan du kan komma åt mätrapporterna i Real-Time CDP Collaboration har du redan:
+Innan du kan komma åt mätrapporterna i Collaboration har du redan:
 
 * [Ansluten](/help/guide/connect/establishing-connections.md) till en annonsör eller utgivare med användningsfallet **Mått** aktiverat och börjat samarbeta i [projekt](/help/guide/collaborate/manage-projects.md)
-* Kör en kampanj och [överförde mätdata](/help/guide/setup/onboard-measurement-data.md) till Real-Time CDP Collaboration.
+* Kör en kampanj och [överförde mätdata](/help/guide/setup/onboard-measurement-data.md) till Collaboration.
 
 <!--
 

@@ -2,11 +2,11 @@
 title: Kommunicera med annonsörer eller utgivare
 description: Lär dig hur du skapar kopplingar och börjar samarbeta i projekt när du har upptäckt potentiella medarbetare.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1367'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Innan medarbetare (vanligtvis en annonsörer och en utgivare) kan samarbeta i kampanjer måste de skapa en anslutning. Med den här anslutningen kan de aktivera målgrupper, skapa projekt och köra rapporter om kampanjresultat.
+Innan medarbetare kan samarbeta i kampanjer måste de skapa en anslutning. Med den här anslutningen kan de aktivera målgrupper, skapa projekt och köra rapporter om kampanjresultat.
 
 ## Arbetsflöde på hög nivå
 
@@ -33,15 +33,15 @@ När objekten ovan är slutförda kan medarbetarna fortsätta med att [skapa ett
 
 >[!IMPORTANT]
 >
->När anslutningen mellan två medarbetare har upprättats kan anslutningsinställningarna inte ändras längre.
+>När anslutningen mellan två medarbetare har upprättats kan anslutningsinställningarna inte ändras.
 
 ## Skicka inbjudan {#send-invite}
 
-Om du vill konfigurera en anslutning väljer du **[!UICONTROL Connect]** när du bläddrar i utgivarens lager på skärmen Identifieringsutgivare.
+Om du vill konfigurera en anslutning väljer du **[!UICONTROL Connect]** när du bläddrar i utgivarens lager på arbetsytan i **[!UICONTROL Discover publishers]**.
 
 ![Kontrollpanelen Anslut med alternativet Anslut markerat på en specifik utgivare.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-När inbjudan har skickats kan du förhandsgranska (men inte redigera) anslutningsinställningarna. Visa väntande inbjudningar på fliken **[!UICONTROL My connections]**. Anslutningsstatusen visas som **[!UICONTROL Invite sent]**.
+När inbjudan har skickats kan du förhandsgranska (men inte redigera) anslutningsinställningarna. Visa väntande inbjudan visas på fliken **[!UICONTROL My connections]**. Anslutningsstatusen visas som **[!UICONTROL Invite sent]**.
 
 ![Väntande inbjudan har skickats till utgivaren visas i vyn Mina anslutningar.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -62,7 +62,7 @@ När medarbetaren godkänt inbjudan kan du konfigurera anslutningsinställningar
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Kreditdelning"
->abstract="I det här avsnittet anges vem som betalar för motsvarande aktiviteter inom Real-Time CDP Collaboration."
+>abstract="I det här avsnittet anges vem som betalar för motsvarande aktiviteter inom Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
@@ -82,8 +82,8 @@ När medarbetaren godkänt inbjudan kan du konfigurera anslutningsinställningar
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-namn"
->abstract="<p>Valfri inställning. Anger det namn och ID som annonsören är känd av.</p><p>Annonsörsnamnet som du lägger till här är förifyllt i steget Skapa projekt.</p><ul><li>Om utgivaren har konfigurerat flera namn väljer du ett i listan.</li><li>Om bara ett namn är konfigurerat markeras det automatiskt.</li><li>Om inga namn är konfigurerade kommer fältet att fyllas i i förväg med annonsörens kontonamn från Real-Time CDP Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
+>abstract="<p>Valfri inställning. Anger det namn och ID som annonsören är känd av.</p><p>Annonsörsnamnet som du lägger till här är förifyllt i steget Skapa projekt.</p><ul><li>Om utgivaren har konfigurerat flera namn väljer du ett i listan.</li><li>Om bara ett namn är konfigurerat markeras det automatiskt.</li><li>Om inga namn är konfigurerade kommer fältet att fyllas i i förväg med annonsörens kontonamn från Collaboration.</li></ul>"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
@@ -95,6 +95,8 @@ När medarbetaren godkänt inbjudan kan du konfigurera anslutningsinställningar
 När inbjudan har skickats kan du förhandsgranska anslutningsinställningarna. Inbjudan måste accepteras innan du kan slutföra konfigurationen av anslutningen.
 
 ![Vyn med anslutningsinställningar i förhandsgranskningsläget.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
+
+<!-- The sections below will be updated in B2B and have not been addressed yet. -->
 
 ### Anslutningsinställningar för Advertiser {#advertiser-connection-settings}
 
@@ -118,7 +120,7 @@ Användningsexempel är förifyllda med alla tillgängliga alternativ. Om du vil
 
 +++Matcha tangenter
 
-Matchningsnycklar är förifyllda med de du valde när du [konfigurerade din organisation](/help/guide/setup/onboard-organization.md#set-up-match-keys). Du kan inaktivera matchningsnycklar som du inte vill använda, men du kan inte lägga till matchningsnycklar som inte valdes under organisationens konfiguration.
+Matchningsnycklar är förifyllda med de du valde när du [konfigurerade din organisation](/help/guide/setup/onboard-account.md#set-up-match-keys). Du kan inaktivera matchningsnycklar som du inte vill använda, men du kan inte lägga till matchningsnycklar som inte valdes under organisationens konfiguration.
 
 ![Inställningarna för Matcha nyckel på arbetsytan för anslutningsinställningar.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
@@ -177,9 +179,13 @@ Så här fungerar valet av annonsörnamn när du skapar ett projekt:
 
 Om du är nöjd med de föreslagna anslutningsinställningarna väljer du **[!UICONTROL Accept]** för att upprätta anslutningen. Om du vill begära ändringar av anslutningsinställningarna väljer du **[!UICONTROL Reject]**. Medarbetaren kan sedan granska anslutningsinställningarna och skicka dem på nytt för granskning.
 
+<!-- The end of the sections needing updates still. -->
+
 ## Ta bort anslutningar {#delete-connections}
 
-Du kan ta bort alla anslutningar med medarbetare som du inte vill fortsätta arbeta med. Navigera till **[!UICONTROL Connect]** om du vill ta bort befintliga anslutningar. Annonsörer bör sedan navigera till **[!UICONTROL My connections]**. Välj **[!UICONTROL View connection]** på anslutningskortet för att öppna anslutningen som du vill ta bort.
+Du kan ta bort alla anslutningar med medarbetare som du inte vill fortsätta arbeta med. Navigera till **[!UICONTROL Connect]** om du vill ta bort befintliga anslutningar. Som utgivare visas din befintliga anslutning. Som annonsörer bör du sedan navigera till **[!UICONTROL My connections]**.
+
+Välj **[!UICONTROL View connection]** på det anslutningskort som du vill ta bort.
 
 ![Anslutningsalternativet Visa är markerat i vyn Mina anslutningar.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 

@@ -2,12 +2,12 @@
 title: Skapa och hantera projekt
 description: Lär dig skapa och hantera projekt i Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '410'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Projekt är central i ditt arbetsflöde i Real-Time CDP Collaboration. Efter att ha anslutit till medarbetare kan du skapa ett projekt för att köra målgruppsöverlappningsberäkningar och identifiera relevanta målgrupper för kampanjer.
+Projekt är central i ditt arbetsflöde i Adobe Real-Time CDP Collaboration. Efter att ha anslutit till medarbetare kan du skapa ett projekt för att köra målgruppsöverlappningsberäkningar och identifiera relevanta målgrupper för kampanjer.
 
 >[!TIP]
 >
@@ -28,6 +28,8 @@ Du kan bara använda filter för att visa projekt som du har startat med vissa m
 ![Filtrerad vy över projekt med en medarbetare.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Skapa projekt {#create-project}
+
+Om du vill skapa ett projekt måste du först [upprätta en anslutning](/help/guide/connect/establishing-connections.md) med en medarbetare. När anslutningen har upprättats kan du skapa ett projekt med den medarbetaren.
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
