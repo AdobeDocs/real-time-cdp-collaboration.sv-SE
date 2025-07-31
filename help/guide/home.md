@@ -2,7 +2,7 @@
 title: Översikt
 description: Lär dig använda Adobe Real-Time Customer Data Platform (CDP) Collaboration för att upptäcka, aktivera och mäta värdefulla målgrupper utan att behöva använda cookies från tredje part.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
@@ -45,7 +45,7 @@ När du har åtkomst kan du konfigurera ditt konto och skapa din dataanslutning 
 
 ## Resurser
 
-Utforska [ordlistan](/help/guide/glossary.md) för detaljerad information om termer som används i produkten. Om du behöver support går du till sidan [Kundsupport](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} för Adobe.
+Utforska [ordlistan](/help/guide/glossary.md) för detaljerad information om termer som används i produkten. Om du behöver support går du till sidan [Kundsupport](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=open-ticket#support){target="_blank"} för Adobe.
 
 ## Kontakta oss
 
