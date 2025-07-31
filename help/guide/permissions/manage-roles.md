@@ -2,11 +2,11 @@
 title: Hantera roller via behörigheter
 description: Förstå alla tillgängliga rollresurser som ger åtkomst till olika komponenter i Real-Time CDP Collaboration användargränssnitt.
 audience: admin
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 59cf5bf2-421b-4ebc-beab-30eafb098649
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-En [administratör](./manage-user-access.md#system-admin-gain-access) kan definiera och tilldela roller för att hantera användaråtkomst för olika komponenter i Adobe Real-Time CDP Collaboration-gränssnittet. Roller definierar åtkomsten som en administratör eller användare har till [resurser](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/home#permissions){target="_blank"} i din organisation. Den här guiden innehåller information om standardrollerna i Real-Time CDP Collaboration samt de individuella behörigheter du kan tilldela anpassade roller.
+En [administratör](./manage-user-access.md#system-admin-gain-access) kan definiera och tilldela roller för att hantera användaråtkomst för olika komponenter i Adobe Real-Time CDP Collaboration-gränssnittet. Roller definierar åtkomsten som en administratör eller användare har till [resurser](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target="_blank"} i din organisation. Den här guiden innehåller information om standardrollerna i Real-Time CDP Collaboration samt de individuella behörigheter du kan tilldela anpassade roller.
 
 Administratören måste ha tillgång till Experience Platform-produkten för att kunna börja hantera roller. Mer information om hur du får administrativ åtkomst eller om hur du får åtkomst till Experience Platform finns i handboken [Hantera användaråtkomst](./manage-user-access.md#manage-user-access-through-permissions).
 
@@ -32,7 +32,7 @@ Du har två standardroller som fyller i två vanliga fall av åtkomstkontroll. D
 
 ## Skapa specifika åtkomstroller {#specific-access-roles}
 
-Du kommer troligen att vilja skapa ytterligare roller som ger olika åtkomstnivåer för olika användare. När du skapar roller kan du hantera olika åtkomstnivåer genom att välja specifika behörigheter i resursen **[!UICONTROL Collaborations]**. Mer information om hur du skapar och hanterar roller finns i guiden [roller](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}.
+Du kommer troligen att vilja skapa ytterligare roller som ger olika åtkomstnivåer för olika användare. När du skapar roller kan du hantera olika åtkomstnivåer genom att välja specifika behörigheter i resursen **[!UICONTROL Collaborations]**. Mer information om hur du skapar och hanterar roller finns i guiden [roller](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}.
 
 >[!NOTE]
 > För att få åtkomst till Collaboration måste en användare ha åtkomst till sandlådan **[!UICONTROL Prod]** i Adobe Experience Platform. Om du vill ge en användare åtkomst till den här sandlådan måste de tilldelas en roll som innehåller behörigheten **[!UICONTROL Prod]** i resursen **[!UICONTROL Sandboxes]**.
@@ -45,7 +45,7 @@ Nedan visas en lista över tillgängliga behörigheter i samarbetsresursen:
 | Läs Collaboration-instanser | Läs en organisations samarbetsinstanser och se andra organisationers samarbetsinstanser. |
 | Hantera anslutningsinbjudningar | Visa, skapa och ta bort anslutningsinbjudningar som initierats av din organisation. Acceptera och avböj inbjudan om anslutning som initierats av andra organisationer. |
 | Läs anslutningsinbjudningar | Visa anslutningsinbjudningar. |
-| Hantera Collaboration-anslutningar | En annonsör kan visa, skapa och uppdatera inställningar samt skicka och ta bort anslutningar. En utgivare kan visa, acceptera eller neka anslutningar. |
+| Hantera Collaboration-anslutningar | En medarbetare kan visa, skapa och uppdatera inställningar samt skicka och ta bort anslutningar. |
 | Läs Collaboration Connections | Visa anslutningar. |
 | Hantera målgruppsdata | Anlita och identifiera målgrupper. Uppdatera publika, privata och anpassade målgrupper och hantera metadatainställningar för Audience Inventory. |
 | Läs målgruppsdata | Läs och identifiera målgrupper. |
@@ -61,4 +61,4 @@ Nedan visas en lista över tillgängliga behörigheter i samarbetsresursen:
 
 ## Nästa steg
 
-När du har skapat roller som definierar åtkomst till Collaboration måste du [tilldela rollerna](./manage-user-access.md#assign-a-role) till administratörer och användare. I guiden [Hantera behörigheter för en roll](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/permissions) finns en fullständig översikt över hur du hanterar roller.
+När du har skapat roller som definierar åtkomst till Collaboration måste du [tilldela rollerna](./manage-user-access.md#assign-a-role) till administratörer och användare. I guiden [Hantera behörigheter för en roll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) finns en fullständig översikt över hur du hanterar roller.

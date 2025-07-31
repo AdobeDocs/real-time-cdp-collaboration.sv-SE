@@ -1,19 +1,19 @@
 ---
 title: Real-Time CDP Collaboration snabbstartsguide
-description: Lär dig hur du kan integrera din organisation i Real-Time CDP Collaboration, inklusive hur du skapar roller och organisationer, hämtar målgrupper, aktiverar och mäter. Den här guiden hjälper annonsörer och utgivare att konfigurera samarbetsinställningar och börja använda delade målgrupper på ett säkert och effektivt sätt.
+description: Lär dig hur du kan integrera din organisation i Real-Time CDP Collaboration, inklusive hur du skapar roller och organisationer, hämtar målgrupper, aktiverar och mäter. Den här guiden hjälper medarbetare att konfigurera anslutningsinställningar så att de kan börja använda sina målgrupper på ett säkert och effektivt sätt.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
 
 # Real-Time CDP Collaboration snabbstartsguide
 
-
+{{limited-availability-release-note}}
 
 Kom igång med Real-Time CDP Collaboration genom att konfigurera organisationen, skaffa målgrupper och aktivera och mäta sekretessfokuserad aktivering.
 
@@ -31,10 +31,6 @@ Innan du börjar bör du kontrollera att du har följande:
 
 ## Steg 1: Slutför rollbaserad konfiguration {#complete-role-based-setup}
 
->[!NOTE]
->
->Det här steget gäller både annonsörer och utgivare.
-
 Din organisations åtkomstroller avgör vad användare kan se och göra i Collaboration. Innan du fortsätter bör du kontrollera att rollbaserade behörigheter är korrekt konfigurerade för att säkerställa lämplig åtkomst och synlighet på plattformen.
 
 **Resurser:**
@@ -45,13 +41,9 @@ Din organisations åtkomstroller avgör vad användare kan se och göra i Collab
 
 I den här videon får du lära dig hur du tilldelar produktåtkomst och behörigheter till Collaboration med Admin Console och Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452234/?learn=on&enablevpops&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Steg 2: Konfigurera ditt Collaboration-konto {#set-up-your-account}
-
->[!NOTE]
->
->Det här steget gäller både annonsörer och utgivare.
 
 Innan du kan hämta målgrupper måste du konfigurera ditt konto i Collaboration. Detta styr hur du ser ut och vad du har tillgång till i gränssnittet.
 
@@ -63,7 +55,7 @@ Definiera kontots roll i Collaboration, tillhandahåll varumärkesresurser och k
 >
 >Du kan skapa ett eller flera konton (till exempel annonsörer och utgivare) under installationen. Vissa fält, som varumärkesprofilering och e-post för kontakt, kan uppdateras senare på arbetsytan i **[!UICONTROL Settings]**.
 
-- **Tilldela en roll** - Avgör om ditt konto är en annonsör eller utgivare. Din roll definierar vilka funktioner du har i Collaboration. Mer information om hur roller påverkar arbetsflödet för samarbete finns i [handboken för arbetsflöde från början till slut](./end-to-end-workflow.md).
+- **Tilldela en roll** - Avgör om ditt konto är en annonsörer eller en utgivare. Din roll definierar vilka funktioner du har i Collaboration. Mer information om hur roller påverkar arbetsflödet för samarbete finns i guiden [roller](./overview/roles.md).
 - **Varumärkesresurser** - Lägg till följande i ditt konto:
    - Kontonamn (max 100 tecken)
    - Beskrivning (max 1 000 tecken)
@@ -125,7 +117,7 @@ Titta på videon nedan om du vill se en genomgång av hur du hämtar målgrupper
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Du kan även läsa dokumentet om att [hämta målgrupper i Collaboration](https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Du kan även läsa dokumentet om att [hämta målgrupper i Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences).
 
 ### Alternativ B: Source från Snowflake eller Amazon S3
 
@@ -138,10 +130,6 @@ Om du vill konfigurera en molnkälla (till exempel [!DNL AWS S3] eller [!DNL Sno
 >Alla målgrupper i den överförda filen är helt källkodade i det här skedet. Visningsinställningen [för målgrupper](/help/guide/setup/onboard-audiences.md#metadata-visibility) avgör om dina medarbetare kan visa din målgrupp och hanteras via Collaboration användargränssnitt.
 
 ## Steg 4: Aktivera målgrupper (till Experience Platform eller ett molnmål) {#activate-audiences}
-
->[!NOTE]
->
->Det här steget gäller både annonsörer och utgivare.
 
 Aktivera sedan målgrupperna antingen i din Experience Platform-instans eller i ett molnmål.
 
@@ -224,13 +212,13 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 När konfigurationen är klar är organisationen nu redo att ansluta till medarbetare genom att skicka eller acceptera inbjudningar och skicka in projektinställningar för godkännande. Den här anslutningsprocessen innebär att skicka eller ta emot inbjudningar, granska och skicka anslutningsinställningar (t.ex. användningsfall och kreditförbrukning) och bekräfta anslutningen.
 
-Använd arbetsytan **[!UICONTROL Connect]** på den vänstra navigeringsmenyn för att bläddra bland tillgängliga utgivare.
+Använd arbetsytan **[!UICONTROL Connect]** på den vänstra navigeringsmenyn för att bläddra bland tillgängliga utgivare. Medarbetare kan också ansluta till varandra direkt via [privata anslutningsinbjudningar](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
 
 >[!NOTE]
 >
 >För närvarande kan bara annonsörer bläddra bland utgivare. Utgivare kan inte bläddra bland eller initiera anslutningar med annonsörer.
 
-En översikt över det här flödet finns i [handboken om att ansluta till annonsörer eller utgivare](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
+En översikt över det här flödet finns i [guiden om att upprätta anslutningar](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
 
 ## Nästa steg
 

@@ -2,11 +2,11 @@
 title: Mät prestanda
 description: Mät kampanjernas resultat i olika kanaler. Lär dig hur du använder och tolkar olika rapporter.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Läs mer om tillgängliga rapporter i Adobe Real-Time CDP Collaboration och för
 
 Innan du kan komma åt mätrapporterna i Collaboration har du redan:
 
-* [Ansluten](/help/guide/connect/establishing-connections.md) till en annonsör eller utgivare med användningsfallet **Mått** aktiverat och börjat samarbeta i [projekt](/help/guide/collaborate/manage-projects.md)
+* [Ansluten](/help/guide/connect/establishing-connections.md) till en medarbetare med användningsfallet **Mått** aktiverat och börjat samarbeta i [projekt](/help/guide/collaborate/manage-projects.md)
 * Kör en kampanj och [överförde mätdata](/help/guide/setup/onboard-measurement-data.md) till Collaboration.
 
 <!--
@@ -104,9 +104,3 @@ I takt med att kampanjen fortskrider och antalet visningar ökade, förstår du 
 Förstå vilket medium som ger kreativiteten ett intryck. Detta kan hjälpa er att bestämma var ni ska investera annonskostnaderna i framtida kampanjer.
 
 ![Impressions efter placering.](/help/assets/collaborate/measure/impressions-by-placement.png)
-
-## Nästa steg
-
-![Identifiera, aktivera, mät för annonsörer.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
-
-I samma anda som cykliciteten i bilden ovan använder du de insikter du får när du tittar på rapporterna i planeringen av nästa kampanj. Som annonsörer kan du vid behov gå tillbaka till olika utgivare och köra överlappningar för att identifiera olika målgrupper för dina nästa kampanjer.

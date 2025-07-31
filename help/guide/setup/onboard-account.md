@@ -2,11 +2,11 @@
 title: Konfigurera och hantera ditt konto
 description: Lär dig konfigurera och hantera olika aspekter av ditt konto i Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -39,13 +39,11 @@ Om du vill lägga till fler organisationer går du till **[!UICONTROL Setup]** i
 >title="Anslut kod"
 >abstract="Anslutningskoden är en unik identifierare för ditt konto. Det används för att skapa kontakter med andra medarbetare i Real-Time CDP Collaboration."
 
-<!-- Move the above popover to new section for invite on this page when its created -->
-
 För att börja konfigurera ditt konto måste du först konfigurera kontoinformationen. Detta kräver att du lägger till följande information:
 
 * Lägg till en **[!UICONTROL Account name]** som tydligt representerar ditt varumärke.
 * Lägg till en **[!UICONTROL Description]** om ditt varumärke. Detta är valfritt, men hjälper andra medarbetare att förstå ert varumärke bättre.
-* Välj din **[!UICONTROL Role]**. Du kan välja mellan **[!UICONTROL Advertiser]** och **[!UICONTROL Publisher]**. Läs arbetsflödesdokumentet [från början till slut](/help/guide/end-to-end-workflow.md) om du vill se likheter och små skillnader i arbetsflödet mellan de två rolltyperna för organisationen.
+* Välj din **[!UICONTROL Role]**. Du kan välja mellan **[!UICONTROL Advertiser]** och **[!UICONTROL Publisher]**. Läs guiden [roles](/help/guide/overview/roles.md) om du vill se likheter och små skillnader i arbetsflödet mellan de två rolltyperna för kontot.
 <!-- The above will need to be updated when I update things for B2B -->
 * Välj **[!UICONTROL Industry]** för ditt konto. Några exempel är **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]** eller **[!UICONTROL Financial services]**.
 * **[!UICONTROL Region]** anges automatiskt baserat på ditt Adobe Experience Cloud-konto. Detta kan inte ändras när som helst.

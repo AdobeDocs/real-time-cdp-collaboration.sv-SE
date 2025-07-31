@@ -2,11 +2,11 @@
 title: Konfigurera och hantera mål
 description: Lär dig hur du konfigurerar och hanterar mål i Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Destinationer är integrationer som används för att skicka målgrupper till externa plattformar. Dessa integreringar gör att ni kan aktivera målgrupper över olika marknadsföringskanaler och plattformar för användning i kampanjer och kundengagemang.
 
-För närvarande är mål endast tillgängliga för utgivare i Real-Time CDP Collaboration. Utgivare kan konfigurera destinationer för att aktivera målgrupper för externa plattformar, som Adobe Experience Platform, för användning i kampanjer. Annonsörer kan sedan [skicka målgrupper inom ett projekt](../collaborate/activate.md), som skickas till utgivarens konfigurerade mål.
+Medarbetare kan konfigurera destinationer för att skicka målgrupper till externa plattformar, som Adobe Experience Platform, för användning i kampanjer. Medarbetare kan sedan [aktivera målgrupper inom ett projekt](../collaborate/activate.md), som skickas till anslutningens konfigurerade mål. Aktivering kan utföras av någon av medarbetarna beroende på målgruppens aktiveringsinställningar [som har konfigurerats i anslutningen](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 ![Fliken Mina mål på arbetsytan Konfigurera innehåller aktiva Adobe Experience Platform-mål.](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
@@ -41,7 +41,7 @@ Konfigurationsprocessen för destinationer beror på vilket mål du konfigurerar
 
 ## Ta bort mål {#delete-destinations}
 
-Om du tar bort ett mål tas det bort från organisationen, tidigare skickade målgrupper tas bort från målgruppen och framtida målgrupper inte kan skickas till det målet.
+Om du tar bort ett mål tas det bort från ditt konto, tidigare skickade målgrupper tas bort från målet och framtida målgrupper inte kan skickas till det målet.
 
 Om du vill ta bort ett mål går du till fliken **[!UICONTROL My destinations]** i avsnittet **[!UICONTROL Setup]**. Välj alternativet **[!UICONTROL Delete]** för målet som du vill ta bort.
 
@@ -53,4 +53,4 @@ En bekräftelsedialogruta visas där du kan bekräfta att du vill ta bort målet
 
 ## Nästa steg
 
-När du har konfigurerat ditt mål kan du börja samarbeta med dina annonsörer för att [aktivera målgrupper](../collaborate/activate.md) i dina projekt.
+När du har konfigurerat ditt mål kan du börja samarbeta inom dina anslutningar för att [aktivera målgrupper](../collaborate/activate.md) i dina projekt.

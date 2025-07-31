@@ -2,11 +2,11 @@
 title: Översikt över dekorationer
 description: Läs mer om destinationer i Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 1%
 
 Destinationer är integrationer som används för att skicka målgrupper till externa plattformar. Dessa integreringar gör att ni kan aktivera målgrupper över olika marknadsföringskanaler och plattformar för användning i kampanjer och kundengagemang.
 
-För närvarande är mål endast tillgängliga för utgivare i Adobe Real-Time CDP Collaboration. Utgivare kan konfigurera destinationer för att skicka målgrupper till externa plattformar, som Adobe Experience Platform, för användning i kampanjer. Annonsörer kan sedan [aktivera målgrupper i ett projekt](../collaborate/activate.md) som skickas till utgivarens konfigurerade mål.
+Medarbetare kan konfigurera destinationer för att skicka målgrupper till externa plattformar, som Adobe Experience Platform, för användning i kampanjer. Medarbetare kan sedan [aktivera målgrupper inom ett projekt](../collaborate/activate.md), som skickas till anslutningens konfigurerade mål. Aktivering kan utföras av någon av medarbetarna beroende på målgruppens aktiveringsinställningar [som har konfigurerats i anslutningen](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 >[!IMPORTANT]
 >
->När annonsörer aktiverar målgrupper i ditt projekt skickas de för närvarande automatiskt till en utgivares konfigurerade mål. Som utgivare måste **du** konfigurera ett mål *innan* din medarbetare aktiverar en målgrupp. Om inget mål är konfigurerat skickas målgruppen till dig och visas på fliken **[!UICONTROL Activate]** i ett projekt, men den aktiveras inte.
+>När medarbetare aktiverar målgrupper i ett projekt skickas de för närvarande automatiskt till anslutningens konfigurerade mål. Du **måste** konfigurera ett mål innan medarbetaren kan aktivera målgrupper i ett projekt.
 
 ## Konfigurera mål {#configure-destinations}
 
-Om du vill konfigurera ett mål går du till **[!UICONTROL Setup]** och väljer fliken **[!UICONTROL My desintations]**. Här kan du visa alla tillgängliga destinationer.
+Om du vill konfigurera ett mål går du till **[!UICONTROL Setup]** och väljer fliken **[!UICONTROL My destinations]**. Här kan du visa alla tillgängliga destinationer.
 
 >[!NOTE]
 >

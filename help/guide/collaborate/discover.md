@@ -2,9 +2,9 @@
 title: Upptäck överlappningar och jämför målgrupper
 description: Upptäck överlappningar mellan era och medarbetarnas målgrupper. Lär dig hur ni hittar de bästa målgrupperna som kan användas i era kampanjer.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Arbetsytan **[!UICONTROL Discover]** är bara tillgänglig om **målgruppsidentifiering** har aktiverats [ under anslutningsprocessen](../connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./manage-projects.md#project-use-cases).
 
-När du har [skapat ett projekt](/help/guide/collaborate/manage-projects.md) kan du jämföra dina målgrupper med dina medarbetare. Detta hjälper er att identifiera relevanta målgrupper för kampanjer och avgöra vilka som ska skickas till utgivare för aktivering.
+När du har [skapat ett projekt](/help/guide/collaborate/manage-projects.md) kan du jämföra dina målgrupper med dina medarbetare. Detta hjälper er att identifiera relevanta målgrupper för kampanjer och avgöra vilka som ska skickas till medarbetare för aktivering.
 
 >[!IMPORTANT]
 >
