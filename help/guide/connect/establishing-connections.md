@@ -2,9 +2,9 @@
 title: Upprättar anslutningar
 description: Lär dig hur du skapar kopplingar och börjar samarbeta i projekt när du har upptäckt potentiella medarbetare.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c159bbcdc5f84abc4c591c5256192d117ec51102
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '3081'
 ht-degree: 0%
@@ -37,10 +37,10 @@ I mönstret för annonser-till-utgivare upptäcker en annonsörer en utgivare so
 För att upprätta en anslutning mellan en annonsörer och en utgivare gäller följande steg:
 
 1. [Identifiera utgivare](#discover-publishers): Annonsören identifierar potentiella utgivare att samarbeta med.
-2. [Skicka inbjudan](#send-invite): Annonsören skickar en anslutningsinbjudan till den valda utgivaren.
-3. [Acceptera inbjudan](#accept-invite): Utgivaren granskar och accepterar inbjudan.
-4. [Konfigurera anslutningsinställningar](#configure-connection-settings): Annonsören konfigurerar anslutningsinställningarna och skickar dem till utgivaren för granskning.
-5. [Bekräfta anslutningsinställningar](#establish-connection): Utgivaren granskar anslutningsinställningarna och godkänner eller avvisar dem. Om anslutningen godkänns upprättas den. Om det inte godkänns kan utgivaren ge återkoppling för revideringar utanför produkten. Annonsören kan sedan granska inställningarna och skicka dem på nytt för granskning.
+1. [Skicka inbjudan](#send-invite): Annonsören skickar en anslutningsinbjudan till den valda utgivaren.
+1. [Acceptera inbjudan](#accept-invite): Utgivaren granskar och accepterar inbjudan.
+1. [Konfigurera anslutningsinställningar](#configure-connection-settings): Annonsören konfigurerar anslutningsinställningarna och skickar dem till utgivaren för granskning.
+1. [Bekräfta anslutningsinställningar](#establish-connection): Utgivaren granskar anslutningsinställningarna och godkänner eller avvisar dem. Om anslutningen godkänns upprättas den. Om det inte godkänns kan utgivaren ge återkoppling för revideringar utanför produkten. Annonsören kan sedan granska inställningarna och skicka dem på nytt för granskning.
 
 När anslutningsinställningarna har godkänts upprättas anslutningen och medarbetare är redo att [skapa ett projekt](/help/guide/collaborate/manage-projects.md#create-project) för att börja samarbeta med kampanjer.
 
@@ -65,14 +65,14 @@ Till att börja med skickar en medarbetare en privat anslutningsinbjudan till en
 Anslutningsprocessen mellan två varumärken omfattar flera steg. Innan anslutningsprocessen börjar måste vissa villkor vara uppfyllda:
 
 1. Två varumärken kommunicerar utanför produkten för att diskutera den potentiella anslutningen.
-2. Varumärken [skapar konton](/help/guide/setup/onboard-account.md) i Collaboration om de inte redan gjort det, och måste välja lämplig rolltyp (annonsörer eller utgivare).
+1. Varumärken [skapar konton](/help/guide/setup/onboard-account.md) i Collaboration om de inte redan gjort det, och måste välja lämplig rolltyp (annonsörer eller utgivare).
 
-När förutsättningarna är uppfyllda kan anslutningsprocessen börja. I följande steg beskrivs processen:
+   När förutsättningarna är uppfyllda kan anslutningsprocessen börja. I följande steg beskrivs processen:
 
 1. [Skicka inbjudan om privat anslutning](#send-private-connection-invite): En medarbetare skickar en privat anslutningsinbjudan till en annan medarbetare.
-2. [Acceptera inbjudan till privat anslutning](#accept-private-connection-invite): Mottagaren granskar och accepterar inbjudan till privat anslutning.
-3. [Konfigurera anslutningsinställningar](#configure-connection-settings): Ägaren konfigurerar anslutningsinställningarna och skickar dem till mottagaren för granskning och godkännande.
-4. [Bekräfta anslutningsinställningar](#establish-connection): Mottagaren granskar anslutningsinställningarna och godkänner eller avvisar dem.
+1. [Acceptera inbjudan till privat anslutning](#accept-private-connection-invite): Mottagaren granskar och accepterar inbjudan till privat anslutning.
+1. [Konfigurera anslutningsinställningar](#configure-connection-settings): Ägaren konfigurerar anslutningsinställningarna och skickar dem till mottagaren för granskning och godkännande.
+1. [Bekräfta anslutningsinställningar](#establish-connection): Mottagaren granskar anslutningsinställningarna och godkänner eller avvisar dem.
 
 När anslutningsinställningarna har godkänts upprättas anslutningen och medarbetare är redo att [skapa ett projekt](/help/guide/collaborate/manage-projects.md#create-project) för att börja samarbeta med kampanjer.
 
@@ -222,7 +222,7 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-namn"
 >abstract="<p>Valfri inställning. Anger det namn och ID som annonsören är känd av.</p><p>Annonsörsnamnet som du lägger till här är förifyllt i steget Skapa projekt.</p><ul><li>Om utgivaren har konfigurerat flera namn väljer du ett i listan.</li><li>Om bara ett namn är konfigurerat markeras det automatiskt.</li><li>Om inga namn är konfigurerade kommer fältet att fyllas i i förväg med annonsörens kontonamn från Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
@@ -310,8 +310,8 @@ När du är klar väljer du **[!UICONTROL Save]** för att spara ändringarna.
 När du skapar ett projekt kommer annonsörens namn att fyllas i i förväg baserat på följande inställningar som har angetts under anslutningen    :
 
 1. **Inget annonsörnamn har angetts**: Om inga annonsörnamn har lagts till används annonserarens namn som annonsörsnamn som standard i Collaboration.
-2. **En annonsörnamnsuppsättning**: Om ett annonsörnamn läggs till använder Collaboration automatiskt det namnet som annonsörnamn för projektet.
-3. **Flera annonsörnamn anges**: Om fler än ett annonsörnamn läggs till kan du eller din medarbetare välja något av de angivna namnen när projektet skapas.
+1. **En annonsörnamnsuppsättning**: Om ett annonsörnamn läggs till använder Collaboration automatiskt det namnet som annonsörnamn för projektet.
+1. **Flera annonsörnamn anges**: Om fler än ett annonsörnamn läggs till kan du eller din medarbetare välja något av de angivna namnen när projektet skapas.
 
 >[!NOTE]
 >
