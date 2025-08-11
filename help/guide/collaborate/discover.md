@@ -2,9 +2,9 @@
 title: Upptäck överlappningar och jämför målgrupper
 description: Upptäck överlappningar mellan era och medarbetarnas målgrupper. Lär dig hur ni hittar de bästa målgrupperna som kan användas i era kampanjer.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
+source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 0%
@@ -188,6 +188,8 @@ Beräkningar av indexpoäng görs och kan användas för att avgöra om kampanje
 | Män 25-34 | ((700 kB/1,3 MB) / (12 MB/50 MB)) * 100 | 224 | Genom att rikta in er på den här målgruppen är ni 124 % mer benägna att nå SUV-ägare jämfört med baslinjen. |
 | Teknikentusiaster | ((500 kB / 1,3 MB) / (8 MB / 50 MB)) * 100 | 240 | Genom att rikta in er på den här målgruppen är ni 140 % mer benägna att nå SUV-ägare jämfört med baslinjen. |
 
+{style="table-layout:auto"}
+
 För att få en bättre förståelse för hur indexpoängen kommer att påverka er kampanj finns det relevanta band tillsammans med poängen.
 
 ### Relevansband {#audience-index-relevance-bands}
@@ -201,6 +203,8 @@ För att det ska vara enkelt att jämföra olika målgrupper och kampanjer över
 | 80 &lt; i &lt; 120 | Medium | Överlappningen är ungefär lika stor i målgruppen som i målgruppen, vilket tyder på en typisk relation. Kunder som använder den här målgruppen har en genomsnittlig sannolikhet att nå sin målgrupp. |
 | 120 &lt; i &lt; 140 | Hög | Överlappningen är vanligare hos målgruppen jämfört med målgruppen, vilket visar på en stark relation. Kunder som använder den här målgruppen är mer benägna att nå målgruppen. |
 | i > 140 | Mycket hög | Överlappningen är mycket vanligare hos målgruppen jämfört med målgruppen, vilket avspeglar en mycket stark relation. Kunder som använder den här målgruppen är mer benägna att nå sin målgrupp. |
+
+{style="table-layout:auto"}
 
 I avsnittet om upptäckt överlappar kommer målgruppsindexets poäng att visa relevansbandet bredvid poängen. Poängen färgkodas för att indikera relevansbandet, vilket gör det enkelt att snabbt identifiera relationens styrka. Mycket låga och låga relevansband visas i orange, medelrelevanta band i svart och högkvalitativa och mycket högkvalitativa band i grönt.
 
