@@ -2,11 +2,11 @@
 title: Upptäck överlappningar och jämför målgrupper
 description: Upptäck överlappningar mellan era och medarbetarnas målgrupper. Lär dig hur ni hittar de bästa målgrupperna som kan användas i era kampanjer.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -82,13 +82,16 @@ I avsnittet för att jämföra målgrupper kan du se följande mätvärden, som 
 | **[!UICONTROL Identity count]** (din medarbetare) | Antalet unika ID:n inom medarbetarens målgrupp(er). |
 | **[!UICONTROL Overlapping identities]** | Antalet unika ID:n som finns både i din och medarbetarens målgrupper. |
 | **[!UICONTROL Overlap %]** | Procentandelen profiler som överlappar den valda målgruppen för er och medarbetaren. |
+| **[!UICONTROL Audience index]** | Ett poängtal som anger hur starkt en viss målgrupp relaterar till en annan baserat på antalet underliggande målgrupper och överlappningar. Läs avsnittet [målgruppsindexpoäng](#audience-index-score) om du vill veta mer om vad poängen innebär. Poäng för målgruppsindex är inte tillgängliga vid jämförelse med medarbetarens baslinje (alla målgrupper). |
 | **[!UICONTROL Identities breakdown by match key]** | Uppdelningen av identiteter för varje matchningsnyckel som valts i projektet, baserat på valda målgrupper för varje medarbetare. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Procenttalet för överlappning kanske inte alltid är tillgängligt för alla målgrupper. Hur synlig indikatorn för överlappningsprocenten är beror på inställningen som medarbetaren valde för en målgrupp i [metadatasynlighetsavsnittet](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+>Procenttalet för överlappning och poängtalet för målgruppsindex kanske inte alltid är tillgängligt för alla målgrupper. Synligheten för överlappningsprocenten och målgruppsindexvärdet beror på inställningen som medarbetaren valde för en målgrupp i avsnittet [metadatasynlighet](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+
+Om medarbetaren inte har aktiverat målgruppsindexet eller överlappningsprocenten kommer målgruppen inte att ha några tillgängliga jämförelsedata.
 
 ## Relevanta målgrupper {#relevant-audiences}
 
@@ -103,19 +106,22 @@ Avsnittet **[!UICONTROL Relevant audiences]** på fliken **[!UICONTROL Discover]
 
 >[!NOTE]
 >
->Visningen av dina medarbetares målgrupper beror på inställningen som medarbetaren valde för en målgrupp i avsnittet [metadatasynlighet](/help/guide/setup/onboard-audiences.md#metadata-visibility). Om din medarbetare har angett alla målgrupper som privata visas inga målgrupper i det här avsnittet.
+>Visningen av dina medarbetares målgrupper beror på den inställning som medarbetaren har valt för en målgrupp i [sektionen för åtkomst till anslutningen](/help/guide/setup/onboard-audiences.md#connection-access) och i avsnittet [synlighet för metadata](/help/guide/setup/onboard-audiences.md#metadata-visibility). Om din medarbetare har angett alla målgrupper som privata visas inga målgrupper i det här avsnittet.
 
 I avsnittet **[!UICONTROL Relevant audiences]** visas följande information för varje rekommenderad målgrupp:
 
 | Mått | Beskrivning |
 |---------|----------|
-| **[!UICONTROL Identity count]** | Namnet på unika ID:n inom målgruppen. |
+| **[!UICONTROL Identity count]** | Antalet unika ID:n inom målgruppen. |
 | **[!UICONTROL Overlapping identities]** | Antalet unika ID:n som överlappar mellan den rekommenderade målgruppen och alla era målgrupper. |
 | **[!UICONTROL Overlap %]** | Procentandelen överlappande identiteter mellan den rekommenderade målgruppen och alla era målgrupper. |
+| **[!UICONTROL Audience index]** | Ett poängtal som anger hur starkt en viss målgrupp relaterar till en annan baserat på antalet underliggande målgrupper och överlappningar. Läs avsnittet [målgruppsindexpoäng](#audience-index-score) om du vill veta mer om vad poängen innebär. |
 | **[!UICONTROL Audience categories]** | De kategorier som din medarbetare har tilldelat publiken. |
 | **[!UICONTROL Match keys]** | De matchningsnycklar som medarbetaren valt för målgruppen. |
 
 {style="table-layout:auto"}
+
+Om målgruppsindexpoäng är aktiverat för någon av dina medarbetares målgrupper, kommer relevanta målgrupper att baseras på poängen för målgruppsindexet, och målgrupper där målgruppsindexet inte är aktiverat kommer inte att tas med. Relevanta målgrupper baserat på målgruppsindexets poäng sorteras så att det högsta indexvärdet visas först. Om målgruppsindex inte är aktiverat för någon av dina medarbetares målgrupper, kommer de relevanta målgrupperna att baseras på överlappningsprocenten.
 
 ## Upptäck överlappningar {#discover-overlaps}
 
@@ -130,7 +136,9 @@ Upptäck överlappningar för att få insikter i hur era målgrupper står sig j
 
 >[!NOTE]
 >
->Visningen av dina medarbetares målgrupper beror på inställningen som medarbetaren valde för en målgrupp i avsnittet [metadatasynlighet](/help/guide/setup/onboard-audiences.md#metadata-visibility). Om din medarbetare har angett alla målgrupper som privata visas inga målgrupper i det här avsnittet.
+>Visningen av dina medarbetares målgrupper beror på den inställning som medarbetaren har valt för en målgrupp i [sektionen för åtkomst till anslutningen](/help/guide/setup/onboard-audiences.md#connection-access) och i avsnittet [synlighet för metadata](/help/guide/setup/onboard-audiences.md#metadata-visibility). Om din medarbetare har angett alla målgrupper som privata visas inga målgrupper i det här avsnittet.
+
+Om medarbetaren inte har aktiverat målgruppsindexet eller överlappningsprocenten visas inte målgruppen.
 
 Välj **[!UICONTROL Change audience]** om du vill ändra ditt målgruppsval.
 
@@ -147,10 +155,54 @@ När du har valt önskade målgrupper visar avsnittet **[!UICONTROL Discover ove
 | **[!UICONTROL Identity count]** | Antalet unika ID:n inom målgruppen. |
 | **[!UICONTROL Overlapping identities]** | Antalet unika ID:n som överlappar mellan den rekommenderade målgruppen och alla era målgrupper. |
 | **[!UICONTROL Overlap %]** | Procentandelen överlappande identiteter mellan den rekommenderade målgruppen och alla era målgrupper. |
+| **[!UICONTROL Audience index]** | Ett poängtal som anger hur starkt en viss målgrupp relaterar till en annan baserat på antalet underliggande målgrupper och överlappningar. Läs avsnittet [målgruppsindexpoäng](#audience-index-score) om du vill veta mer om vad poängen innebär. |
 | **[!UICONTROL Audience categories]** | De kategorier som din medarbetare har tilldelat publiken. |
 | **[!UICONTROL Match keys]** | De matchningsnycklar som medarbetaren valt för målgruppen. |
 
 {style="table-layout:auto"}
+
+## Målgruppsindexpoäng {#audience-index-score}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_discover_audience_index_score"
+>title="Målgruppsindexpoäng"
+>abstract="Poängen för målgruppsindex är en ny mätmetod som visar hur mycket en målgrupp relaterar till en annan baserat på underliggande målgruppsantal och överlappningar. Poängen för råindex översätts till relevansband, som kategoriserar poängen för målgruppsindexet från mycket låg till mycket hög. På så sätt kan ni snabbt bedöma styrkan i relationen mellan er målgrupp och medarbetarens målgrupp."
+
+Poängen för målgruppsindex är en ny mätmetod som visar hur mycket en målgrupp relaterar till en annan baserat på underliggande målgruppsantal och överlappningar. Detta hjälper er att kontextualisera målgruppsinsikter och identifiera potentiella målgrupper för prospektering och kampanjanpassning.
+
+Indexpoängen beräknas med följande formel:
+
+![Formeln för beräkning av indexpoäng.](/help/assets/collaborate/discover/index-score-formula.png)
+
+Tänk dig en biltillverkare som vill genomföra en reklamkampanj med en stor CTV-utgivare för en ny SUV-modell. Biltillverkaren har uppgifter om vem som för närvarande äger en liknande modell och vill använda den för att hitta fler potentiella kunder som kan konvertera dem till kunder. Biltillverkaren tittar på tittarna på förlaget för tv-reklam för att hitta en relevant målgrupp som nära matchar de nuvarande SUV-ägarna.
+
+![Bilannonsören kontra CTV-utgivarens målgrupper.](/help/assets/collaborate/discover/audience-index-score-example.png)
+
+Beräkningar av indexpoäng görs och kan användas för att avgöra om kampanjen kommer att lyckas:
+
+| CTV Publisher Audience | Formel | Indexpoäng (i) | Tolkning |
+|------------------------|-------------|----------------|----------------|
+| Baslinje (alla målgrupper) | ((1,3 MB/1,3 MB) / (50 MB/50 MB)) * 100 | 100 | Detta fungerar som den baslinje som medarbetarens andra målgrupper jämförs med. |
+| Binge Watchers | ((500 kB/1,3 MB) / (20 MB/50 MB)) * 100 | 96 | Om ni riktar er till den här målgruppen är sannolikheten att nå SUV-ägare 4 % mindre jämfört med baslinjen. |
+| Komedi Lovers | (200 kB/1,3 MB) / (6 MB/50 MB) * 100 | 128 | Genom att rikta in er på den här målgruppen är ni 28 % mer benägna att nå SUV-ägare jämfört med baslinjen. |
+| Män 25-34 | ((700 kB/1,3 MB) / (12 MB/50 MB)) * 100 | 224 | Genom att rikta in er på den här målgruppen är ni 124 % mer benägna att nå SUV-ägare jämfört med baslinjen. |
+| Teknikentusiaster | ((500 kB / 1,3 MB) / (8 MB / 50 MB)) * 100 | 240 | Genom att rikta in er på den här målgruppen är ni 140 % mer benägna att nå SUV-ägare jämfört med baslinjen. |
+
+För att få en bättre förståelse för hur indexpoängen kommer att påverka er kampanj finns det relevanta band tillsammans med poängen.
+
+### Relevansband {#audience-index-relevance-bands}
+
+För att det ska vara enkelt att jämföra olika målgrupper och kampanjer översätter Collaboration indexpoängen till relevansband (mycket låg till mycket hög). På så sätt kan ni snabbt bedöma styrkan i relationen mellan er målgrupp och medarbetarens målgrupp.
+
+| Indexpoäng (i) | Relevansband | Beskrivning |
+|---------|----------|-----------|
+| i &lt; 60 | Mycket låg | Överlappningen är mycket mindre förekommande hos målgruppen än hos er målgrupp, vilket tyder på en mycket svag relation. Kunder som använder den här målgruppen är mycket mindre benägna att nå sin målgrupp. |
+| 60 &lt; i &lt; 80 | Låg | Överlappningen är något mindre utbredd hos målgruppen jämfört med målgruppen, vilket tyder på en svag relation. Kunder som använder den här målgruppen är mindre benägna att nå sin målgrupp. |
+| 80 &lt; i &lt; 120 | Medium | Överlappningen är ungefär lika stor i målgruppen som i målgruppen, vilket tyder på en typisk relation. Kunder som använder den här målgruppen har en genomsnittlig sannolikhet att nå sin målgrupp. |
+| 120 &lt; i &lt; 140 | Hög | Överlappningen är vanligare hos målgruppen jämfört med målgruppen, vilket visar på en stark relation. Kunder som använder den här målgruppen är mer benägna att nå målgruppen. |
+| i > 140 | Mycket hög | Överlappningen är mycket vanligare hos målgruppen jämfört med målgruppen, vilket avspeglar en mycket stark relation. Kunder som använder den här målgruppen är mer benägna att nå sin målgrupp. |
+
+I avsnittet om upptäckt överlappar kommer målgruppsindexets poäng att visa relevansbandet bredvid poängen. Poängen färgkodas för att indikera relevansbandet, vilket gör det enkelt att snabbt identifiera relationens styrka. Mycket låga och låga relevansband visas i orange, medelrelevanta band i svart och högkvalitativa och mycket högkvalitativa band i grönt.
 
 ## Nästa steg
 
