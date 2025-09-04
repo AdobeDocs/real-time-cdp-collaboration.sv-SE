@@ -2,11 +2,11 @@
 title: Source och hantera målgrupper
 description: Lär dig hur du hämtar och hanterar målgrupper i Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
+source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '3130'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,6 @@ ht-degree: 0%
 {{limited-availability-release-note}}
 
 Målgrupper är specifika grupper av användare eller kunder som segmenteras utifrån olika attribut. Dessa gör det möjligt för medarbetare att samarbeta om riktad marknadsföring och personaliserade upplevelser för mer effektiva annonskampanjer. Den här guiden beskriver hur du hämtar målgrupper till Real-Time CDP Collaboration, visar målgruppspanelen och hanterar enskilda målgrupper.
-
->[!BEGINSHADEBOX]
-
-Vad du hittar på den här dokumentationssidan:
-
-* [Source målgrupper i Collaboration](#source-audiences)
-* [Visa målgruppspanelen](#view-audiences-dashboard)
-* [Visa enskilda målgrupper](#view-individual-audiences)
-
->[!ENDSHADEBOX]
 
 ## Source målgrupper i Collaboration {#source-audiences}
 
@@ -45,8 +35,8 @@ Välj ikonen Lägg till (**[!UICONTROL My audiences]** ikonen Lägg till) på fl
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Marknadsföringsåtgärder"
 >abstract="<p>Använd marknadsföringsåtgärder för att styra vilka målgruppsdata som ska importeras till Real-Time CDP Collaboration från Experience Platform. Marknadsföringsåtgärden <strong>Data Collaboration</strong> stöder etiketter för C4-, C5- och C9-dataanvändning. Marknadsföringsåtgärden <strong>Data Science</strong> stöder C9-dataanvändningsetiketten.</p> <p> <ul><li> Med kryssrutan <em>aktiverad</em> exkluderas alla data som är markerade med etiketterna som anropas ovan i Experience Platform och <strong>hämtas </strong> inte till Real-Time CDP Collaboration.</li><li> Med kryssrutan <em>inaktiverad</em> finns det ingen begränsning för data från Experience Platform som kan importeras till Real-Time CDP Collaboration.</li></ul></p>"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=sv-SE" text="Översikt över etiketter för dataanvändning"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=sv-SE" text="Etikettordlista för dataanvändning"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html" text="Översikt över etiketter för dataanvändning"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="Etikettordlista för dataanvändning"
 
 >[!IMPORTANT]
 >
@@ -90,15 +80,15 @@ Därefter måste du se till att rätt marknadsföringsåtgärder ställs in på 
 
 Använd marknadsföringsåtgärder för att styra vilka målgruppsdata som ska hämtas till Collaboration från Experience Platform. Marknadsföringsåtgärden **[!UICONTROL Data Collaboration]** stöder etiketter för dataanvändning i C4, C5 och C9. Marknadsföringsåtgärden **[!UICONTROL Data Science]** stöder etiketten för C9-dataanvändning.
 
-Läs mer om etiketterna för dataanvändning i [C4, C5 och C9](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Läs mer om etiketterna för dataanvändning i [C4, C5 och C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * När kryssrutan är ***aktiverad*** exkluderas alla data som är märkta i Experience Platform enligt beskrivningen ovan och **hämtas inte** till Collaboration.
 * Med kryssrutan ***inaktiverad*** finns ingen begränsning för data som har hämtats från Experience Platform.
 
 Läs mer om dataanvändningsetiketter i Experience Platform-dokumentationen:
 
-* [Översikt över etiketter för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Etikettordlista för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Översikt över etiketter för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Etikettordlista för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 Dessutom vill du välja vilka regler för samtycke som ska gälla för data som hämtas till Collaboration.
 
@@ -135,13 +125,13 @@ Ange sedan ett namn och en beskrivning för dataanslutningen. Den här informati
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Identitetsnamnutrymmen"
 >abstract="Välj ett identitetsnamnutrymme bland de standardnamnutrymmen och anpassade identitetsnamnutrymmen som finns i din Experience Platform-organisation."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=sv-SE#standard" text="Standard- och identitetsnamnutrymmen i Experience Platform"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Standard- och identitetsnamnutrymmen i Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profilattribut"
 >abstract="Välj attribut från unionsschemat för klassen Profile i Experience Platform. I den här vyn visas attribut som finns i unionens schema och tillhör klassen XDM Individual Profile."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=sv-SE" text="Unionsschema i Experience Platform"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Unionsschema i Experience Platform"
 
 Därefter väljer du källfält som ska mappas till målfält i Collaboration.
 
@@ -214,10 +204,13 @@ Granska alla konfigurationer och inställningar innan du slutför målgruppstill
 
 När målgrupper har hämtats visar arbetsytan i **[!UICONTROL My audiences]** alla målgrupper som för närvarande är inhämtade i Collaboration.
 
+![Arbetsytan Mina målgrupper visar alla målgrupper som har hämtats.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+
 Varje målgrupp innehåller en översikt över följande information:
 
 | Objekt | Beskrivning |
 |----------|---------|
+| **[!UICONTROL Name]** | Namnet på publiken. |
 | **[!UICONTROL Identities]** | Anger antalet identiteter som finns i den här målgruppen. Observera att om samma profil har två eller flera identiteter och dessa identiteter används som matchningsnycklar i projektet, visas profilen två gånger i antalet. |
 | **[!UICONTROL Status]** | Anger om målgruppen är aktiv och kan användas i projekt. En **[!UICONTROL Pending]**-status anger att målgruppen nyligen har skapats och att identiteterna ännu inte har fyllts i. Källgrupperna kommer att fylla i profiler efter den första uppdateringen, som vanligtvis sker inom 24 timmar efter att dataanslutningen har konfigurerats. |
 | **[!UICONTROL Source]** | Anger var målgruppen kom ifrån. I den aktuella versionen av Collaboration är Experience Platform den enda källa som stöds. |
@@ -225,8 +218,6 @@ Varje målgrupp innehåller en översikt över följande information:
 | **[!UICONTROL Connection access]** | Definierar om målgruppen är privat eller offentlig. Offentliga målgrupper kan upptäckas i överlappande rapporter och kan aktiveras inom ett projekt. |
 | **[!UICONTROL Created]** | Anger när målgruppen ursprungligen kom till Collaboration. |
 | **[!UICONTROL Last updated]** | Anger det senaste datumet och den senaste tidpunkten då målgruppen uppdaterades i Collaboration. Detta gäller inte när målgruppen senast uppdaterades, utan snarare när målgruppens konfiguration eller metadata senast ändrades. |
-
-![Arbetsytan Min målgrupp visar alla målgrupper som har hämtats.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
 Om du vill utföra snabba åtgärder för en målgrupp väljer du ellipsen **...** bredvid målgruppens namn. Följande alternativ är tillgängliga:
 
@@ -237,7 +228,7 @@ Om du vill utföra snabba åtgärder för en målgrupp väljer du ellipsen **...
 
 ## Visa enskilda målgrupper {#view-individual-audiences}
 
-Om du vill visa mer information och redigera konfigurationer för en enskild målgrupp väljer du målgruppen på arbetsytan **[!UICONTROL My audiences]**. På målgruppsarbetsytan visas detaljerad information om den valda målgruppen, inklusive information, identiteter, kategorier, anslutningsåtkomst och inställningar för metadatavisning.
+Om du vill visa och uppdatera information för en enskild målgrupp väljer du målgruppen på arbetsytan **[!UICONTROL My audiences]**. På målgruppsarbetsytan visas detaljerad information om den valda målgruppen, inklusive information, identiteter, kategorier, anslutningsåtkomst och inställningar för metadatasynlighet.
 
 ### Målgruppsinformation
 
@@ -255,32 +246,22 @@ Följande information visas för varje enskild målgrupp:
 
 ![En enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details.png)
 
-Dessutom är följande kontroller tillgängliga på arbetsytan för målgrupper:
-
-* **[!UICONTROL Delete]**: Ta bort målgruppen från din dataanslutning.
-* **[!UICONTROL Edit]**: Redigera publikens namn eller beskrivning.
-
-![En enskild målgrupps arbetsyta med alternativet Redigera och ta bort markerat.](/help/assets/setup/add-manage-audiences/audience-details-edit-delete.png)
-
-Därefter kan du uppdatera följande avsnitt på målgruppens arbetsyta:
-
-* [Identiteter](#identities)
-* [Kategorier](#categories)
-* [Anslutningsåtkomst](#connection-access)
-* [Synlighet för metadata](#metadata-visibility)
-
-### Identiteter {#identities}
+#### Identiteter {#identities}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identiteter"
->abstract="En detaljvy över de identiteter som den här målgruppen består av samt det totala antalet profiler med respektive identitet."
+>abstract="En detaljvy över de identiteter som den här målgruppen består av, avgränsade med matchningsnyckeln."
 
-Avsnittet **[!UICONTROL Identities]** anger antalet profiler i målgruppen med någon av de identiteter du valde när du hämtade målgruppen. Avsnittet innehåller också en identitetsuppdelning som gör att du kan se vilka identiteter som utgör det mesta av målgruppen.
+Avsnittet **[!UICONTROL Identities]** anger antalet identiteter som finns i målgruppen. Avsnittet innehåller också en identitetsuppdelning av identiteter efter matchningsnyckel som hjälper dig att förstå målgruppens komposition.
 
 ![Avsnittet Identiteter i en enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
-### Kategorier {#categories}
+Genom att hovra över de enskilda delarna av uppdelningen av matchningsnycklar får du ett korrekt identitetsantal för den relevanta nyckeln.
+
+![Avsnittet Identiteter i en enskild målgrupps arbetsyta med en matchningsnyckels uppdelning visade.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+
+#### Kategorier {#categories}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
@@ -297,14 +278,14 @@ Dialogrutan **[!UICONTROL Categories]** visas så att du kan välja de kategorie
 
 ![Dialogrutan Kategorier med tillgängliga kategorier visas.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
 
-### Anslutningsåtkomst {#connection-access}
+#### Anslutningsåtkomst {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Anslutningsåtkomst"
->abstract="<p>Målgrupper kan vara av tre typer: public, private och custom.</p><p> Hur tillgängliga de är för användning i projekt med medarbetare varierar beroende på inställningen för anslutningsåtkomst. Du kan alltid ändra anslutningsåtkomsten från privat till offentlig, men du kan inte ändra den inställningen igen när en målgrupp har aktiverats med medarbetare.</p>"
+>abstract="<p>Målgrupper kan vara av tre typer: public, private och custom.</p><p> Hur tillgängliga de är för användning i projekt med medarbetare varierar beroende på inställningen för anslutningsåtkomst.</p>"
 
-En målgrupps tillgänglighet för användning i projekt med medarbetare skiljer sig åt beroende på inställningen för anslutningsåtkomst. I avsnittet **[!UICONTROL Connection access]** kan du välja om målgruppen ska vara privat eller offentlig. Offentliga målgrupper kan användas och upptäckas i kontakter.
+En målgrupps tillgänglighet för användning i projekt med medarbetare skiljer sig åt beroende på inställningen för anslutningsåtkomst. I avsnittet **[!UICONTROL Connection access]** kan du välja om målgruppen ska vara privat, offentlig eller endast tillgänglig för specifika anslutningar. Offentliga målgrupper kan användas och upptäckas i kontakter.
 
 Om du vill uppdatera målgruppens anslutningsåtkomst väljer du alternativet **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Connection access]**.
 
@@ -324,9 +305,9 @@ Välj önskat alternativ för anslutningsåtkomst och välj sedan **[!UICONTROL 
 >
 >Oberoende av åtkomststatus (public, private eller custom) bidrar målgruppspopulationen till **[!UICONTROL All audiences]**-populationen i **[!UICONTROL Compare audiences]** -avsnittet i ett projekt.
 
-Tillgängligheten för målgrupper som kan användas i projekt med medarbetare skiljer sig åt beroende på inställningen för anslutningsåtkomst. Du kan alltid ändra anslutningsåtkomsten från privat till offentlig, men du kan inte ändra den inställningen igen när en viss målgrupp har aktiverats.
+Tillgängligheten för målgrupper som kan användas i projekt med medarbetare skiljer sig åt beroende på inställningen för anslutningsåtkomst.
 
-### Synlighet för metadata {#metadata-visibility}
+#### Synlighet för metadata {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
@@ -339,7 +320,7 @@ Tillgängligheten för målgrupper som kan användas i projekt med medarbetare s
 
 Metadatasynlighet anger synligheten för en målgrupps metadata till andra medarbetare innan de ansluter till dig, eller inom olika projektvyer. Om du vill uppdatera målgruppens metadatasynlighet väljer du alternativet **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Metadata visibility]**.
 
-![Sektionen för metadatavisning för en enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
+![Sektionen för metadatavisning för en enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
 
 Dialogrutan **[!UICONTROL Metadata visibility]** visas så att du kan konfigurera visningsinställningar för målgruppen. Det finns två inställningar för metadatasynlighet som du kan konfigurera för varje målgrupp:
 
@@ -354,6 +335,52 @@ Dialogrutan **[!UICONTROL Metadata visibility]** visas så att du kan konfigurer
 >För att inställningarna för metadatasynlighet ska börja gälla måste målgruppen ställas in på public eller custom.
 
 ![Dialogrutan för synlighet av metadata med tillgängliga alternativ visas.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+## Redigera flera målgrupper {#edit-audiences}
+
+På publiken kan du redigera flera målgrupper samtidigt. Om du vill göra det markerar du de målgrupper du vill redigera genom att markera rutorna bredvid namnen. När du har valt målgrupper kan du utföra åtgärder med alternativen på redigeringsmenyn.
+
+![Arbetsytan Mina målgrupper med två valda målgrupper och redigeringsmenyn markerad.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
+
+### Redigera metadatasynlighet gruppvis {#bulk-edit-metadata-visibility}
+
+Välj **[!UICONTROL Edit metadata visibility]** på redigeringsmenyn när du har valt dina målgrupper på målgruppspanelen.
+
+![Arbetsytan Mina målgrupper med synlighetsalternativet Redigera metadata markerat.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+
+Dialogrutan **[!UICONTROL Metadata visibility]** visas, där du kan konfigurera synlighetsinställningarna för de valda målgrupperna. Som standard markeras inget av alternativen. Välj de alternativ som du vill tillämpa på alla valda målgrupper och välj sedan **[!UICONTROL Save]**.
+
+![Dialogrutan för synlighet av metadata med tillgängliga alternativ visas.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+### Redigera anslutningsåtkomst gruppvis {#bulk-edit-connection-access}
+
+Välj **[!UICONTROL Edit connection access]** på redigeringsmenyn när du har valt dina målgrupper på målgruppspanelen.
+
+![Arbetsytan Mina målgrupper med alternativet Redigera anslutningsåtkomst markerat.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+
+Dialogrutan **[!UICONTROL Connection access]** visas så att du kan konfigurera åtkomstinställningarna för de valda målgrupperna. Som standard markeras alternativet **[!UICONTROL Private audience]**. Välj de alternativ som du vill tillämpa på alla valda målgrupper och välj sedan **[!UICONTROL Save]**.
+
+![Dialogrutan Anslutningsåtkomst med tillgängliga alternativ visas.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+
+### Redigera publiknamn och beskrivningar gruppvis {#bulk-edit-audience-names-descriptions}
+
+Välj **[!UICONTROL Edit name and description]** på redigeringsmenyn när du har valt dina målgrupper på målgruppspanelen.
+
+![Arbetsytan Mina målgrupper med alternativet Redigera namn och beskrivning markerat.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+
+Dialogrutan **[!UICONTROL Name and description]** visas, där du kan konfigurera namn och beskrivning för varje vald målgrupp. Som standard visas de aktuella namnen och beskrivningarna för varje målgrupp. Gör ändringarna och välj sedan **[!UICONTROL Save]**.
+
+![Dialogrutan Namn och beskrivning med tillgängliga alternativ visas.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+
+### Redigera kategorier gruppvis {#bulk-edit-categories}
+
+Välj **[!UICONTROL Edit categories]** på redigeringsmenyn när du har valt dina målgrupper på målgruppspanelen.
+
+![Arbetsytan Mina målgrupper med alternativet Redigera kategorier markerat.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+
+Dialogrutan **[!UICONTROL Categories]** visas, där du kan konfigurera kategorierna för varje vald målgrupp. Som standard markeras inga kategorier. Om du vill markera en kategori väljer du först huvudkategorin och sedan de underkategorier som du vill inkludera. Gör ändringarna och välj sedan **[!UICONTROL Save]**.
+
+![Dialogrutan Kategorier med tillgängliga alternativ visas.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## Nästa steg
 
