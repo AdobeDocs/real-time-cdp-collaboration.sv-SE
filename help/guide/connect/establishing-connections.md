@@ -2,11 +2,11 @@
 title: Upprättar anslutningar
 description: Lär dig hur du skapar kopplingar och börjar samarbeta i projekt när du har upptäckt potentiella medarbetare.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
 workflow-type: tm+mt
-source-wordcount: '3081'
+source-wordcount: '2986'
 ht-degree: 0%
 
 ---
@@ -184,8 +184,6 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 
 ![Arbetsytan för anslutningsinställningar.](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
-<!-- FIX THE ABOVE SCREENSHOT TO INCLUDE ADV NAMES, AS WELL AS THE ONES BELOW -->
-
 #### Anslutningsinställningar {#connection-settings}
 
 >[!CONTEXTUALHELP]
@@ -214,15 +212,10 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 >abstract="Utför aktiviteter för att generera kampanjresultatrapporter och insikter. Krediter förbrukas baserat på antalet rader i kampanjrapporter för alla kampanjer och rapporteringsfrekvensen (varje dag, var tredje dag eller varje vecka)."
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_connection_settings_legalagreement"
->title="Rättsligt avtal"
->abstract="Kontrollera att det finns ett datadelningsavtal mellan de två parterna."
-
->[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-namn"
 >abstract="<p>Valfri inställning. Anger det namn och ID som annonsören är känd av.</p><p>Annonsörsnamnet som du lägger till här är förifyllt i steget Skapa projekt.</p><ul><li>Om utgivaren har konfigurerat flera namn väljer du ett i listan.</li><li>Om bara ett namn är konfigurerat markeras det automatiskt.</li><li>Om inga namn är konfigurerade kommer fältet att fyllas i i förväg med annonsörens kontonamn från Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
@@ -259,7 +252,7 @@ Om du vill anpassa dina användningsfall väljer du **[!UICONTROL Edit]** i avsn
 
 +++
 
-+++Matcha tangenter
++++Matcha nycklar
 
 Matchande nycklar fylls automatiskt i med de som du valde när du [konfigurerade ditt konto](/help/guide/setup/onboard-account.md#set-up-match-keys). Du kan inaktivera matchningsnycklar som du inte vill använda, men du kan inte lägga till matchningsnycklar som inte har valts under kontokonfigurationen.
 
@@ -269,7 +262,7 @@ Om du vill anpassa matchningsnycklarna väljer du **[!UICONTROL Edit]** i avsnit
 
 +++
 
-+++kreditdelning
++++Kreditdelning
 
 Använd kreditdelningsavsnittet för att avgöra vilken av de två samarbetande parterna som ska täcka kostnaderna för aktiviteterna. Alternativ för kreditdelning bestäms av de valda användningsfallen för anslutningen. Användningsfallet **[!UICONTROL Measurement]** kräver att en part ska täcka kostnaderna, men **[!UICONTROL Activation - Matching]** ger ytterligare ett alternativ att låta varje part täcka sina egna kostnader. Mer information om kostnadsfördelning finns i handboken [Kreditaktivitetstyper](/help/guide/setup/my-activity.md#types-of-activities).
 
@@ -280,14 +273,6 @@ Använd kreditdelningsavsnittet för att avgöra vilken av de två samarbetande 
 Om du vill konfigurera kreditdelningen väljer du **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Credit split]**. Du kan sedan välja lämpliga alternativ för varje användningsfall. När du är klar väljer du **[!UICONTROL Save]** för att spara ändringarna.
 
 ![Dialogrutan för kreditdelning med alternativ på arbetsytan för anslutningsinställningar.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
-
-+++
-
-+++Avtal
-
-Du måste bekräfta att ett juridiskt avtal finns mellan dig och medarbetaren. I det här avtalet beskrivs villkoren för datadelning och samarbete. Du kan markera kryssrutan **[!UICONTROL Acknowledge and confirm]** för att bekräfta att ett sådant avtal finns.
-
-![Avsnittet Rättsligt avtal markeras och bekräftas på arbetsytan för anslutning.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
 
@@ -310,8 +295,8 @@ När du är klar väljer du **[!UICONTROL Save]** för att spara ändringarna.
 När du skapar ett projekt kommer annonsörens namn att fyllas i i förväg baserat på följande inställningar som har angetts under anslutningen    :
 
 1. **Inget annonsörnamn har angetts**: Om inga annonsörnamn har lagts till används annonserarens namn som annonsörsnamn som standard i Collaboration.
-1. **En annonsörnamnsuppsättning**: Om ett annonsörnamn läggs till använder Collaboration automatiskt det namnet som annonsörnamn för projektet.
-1. **Flera annonsörnamn anges**: Om fler än ett annonsörnamn läggs till kan du eller din medarbetare välja något av de angivna namnen när projektet skapas.
+2. **En annonsörnamnsuppsättning**: Om ett annonsörnamn läggs till använder Collaboration automatiskt det namnet som annonsörnamn för projektet.
+3. **Flera annonsörnamn anges**: Om fler än ett annonsörnamn läggs till kan du eller din medarbetare välja något av de angivna namnen när projektet skapas.
 
 >[!NOTE]
 >
@@ -331,9 +316,7 @@ Därefter måste mottagaren granska de anslutningsinställningar som ägaren har
 
 Granska de inställningar som medarbetaren har föreslagit. Du kan antingen acceptera eller ignorera anslutningsinställningarna. Om du avvisar anslutningsinställningarna måste du kontakta medarbetaren om de ändringar du vill göra utanför produkten. Medarbetarens kontaktinformation visas i avsnittet **[!UICONTROL Contact]** på arbetsytan för anslutningsinställningar. Ägaren kan sedan ändra anslutningsinställningarna och skicka om dem för granskning.
 
-Om du är nöjd med de föreslagna anslutningsinställningarna måste du bekräfta att det finns ett giltigt avtal mellan dig och medarbetaren. Markera kryssrutan **[!UICONTROL Acknowledge and confirm]** för att bekräfta att ett sådant avtal finns.
-
-![Avsnittet Rättsligt avtal är markerat på arbetsytan för anslutningsinställningar.](/help/assets/connect/establish-connection/legal-agreement-review.png){zoomable="yes"}
+![Arbetsytan för anslutningsinställningar med alternativet Acceptera och ignorera markerat.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
 Om du är en utgivare som ansluter till en annonsör kan du nu lägga till annonsörnamn i anslutningsinställningarna. Mer information om den här processen finns i avsnittet [anslutningsinställningar](#connection-settings).
 
