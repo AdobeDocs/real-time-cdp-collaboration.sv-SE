@@ -2,11 +2,11 @@
 title: Konfigurera Adobe Experience Platform som mål
 description: Lär dig hur du konfigurerar och hanterar Adobe Experience Platform som mål i Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
-source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
+source-git-commit: f13b0996c35bcb6060c583ca328c2c04daaf8abc
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Konfigurera den här destinationen för att aktivera målgrupper från ditt projekt till Adobe Experience Platform. Genom att aktivera målgrupper för Adobe Experience Platform kan ni utnyttja plattformens funktioner för målgruppssegmentering, analys och aktivering i olika marknadsföringskanaler. Mer information om Adobe Experience Platform finns i [Experience Platform-översikten](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/home){target="_blank"}.
+Konfigurera den här destinationen för att aktivera målgrupper från ditt projekt till Adobe Experience Platform. Genom att aktivera målgrupper för Adobe Experience Platform kan ni utnyttja plattformens funktioner för målgruppssegmentering, analys och aktivering i olika marknadsföringskanaler. Mer information om Adobe Experience Platform finns i [Experience Platform-översikten](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 ## Konfigurera mål {#configure-destination}
 
@@ -62,7 +62,12 @@ Konfigurera sedan **[!UICONTROL Audience Expiration]**. Som standard är målgru
 >title="Målnamnutrymmen"
 >abstract="Målnamnutrymmen anger vilket identitetsnamnutrymme som matchningsnyckeln ska mappas till i Adobe Experience Platform. Hash-kodade matchningsnycklar måste mappas till ett målnamnutrymme som stöder hash-värden."
 
-Därefter måste du skapa en aktiveringsmappning som definierar hur målgruppsdata ska skickas till Adobe Experience Platform. Du kan mappa varje [matchningsnyckel](../setup/onboard-account.md#set-up-match-keys) som du valde när du skapade din organisation till ett målnamnområde. Målnamnutrymmena anger vilket [ID-namnområde](https://experienceleague.adobe.com/sv/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} matchningsnyckeln ska mappas till i Adobe Experience Platform.
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_linked_key"
+>title="Länkad nyckel"
+>abstract="Platshållare för sammanhangsbaserad hjälp för länkad nyckel."
+
+Därefter måste du skapa en aktiveringsmappning som definierar hur målgruppsdata ska skickas till Adobe Experience Platform. Du kan mappa varje [matchningsnyckel](../setup/onboard-account.md#set-up-match-keys) som du valde när du skapade din organisation till ett målnamnområde. Målnamnutrymmena anger vilket [ID-namnområde](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} matchningsnyckeln ska mappas till i Adobe Experience Platform.
 
 >[!IMPORTANT]
 >
@@ -90,8 +95,8 @@ Nu när du har konfigurerat Adobe Experience Platform som mål kan du visa de ak
 
 >[!IMPORTANT]
 >
->Du ansvarar för att använda nödvändiga etiketter för dataanvändning på de målgrupper du aktiverar för Adobe Experience Platform. Mer information finns i guiden [Etiketter för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
+>Du ansvarar för att använda nödvändiga etiketter för dataanvändning på de målgrupper du aktiverar för Adobe Experience Platform. Mer information finns i guiden [Etiketter för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
 
 ![Målportalen med Real-Time CDP Collaboration som ursprung i filteralternativen.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Mer information om Audience Portal finns i guiden [Översikt över målportalen](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
+Mer information om Audience Portal finns i guiden [Översikt över målportalen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
