@@ -2,11 +2,11 @@
 title: Aktivera målgrupper
 description: Lär dig aktivera målgrupper i Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,10 @@ Arbetsflödet för att aktivera målgrupper öppnas, där du kan välja vilken m
 I **[!UICONTROL Browse audiences]** kan du se **[!UICONTROL Identity count]**, **[!UICONTROL Overlapping identities]** och **[!UICONTROL Overlap %]** för varje publik.
 
 ![Dialogrutan Bläddra bland målgrupper visar tillgängliga målgrupper.](/help/assets/collaborate/activate/browse-audiences.png)
+
+>[!IMPORTANT]
+>
+>Vid aktivering av målgrupper där flera matchningsnycklar används, om en (eller flera) matchningsnyckel inte har några överlappningar, inget antal målgrupper eller faller under tröskelvärdet, misslyckas hela aktiveringen. Se till att era målgrupper har tillräcklig överlappning och att de uppfyller det lägsta tröskelvärdet på 1 000 ID:n för alla matchningsnycklar innan de aktiveras.
 
 Välj den målgrupp som du vill aktivera i kampanjer och välj sedan **[!UICONTROL Save]**. Publiken visas nu och du kan se **[!UICONTROL Identity count]**, **[!UICONTROL Overlapping identities]** och **[!UICONTROL Overlap %]** för den valda publiken.
 
