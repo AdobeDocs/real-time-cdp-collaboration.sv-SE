@@ -108,7 +108,7 @@ Konfigurera hur målgrupper förbereds, matchas och styrs för användning i ans
 >**Matcha nyckelkrav:**
 >
 >Alla matchningsnycklar måste vara **trimmade**, **nedsänkta**
->>Hash-kodade matchningsnycklar måste vara **SHA256-hashed**.\
+>&#x200B;>Hash-kodade matchningsnycklar måste vara **SHA256-hashed**.\
 >Om du anger hash-värden som använder versaler konverteras de automatiskt till gemener i Collaboration.\
 >Om källan innehåller **klartextidentifierare** använder du alternativet **[!UICONTROL Apply transformation]** för att tillämpa hashning. Det här alternativet är endast tillgängligt när du hämtar målgrupper från Experience Platform och stöds inte för molnbaserade källor.
 >
