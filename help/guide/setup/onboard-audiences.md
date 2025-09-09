@@ -2,11 +2,11 @@
 title: Source och hantera målgrupper
 description: Lär dig hur du hämtar och hanterar målgrupper i Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
+source-git-commit: 425bcb6b8069dfca17838d05b6a91250293c8308
 workflow-type: tm+mt
-source-wordcount: '3130'
+source-wordcount: '3353'
 ht-degree: 0%
 
 ---
@@ -27,24 +27,24 @@ Innan ni kan aktivera målgrupper med medarbetare och köra överlappningsberäk
 
 Välj ikonen Lägg till (**[!UICONTROL My audiences]** ikonen Lägg till) på fliken **[!UICONTROL Setup]** på arbetsytan ![.](/help/assets/icons/plus.png)) och välj sedan **[!UICONTROL Audience]**. Om det här är din första målgrupp kan du även välja alternativet **[!UICONTROL Add]**.
 
-![Min målgruppsarbetsyta med alternativet Lägg till och Publiker markerat.](/help/assets/setup/add-manage-audiences/add-audiences.png)
+![Min målgruppsarbetsyta med alternativet Lägg till och Publiker markerat.](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
 
 ### Välj dataanslutning {#select-data-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Marknadsföringsåtgärder"
->abstract="<p>Använd marknadsföringsåtgärder för att styra vilka målgruppsdata som ska importeras till Real-Time CDP Collaboration från Experience Platform. Marknadsföringsåtgärden <strong>Data Collaboration</strong> stöder etiketter för C4-, C5- och C9-dataanvändning. Marknadsföringsåtgärden <strong>Data Science</strong> stöder C9-dataanvändningsetiketten.</p> <p> <ul><li> Med kryssrutan <em>aktiverad</em> exkluderas alla data som är markerade med etiketterna som anropas ovan i Experience Platform och <strong>hämtas </strong> inte till Real-Time CDP Collaboration.</li><li> Med kryssrutan <em>inaktiverad</em> finns det ingen begränsning för data från Experience Platform som kan importeras till Real-Time CDP Collaboration.</li></ul></p>"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=sv-SE" text="Översikt över etiketter för dataanvändning"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=sv-SE" text="Etikettordlista för dataanvändning"
+>abstract="<p>Använd marknadsföringsåtgärder för att styra vilka målgruppsdata som ska importeras till Real-Time CDP Collaboration från Experience Platform. Marknadsföringsåtgärden <strong>Data Collaboration</strong> stöder etiketter för C4-, C5- och C9-dataanvändning. Marknadsföringsåtgärden <strong>Data Science</strong> stöder C9-dataanvändningsetiketten.</p> <p> <ul><li> Med kryssrutan <em>aktiverad</em> exkluderas alla data som är markerade med etiketterna som anropas ovan i Experience Platform och <strong>hämtas </strong> inte till Real-Time CDP Collaboration.</li><li> Med kryssrutan <em>inaktiverad</em> finns det ingen begränsning för data från Experience Platform som kan hämtas till Real-Time CDP Collaboration.</li></ul></p>"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html" text="Översikt över etiketter för dataanvändning"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="Etikettordlista för dataanvändning"
 
 >[!IMPORTANT]
 >
->När du har upprättat till din första dataanslutning och importerat din första målgrupp kan du sedan importera flera målgrupper från den befintliga dataanslutningen. När du lägger till ytterligare målgrupper börjar du med steget [välj målgrupp](#select-audiences) eftersom dataanslutningen redan har upprättats.
+>När ni har etablerat er till er första dataanslutning och tagit fram den första målgruppen kan ni sedan hämta flera målgrupper från den befintliga dataanslutningen. När du lägger till ytterligare målgrupper börjar du med steget [välj målgrupp](#select-audiences) eftersom dataanslutningen redan har upprättats.
 
 En dataanslutning är datakällan som du hämtar målgrupper från. För närvarande är Adobe Experience Platform den enda dataanslutning som stöds.
 
-Alla inställningar, till exempel schemaläggning som du konfigurerar för dataanslutningen, tillämpas på alla målgrupper som kommer från den här dataanslutningen.
+Alla inställningar som du konfigurerar för din dataanslutning tillämpas på alla målgrupper som kommer från den här dataanslutningen.
 
 >[!TIP]
 >
@@ -52,7 +52,7 @@ Alla inställningar, till exempel schemaläggning som du konfigurerar för dataa
 
 Om du vill börja lägga till din dataanslutning väljer du **[!UICONTROL Add a new data connection]** och sedan **[!UICONTROL Next]**.
 
-![Arbetsytan Lägg till målgrupper med alternativet Lägg till en ny dataanslutning markerat.](/help/assets/setup/add-manage-audiences/add-data-connection.png)
+![Arbetsytan Lägg till målgrupper med alternativet Lägg till en ny dataanslutning markerat.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 #### Välj datakälla
 
@@ -64,15 +64,15 @@ Därefter väljer du källa för dataanslutningen. De tillgängliga källorna ä
 * **Snowflake** (kommande version): Använd Snowflake datalager för att hämta in målgruppsdata sömlöst.
 * **Google Cloud-plattform** (kommande version): Anslut till Google Cloud-lagringsutrymmet för att hämta målgruppsdata direkt från dina GCS-bibliotek.
 
-Välj datakälla och välj sedan **[!UICONTROL Next]**.
+Markera datakällan och välj sedan **[!UICONTROL Next]**.
 
-![Arbetsytan Lägg till målgrupper med alternativet Adobe Experience Platform markerat.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png)
+![Arbetsytan Lägg till målgrupper med alternativet Adobe Experience Platform markerat.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
 #### Välj sandlåda
 
-När du har valt datakälla måste du välja den sandlåda som innehåller de målgrupper som du vill använda Collaboration. Markera sandlådan i listan över tillgängliga sandlådor och välj sedan **[!UICONTROL Next]**
+När du har valt datakälla måste du markera den sandlåda som innehåller de målgrupper som du vill använda för Collaboration. Markera sandlådan i listan över tillgängliga sandlådor och välj sedan **[!UICONTROL Next]**
 
-![Arbetsytan Lägg till målgrupper med en markerad sandlåda.](/help/assets/setup/add-manage-audiences/select-sandbox.png)
+![Arbetsytan Lägg till målgrupper med en markerad sandlåda.](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
 
 #### Styrningspolitik och verkställighetsåtgärder {#governance-policy-and-enforcement-actions}
 
@@ -80,29 +80,29 @@ Därefter måste du se till att rätt marknadsföringsåtgärder ställs in på 
 
 Använd marknadsföringsåtgärder för att styra vilka målgruppsdata som ska hämtas till Collaboration från Experience Platform. Marknadsföringsåtgärden **[!UICONTROL Data Collaboration]** stöder etiketter för dataanvändning i C4, C5 och C9. Marknadsföringsåtgärden **[!UICONTROL Data Science]** stöder etiketten för C9-dataanvändning.
 
-Läs mer om etiketterna för dataanvändning i [C4, C5 och C9](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Läs mer om etiketterna för dataanvändning i [C4, C5 och C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * När kryssrutan är ***aktiverad*** exkluderas alla data som är märkta i Experience Platform enligt beskrivningen ovan och **hämtas inte** till Collaboration.
 * Med kryssrutan ***inaktiverad*** finns ingen begränsning för data som har hämtats från Experience Platform.
 
 Läs mer om dataanvändningsetiketter i Experience Platform-dokumentationen:
 
-* [Översikt över etiketter för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Etikettordlista för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Översikt över etiketter för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Etikettordlista för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 Dessutom vill du välja vilka regler för samtycke som ska gälla för data som hämtas till Collaboration.
 
-![Arbetsytan Lägg till målgrupper i avsnittet Styrningsprincip och verkställighetsåtgärder.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
+![Arbetsytan Lägg till målgrupper i avsnittet Styrningsprincip och verkställighetsåtgärder.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}
 
 När du har valt marknadsföringsåtgärder och godkännanderegler väljer du **[!UICONTROL Next]** för att fortsätta till nästa steg. En bekräftelsedialogruta visas där du ombeds godkänna villkoren. Markera kryssrutan och markera sedan **[!UICONTROL OK]** för att bekräfta.
 
-![Dialogrutan Styrningsprincip och verkställandeåtgärder med kryssrutan och alternativet OK markerat.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png)
+![Dialogrutan Styrningsprincip och verkställandeåtgärder med kryssrutan och alternativet OK markerat.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
 ### Ange information
 
 Ange sedan ett namn och en beskrivning för dataanslutningen. Den här informationen hjälper dig att identifiera dataanslutningen senare.
 
-![Arbetsytan Lägg till målgrupper med alternativet att ange ett namn och en beskrivning.](/help/assets/setup/add-manage-audiences/data-connection-details.png)
+![Arbetsytan Lägg till målgrupper med alternativet att ange ett namn och en beskrivning.](/help/assets/setup/add-manage-audiences/data-connection-details.png){zoomable="yes"}
 
 ### Kartfält {#map-fields}
 
@@ -114,7 +114,7 @@ Ange sedan ett namn och en beskrivning för dataanslutningen. Den här informati
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Målfält"
->abstract="För närvarande är hash-kodade e-postmeddelanden de enda matchningsnycklar som stöds."
+>abstract="Målfält är de matchningsnycklar som väljs under kontoinställningarna. Som standard är alla matchningsnycklar tillgängliga."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -125,47 +125,59 @@ Ange sedan ett namn och en beskrivning för dataanslutningen. Den här informati
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Identitetsnamnutrymmen"
 >abstract="Välj ett identitetsnamnutrymme bland de standardnamnutrymmen och anpassade identitetsnamnutrymmen som finns i din Experience Platform-organisation."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=sv-SE#standard" text="Standard- och identitetsnamnutrymmen i Experience Platform"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Standard- och identitetsnamnutrymmen i Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profilattribut"
->abstract="Välj attribut från unionsschemat för klassen Profile i Experience Platform. I den här vyn visas attribut som finns i unionens schema och tillhör klassen XDM Individual Profile."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=sv-SE" text="Unionsschema i Experience Platform"
+>abstract="Välj attribut från unionsschemat för klassen Profile i Experience Platform. I den här vyn visas attribut som finns i unionsschemat och tillhör klassen XDM Individual Profile."
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Unionsschema i Experience Platform"
 
-Därefter väljer du källfält som ska mappas till målfält i Collaboration.
+Därefter väljer du källfält som ska mappas till målfält i Collaboration. Tillgängliga målfält baseras på de matchningsnycklar som du valde under kontokonfigurationen.
 
-![Arbetsytan Lägg till målgrupper med alternativet att mappa källfält till målfält.](/help/assets/setup/add-manage-audiences/add-map-fields.png)
+>[!IMPORTANT]
+>
+>För närvarande kan du inte redigera dataanslutningar för att inkludera nya kartfält. Om du lägger till nya matchningsnycklar till ditt konto efter att dataanslutningen har skapats, måste du skapa en ny dataanslutning för att mappa till dem.
+
+![Arbetsytan Lägg till målgrupper med alternativet att mappa källfält till målfält.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
 >[!TIP]
 >
->Du kan mappa flera källfält till samma målfält. Om du till exempel har e-postadresser i två separata fält i Experience Platform kan du mappa var och en av dem till målfältet **[!UICONTROL Hashed email]** som två separata rader.
+>Du kan mappa flera källfält till samma målfält. Om du till exempel har e-postadresser i två separata fält i Experience Platform kan du mappa var och en av dem till målfältet **[!UICONTROL Hashed email]** som två separata rader. Använd alternativet **[!UICONTROL Add field]** om du vill lägga till ytterligare mappningsrader.
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source fields]** är identitetsnamnutrymmen och attribut från Experience Platform. Det är så här identiteterna finns i plattformen som du hämtar data från. Source-fält mappas till målfälten som definierats i Collaboration.
+**[!UICONTROL Source fields]** är identitetsnamnutrymmen och attribut från Experience Platform. Dessa innehåller både [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"} och [anpassade ](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} identitetsnamnutrymmen. De innehåller även profilattribut som finns i [union-schemat](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"} och tillhör klassen XDM Individual Profile.
 
-**[!UICONTROL Target fields]** anger hur identiteterna refereras i Collaboration. För närvarande är hash-kodade e-postmeddelanden de enda matchningsnycklar som stöds.
+Source-fält mappas till målfälten som definierats i Collaboration.
 
-Använd alternativet **[!UICONTROL Apply transformation]** när du importerar *icke-hash*-fält från källan. I det här fallet använder Collaboration hashen och omformar fälten. Hash-algoritmen som används av Adobe är SHA256.
+**[!UICONTROL Target fields]** anger hur identiteterna refereras i Collaboration. Målfält är de matchningsnycklar som väljs under kontoinställningarna. Som standard är alla matchningsnycklar tillgängliga.
+
+Använd alternativet **[!UICONTROL Apply transformation]** när du hämtar *icke-hash*-fält till hash-kodade fält. Collaboration kommer att tillämpa hashen och omforma fälten. Hash-algoritmen som används av Adobe är SHA256.
 
 >[!ENDSHADEBOX]
 
-Markera det tomma källfältet bredvid målfältet. Dialogrutan **[!UICONTROL Select source field]** visas. Välj mellan alternativen **[!UICONTROL Identity namespaces]** och **[!UICONTROL Profile attributes]** för att hitta det önskade källfältet och välj sedan fältet i listan. Du kan också använda sökalternativet för att hitta det önskade fältet.
+Om du vill börja mappa fält markerar du det tomma källfältet bredvid målfältet. Dialogrutan **[!UICONTROL Select source field]** visas. Välj mellan alternativen **[!UICONTROL Identity namespaces]** och **[!UICONTROL Profile attributes]** för att hitta det önskade källfältet och välj sedan fältet i listan. Du kan också använda sökalternativet för att hitta det önskade fältet.
 
-![Dialogrutan Välj källfält med e-postalternativen visade.](/help/assets/setup/add-manage-audiences/select-source-field.png)
+![Dialogrutan Välj källfält med e-postalternativen visade.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-Om du vill hantera flera e-postfält mappar du det icke-hash-kodade e-postkällfältet med **[!UICONTROL Apply transformation]**.
+Använd alternativet **[!UICONTROL Apply transformation]** om du vill hantera källa för ett icke-hash-kodat fält till ett hash-kodat målfält. Om du till exempel vill lägga till ett andra e-postfält markerar du alternativet **[!UICONTROL Add field]** för att lägga till en ny rad och väljer sedan **[!UICONTROL Hashed email]** som målfält. Markera ett icke-hash-kodat källfält för e-post och välj sedan **[!UICONTROL Apply transformation]**.
 
-![Arbetsytan Lägg till målgrupper med e-postkällfälten mappade till målfältet, med Apply-omvandling aktiverad för ett.](/help/assets/setup/add-manage-audiences/apply-transformation.png)
+![Arbetsytan Lägg till målgrupper med e-postkällfälten mappade till målfältet, med Apply-omvandling aktiverad för ett.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-Fortsätt lägga till mappningspar efter behov och välj sedan **[!UICONTROL Next]**.
+Fortsätt lägga till mappningspar för varje målfält. Om du inte vill använda en matchningsnyckel kan du ta bort den med ikonen Ta bort (![Ta bort ikon](/help/assets/icons/delete.png)) bredvid fältet. Om matchningsnyckeln tas bort kan du inte använda den när du hämtar målgrupper från anslutningen.
+
+![Arbetsytan Lägg till målgrupper med alternativet Ta bort bredvid ett målfält markerat.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+När du är klar med mappningen av fält väljer du **[!UICONTROL Next]** för att fortsätta.
+
+![Arbetsytan Lägg till målgrupper med kartfälten ifyllda och alternativet Nästa markerat.](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
 
 ### Schema {#schedule}
 
 Schemalägg sedan när målgrupperna ska börja och sluta. Publiken kommer att uppdateras enligt detta schema.
 
-![Arbetsytan Lägg till målgrupp med schemaläggningsalternativen visas.](/help/assets/setup/add-manage-audiences/audience-scheduling.png)
+![Arbetsytan Lägg till målgrupp med schemaläggningsalternativen visas.](/help/assets/setup/add-manage-audiences/audience-scheduling.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -173,11 +185,11 @@ Schemalägg sedan när målgrupperna ska börja och sluta. Publiken kommer att u
 
 Välj frekvensen för målgruppsuppdateringen i listrutan **[!UICONTROL Frequency]**.
 
-![Arbetsytan Lägg till målgruppsplanering med listrutan Frekvens öppen.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png)
+![Arbetsytan Lägg till målgruppsplanering med listrutan Frekvens öppen.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
 
 Välj sedan **[!UICONTROL Date range]**. Startdatumet är det datum då målgruppen börjar fylla i profiler och slutdatumet är då målgruppen slutar uppdatera.
 
-![Arbetsytan Lägg till målgruppsplanering med alternativet Datumintervall visas.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png)
+![Arbetsytan Lägg till målgruppsplanering med alternativet Datumintervall visas.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -185,15 +197,15 @@ Välj sedan **[!UICONTROL Date range]**. Startdatumet är det datum då målgrup
 
 ### Välj målgrupper {#select-audiences}
 
-När du har valt målgruppskälla väljer du vilka specifika målgrupper du vill inkludera. Använd sök- och filteralternativen för att hitta relevanta målgrupper från datakällan. Välj önskade målgrupper och välj sedan **[!UICONTROL Next]**.
+När du har valt målgruppskälla väljer du vilka specifika målgrupper du vill inkludera. Använd sök- och filteralternativen för att hitta relevanta målgrupper från din dataanslutning. Välj önskade målgrupper och välj sedan **[!UICONTROL Next]**.
 
-![Arbetsytan Lägg till målgrupper med en lista över tillgängliga målgrupper.](/help/assets/setup/add-manage-audiences/select-audience.png)
+![Arbetsytan Lägg till målgrupper med en lista över tillgängliga målgrupper.](/help/assets/setup/add-manage-audiences/select-audience.png){zoomable="yes"}
 
 ### Granska
 
 Granska alla konfigurationer och inställningar innan du slutför målgruppstillägget. Kontrollera att alla detaljer är korrekta och välj sedan **[!UICONTROL Complete]** för att slutföra dataanslutningen.
 
-![Arbetsytan Lägg till målgrupper med alla valda konfigurationer visas.](/help/assets/setup/add-manage-audiences/review-connection.png)
+![Arbetsytan Lägg till målgrupper med alla valda konfigurationer visas.](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
 
 ## Visa målgruppspanelen {#view-audiences-dashboard}
 
@@ -219,12 +231,14 @@ Varje målgrupp innehåller en översikt över följande information:
 | **[!UICONTROL Created]** | Anger när målgruppen ursprungligen kom till Collaboration. |
 | **[!UICONTROL Last updated]** | Anger det senaste datumet och den senaste tidpunkten då målgruppen uppdaterades i Collaboration. Detta gäller inte när målgruppen senast uppdaterades, utan snarare när målgruppens konfiguration eller metadata senast ändrades. |
 
+![Arbetsytan Min målgrupp visar alla målgrupper som har hämtats.](/help/assets/setup/add-manage-audiences/audiences-workspace.png){zoomable="yes"}
+
 Om du vill utföra snabba åtgärder för en målgrupp väljer du ellipsen **...** bredvid målgruppens namn. Följande alternativ är tillgängliga:
 
 * Med **[!UICONTROL Edit categories]** kan du lägga till olika kategoritaggar för målgruppen. Mer information finns i avsnittet [categories](#categories) nedan.
 * **[!UICONTROL Delete]** tar bort målgruppen från dataanslutningen.
 
-![Arbetsytan Mina målgrupper med ellipsmenyn öppen och kategorierna Redigera och Ta bort markerade.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png)
+![Arbetsytan Mina målgrupper med ellipsmenyn öppen och kategorierna Redigera och Ta bort markerade.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}
 
 ## Visa enskilda målgrupper {#view-individual-audiences}
 
@@ -244,7 +258,7 @@ Följande information visas för varje enskild målgrupp:
 | **[!UICONTROL Created]** | Anger när målgruppen ursprungligen kom till Collaboration. |
 | **[!UICONTROL Created by]** | Anger den användare som köpte målgruppen till Collaboration. |
 
-![En enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details.png)
+![En enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details.png){zoomable="yes"}
 
 #### Identiteter {#identities}
 
@@ -255,7 +269,7 @@ Följande information visas för varje enskild målgrupp:
 
 Avsnittet **[!UICONTROL Identities]** anger antalet identiteter som finns i målgruppen. Avsnittet innehåller också en identitetsuppdelning av identiteter efter matchningsnyckel som hjälper dig att förstå målgruppens komposition.
 
-![Avsnittet Identiteter i en enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+![Avsnittet Identiteter i en enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details-identities.png){zoomable="yes"}
 
 Genom att hovra över de enskilda delarna av uppdelningen av matchningsnycklar får du ett korrekt identitetsantal för den relevanta nyckeln.
 
@@ -272,11 +286,11 @@ För smidig målgruppsorganisation, filtrering och hämtning kan ni tagga era m�
 
 Om du vill lägga till kategorier väljer du alternativet **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Categories]**.
 
-![Kategoriavsnittet för en enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details-categories.png)
+![Kategoriavsnittet för en enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details-categories.png){zoomable="yes"}
 
 Dialogrutan **[!UICONTROL Categories]** visas så att du kan välja de kategorier som du vill lägga till för målgruppen. Om du vill välja en enskild kategori markerar du kryssrutan bredvid kategorinamnet.
 
-![Dialogrutan Kategorier med tillgängliga kategorier visas.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
+![Dialogrutan Kategorier med tillgängliga kategorier visas.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png){zoomable="yes"}
 
 #### Anslutningsåtkomst {#connection-access}
 
@@ -289,7 +303,7 @@ En målgrupps tillgänglighet för användning i projekt med medarbetare skiljer
 
 Om du vill uppdatera målgruppens anslutningsåtkomst väljer du alternativet **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Connection access]**.
 
-![Avsnittet Anslutningsåtkomst för en enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png)
+![Avsnittet Anslutningsåtkomst för en enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png){zoomable="yes"}
 
 Dialogrutan **[!UICONTROL Connection access]** visas med tre tillgängliga anslutningsåtkomstalternativ:
 
@@ -299,7 +313,7 @@ Dialogrutan **[!UICONTROL Connection access]** visas med tre tillgängliga anslu
 
 Välj önskat alternativ för anslutningsåtkomst och välj sedan **[!UICONTROL Save]** för att tillämpa ändringarna.
 
-![Dialogrutan Anslutningsåtkomst med tillgängliga alternativ visas.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+![Dialogrutan Anslutningsåtkomst med tillgängliga alternativ visas.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -320,7 +334,7 @@ Tillgängligheten för målgrupper som kan användas i projekt med medarbetare s
 
 Metadatasynlighet anger synligheten för en målgrupps metadata till andra medarbetare innan de ansluter till dig, eller inom olika projektvyer. Om du vill uppdatera målgruppens metadatasynlighet väljer du alternativet **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Metadata visibility]**.
 
-![Sektionen för metadatavisning för en enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
+![Sektionen för metadatavisning för en enskild målgrupps arbetsyta.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png){zoomable="yes"}
 
 Dialogrutan **[!UICONTROL Metadata visibility]** visas så att du kan konfigurera visningsinställningar för målgruppen. Det finns två inställningar för metadatasynlighet som du kan konfigurera för varje målgrupp:
 
@@ -334,7 +348,7 @@ Dialogrutan **[!UICONTROL Metadata visibility]** visas så att du kan konfigurer
 >
 >För att inställningarna för metadatasynlighet ska börja gälla måste målgruppen ställas in på public eller custom.
 
-![Dialogrutan för synlighet av metadata med tillgängliga alternativ visas.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+![Dialogrutan för synlighet av metadata med tillgängliga alternativ visas.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png){zoomable="yes"}
 
 ## Redigera flera målgrupper {#edit-audiences}
 

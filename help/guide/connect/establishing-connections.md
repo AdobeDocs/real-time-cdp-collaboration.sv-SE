@@ -2,11 +2,11 @@
 title: Upprättar anslutningar
 description: Lär dig hur du skapar kopplingar och börjar samarbeta i projekt när du har upptäckt potentiella medarbetare.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
+source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '3104'
 ht-degree: 0%
 
 ---
@@ -194,7 +194,8 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Matcha nycklar"
->abstract="Matchningsnycklar är förifyllda med de som du har valt på organisationsnivå. Du kan inaktivera matchningsnycklar som du inte vill använda i den här anslutningen."
+>abstract="Matchningsnycklar är förifyllda med vanliga matchningsnycklar som du och din medarbetare har valt på kontonivån. Du kan inaktivera matchningsnycklar som du inte vill använda i den här anslutningen."
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Kontomatchningsnycklar"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -215,7 +216,7 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-namn"
 >abstract="<p>Valfri inställning. Anger det namn och ID som annonsören är känd av.</p><p>Annonsörsnamnet som du lägger till här är förifyllt i steget Skapa projekt.</p><ul><li>Om utgivaren har konfigurerat flera namn väljer du ett i listan.</li><li>Om bara ett namn är konfigurerat markeras det automatiskt.</li><li>Om inga namn är konfigurerade kommer fältet att fyllas i i förväg med annonsörens kontonamn från Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
@@ -224,7 +225,7 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 
 Du kan konfigurera följande anslutningsinställningar:
 
-+++Målgruppsaktivering
+##### Målgruppsaktivering {#audience-activation}
 
 >[!IMPORTANT]
 >
@@ -240,9 +241,7 @@ När du är klar väljer du **[!UICONTROL Save]** för att spara ändringarna.
 
 ![Dialogrutan Målgruppsaktivering med alternativet Spara på arbetsytan för anslutningsinställningar.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
-+++
-
-+++Användningsfall
+##### Användningsfall {#use-cases}
 
 Användningsexempel fylls i automatiskt med alla tillgängliga alternativ. De valda användningsfallen avgör vilka vyer och alternativ som är tillgängliga i dina projekt. Läs handboken [Projektanvändningsfall](/help/guide/collaborate/manage-projects.md#project-use-cases) om du vill veta mer.
 
@@ -250,19 +249,23 @@ Om du vill anpassa dina användningsfall väljer du **[!UICONTROL Edit]** i avsn
 
 ![Inställningar för användningsfall på arbetsytan för anslutningsinställningar.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
-+++
+##### Matcha nycklar {#match-keys}
 
-+++Matcha nycklar
+Matchningsnycklar fylls automatiskt i med de vanliga matchningsnycklar som du och din medarbetare valde när du [konfigurerade dina konton](/help/guide/setup/onboard-account.md#set-up-match-keys). Endast matchande nycklar som både du och din medarbetare har valt **och** visas.
 
-Matchande nycklar fylls automatiskt i med de som du valde när du [konfigurerade ditt konto](/help/guide/setup/onboard-account.md#set-up-match-keys). Du kan inaktivera matchningsnycklar som du inte vill använda, men du kan inte lägga till matchningsnycklar som inte har valts under kontokonfigurationen.
+![Arbetsytan för anslutningsinställningar med avsnittet Matcha nycklar markerat med vanliga matchningsnycklar.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+
+När anslutningsägaren konfigurerar anslutningsinställningarna kan de [redigera kontouppdelementen](../setup/onboard-account.md#edit-match-keys) för att inkludera ytterligare matchningsnycklar. När du har aktiverat fler matchningsnycklar i dina kontoinställningar kan dessa matchningsnycklar aktiveras i anslutningsinställningarna om medarbetaren också har valt dem. Matchningsnycklar som läggs till när anslutningsprocessen väl har börjat fylls inte i automatiskt och måste aktiveras manuellt.
 
 Om du vill anpassa matchningsnycklarna väljer du **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Match keys]** och inaktiverar alla matchningsnycklar som du inte vill använda i den här anslutningen. När du är klar väljer du **[!UICONTROL Save]** för att spara ändringarna.
 
-![Inställningarna för Matcha nyckel på arbetsytan för anslutningsinställningar.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![Arbetsytan för anslutningsinställningar med dialogrutan Matcha nycklar öppen med en inaktiverad matchningsnyckel.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
-+++
+>[!IMPORTANT]
+>
+>När din medarbetare har godkänt anslutningsinställningarna kommer matchningsnycklarna att vara låsta och kan inte ändras.
 
-+++Kreditdelning
+##### Kreditdelning {#credit-split}
 
 Använd kreditdelningsavsnittet för att avgöra vilken av de två samarbetande parterna som ska täcka kostnaderna för aktiviteterna. Alternativ för kreditdelning bestäms av de valda användningsfallen för anslutningen. Användningsfallet **[!UICONTROL Measurement]** kräver att en part ska täcka kostnaderna, men **[!UICONTROL Activation - Matching]** ger ytterligare ett alternativ att låta varje part täcka sina egna kostnader. Mer information om kostnadsfördelning finns i handboken [Kreditaktivitetstyper](/help/guide/setup/my-activity.md#types-of-activities).
 
@@ -274,9 +277,7 @@ Om du vill konfigurera kreditdelningen väljer du **[!UICONTROL Edit]** i avsnit
 
 ![Dialogrutan för kreditdelning med alternativ på arbetsytan för anslutningsinställningar.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
-+++
-
-+++Advertiser-namn
+##### Advertiser-namn {#advertiser-names}
 
 >[!NOTE]
 >
@@ -303,8 +304,6 @@ När du skapar ett projekt kommer annonsörens namn att fyllas i i förväg base
 > När du har skickat anslutningsinställningarna kan du inte längre lägga till eller redigera annonsörernas namn.
 
 ![Arbetsytan för anslutningsinställningar med delen Advertiser-namn ifylld.](/help/assets/connect/establish-connection/add-advertiser-names.png)
-
-+++
 
 När du har gjort dina val väljer du **[!UICONTROL Submit]** för att skicka de föreslagna inställningarna till mottagaren för granskning.
 

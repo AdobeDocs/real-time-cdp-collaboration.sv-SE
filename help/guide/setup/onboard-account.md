@@ -2,11 +2,11 @@
 title: Konfigurera och hantera ditt konto
 description: Lär dig konfigurera och hantera olika aspekter av ditt konto i Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ För att börja konfigurera ditt konto måste du först konfigurera kontoinforma
 * Lägg till en **[!UICONTROL Account name]** som tydligt representerar ditt varumärke.
 * Lägg till en **[!UICONTROL Description]** om ditt varumärke. Detta är valfritt, men hjälper andra medarbetare att förstå ert varumärke bättre.
 * Välj din **[!UICONTROL Role]**. Du kan välja mellan **[!UICONTROL Advertiser]** och **[!UICONTROL Publisher]**. Läs guiden [roles](/help/guide/overview/roles.md) om du vill se likheter och små skillnader i arbetsflödet mellan de två rolltyperna för kontot.
-<!-- The above will need to be updated when I update things for B2B -->
 * Välj **[!UICONTROL Industry]** för ditt konto. Några exempel är **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]** eller **[!UICONTROL Financial services]**.
 * **[!UICONTROL Region]** anges automatiskt baserat på ditt Adobe Experience Cloud-konto. Detta kan inte ändras när som helst.
 * Lägg till en **[!UICONTROL Contact email]** för ditt konto. Detta ska vara en team- eller rollbaserad e-postadress. Personliga e-postadresser ska inte anges.
@@ -62,64 +61,111 @@ För att börja konfigurera ditt konto måste du först konfigurera kontoinforma
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Matcha nycklar"
->abstract="Matchningsnycklar är identifierare som används för att stämma av medlemmar mellan olika målgrupper från olika datakällor. Inkludera matchande nycklar som ert varumärke kan arbeta med."
+>abstract="Matchningsnycklar är identifierare som används för att matcha målgruppsprofiler från olika datakällor. Inkludera matchande nycklar som ert varumärke kan arbeta med."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="Personliga ID:n för första part"
->abstract="Personliga ID:n från första part, som hash-kodade e-postadresser eller telefonnummer, är direkt kopplade till en enskild profil. ID:n som stöds för närvarande är hashkodade e-postmeddelanden och telefonnummer."
+>abstract="Personliga ID:n från första part, som hash-kodade e-postadresser, hashade telefonnummer eller CRM-ID:n, är direkt kopplade till en enskild profil."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="Enhets-ID:n från första part"
->abstract="Första parts enhets-ID som ECID eller IP-adresser är direkt anslutna till enheter, som kan delas mellan flera personer. IPv4 är det enda enhets-ID som stöds för tillfället."
+>abstract="Första parts enhets-ID, t.ex. ECID eller IP-adresser, är direkt anslutna till enheter, som kan delas mellan flera personer. IPv4 är det enda enhets-ID som stöds för tillfället."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="Partners-ID som stöds"
->abstract="Partner-ID:n som är kopplade till profiler utökar räckvidden till en viss profil."
+>abstract="Partner-ID:n är identifierare som tillhandahålls av externa partner för målgruppsavstämning. Partner-ID:n är inte direkt kopplade till en enskild profil."
+
+![Matchningsnycklar som stöds.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->De matchningsnycklar som du väljer under kontokonfigurationen avgör vilka matchningsnycklar som är tillgängliga för de anslutningar som du skapar med andra medarbetare. Du kan ta bort matchningsnycklar under anslutningskonfigurationen, men du kan inte lägga till nya matchningsnycklar. Det är viktigt att välja **alla** matchningsnycklar som du vill använda i framtida kampanjer under kontokonfigurationen.
+>De matchningsnycklar som du väljer under kontokonfigurationen avgör vilka matchningsnycklar som är tillgängliga i dina anslutningar. Du kan [ta bort oönskade matchningsnycklar](../connect/establishing-connections.md#connection-settings) under anslutningskonfigurationen, men det går inte att lägga till matchningsnycklar efter att en anslutning har upprättats. Det är viktigt att du väljer **alla** matchningsnycklar som du tänker använda i framtida kampanjer under kontokonfigurationen.
 
-Matcha nycklar, som e-postadresser, enhets-ID:n eller kund-ID:n, hjälper medarbetarna att samarbeta genom att aktivera korrekt och sekretesscentrerad datasynkronisering, vilket ger en mer exakt målgruppsanpassning och mätning.
+Matcha nycklar hjälper medarbetare att samarbeta genom att möjliggöra korrekt och sekretesscentrerad datasynkronisering, vilket ger en mer exakt målgruppsanpassning och mätning. Matcha nycklar som valts under kontokonfiguration avgör vilka matchningsnycklar som är tillgängliga i framtida anslutningar. De används också för att [mappa fält](./onboard-audiences.md#map-fields) från din dataanslutning till målfälten i Collaboration när målgrupper hämtas.
 
-![Bild som visar tillgängliga identifierare för den första utgåvan av Collaboration.](/help/assets/setup/manage-account/available-identifiers.png)
+Välj de matchningsnycklar som du vill använda när du förenar målgruppsprofiler. Planera för framtiden och inkludera matchningsnycklar som ni kan arbeta med och förutse med i framtida kampanjer. Om du behöver välja ytterligare matchningsnycklar för ditt konto vid ett senare tillfälle kan du göra det i arbetsflödet för [redigera konto](#edit-account). Eventuella matchningsnycklar som läggs till efter den första konfigurationen kommer dock inte att vara tillgängliga för användning i befintliga anslutningar.
 
-<!-- Eventually replace this image above to match branding better. -->
+#### Matchningsnycklar som stöds {#supported-match-keys}
 
-Välj de matchningsnycklar som du vill använda när du förenar målgruppsprofiler. Inkludera alla matchningsnycklar som du kan arbeta med. Planera för framtiden och välj de matchningsnycklar som ni tror att ni kommer att använda i framtida kampanjer. Om du behöver välja ytterligare matchningsnycklar för ditt konto vid ett senare tillfälle kan du göra det i arbetsflödet för [redigera konto](#edit-account).
+Collaboration har stöd för tre typer av matchningsnycklar: ID:n för första part, enhets-ID:n för första part och partner-ID:n. Alla matchningsnycklar måste uppfylla följande krav:
 
-Välj upp till fem matchningsnycklar som du tänker använda. När du senare konfigurerar anslutningar kan du ta bort oönskade matchningsnycklar, men inte lägga till nya.
+* Matchningsnycklar måste vara **trimmade**, **nedsänkta**
+* Hash-kodade matchningsnycklar måste vara **SHA256-hashed**.
+* Om du anger hash-värden som använder versaler konverteras de automatiskt till gemener i Collaboration.
+* Om källan innehåller **klartextidentifierare** använder du alternativet **[!UICONTROL Apply transformation]** under [dataanslutningskonfigurationen](./manage-data-connection.md#match-keys) för att tillämpa hashning. Det här alternativet är endast tillgängligt när du hämtar målgrupper från Experience Platform och stöds inte för molnbaserade källor.
 
-Det finns tre typer av tillgängliga matchningsnycklar:
+##### Personliga ID:n för första part
 
-* Personliga ID:n för första part
-* Enhets-ID:n från första part
-* Partner-ID
+Personliga ID:n för första part är direkt kopplade till en enskild profil. Följande ID stöds för närvarande:
 
->[!IMPORTANT]
+* **[!UICONTROL Hashed email]**
+* **[!UICONTROL Hashed phone]**
+* **[!UICONTROL CRM IDs]**
+* **[!UICONTROL Loyalty IDs]**
+<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
+
+##### Enhets-ID:n från första part
+
+Första parts enhets-ID är identifierare som är anslutna till en viss enhet. Följande ID stöds för närvarande:
+
+* **[!UICONTROL Hashed IPv4]**: Hash-kodade IPv4-adresser
+
+##### Partner-ID
+
+Partner-ID:n är identifierare som tillhandahålls av externa partner för målgruppsavstämning. Följande ID stöds för närvarande:
+
+* **[!UICONTROL Adfixus ID]**
+
+>[!NOTE]
 >
->Den enda matchningsnyckel som stöds för närvarande är hashad e-post.
+>Adobe-integrering med [!DNL Adfixus] mappar unika [!UICONTROL Adfixus IDs] för varje konto till ett gemensamt Adobe-kodat format. Dessa mappningar används för att identifiera överlappningar mellan medarbetare. När målgrupper aktiveras med **[!UICONTROL Adfixus ID]** används de ursprungliga ID:na. Det Adobe-kodade formatet lämnar aldrig Collaboration.
 
-När det är klart väljer du **[!UICONTROL Complete]** för att slutföra arbetsflödet för organisationskonfiguration.
+När du väljer **[!UICONTROL Adfixus ID]** måste du ange motsvarande ID från din externa partner i avsnittet **[!UICONTROL Account credentials]**. Det här alternativet är endast tillgängligt *efter att* har aktiverats på **[!UICONTROL Adfixus ID]**. Ange ditt Adfixus-ID i fältet **[!UICONTROL Account ID]** och kontrollera att värdet är korrekt.
 
-![Arbetsytan Konfigurera organisation med avsnittet Matcha nycklar visas.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
+![Dialogrutan Matcha nycklar med Adfixus-ID aktiverad och avsnittet med kontoinloggningsuppgifter markerat.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+
+När du har valt alla matchningsnycklar väljer du **[!UICONTROL Complete]** för att slutföra kontokonfigurationsarbetsflödet.
+
+![Arbetsytan Konfigurera konto med avsnittet Matcha nycklar visas.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## Redigera konto {#edit-account}
 
-När du har konfigurerat ditt konto kan du när som helst redigera vissa aspekter och detaljer för kontot. Om du vill redigera ditt konto väljer du **[!UICONTROL Edit]** i avsnittet **[!UICONTROL My account]** på arbetsytan **[!UICONTROL Setup]**.
+När du har konfigurerat ditt konto kan du när som helst redigera informationen och matcha nycklarna.
+
+### Redigera information {#edit-details}
+
+Du kan redigera de flesta detaljer för ditt konto när som helst, med undantag för **[!UICONTROL Role]**. Regionen ställs in automatiskt baserat på ditt Adobe Experience Cloud-konto och kan inte ändras.
+
+Om du vill redigera ditt konto väljer du **[!UICONTROL Edit]** i avsnittet **[!UICONTROL My account]** på arbetsytan i **[!UICONTROL Setup]**.
 
 ![Arbetsytan Konfigurera med fliken Mitt konto och alternativet Redigera markerat.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-Nu kan du redigera din kontoinformation, med undantag för **[!UICONTROL Role]**. Observera att regionen ställs in automatiskt baserat på ditt Adobe Experience Cloud-konto och inte kan ändras när som helst.
+Nu kan du redigera din kontoinformation. Uppdatera de fält som du vill ändra och markera sedan **[!UICONTROL Save]** för att bekräfta ändringarna.
 
 ![Dialogrutan Redigera kontoinformation.](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
-Du kan också uppdatera de matchningsnycklar som du valde från början när du kom igång med organisationen. Välj **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Match keys]** om du vill lägga till fler matchningsnycklar.
+### Redigera matchningsnycklar {#edit-match-keys}
+
+>[!IMPORTANT]
+>
+>Om du redigerar matchningsnycklar påverkas inte dina befintliga anslutningar. När en anslutning har upprättats är de matchningsnycklar som du väljer under anslutningsinställningarna fasta. Det är viktigt att du väljer **alla** matchningsnycklar som du tänker använda i framtida kampanjer under kontokonfigurationen.
+
+Du kan också uppdatera de matchningsnycklar som du valde från början när du skapade ditt konto. Dessa matchningsnycklar avgör vilka matchningsnycklar som är tillgängliga för framtida anslutningar.
+
+Välj **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Match keys]**.
 
 ![Arbetsytan Konfigurera med alternativet Redigera markerat i avsnittet Matcha nycklar för kontot.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
+
+Dialogrutan **[!UICONTROL Match keys]** visas. Aktivera och inaktivera matchningsnycklar eller uppdatera **[!UICONTROL Account ID]** för [!UICONTROL Adfixus ID's] och välj sedan **[!UICONTROL Save]** för att bekräfta ändringarna.
+
+>[!IMPORTANT]
+>
+>Om du ändrar [!UICONTROL Adfixus ID] utlöses ingen [dataskiss](../glossary.md#sketches)-uppdatering för dina befintliga dataanslutningar med matchningsnyckeln. När dina data har skisserats återspeglas inte eventuella ändringar i [!UICONTROL Adfixus ID] förrän nästa målgrupp uppdateras enligt inställningarna för [dataanslutningsschemat](./manage-data-connection.md#scheduling). Om du behöver göra ändringar innan du uppdaterar nästa gång kan du ta bort och återskapa din dataanslutning.
+
+![Dialogrutan Matcha nycklar med alternativet Spara markerat.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
 ## Nästa steg
 

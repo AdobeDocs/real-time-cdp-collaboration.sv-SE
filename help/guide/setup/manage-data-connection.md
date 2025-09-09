@@ -2,11 +2,11 @@
 title: Hantera dataanslutningar
 description: Lär dig hantera dataanslutningar, inklusive matchningsnycklar, schemaläggning, användningsfall och målgruppsfiltrering i Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,9 @@ Om du vill visa befintliga dataanslutningar går du till **[!UICONTROL Setup]** 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="Matcha nycklar"
->abstract="Matchningsnycklar avgör hur data från olika källor matchas. Välj de matchande nycklar som är mest relevanta för dina användningsfall och sekretesspolicyer."
+>abstract="Matchningsnycklar avgör hur data från olika källor matchas. De matchningsnycklar som visas nedan är de målfält som du har mappat källfälten till."
 
-Matchningsnycklar är identifierare som används för att stämma av medlemmar mellan olika målgrupper från olika datakällor. Du kan inte redigera de matchningsnycklar som du ursprungligen valde för din dataanslutning.
-
->[!IMPORTANT]
-> 
->Matchningsnycklar kan inte redigeras efter att dataanslutningen har skapats. Om du vill uppdatera matchningsnycklar måste du skapa en ny dataanslutning.
-
-Tillgängliga matchningsnycklar är:
-
-- **Hash-kodad e-post**
+Matchande nycklar är de målfält som du [mappade dina källfält till ](./onboard-audiences.md#map-fields). Du kan inte redigera de matchningsnycklar som du ursprungligen valde för din dataanslutning. Om du vill uppdatera matchningsnycklar måste du skapa en ny dataanslutning. Mer information om hur matchningsnycklar fungerar finns i guiden [matchningsnycklar](./onboard-account.md#set-up-match-keys).
 
 ![En arbetsyta för dataanslutningar med avsnittet Matcha nycklar markerat.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -57,7 +49,7 @@ När en dataanslutning har skapats kan du uppdatera uppdateringsfrekvensen direk
 
 >[!NOTE]
 >
->När ni hämtar målgrupper från Adobe Experience Platform blir målgrupperna tillgängliga inom 24 timmar efter det att dataanslutningen har upprättats. Efter den första importen uppdateras målgruppsdata enligt den angivna frekvensen.
+>När ni hämtar målgrupper från Adobe Experience Platform blir målgrupperna tillgängliga inom 24 timmar efter det att dataanslutningen har upprättats. Efter den initiala källan uppdateras målgruppsdata enligt den definierade frekvensen.
 
 Mer information om schemaläggning finns i avsnittet [schemaläggning](/help/guide/setup/onboard-audiences.md#schedule) i guiden för att konfigurera målgrupper.
 
@@ -66,6 +58,8 @@ Mer information om schemaläggning finns i avsnittet [schemaläggning](/help/gui
 #### Redigera schemaläggning {#edit-scheduling}
 
 Du kan redigera frekvensen för en befintlig dataanslutning för att bättre kontrollera hur ofta målgrupperna uppdateras. Om du vill redigera schemat väljer du **[!UICONTROL Edit]** i dataanslutningen på schemaläggningskortet.
+
+Schemaläggningen påverkar alla målgrupper som kommer från dataanslutningen.
 
 I dialogrutan **[!UICONTROL Scheduling]** väljer du listrutan för att uppdatera **[!UICONTROL Frequency]**. Ställ in uppdateringsfrekvensen så att den körs dagligen eller varannan till var sjätte dag. När du är klar väljer du **[!UICONTROL Save]** för att tillämpa ändringarna.
 

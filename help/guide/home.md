@@ -2,9 +2,9 @@
 title: Översikt
 description: Lär dig använda Adobe Real-Time Customer Data Platform (CDP) Collaboration för att upptäcka, aktivera och mäta värdefulla målgrupper utan att behöva använda cookies från tredje part.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: fa58c5396011e6d3e7cbc5bd65844f69a9cc3f97
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Med Adobe Real-Time CDP Collaboration kan ni identifiera, aktivera och mäta värdefulla målgrupper utan att förlita er på cookies från tredje part. Denna lösning möjliggör avancerade datasamarbete som hjälper er att skapa personaliserade och slagkraftiga kundupplevelser i en sekretesscentrerad, centraliserad miljö.
 
-![Real-Time CDP Collaboration inställningssida, som visar en organisation.](/help/assets/overview/set-up.png){zoomable="yes"}
+![Real-Time CDP Collaboration inställningssida, som visar en organisation.](/help/assets/overview/home.png){zoomable="yes"}
 
 ## Identifiera målgrupper via betrodda partners
 
@@ -45,7 +45,7 @@ När du har åtkomst kan du konfigurera ditt konto och skapa din dataanslutning 
 
 ## Resurser
 
-Utforska [ordlistan](/help/guide/glossary.md) för detaljerad information om termer som används i produkten. Om du behöver support går du till sidan [Kundsupport](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=open-ticket#support){target="_blank"} för Adobe.
+Utforska [ordlistan](/help/guide/glossary.md) för detaljerad information om termer som används i produkten. Om du behöver support går du till sidan [Kundsupport](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} för Adobe.
 
 ## Kontakta oss
 

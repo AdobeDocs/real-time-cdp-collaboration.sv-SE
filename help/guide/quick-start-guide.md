@@ -2,11 +2,11 @@
 title: Real-Time CDP Collaboration snabbstartsguide
 description: Lär dig hur du kan integrera din organisation i Real-Time CDP Collaboration, inklusive hur du skapar roller och organisationer, hämtar målgrupper, aktiverar och mäter. Den här guiden hjälper medarbetare att konfigurera anslutningsinställningar så att de kan börja använda sina målgrupper på ett säkert och effektivt sätt.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
+source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Innan du börjar bör du kontrollera att du har följande:
 - [Åtkomst har etablerats för slutanvändare](./permissions/manage-user-access.md).
 - [Roller som skapats för din organisation och tilldelats användare](./permissions/manage-roles.md).
 - Tillgång till varumärkesresurser, t.ex. organisationens namn, logotyp och banderoll.
-- En [definierad matchningsnyckelstrategi](./setup/onboard-account.md#set-up-match-keys) (för närvarande är hash-kodad e-post den enda matchningsnyckeln som stöds).
+- En [definierad matchningsnyckelstrategi](./setup/onboard-account.md#set-up-match-keys)
 - (Valfritt) Åtkomst till en molnkälla som stöds (Amazon S3 eller Snowflake) om du inte använder Experience Platform för målgruppshantering.
 
 ## Steg 1: Slutför rollbaserad konfiguration {#complete-role-based-setup}
@@ -41,7 +41,7 @@ Din organisations åtkomstroller avgör vad användare kan se och göra i Collab
 
 I den här videon får du lära dig hur du tilldelar produktåtkomst och behörigheter till Collaboration med Admin Console och Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452234/?learn=on&enablevpops&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Steg 2: Konfigurera ditt Collaboration-konto {#set-up-your-account}
 
@@ -66,7 +66,7 @@ Definiera kontots roll i Collaboration, tillhandahåll varumärkesresurser och k
 >Om du skapar ett utgivarkonto och vill vara synligt för alla i Collaboration anslutningskatalog kontaktar du Adobe. Utgivarkonton kräver en anpassad varumärkesbanderoll (JPG 2688x1536). Den här filen kan delas direkt med din representant.
 
 - **E-postadress till kontakt** - Ange ett e-postmeddelande till samarbetspartners som ska användas när en anslutning har upprättats.
-- **Konfigurera matchningsnycklar** - Välj de identifierare som används för målgruppsmatchning (för närvarande är hashed email den enda matchningsnyckeln som stöds).
+- **Konfigurera matchningsnycklar** - Välj identifierare som används för målgruppsmatchning.
 
 Mer information om inledande kontokonfiguration, inklusive hur du definierar roller, överför varumärkesresurser och konfigurerar matchningsnycklar, finns i handboken [Första kontokonfiguration](./setup/onboard-account.md#initial-account-setup){target="_blank"}.
 
@@ -107,7 +107,8 @@ Konfigurera hur målgrupper förbereds, matchas och styrs för användning i ans
 >
 >**Matcha nyckelkrav:**
 >
->Alla matchningsnycklar måste vara **trimmade**, **nedsänkta** och **SHA256-hashed**.\
+>Alla matchningsnycklar måste vara **trimmade**, **nedsänkta**
+>>Hash-kodade matchningsnycklar måste vara **SHA256-hashed**.\
 >Om du anger hash-värden som använder versaler konverteras de automatiskt till gemener i Collaboration.\
 >Om källan innehåller **klartextidentifierare** använder du alternativet **[!UICONTROL Apply transformation]** för att tillämpa hashning. Det här alternativet är endast tillgängligt när du hämtar målgrupper från Experience Platform och stöds inte för molnbaserade källor.
 >
@@ -221,7 +222,7 @@ Använd arbetsytan **[!UICONTROL Connect]** på den vänstra navigeringsmenyn f�
 >
 >För närvarande kan bara annonsörer bläddra bland utgivare. Utgivare kan inte bläddra bland eller initiera anslutningar med annonsörer.
 
-En översikt över det här flödet finns i [guiden om att upprätta anslutningar](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
+En översikt över det här flödet finns i [guiden om att upprätta anslutningar](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
 
 ## Nästa steg
 

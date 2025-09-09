@@ -2,9 +2,9 @@
 title: Upptäck överlappningar och jämför målgrupper
 description: Upptäck överlappningar mellan era och medarbetarnas målgrupper. Lär dig hur ni hittar de bästa målgrupperna som kan användas i era kampanjer.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
+source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 0%
@@ -197,7 +197,7 @@ För att få en bättre förståelse för hur indexpoängen kommer att påverka 
 För att det ska vara enkelt att jämföra olika målgrupper och kampanjer översätter Collaboration indexpoängen till relevansband (mycket låg till mycket hög). På så sätt kan ni snabbt bedöma styrkan i relationen mellan er målgrupp och medarbetarens målgrupp.
 
 | Indexpoäng (i) | Relevansband | Beskrivning |
-|---------|----------|-----------|
+|---------------|----------|-----------|
 | i &lt; 60 | Mycket låg | Överlappningen är mycket mindre förekommande hos målgruppen än hos er målgrupp, vilket tyder på en mycket svag relation. Kunder som använder den här målgruppen är mycket mindre benägna att nå sin målgrupp. |
 | 60 &lt; i &lt; 80 | Låg | Överlappningen är något mindre utbredd hos målgruppen jämfört med målgruppen, vilket tyder på en svag relation. Kunder som använder den här målgruppen är mindre benägna att nå sin målgrupp. |
 | 80 &lt; i &lt; 120 | Medium | Överlappningen är ungefär lika stor i målgruppen som i målgruppen, vilket tyder på en typisk relation. Kunder som använder den här målgruppen har en genomsnittlig sannolikhet att nå sin målgrupp. |
