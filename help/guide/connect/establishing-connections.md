@@ -2,7 +2,7 @@
 title: Upprättar anslutningar
 description: Lär dig hur du skapar kopplingar och börjar samarbeta i projekt när du har upptäckt potentiella medarbetare.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
@@ -223,7 +223,7 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Matcha nycklar"
 >abstract="Matchningsnycklar är förifyllda med vanliga matchningsnycklar som du och din medarbetare har valt på kontonivån. Du kan inaktivera matchningsnycklar som du inte vill använda i den här anslutningen."
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Kontomatchningsnycklar"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Kontomatchningsnycklar"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -244,7 +244,7 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-namn"
 >abstract="<p>Valfri inställning. Anger det namn och ID som annonsören är känd av.</p><p>Annonsörsnamnet som du lägger till här är förifyllt i steget Skapa projekt.</p><ul><li>Om utgivaren har konfigurerat flera namn väljer du ett i listan.</li><li>Om bara ett namn är konfigurerat markeras det automatiskt.</li><li>Om inga namn är konfigurerade kommer fältet att fyllas i i förväg med annonsörens kontonamn från Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
