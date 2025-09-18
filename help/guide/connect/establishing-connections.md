@@ -2,24 +2,52 @@
 title: Upprättar anslutningar
 description: Lär dig hur du skapar kopplingar och börjar samarbeta i projekt när du har upptäckt potentiella medarbetare.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
-source-wordcount: '3154'
+source-wordcount: '3274'
 ht-degree: 0%
 
 ---
 
-# Upprättar anslutningar
+# Upprättar anslutningar {#establishing-connections}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_compare_audiences"
+>title="Jämför målgrupper"
+>abstract="Jämför er målgrupp med alla kunder som Amazon Ads når."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_relevant_audiences"
+>title="Relevanta målgrupper"
+>abstract="Amazon inriktar sig på segment som er målgrupp har störst överlappning med tanke på att endast DSP-visningar förekommer (dessa segment kan bara användas i DSP)."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_resolved_ids"
+>title="Lösta ID:n"
+>abstract="Antalet ID:n Amazon Identity Resolution kunde matchas med era målgruppsdata."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
+>title="Överlappande och exponerade ID"
+>abstract="Detta visar antalet&quot;Lösta ID:n&quot; från den överförda publiken som också har exponerats för en annons via Amazon Ads."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlap_percentage"
+>title="Överlappa %"
+>abstract="Andelen&quot;Lösta ID:n&quot; som har exponerats för en annons via Amazon Ads."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_amazon_breakdown"
+>title="Uppdelning efter Amazon-produkt"
+>abstract="Uppdelningen av överlappande och exponerade ID:n som nås av antingen Amazon Ads Sponsored Product och/eller Amazon Ads DSP."
 
 {{limited-availability-release-note}}
 
 Innan medarbetare kan samarbeta i kampanjer måste de skapa en anslutning. Med den här anslutningen kan de aktivera målgrupper, skapa projekt och köra rapporter om kampanjresultat.
 
 Anslutningar upprättas baserat på ditt valda samarbetsmönster. Collaboration har stöd för två viktiga samarbetsmönster: annonser-till-utgivare och varumärken. Mer information om mönstren finns i handboken [use case](/help/guide/overview/use-cases.md).
-
-<!-- REPLACE THE LINK ABOVE WITH THE CORRECT LINK AFTER PAGE IS ESTABLISHED -->
 
 Om du vill lära dig hur du upprättar en anslutning läser du avsnittet nedan som motsvarar ditt samarbetsmönster:
 
@@ -195,7 +223,7 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Matcha nycklar"
 >abstract="Matchningsnycklar är förifyllda med vanliga matchningsnycklar som du och din medarbetare har valt på kontonivån. Du kan inaktivera matchningsnycklar som du inte vill använda i den här anslutningen."
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Kontomatchningsnycklar"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Kontomatchningsnycklar"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -216,7 +244,7 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-namn"
 >abstract="<p>Valfri inställning. Anger det namn och ID som annonsören är känd av.</p><p>Annonsörsnamnet som du lägger till här är förifyllt i steget Skapa projekt.</p><ul><li>Om utgivaren har konfigurerat flera namn väljer du ett i listan.</li><li>Om bara ett namn är konfigurerat markeras det automatiskt.</li><li>Om inga namn är konfigurerade kommer fältet att fyllas i i förväg med annonsörens kontonamn från Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
