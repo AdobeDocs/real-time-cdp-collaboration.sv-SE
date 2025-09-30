@@ -2,7 +2,7 @@
 title: Upptäck medarbetare
 description: Som annonsörer kan du lära dig hur du kan hitta potentiella medarbetare att arbeta med med Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 source-git-commit: ae35f62580ff3d0485dcf99f3638f68d21cc38a2
 workflow-type: tm+mt
