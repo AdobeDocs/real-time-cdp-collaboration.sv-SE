@@ -2,9 +2,9 @@
 title: Upprättar anslutningar
 description: Lär dig hur du skapar kopplingar och börjar samarbeta i projekt när du har upptäckt potentiella medarbetare.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
+source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3274'
 ht-degree: 0%
@@ -58,13 +58,13 @@ Om du vill lära dig hur du upprättar en anslutning läser du avsnittet nedan s
 
 ![Högnivådiagram över anslutningsprocessen mellan annonser och utgivare.](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-I mönstret för annonser-till-utgivare upptäcker en annonsörer en utgivare som de vill arbeta med via arbetsytan **[!UICONTROL Discover publishers]** och skickar en anslutningsinbjudan. Utgivaren granskar sedan inbjudan och godkänner den, så att annonsören kan föreslå anslutningsinställningar. När utgivaren har godkänt anslutningsinställningarna upprättas anslutningen, och båda medarbetarna kan börja arbeta tillsammans i projekt.
+I mönstret för annonser-till-utgivare upptäcker en annonsörer en utgivare som de vill arbeta med via arbetsytan **[!UICONTROL Discover collaborators]** och skickar en anslutningsinbjudan. Utgivaren granskar sedan inbjudan och godkänner den, så att annonsören kan föreslå anslutningsinställningar. När utgivaren har godkänt anslutningsinställningarna upprättas anslutningen, och båda medarbetarna kan börja arbeta tillsammans i projekt.
 
 ### Översikt på hög nivå
 
 För att upprätta en anslutning mellan en annonsörer och en utgivare gäller följande steg:
 
-1. [Identifiera utgivare](#discover-publishers): Annonsören identifierar potentiella utgivare att samarbeta med.
+1. [Identifiera utgivare](#discover-collaborators): Annonsören identifierar potentiella medarbetare att arbeta med.
 1. [Skicka inbjudan](#send-invite): Annonsören skickar en anslutningsinbjudan till den valda utgivaren.
 1. [Acceptera inbjudan](#accept-invite): Utgivaren granskar och accepterar inbjudan.
 1. [Konfigurera anslutningsinställningar](#configure-connection-settings): Annonsören konfigurerar anslutningsinställningarna och skickar dem till utgivaren för granskning.
@@ -108,25 +108,25 @@ När anslutningsinställningarna har godkänts upprättas anslutningen och medar
 
 På arbetsytan i **[!UICONTROL Connect]** kan du hantera dina anslutningar med medarbetare, skicka anslutningsinbjudningar och där annonsörer kan bläddra i utgivarkatalogen. Arbetsytan är uppdelad i två huvudflikar:
 
-### Upptäck förlag {#discover-publishers}
+### Upptäck medarbetare {#discover-collaborators}
 
 >[!IMPORTANT]
 >
->Endast annonsörer kan identifiera utgivare med arbetsytan **[!UICONTROL Discover publishers]**. Om du vill veta mer om hur du ansluter till medarbetare oavsett deras roll läser du avsnittet [varumärkesanslutning](#brand-to-brand-connection).
+>Endast annonsörer kan identifiera utgivare med arbetsytan **[!UICONTROL Discover collaborators]**. Om du vill veta mer om hur du ansluter till medarbetare oavsett deras roll läser du avsnittet [varumärkesanslutning](#brand-to-brand-connection).
 
-Om du vill identifiera utgivare går du till arbetsytan **[!UICONTROL Discover publishers]** på fliken **[!UICONTROL Connect]**. Här kan du bläddra igenom listan med tillgängliga utgivare med hjälp av sidnumreringskontrollerna längst ned på arbetsytan. Mer information om arbetsytan **[!UICONTROL Discover publishers]** finns i handboken [Identifiera utgivare](/help/guide/connect/discover-publishers.md).
+Om du vill identifiera utgivare går du till arbetsytan **[!UICONTROL Discover collaborators]** på fliken **[!UICONTROL Connect]**. Här kan du bläddra igenom listan med tillgängliga utgivare med hjälp av sidnumreringskontrollerna längst ned på arbetsytan. Mer information om arbetsytan **[!UICONTROL Discover collaborators]** finns i handboken [Identifiera medarbetare](/help/guide/connect/discover-collaborators.md).
 
-![Arbetsytan Identifiera utgivare som visar en lista över tillgängliga utgivare.](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
+![Arbetsytan Identifiera medarbetare som visar en lista över tillgängliga utgivare.](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
 
 ### Skicka inbjudan {#send-invite}
 
 >[!IMPORTANT]
 >
->I det här avsnittet beskrivs processen för annonsörer som skickar anslutningsinbjudningar till utgivare via arbetsytan **[!UICONTROL Discover publishers]**. Om du vill veta mer om hur du skapar anslutningar mellan varumärken oavsett deras roller kan du läsa avsnittet [varumärkesanslutning](#brand-to-brand-connection) eller gå till avsnittet [inbjudan till privat anslutning](#private-connection-invite).
+>I det här avsnittet beskrivs processen för annonsörer som skickar anslutningsinbjudningar till utgivare via arbetsytan **[!UICONTROL Discover collaborators]**. Om du vill veta mer om hur du skapar anslutningar mellan varumärken oavsett deras roller kan du läsa avsnittet [varumärkesanslutning](#brand-to-brand-connection) eller gå till avsnittet [inbjudan till privat anslutning](#private-connection-invite).
 
 När du har identifierat en utgivare som du vill samarbeta med väljer du alternativet **[!UICONTROL Connect]** på utgivarkortet. Den här åtgärden initierar anslutningsprocessen.
 
-![Alternativet Anslut är markerat på en viss utgivare på arbetsytan Identifiera utgivare.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![Alternativet Anslut är markerat på en viss utgivare på arbetsytan Identifiera medarbetare.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 En dialogruta visas där du uppmanas att skicka en anslutningsinbjudan till utgivaren. Välj **[!UICONTROL Send invite]** om du vill fortsätta.
 
@@ -223,7 +223,7 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Matcha nycklar"
 >abstract="Matchningsnycklar är förifyllda med vanliga matchningsnycklar som du och din medarbetare har valt på kontonivån. Du kan inaktivera matchningsnycklar som du inte vill använda i den här anslutningen."
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Kontomatchningsnycklar"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Kontomatchningsnycklar"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -244,7 +244,7 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-namn"
 >abstract="<p>Valfri inställning. Anger det namn och ID som annonsören är känd av.</p><p>Annonsörsnamnet som du lägger till här är förifyllt i steget Skapa projekt.</p><ul><li>Om utgivaren har konfigurerat flera namn väljer du ett i listan.</li><li>Om bara ett namn är konfigurerat markeras det automatiskt.</li><li>Om inga namn är konfigurerade kommer fältet att fyllas i i förväg med annonsörens kontonamn från Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"

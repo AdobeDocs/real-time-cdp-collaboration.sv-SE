@@ -2,11 +2,11 @@
 title: Upptäck överlappningar och jämför målgrupper
 description: Upptäck överlappningar mellan era och medarbetarnas målgrupper. Lär dig hur ni hittar de bästa målgrupperna som kan användas i era kampanjer.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
+source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2010'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ I avsnittet för att jämföra målgrupper kan du se följande mätvärden, som 
 | **[!UICONTROL Overlapping identities]** | Antalet unika ID:n som finns både i din och medarbetarens målgrupper. |
 | **[!UICONTROL Overlap %]** | Procentandelen profiler som överlappar den valda målgruppen för er och medarbetaren. |
 | **[!UICONTROL Audience index]** | Ett poängtal som anger hur starkt en viss målgrupp relaterar till en annan baserat på antalet underliggande målgrupper och överlappningar. Läs avsnittet [målgruppsindexpoäng](#audience-index-score) om du vill veta mer om vad poängen innebär. Poäng för målgruppsindex är inte tillgängliga vid jämförelse med medarbetarens baslinje (alla målgrupper). |
-| **[!UICONTROL Identities breakdown by match key]** | Uppdelningen av identiteter för varje matchningsnyckel som valts i projektet, baserat på valda målgrupper för varje medarbetare. |
+| **[!UICONTROL Identities breakdown by match key]** | Uppdelningen av identiteter som matchats för varje matchningsnyckel som valts i projektet, baserat på valda målgrupper för varje medarbetare. |
 
 {style="table-layout:auto"}
 

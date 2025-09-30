@@ -2,9 +2,9 @@
 title: Arbetsflöde från början till slut
 description: Förstå arbetsflödet från ax till limpa med Real-Time CDP Collaboration baserat på ditt samarbetsmönster.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 8745d6d8da389b552af3da6612bf693230dfb538
+source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Till att börja med måste [!UICONTROL Luma] [skapa ett konto](../setup/onboard-
 
 När de har upprättat sina konton måste både [!UICONTROL Luma] och [!UICONTROL TV Tube] [skapa en dataanslutning och en källpublik](../setup/onboard-audiences.md). Endast [!UICONTROL TV Tube] aktiverar målgrupper för marknadsföringskampanjer, så de måste [konfigurera ett mål](../setup/manage-destinations.md).
 
-När båda medarbetarna har sina konton konfigurerade är de redo att [skapa en anslutning](../connect/establishing-connections.md) inom plattformen. [!UICONTROL Luma] använder funktionen [Identifiera utgivare](../connect/discover-publishers.md) för att hitta [!UICONTROL TV Tube] och initiera en anslutningsbegäran. När [!UICONTROL TV Tube] har godkänt anslutningsbegäran konfigurerar [!UICONTROL Luma] anslutningsinställningarna för att definiera hur samarbetet ska fungera. [!UICONTROL TV Tube] accepterar anslutningsbegäran för att upprätta en säker länk mellan de två varumärkena.
+När båda medarbetarna har sina konton konfigurerade är de redo att [skapa en anslutning](../connect/establishing-connections.md) inom plattformen. [!UICONTROL Luma] använder funktionen [Identifiera medarbetare](../connect/discover-collaborators.md) för att hitta [!UICONTROL TV Tube] och initiera en anslutningsbegäran. När [!UICONTROL TV Tube] har godkänt anslutningsbegäran konfigurerar [!UICONTROL Luma] anslutningsinställningarna för att definiera hur samarbetet ska fungera. [!UICONTROL TV Tube] accepterar anslutningsbegäran för att upprätta en säker länk mellan de två varumärkena.
 
 När anslutningen har upprättats skapar [!UICONTROL Luma] [ett projekt](../collaborate/manage-projects.md) för att starta samarbetet med [!UICONTROL TV Tube]. Under projektkonfigurationen väljer de användningsfall för samarbete som passar deras mål bäst: [Upptäck](../collaborate/discover.md), [Aktivera](../collaborate/activate.md) och [Åtgärd](../collaborate/measure.md).
 
