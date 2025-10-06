@@ -56,7 +56,7 @@ I avsnittet **[!UICONTROL Discover]** kan du jämföra din AMC-målgrupp med all
 
 >[!IMPORTANT]
 >
->Målgruppsdata bearbetas från de målgrupper som har överförts till ditt [!DNL Amazon Ads]-konto. Läs [!DNL Amazon Ads]Amazon Ads-anslutningsguiden[ om du vill lära dig hur du skickar med Experience Platform Destinations-funktionen för att skicka dina målgrupper till ditt ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads)-konto.
+>Målgruppsdata bearbetas från de målgrupper som har överförts till ditt [!DNL Amazon Ads]-konto. Läs [!DNL Amazon Ads]Amazon Ads-anslutningsguiden[&#x200B; om du vill lära dig hur du skickar med Experience Platform Destinations-funktionen för att skicka dina målgrupper till ditt &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads)-konto.
 
 ![Avsnittet Discover i ett projekt med Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
