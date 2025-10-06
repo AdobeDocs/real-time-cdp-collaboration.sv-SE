@@ -2,7 +2,7 @@
 title: Amazon Marketing Cloud
 description: Läs om hur du ansluter med  [!DNL Amazon Marketing Cloud]  i Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
 workflow-type: tm+mt
 source-wordcount: '232'

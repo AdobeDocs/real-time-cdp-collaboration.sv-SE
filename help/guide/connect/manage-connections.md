@@ -2,7 +2,7 @@
 title: Hantera anslutningar
 description: Lär dig hur du hanterar dina anslutningar i Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: d6f0c5add0c0c69e5aed36cef77630ed5f7d1908
 workflow-type: tm+mt
 source-wordcount: '310'
