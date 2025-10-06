@@ -2,10 +2,11 @@
 title: Samarbetsmönstren i Adobe Real-Time CDP Collaboration.
 description: Förstå de två samarbetsmönstren i Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1bb3bec20b5e43d5c3a0c7182af74f4203f3c1cd
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
+source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Collaboration mönster i Adobe Real-Time CDP Collaboration är modeller som defi
 
 Om du vill veta mer om skillnaderna mellan annonsörer och utgivare läser du [rollguiden](/help/guide/overview/roles.md).
 
-## Advertiser-to-publisher
+## Advertiser-to-publisher {#advertiser-to-publisher}
 
 I samarbetsmönstret mellan annonsörer och förlag syftar annonsörer till att rikta och mäta målgrupper i anslutning till utgivare. Med det här mönstret kan annonsörer utnyttja utgivarens målgrupper för att förbättra målgruppsanpassningen, medan förläggare kan ge värdefulla insikter om målgruppernas beteende och preferenser. Annonsörer kan optimera sina kampanjer genom att nå rätt målgrupp vid rätt tidpunkt samtidigt som utgivare får tillgång till annonsörsdata, vilket hjälper dem att förstå sina målgrupper bättre för att förbättra sina innehållserbjudanden.
 
@@ -26,7 +27,7 @@ I samarbetsmönstret mellan annonsörer och förlag syftar annonsörer till att 
 
 Om du vill veta mer om hur annonsörer och utgivare samarbetar i det här mönstret läser du [arbetsflödesguiden från början till slut](/help/guide/overview/end-to-end-workflow.md).
 
-## Varumärkesprofilering
+## Varumärkesprofilering {#brand-to-brand}
 
 >[!NOTE]
 >
@@ -37,3 +38,11 @@ Tack vare samarbetet mellan varumärken kan varumärken samarbeta direkt med var
 ![Ett exempel på varumärkessamarbete.](/help/assets/overview/brand-to-brand.png)
 
 Om du vill veta mer om hur varumärken samarbetar i det här mönstret läser du [arbetsflödesguiden från början till slut](/help/guide/overview/end-to-end-workflow.md).
+
+## Advertiser-to-advertising-plattform {#advertiser-to-advertising-platform}
+
+Med det plattformsbaserade samarbetet mellan annonsörer och annonsörer kan annonsörer ansluta till annonsplattformar från tredje part, som [!DNL Amazon Marketing Cloud] ([!DNL AMC]), för att förbättra sina marknadsföringsfunktioner. Med det här mönstret kan annonsörer utnyttja plattformens verktyg för identitetsupplösning och målinriktning för att utöka effekten av sina data. Genom att integrera annonseringsplattformar kan annonsörer leverera exakta resultatinsikter till olika målgrupper, vilket ger dem möjlighet att optimera sina utgifter, förbättra relevansen och få mätbara affärsresultat.
+
+![Ett exempel på samarbete mellan annonsörer och annonsörer på olika plattformar.](/help/assets/overview/advertiser-to-advertising-platform.png)
+
+Om du vill veta mer om hur annonsörer samarbetar med annonseringsplattformar i det här mönstret läser du [arbetsflödesguiden från början till slut](/help/guide/overview/end-to-end-workflow.md).

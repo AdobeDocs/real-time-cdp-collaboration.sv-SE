@@ -2,9 +2,9 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration möjliggör smidig och säker datadelning och samarbete mellan annonsörer och utgivare, vilket underlättar målgruppsinsikter i realtid och personaliserade marknadsföringsstrategier.
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: db2eb6d124fd05523ad65872bcd12078b9809ddc
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '139'
 ht-degree: 10%
 
 ---
@@ -30,13 +30,22 @@ ht-degree: 10%
    * [Lägga till och hantera mätdata](./setup/onboard-measurement-data.md)
    * [Granskningsloggar](./setup/audit-logs.md)
 * Upprättar anslutningar {#connect}
+   * [Overview.md](./connect/overview.md)
    * [Upptäck medarbetare](./connect/discover-collaborators.md)
-   * [Upprättar anslutningar](./connect/establishing-connections.md)
+   * [Upprätta samarbetspartneranslutningar](./connect/establishing-connections.md)
+   * [Hantera anslutningar](./connect/manage-connections.md)
+   * Advertising plattformsanslutningar {#ad-platform-connections}
+      * [Översikt](./connect/advertising-platforms/overview.md)
+      * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Samarbeta {#collaborate}
+   * [Översikt](./collaborate/overview.md)
    * [Hantera projekt](./collaborate/manage-projects.md)
-   * [Upptäck](./collaborate/discover.md)
-   * [Aktivera](./collaborate/activate.md)
-   * [Mät](./collaborate/measure.md)
+   * Samarbetsanslutningar {#collaborator-connections}
+      * [Upptäck](./collaborate/discover.md)
+      * [Aktivera](./collaborate/activate.md)
+      * [Mät](./collaborate/measure.md)
+   * Advertising plattformsanslutningar {#ad-platform-connections}
+      * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
 * Mål {#destinations}
    * [Översikt](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)

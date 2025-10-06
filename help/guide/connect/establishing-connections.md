@@ -1,47 +1,17 @@
 ---
-title: Upprättar anslutningar
+title: Skapa kontakter med medarbetare
 description: Lär dig hur du skapar kopplingar och börjar samarbeta i projekt när du har upptäckt potentiella medarbetare.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '3274'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
 
-# Upprättar anslutningar {#establishing-connections}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_compare_audiences"
->title="Jämför målgrupper"
->abstract="Jämför er målgrupp med alla kunder som Amazon Ads når."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_relevant_audiences"
->title="Relevanta målgrupper"
->abstract="Amazon inriktar sig på segment som er målgrupp har störst överlappning med tanke på att endast DSP-visningar förekommer (dessa segment kan bara användas i DSP)."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_resolved_ids"
->title="Lösta ID:n"
->abstract="Antalet ID:n Amazon Identity Resolution kunde matchas med era målgruppsdata."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="Överlappande och exponerade ID"
->abstract="Detta visar antalet&quot;Lösta ID:n&quot; från den överförda publiken som också har exponerats för en annons via Amazon Ads."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlap_percentage"
->title="Överlappa %"
->abstract="Andelen&quot;Lösta ID:n&quot; som har exponerats för en annons via Amazon Ads."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Uppdelning efter Amazon-produkt"
->abstract="Uppdelningen av överlappande och exponerade ID:n som nås av antingen Amazon Ads Sponsored Product och/eller Amazon Ads DSP."
+# Skapa kontakter med medarbetare {#establishing-connections}
 
 {{limited-availability-release-note}}
 
@@ -78,31 +48,7 @@ När anslutningsinställningarna har godkänts upprättas anslutningen och medar
 
 >[!TIP]
 >
->Termen **varumärke** används för att referera till ett företag eller ett varumärke utanför Collaboration. Termen **medarbetare** avser alla konton som kan bilda en anslutning i Collaboration, oavsett om de är annonsörer eller utgivare.
-
-I varumärkesprofilmönstret kan två varumärken som har kommunicerat utanför produkten ansluta direkt i Collaboration med en [privat anslutningsinbjudan](#private-connection-invite). Ett varumärke kan antingen vara en annonsörer eller en utgivare. Det här mönstret är särskilt användbart för varumärken som kanske inte passar den traditionella annonsörmodellen, som två annonsörer eller två utgivare.
-
-Till att börja med skickar en medarbetare en privat anslutningsinbjudan till en annan medarbetare. Mottagaren granskar inbjudan och accepterar den, vilket gör att ägaren kan föreslå anslutningsinställningar. När mottagaren har godkänt anslutningsinställningarna upprättas anslutningen och båda medarbetarna kan börja arbeta tillsammans i projekt.
-
-### Översikt på hög nivå
-
->[!TIP]
->
->När du diskuterar anslutningsprocessen görs en skillnad mellan **ägaren** och **mottagaren**. Ägaren är medarbetaren som initierar anslutningen genom att skicka inbjudan, medan mottagaren är medarbetaren som tar emot och granskar inbjudan.
-
-Anslutningsprocessen mellan två varumärken omfattar flera steg. Innan anslutningsprocessen börjar måste vissa villkor vara uppfyllda:
-
-1. Två varumärken kommunicerar utanför produkten för att diskutera den potentiella anslutningen.
-1. Varumärken [skapar konton](/help/guide/setup/onboard-account.md) i Collaboration om de inte redan gjort det, och måste välja lämplig rolltyp (annonsörer eller utgivare).
-
-   När förutsättningarna är uppfyllda kan anslutningsprocessen börja. I följande steg beskrivs processen:
-
-1. [Skicka inbjudan om privat anslutning](#send-private-connection-invite): En medarbetare skickar en privat anslutningsinbjudan till en annan medarbetare.
-1. [Acceptera inbjudan till privat anslutning](#accept-private-connection-invite): Mottagaren granskar och accepterar inbjudan till privat anslutning.
-1. [Konfigurera anslutningsinställningar](#configure-connection-settings): Ägaren konfigurerar anslutningsinställningarna och skickar dem till mottagaren för granskning och godkännande.
-1. [Bekräfta anslutningsinställningar](#establish-connection): Mottagaren granskar anslutningsinställningarna och godkänner eller avvisar dem.
-
-När anslutningsinställningarna har godkänts upprättas anslutningen och medarbetare är redo att [skapa ett projekt](/help/guide/collaborate/manage-projects.md#create-project) för att börja samarbeta med kampanjer.
+>Den här guiden beskriver hur annonsörer-till-utgivare och samarbeten mellan varumärken kan kopplas samman. Mer information om hur du ansluter med annonseringsplattformar finns i avsnittet om [anslutning mellan annonser och annonseringsplattform](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) i översikten över [anslutningar](/help/guide/connect/overview.md).
 
 ## Anslut {#connect}
 
@@ -223,7 +169,7 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Matcha nycklar"
 >abstract="Matchningsnycklar är förifyllda med vanliga matchningsnycklar som du och din medarbetare har valt på kontonivån. Du kan inaktivera matchningsnycklar som du inte vill använda i den här anslutningen."
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Kontomatchningsnycklar"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Kontomatchningsnycklar"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -244,7 +190,7 @@ Arbetsytan för anslutningsinställningar visas, så att du kan konfigurera de o
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-namn"
 >abstract="<p>Valfri inställning. Anger det namn och ID som annonsören är känd av.</p><p>Annonsörsnamnet som du lägger till här är förifyllt i steget Skapa projekt.</p><ul><li>Om utgivaren har konfigurerat flera namn väljer du ett i listan.</li><li>Om bara ett namn är konfigurerat markeras det automatiskt.</li><li>Om inga namn är konfigurerade kommer fältet att fyllas i i förväg med annonsörens kontonamn från Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Skapa ett projekt"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
@@ -356,26 +302,6 @@ Om du är en utgivare som ansluter till en annonsör kan du nu lägga till annon
 > När du har godkänt anslutningsinställningarna kan du inte längre lägga till eller redigera annonsörernas namn.
 
 Välj sedan **[!UICONTROL Accept]** för att fortsätta med anslutningen. Anslutningsstatusen ändras till **[!UICONTROL Active]** och du kan nu börja samarbeta i projekt.
-
-## Ta bort anslutningar {#delete-connections}
-
-Du kan ta bort alla anslutningar med medarbetare som du inte vill fortsätta arbeta med. Navigera till **[!UICONTROL Connect]** om du vill ta bort befintliga anslutningar. Som utgivare visas din befintliga anslutning. Som annonsörer bör du sedan navigera till **[!UICONTROL My connections]**.
-
-Välj **[!UICONTROL View connection]** på det anslutningskort som du vill ta bort.
-
-![Anslutningsalternativet Visa är markerat i vyn Mina anslutningar.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
-
-Markera borttagningsikonen ![ta bort ikon](/help/assets/common/delete.svg) på arbetsytan för anslutningen om du vill ta bort anslutningen.
-
-![Ikonen Ta bort är markerad på arbetsytan för anslutning.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
-
-En bekräftelsedialogruta visas där du ombeds bekräfta borttagningen av anslutningen. Markera **[!UICONTROL Delete]** för att bekräfta borttagningen.
-
-![Bekräftelsedialogrutan för att ta bort en anslutning.](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
-
->[!WARNING]
->
->När anslutningen har tagits bort tas alla befintliga projekt i samarbetet bort permanent och kan inte återställas. Anslutningsbegäran kommer att vara i ett väntande tillstånd, men anslutningen och dess konfigurationer kommer inte längre att vara aktiva. Du måste återupprätta anslutningen om du vill ansluta till medarbetaren igen.
 
 ## Nästa steg
 

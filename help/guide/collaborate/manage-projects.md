@@ -2,11 +2,11 @@
 title: Skapa och hantera projekt
 description: Lär dig skapa och hantera projekt i Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,3 @@ Lägg sedan till **[!UICONTROL Project name]** och **[!UICONTROL Description]** 
 Du kan nu visa ditt nya projekt, dess information och tillgängliga avsnitt baserat på de användningsfall som valts under anslutningskonfigurationen.
 
 ![Arbetsytan för projektöversikt.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
-
-## Användningsexempel för projekt {#project-use-cases}
-
-I projektöversikten visas de användningsfall som valts under anslutningsinställningen. De här användningsexemplen definierar de funktioner som är tillgängliga i projektet. Användningsexempel:
-
-| Användningsfall | Projektavsnitt |
-| --- | --- |
-| Kampanjmätning | Det här användningsfallet ger åtkomst till avsnittet [Åtgärd](/help/guide/collaborate/measure.md) och alla tillgängliga funktioner. |
-| Målgruppsidentifiering | Det här användningsexemplet ger åtkomst till avsnittet [Discover](/help/guide/collaborate/discover.md) och alla tillgängliga funktioner. |
-| Målgruppsaktivering | Det här användningsexemplet ger åtkomst till avsnittet [Aktivera](/help/guide/collaborate/activate.md) och alla tillgängliga funktioner. |

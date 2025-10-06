@@ -2,11 +2,11 @@
 title: Upptäck överlappningar och jämför målgrupper
 description: Upptäck överlappningar mellan era och medarbetarnas målgrupper. Lär dig hur ni hittar de bästa målgrupperna som kan användas i era kampanjer.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2046'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,10 @@ Om du vill börja använda fliken **[!UICONTROL Discover]** i ditt projekt måst
 * [Skapade ett projekt](/help/guide/collaborate/manage-projects.md) mellan dig och en medarbetare
 
 När dessa förutsättningar är uppfyllda kan ni börja utforska och jämföra överlappningar mellan er och medarbetarens målgrupper.
+
+>[!NOTE]
+>
+>Den här **[!UICONTROL Discover]**-arbetsytan är inte relevant för samarbete med annonsplattformar. För närvarande är Amazon Marketing Cloud den enda tillgängliga annonsplattformen i Real-Time CDP Collaboration. Mer information om arbetsytan [!DNL AMC] **[!UICONTROL Discover]** finns i guiden för [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md).
 
 ## Jämför målgrupper {#compare-audiences}
 

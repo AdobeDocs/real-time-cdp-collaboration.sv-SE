@@ -2,11 +2,11 @@
 title: Arbetsflöde från början till slut
 description: Förstå arbetsflödet från ax till limpa med Real-Time CDP Collaboration baserat på ditt samarbetsmönster.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: 5c08738cdc8e1e208203ee1f9a1cf1891b5b07cb
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
@@ -60,3 +60,15 @@ När anslutningen har upprättats skapar [!UICONTROL Fit Apparel] [ett projekt](
 [!UICONTROL Fit Apparel] och [!UICONTROL Luma] kan båda använda [Discover](../collaborate/discover.md) för att få insikt i varandras målgruppsdata. När de har identifierat värdefulla målgruppssegment [aktiverar](../collaborate/activate.md) de valda målgrupperna för marknadsföringskampanjer.
 
 När kampanjerna har slutförts överför båda varumärkena data till [Mät](../collaborate/measure.md) resultaten och utvärderar hur effektivt deras samarbete är.
+
+## Plattformsarbetsflöde för annonsering mellan annonsörer {#advertiser-to-advertising-platform-workflow}
+
+[!UICONTROL Luma], ett atletiskt detaljhandelsföretag, vill ansluta till [!DNL Amazon Marketing Cloud] ([!DNL AMC]) för att förbättra sina marknadsföringsfunktioner genom att utnyttja [!DNL AMC] verktyg för identitetsupplösning och målinriktning. Luma har redan ett aktivt [!DNL Amazon Advertising]-konto och har godkänts för användning av [!DNL AMC].
+
+Till att börja med måste [!UICONTROL Luma] [skapa ett konto](../setup/onboard-account.md) med annonsörrollen. När kontot har skapats måste [!UICONTROL Luma] [skapa en dataanslutning och en källpublik](../setup/onboard-audiences.md). Eftersom [!UICONTROL Luma] aktiverar målgrupper för marknadsföringskampanjer måste de [konfigurera ett mål](../setup/manage-destinations.md).
+
+När [!UICONTROL Luma] har skapat sitt konto är de redo att [skapa en anslutning](../connect/establishing-connections.md) med [!DNL AMC] inom plattformen. [!UICONTROL Luma] använder funktionen [Identifiera medarbetare](../connect/discover-collaborators.md) för att hitta [!UICONTROL Amazon Marketing Cloud] och [initiera en anslutningsbegäran](../connect/advertising-platforms/amc.md). När anslutningen har autentiserats och auktoriserats via inloggningssidan [!DNL Amazon] upprättas anslutningen med [!DNL AMC].
+
+När anslutningen har upprättats skapar [!UICONTROL Luma] [ett projekt](../collaborate/manage-projects.md) för att starta samarbetet med [!DNL AMC]. Anslutningsinställningarna, inklusive användningsfall, är förkonfigurerade beroende på annonseringsplattformen. För [!DNL AMC] är det tillgängliga användningsexemplet [Discover](../collaborate/advertising-platforms/amc.md#discover).
+
+[!UICONTROL Luma] utnyttjar [Identifiera](../collaborate/advertising-platforms/amc.md#discover)-användningsfallet för att få insikter och målgruppsdata från [!DNL AMC]. Med hjälp av dessa insikter kan [!UICONTROL Luma] optimera sina marknadsföringsstrategier och förbättra kampanjeffektiviteten.
