@@ -2,7 +2,7 @@
 title: Amazon Marketing Cloud
 description: Läs om hur du samarbetar med Amazon Marketing Cloud i Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 57b847c25edbf88f4708bda74be41fe6141472a7
 workflow-type: tm+mt
 source-wordcount: '580'
@@ -56,7 +56,7 @@ I avsnittet **[!UICONTROL Discover]** kan du jämföra din AMC-målgrupp med all
 
 >[!IMPORTANT]
 >
->Målgruppsdata bearbetas från de målgrupper som har överförts till ditt [!DNL Amazon Ads]-konto. Läs [!DNL Amazon Ads]Amazon Ads-anslutningsguiden[&#x200B; om du vill lära dig hur du skickar med Experience Platform Destinations-funktionen för att skicka dina målgrupper till ditt &#x200B;](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/catalog/advertising/amazon-ads)-konto.
+>Målgruppsdata bearbetas från de målgrupper som har överförts till ditt [!DNL Amazon Ads]-konto. Läs [!DNL Amazon Ads]Amazon Ads-anslutningsguiden[ om du vill lära dig hur du skickar med Experience Platform Destinations-funktionen för att skicka dina målgrupper till ditt ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads)-konto.
 
 ![Avsnittet Discover i ett projekt med Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
