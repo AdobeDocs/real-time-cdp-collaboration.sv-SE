@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Arbetsytan **[!UICONTROL Activate]** är bara tillgänglig om **målgruppsaktiveringen** aktiverades [ under anslutningsprocessen](../connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./manage-projects.md#project-use-cases).
+>Arbetsytan **[!UICONTROL Activate]** är bara tillgänglig om **målgruppsaktiveringen** aktiverades [&#x200B; under anslutningsprocessen](../connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./manage-projects.md#project-use-cases).
 
 Med målgruppsaktivering kan ni aktivera målgrupper för användning i kampanjer. Aktivering kan utföras av någon av medarbetarna beroende på målgruppens aktiveringsinställningar [som har konfigurerats i anslutningen](/help/guide/connect/establishing-connections.md#configure-connection-settings). När du [har identifierat de bästa målgrupperna för din kampanj](./discover.md) aktiverar du målgrupperna så att de blir tillgängliga för användning. När du aktiverar en målgrupp skickas den till medarbetarens förkonfigurerade mål, som Adobe Experience Platform, där den blir tillgänglig för användning i kampanjer. Mer information om hur du ställer in mål finns i guiden [Målöversikt](../destinations/overview.md).
 

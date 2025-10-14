@@ -32,7 +32,7 @@ Om du vill visa befintliga dataanslutningar går du till **[!UICONTROL Setup]** 
 >title="Matcha nycklar"
 >abstract="Matchningsnycklar avgör hur data från olika källor matchas. De matchningsnycklar som visas nedan är de målfält som du har mappat källfälten till."
 
-Matchande nycklar är de målfält som du [mappade dina källfält till ](./onboard-audiences.md#map-fields). Du kan inte redigera de matchningsnycklar som du ursprungligen valde för din dataanslutning. Om du vill uppdatera matchningsnycklar måste du skapa en ny dataanslutning. Mer information om hur matchningsnycklar fungerar finns i guiden [matchningsnycklar](./onboard-account.md#set-up-match-keys).
+Matchande nycklar är de målfält som du [mappade dina källfält till &#x200B;](./onboard-audiences.md#map-fields). Du kan inte redigera de matchningsnycklar som du ursprungligen valde för din dataanslutning. Om du vill uppdatera matchningsnycklar måste du skapa en ny dataanslutning. Mer information om hur matchningsnycklar fungerar finns i guiden [matchningsnycklar](./onboard-account.md#set-up-match-keys).
 
 ![En arbetsyta för dataanslutningar med avsnittet Matcha nycklar markerat.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
