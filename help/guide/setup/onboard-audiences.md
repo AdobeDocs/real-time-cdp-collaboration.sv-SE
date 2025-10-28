@@ -151,7 +151,7 @@ Därefter väljer du källfält som ska mappas till målfält i Collaboration. T
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source fields]** är identitetsnamnutrymmen och attribut från Experience Platform. Dessa innehåller både [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"} och [anpassade ](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} identitetsnamnutrymmen. De innehåller även profilattribut som finns i [union-schemat](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"} och tillhör klassen XDM Individual Profile.
+**[!UICONTROL Source fields]** är identitetsnamnutrymmen och attribut från Experience Platform. Dessa innehåller både [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"} och [anpassade &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} identitetsnamnutrymmen. De innehåller även profilattribut som finns i [union-schemat](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"} och tillhör klassen XDM Individual Profile.
 
 Source-fält mappas till målfälten som definierats i Collaboration.
 

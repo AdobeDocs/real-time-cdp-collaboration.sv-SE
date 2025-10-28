@@ -108,7 +108,7 @@ Konfigurera hur målgrupper förbereds, matchas och styrs för användning i ans
 >**Matcha nyckelkrav:**
 >
 >Alla matchningsnycklar måste vara **trimmade**, **nedsänkta**
->>Hash-kodade matchningsnycklar måste vara **SHA256-hashed**.\
+>&#x200B;>Hash-kodade matchningsnycklar måste vara **SHA256-hashed**.\
 >Om du anger hash-värden som använder versaler konverteras de automatiskt till gemener i Collaboration.\
 >Om källan innehåller **klartextidentifierare** använder du alternativet **[!UICONTROL Apply transformation]** för att tillämpa hashning. Det här alternativet är endast tillgängligt när du hämtar målgrupper från Experience Platform och stöds inte för molnbaserade källor.
 >
@@ -165,7 +165,7 @@ Målgruppsdata som skickas till ett molnmål följer ett fördefinierat schema. 
 
 >[!IMPORTANT]
 >
->Arbetsytan **[!UICONTROL Measure]** är bara tillgänglig om **[!UICONTROL Measurement]** use case var aktiverat [ under anslutningsprocessen](./connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./collaborate/manage-projects.md#project-use-cases).
+>Arbetsytan **[!UICONTROL Measure]** är bara tillgänglig om **[!UICONTROL Measurement]** use case var aktiverat [&#x200B; under anslutningsprocessen](./connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./collaborate/manage-projects.md#project-use-cases).
 
 Collaboration erbjuder en mängd rapporter för att analysera kampanjernas räckvidd, frekvens och effektivitet. Även om arbetsytan **[!UICONTROL Measure]** är tillgänglig i användargränssnittet kan fullständiga rapportfunktioner kräva backend-aktivering.
 
