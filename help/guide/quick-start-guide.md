@@ -41,7 +41,7 @@ Din organisations åtkomstroller avgör vad användare kan se och göra i Collab
 
 I den här videon får du lära dig hur du tilldelar produktåtkomst och behörigheter till Collaboration med Admin Console och Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452234/?captions=swe&learn=on&enablevpops)
 
 ## Steg 2: Konfigurera ditt Collaboration-konto {#set-up-your-account}
 
