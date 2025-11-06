@@ -2,11 +2,11 @@
 title: Real-Time CDP Collaboration snabbstartsguide
 description: Lär dig hur du kan integrera din organisation i Real-Time CDP Collaboration, inklusive hur du skapar roller och organisationer, hämtar målgrupper, aktiverar och mäter. Den här guiden hjälper medarbetare att konfigurera anslutningsinställningar så att de kan börja använda sina målgrupper på ett säkert och effektivt sätt.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 9355535e067afeedff33f5c6468bc6fcb1f58e08
+source-git-commit: 3d003563e7eb6489e2a97b394f0ab185a63e35f2
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Din organisations åtkomstroller avgör vad användare kan se och göra i Collab
 
 I den här videon får du lära dig hur du tilldelar produktåtkomst och behörigheter till Collaboration med Admin Console och Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452234/?captions=swe&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Steg 2: Konfigurera ditt Collaboration-konto {#set-up-your-account}
 
@@ -108,7 +108,7 @@ Konfigurera hur målgrupper förbereds, matchas och styrs för användning i ans
 >**Matcha nyckelkrav:**
 >
 >Alla matchningsnycklar måste vara **trimmade**, **nedsänkta**
->&#x200B;>Hash-kodade matchningsnycklar måste vara **SHA256-hashed**.\
+>Hash-kodade matchningsnycklar måste vara **SHA256-hashed**.\
 >Om du anger hash-värden som använder versaler konverteras de automatiskt till gemener i Collaboration.\
 >Om källan innehåller **klartextidentifierare** använder du alternativet **[!UICONTROL Apply transformation]** för att tillämpa hashning. Det här alternativet är endast tillgängligt när du hämtar målgrupper från Experience Platform och stöds inte för molnbaserade källor.
 >
@@ -122,15 +122,11 @@ Du kan även läsa dokumentet om att [hämta målgrupper i Collaboration](./setu
 
 ### Alternativ B: Source från Snowflake eller Amazon S3
 
-Om du vill konfigurera en molnkälla (till exempel [!DNL AWS S3] eller [!DNL Snowflake]) förbereder du dina målgruppsdata med följande [Målgruppsspecifikation PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1.pdf). När du är klar, eller om du har frågor, kan du kontakta din Adobe-kontorepresentant för att slutföra konfigurationen. Den här metoden är inte självbetjäning och kräver Adobe hjälp.
+Om du vill konfigurera en molnkälla, till exempel [!DNL Snowflake] eller [!DNL Amazon S3], förbereder du dina målgruppsdata med [målgruppsspecifikationen PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)
 
-<!-- Add in the below in final draft: 
+Du kan konfigurera [!DNL Amazon S3] som en självbetjäningsdatakälla. Instruktioner finns i [Amazon S3-källguiden](./setup/configure-aws-s3-audience-sourcing.md)
 
-To configure a cloud source, such as [!DNL Snowflake] or [!DNL AWS S3], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1)
-
-[!DNL AWS S3] can now be configured as a self-service source. For setup instructions, see the [AWS S3 sourcing guide](./setup/configure-aws-s3-audience-sourcing.md)
-
-If you are using [!DNL Snowflake], or other cloud service provider, contact your Adobe account representative to finalize the setup. -->
+Om du använder [!DNL Snowflake], eller någon annan molntjänstleverantör, kontaktar du din Adobe-kontorepresentant för att slutföra konfigurationen.
 
 >[!IMPORTANT]
 >
@@ -165,7 +161,7 @@ Målgruppsdata som skickas till ett molnmål följer ett fördefinierat schema. 
 
 >[!IMPORTANT]
 >
->Arbetsytan **[!UICONTROL Measure]** är bara tillgänglig om **[!UICONTROL Measurement]** use case var aktiverat [&#x200B; under anslutningsprocessen](./connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./collaborate/manage-projects.md#project-use-cases).
+>Arbetsytan **[!UICONTROL Measure]** är bara tillgänglig om **[!UICONTROL Measurement]** use case var aktiverat [ under anslutningsprocessen](./connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./collaborate/manage-projects.md#project-use-cases).
 
 Collaboration erbjuder en mängd rapporter för att analysera kampanjernas räckvidd, frekvens och effektivitet. Även om arbetsytan **[!UICONTROL Measure]** är tillgänglig i användargränssnittet kan fullständiga rapportfunktioner kräva backend-aktivering.
 
@@ -230,7 +226,7 @@ Använd arbetsytan **[!UICONTROL Connect]** på den vänstra navigeringsmenyn f�
 >
 >För närvarande kan bara annonsörer bläddra bland utgivare. Utgivare kan inte bläddra bland eller initiera anslutningar med annonsörer.
 
-En översikt över det här flödet finns i [guiden om att upprätta anslutningar](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
+En översikt över det här flödet finns i [guiden om att upprätta anslutningar](./connect/establishing-connections.md){target="_blank"}. Titta på videon [Konfigurera annonskonto](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"} om du vill få en visuell genomgång av anslutningsprocessen, bland annat om hur du bläddrar bland medarbetare och hanterar anslutningsinställningar.
 
 ## Nästa steg
 
