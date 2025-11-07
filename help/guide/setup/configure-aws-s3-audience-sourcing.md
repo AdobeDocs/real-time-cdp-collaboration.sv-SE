@@ -186,7 +186,7 @@ I stödrastervyn eller tabellvyn väljer du ett radobjekt eller **[!UICONTROL Vi
 
 Använd den här vyn för att bekräfta inställningar för målgruppskonfiguration och synlighet innan du använder målgruppen i samarbetsprojekt.
 
-Mer information finns i [Visa dokumentationen för målgruppspanelen](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
+Mer information finns i [Visa dokumentationen för målgruppspanelen](https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
 
 ## Visa din S3-dataanslutning {#view-s3-connection}
 
