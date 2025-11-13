@@ -2,11 +2,11 @@
 title: Skapa och hantera projekt
 description: Lär dig skapa och hantera projekt i Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
+source-git-commit: 99443e1270a8a52a44dc7d0258c5bee7e4017db6
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,11 @@ Du kan bara använda filter för att visa projekt som du har startat med vissa m
 ![Filtrerad vy över projekt med en medarbetare.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Skapa projekt {#create-project}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_create_project_advertisername_amc"
+>title="Advertiser name (Amazon Marketing Cloud)"
+>abstract="För Amazon Marketing Cloud-anslutningar (AMC) representerar det här fältet den AMC-instans som din Amazon Ads-inloggning har åtkomst till. Det återspeglar inte ett annonsörsnamn. Om den begärda instansen inte finns med i listan kontaktar du Amazon Marketing Cloud-administratören och begär åtkomst."
 
 Om du vill skapa ett projekt måste du först [upprätta en anslutning](/help/guide/connect/establishing-connections.md) med en medarbetare. När anslutningen har upprättats kan du skapa ett projekt med den medarbetaren.
 
