@@ -1,9 +1,9 @@
 ---
 title: Konfigurera [!DNL Amazon S3] för målgruppskälla
 description: Lär dig hur du konfigurerar och ansluter ditt [!DNL Amazon S3] lagringsutrymme som en självbetjäningsdatakälla för att importera målgruppsdata till Real-Time CDP Collaboration.
-source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
+source-git-commit: 7a2bfb524d77d42690f3abe848a59aae5b16b667
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,12 @@ Välj **[!UICONTROL Amazon S3]** som dataanslutning, följt av **[!UICONTROL Nex
 
 ### Granska kraven på målgruppsfiler {#review-audience-requirements}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications"
+>title="Förbered data för introduktion"
+>abstract="Läs guiden Audience Sourcing om hur du formaterar och strukturerar målgruppsdata från Amazon S3 för Collaboration."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Se guiden"
+
 En dialogruta som förklarar hur målgruppsfilerna måste struktureras visas. Använd länken till **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)** för att lära dig att formatera och strukturera målgruppsdata från [!DNL Amazon S3] så att Collaboration kan läsa dem korrekt.
 
 >[!IMPORTANT]
@@ -87,6 +93,11 @@ Viktiga överväganden:
 >id="rtcdp_collaboration_sources_s3_folderpath"
 >title="Sökvägsformat för mapp"
 >abstract="Ange mappsökvägen (prefix) i [!DNL Amazon S3]-bucket där målgruppsfilerna lagras.<br><ul><li>Starta inte banor med ett snedstreck (/).</li><li>Inkludera ett avslutande snedstreck i slutet av banan.</li><ul><br>Giltigt exempel: `base/path/`<br>Ogiltigt exempel: `/base/path`"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_amazon_s3"
+>title="Lägg till användare för Amazon S3"
+>abstract="Om du vill ansluta din Amazon S3-lagring måste du godkänna att Adobe tjänstanvändare hämtar målgruppsdata för bearbetning. Följ stegen som beskrivs i Experience League för att ge Adobe åtkomst till ditt Amazon S3-lagringsutrymme."
 
 Ange sedan dina [!DNL Amazon S3]-autentiseringsuppgifter för att ansluta S3-bucket till Collaboration.
 
@@ -186,7 +197,7 @@ I stödrastervyn eller tabellvyn väljer du ett radobjekt eller **[!UICONTROL Vi
 
 Använd den här vyn för att bekräfta inställningar för målgruppskonfiguration och synlighet innan du använder målgruppen i samarbetsprojekt.
 
-Mer information finns i [Visa dokumentationen för målgruppspanelen](https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
+Mer information finns i [Visa dokumentationen för målgruppspanelen](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
 
 ## Visa din S3-dataanslutning {#view-s3-connection}
 
