@@ -1,9 +1,9 @@
 ---
 title: Konfigurera AWS-behörigheter för målgruppskälla
 description: Lär dig hur du konfigurerar behörigheter för AWS Identity and Access Management (IAM) för att ge Adobe säker, skrivskyddad åtkomst till din [!DNL Amazon S3] bucket för målgruppskälla i Real-Time CDP Collaboration.
-source-git-commit: 4f223890dabb4897c9e9264655ff9217e323dc91
+source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,7 @@ Under [!DNL Step 1] i [!DNL Create role]-arbetsflödet väljer du **[!DNL Truste
 |---------|-------------------|
 | Nordamerika | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-va6-role` |
 | Australien | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-aus3-role` |
+| EMEA | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-deu1-role` |
 
 Ett exempel på förtroendeprincip:
 
