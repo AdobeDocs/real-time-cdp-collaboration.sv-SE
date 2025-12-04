@@ -2,7 +2,7 @@
 title: Översikt över åtkomstkontroll
 description: Lär dig hur du får tillgång till Adobe Real-Time Customer Data Platform (CDP) Collaboration.
 audience: admin
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
 source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
 workflow-type: tm+mt
@@ -35,7 +35,7 @@ Dessa handböcker beskriver hur du konfigurerar åtkomst för systemadministrat�
 
 {style="table-layout:auto"}
 
-Mer information om administrativa roller finns på [Adobe Help Center](https://helpx.adobe.com/enterprise/using/admin-roles.html).
+Mer information om administrativa roller finns på [Adobe Help Center](https://helpx.adobe.com/se/enterprise/using/admin-roles.html).
 
 >[!TIP]
 >
