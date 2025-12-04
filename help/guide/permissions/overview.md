@@ -2,9 +2,9 @@
 title: Översikt över åtkomstkontroll
 description: Lär dig hur du får tillgång till Adobe Real-Time Customer Data Platform (CDP) Collaboration.
 audience: admin
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 1%
@@ -28,14 +28,14 @@ Du **måste** ha behörighet som system- eller produktadministratör för att ko
 Dessa handböcker beskriver hur du konfigurerar åtkomst för systemadministratörer, produktadministratörer och slutanvändare. Se tabellen nedan för att förstå skillnaden mellan rollerna.
 
 | Roll | Beskrivning |
-| --- | --- | 
+| --- | --- |
 | Systemadministratör | Superanvändaren för organisationen. De kan utföra alla administrativa uppgifter i Admin Console och har behörighet att delegera administrativa funktioner till andra användare. |
 | Produktadministratör | Administrerar de produkter som tilldelats dem och alla tillhörande administrativa funktioner, som att lägga till användare i organisationer, lägga till eller ta bort användare från produktprofiler samt lägga till eller ta bort andra produktadministratörer från en produkt. |
 | Slutanvändare | De användare i organisationen som använder produkterna. |
 
 {style="table-layout:auto"}
 
-Mer information om administrativa roller finns på [Adobe Help Center](https://helpx.adobe.com/se/enterprise/using/admin-roles.html).
+Mer information om administrativa roller finns på [Adobe Help Center](https://helpx.adobe.com/enterprise/using/admin-roles.html).
 
 >[!TIP]
 >
@@ -65,7 +65,7 @@ Se tabellen nedan för att se vilka som krävs för att konfigurera behörighete
 > En superanvändare refererar till den högsta åtkomstnivån som systemadministratören kan få. En superanvändare kan utföra alla administrativa uppgifter och alla användarfunktioner. En systemadministratör har inte produktfunktionalitet som är färdig och måste ge sig själv lämplig åtkomst, vilket visas i diagrammet nedan.
 
 | Användningsfall | Nödvändig roll | Var ska börja? |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Superanvändare utan Experience Platform produktåtkomst. | En systemadministratör. | [Konfigurera produktadministratörsåtkomst](./manage-user-access.md#admin-access) |
 | Superanvändare för en befintlig Experience Platform-systemadministratör **med** Experience Platform-gränssnittsåtkomst. | En systemadministratör. | [Konfigurera Collaboration-åtkomst](./manage-user-access.md#RTCDP-collab-access) |
 | Superanvändare för en befintlig Experience Platform-systemadministratör **utan** åtkomst till Experience Platform UI. | En systemadministratör. | [Konfigurera produktadministratörsåtkomst](./manage-user-access.md#admin-access) |
