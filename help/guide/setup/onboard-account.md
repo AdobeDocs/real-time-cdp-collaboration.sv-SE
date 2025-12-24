@@ -2,9 +2,9 @@
 title: Konfigurera och hantera ditt konto
 description: Lär dig konfigurera och hantera olika aspekter av ditt konto i Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
+source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 0%
@@ -122,15 +122,15 @@ Första parts enhets-ID är identifierare som är anslutna till en viss enhet. F
 
 Partner-ID:n är identifierare som tillhandahålls av externa partner för målgruppsavstämning. Följande ID stöds för närvarande:
 
-* **[!UICONTROL Adfixus ID]**
+* **[!UICONTROL AdFixus ID]**
 
 >[!NOTE]
 >
->Adobe-integrering med [!DNL Adfixus] mappar unika [!UICONTROL Adfixus IDs] för varje konto till ett gemensamt Adobe-kodat format. Dessa mappningar används för att identifiera överlappningar mellan medarbetare. När målgrupper aktiveras med **[!UICONTROL Adfixus ID]** används de ursprungliga ID:na. Det Adobe-kodade formatet lämnar aldrig Collaboration.
+>Adobe-integrering med [!DNL AdFixus] mappar unika [!UICONTROL AdFixus IDs] för varje konto till ett gemensamt Adobe-kodat format. Dessa mappningar används för att identifiera överlappningar mellan medarbetare. När målgrupper aktiveras med **[!UICONTROL AdFixus ID]** används de ursprungliga ID:na. Det Adobe-kodade formatet lämnar aldrig Collaboration.
 
-När du väljer **[!UICONTROL Adfixus ID]** måste du ange motsvarande ID från din externa partner i avsnittet **[!UICONTROL Account credentials]**. Det här alternativet är endast tillgängligt *efter att* har aktiverats på **[!UICONTROL Adfixus ID]**. Ange ditt Adfixus-ID i fältet **[!UICONTROL Account ID]** och kontrollera att värdet är korrekt.
+När du väljer **[!UICONTROL AdFixus ID]** måste du ange motsvarande ID från din externa partner i avsnittet **[!UICONTROL Account credentials]**. Det här alternativet är endast tillgängligt *efter att* har aktiverats på **[!UICONTROL AdFixus ID]**. Ange ditt AdFixus-ID i fältet **[!UICONTROL Account ID]** och kontrollera att värdet är korrekt.
 
-![Dialogrutan Matcha nycklar med Adfixus-ID aktiverad och avsnittet med kontoinloggningsuppgifter markerat.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+![Dialogrutan Matcha nycklar med AdFixus-ID aktiverat och avsnittet med kontoinloggningsuppgifter markerat.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
 När du har valt alla matchningsnycklar väljer du **[!UICONTROL Complete]** för att slutföra kontokonfigurationsarbetsflödet.
 
@@ -164,11 +164,11 @@ Välj **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Match keys]**.
 
 ![Arbetsytan Konfigurera med alternativet Redigera markerat i avsnittet Matcha nycklar för kontot.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-Dialogrutan **[!UICONTROL Match keys]** visas. Aktivera och inaktivera matchningsnycklar eller uppdatera **[!UICONTROL Account ID]** för [!UICONTROL Adfixus ID's] och välj sedan **[!UICONTROL Save]** för att bekräfta ändringarna.
+Dialogrutan **[!UICONTROL Match keys]** visas. Aktivera och inaktivera matchningsnycklar eller uppdatera **[!UICONTROL Account ID]** för [!UICONTROL AdFixus ID's] och välj sedan **[!UICONTROL Save]** för att bekräfta ändringarna.
 
 >[!IMPORTANT]
 >
->Om du ändrar [!UICONTROL Adfixus ID] utlöses ingen [dataskiss](../glossary.md#sketches)-uppdatering för dina befintliga dataanslutningar med matchningsnyckeln. När dina data har skisserats återspeglas inte eventuella ändringar i [!UICONTROL Adfixus ID] förrän nästa målgrupp uppdateras enligt inställningarna för [dataanslutningsschemat](./manage-data-connection.md#scheduling). Om du behöver göra ändringar innan du uppdaterar nästa gång kan du ta bort och återskapa din dataanslutning.
+>Om du ändrar [!UICONTROL AdFixus ID] utlöses ingen [dataskiss](../glossary.md#sketches)-uppdatering för dina befintliga dataanslutningar med matchningsnyckeln. När dina data har skisserats återspeglas inte eventuella ändringar i [!UICONTROL AdFixus ID] förrän nästa målgrupp uppdateras enligt inställningarna för [dataanslutningsschemat](./manage-data-connection.md#scheduling). Om du behöver göra ändringar innan du uppdaterar nästa gång kan du ta bort och återskapa din dataanslutning.
 
 ![Dialogrutan Matcha nycklar med alternativet Spara markerat.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
