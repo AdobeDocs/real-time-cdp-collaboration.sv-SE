@@ -161,7 +161,7 @@ Målgruppsdata som skickas till ett molnmål följer ett fördefinierat schema. 
 
 >[!IMPORTANT]
 >
->Arbetsytan **[!UICONTROL Measure]** är bara tillgänglig om **[!UICONTROL Measurement]** use case var aktiverat [ under anslutningsprocessen](./connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./collaborate/manage-projects.md#project-use-cases).
+>Arbetsytan **[!UICONTROL Measure]** är bara tillgänglig om **[!UICONTROL Measurement]** use case var aktiverat [&#x200B; under anslutningsprocessen](./connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./collaborate/manage-projects.md#project-use-cases).
 
 Collaboration erbjuder en mängd rapporter för att analysera kampanjernas räckvidd, frekvens och effektivitet. Även om arbetsytan **[!UICONTROL Measure]** är tillgänglig i användargränssnittet kan fullständiga rapportfunktioner kräva backend-aktivering.
 
