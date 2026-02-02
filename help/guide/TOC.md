@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration möjliggör smidig och säker datadelning och samarbete mellan annonsörer och utgivare, vilket underlättar målgruppsinsikter i realtid och personaliserade marknadsföringsstrategier.
-source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
+source-git-commit: 23025b0f4cd853f671ac8cc5ef3696cac03d20a4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 9%
+source-wordcount: '162'
+ht-degree: 8%
 
 ---
 
@@ -22,9 +22,11 @@ ht-degree: 9%
 * Konfigurera {#setup}
    * [Översikt över inställningsavsnitt](./setup/setup-overview.md)
    * [Anlita och hantera ditt konto](./setup/onboard-account.md)
-   * [Source och hantera målgrupper](./setup/onboard-audiences.md)
-   * [Konfigurera Amazon S3 för målgruppskälla](./setup/configure-aws-s3-audience-sourcing.md)
-   * [Konfigurera AWS-behörigheter för målgruppskälla](./setup/configure-aws-permissions-audience-sourcing.md)
+   * Source och hantera målgrupper {#source-audiences}
+      * [Konfigurera AEP för målgruppskälla](./setup/onboard-audiences.md)
+      * [Konfigurera AWS-behörigheter för målgruppskälla](./setup/configure-aws-permissions-audience-sourcing.md)
+      * [Konfigurera Amazon S3 för målgruppskälla](./setup/configure-aws-s3-audience-sourcing.md)
+      * [Överför CSV-fil för målgruppskälla](./setup/upload-csv-audience-sourcing.md)
    * [Hantera dataanslutningar](./setup/manage-data-connection.md)
    * [Konfigurera och hantera mål](./setup/manage-destinations.md)
    * [Spåra din kreditförbrukningsaktivitet](/help/guide/setup/my-activity.md)
