@@ -2,11 +2,11 @@
 title: Konfigurera och hantera ditt konto
 description: Lär dig konfigurera och hantera olika aspekter av ditt konto i Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
+source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ För att börja konfigurera ditt konto måste du först konfigurera kontoinforma
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="Enhets-ID:n från första part"
->abstract="Första parts enhets-ID, t.ex. ECID eller IP-adresser, är direkt anslutna till enheter, som kan delas mellan flera personer. IPv4 är det enda enhets-ID som stöds för tillfället."
+>abstract="Första parts enhets-ID, t.ex. ECID eller IP-adresser, är direkt anslutna till enheter som kan delas mellan flera personer."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -117,6 +117,8 @@ Personliga ID:n för första part är direkt kopplade till en enskild profil. F�
 Första parts enhets-ID är identifierare som är anslutna till en viss enhet. Följande ID stöds för närvarande:
 
 * **[!UICONTROL Hashed IPv4]**: Hash-kodade IPv4-adresser
+* **[!UICONTROL IDFA]**: Identifieraren för annonsörer (IDFA) som används i Apple iOS-enheter
+* **[!UICONTROL GAID]**: Google Advertiser ID används i Android-enheter
 
 ##### Partner-ID
 
