@@ -2,7 +2,7 @@
 title: RTCDP Collaboration Starter - översikt
 description: Läs om hur Adobe Real-Time CDP Collaboration Starter hjälper er att utöka och förbättra sekretesscentrerat samarbete med en licensierad partner utan att ni behöver en egen fullständig Real-Time CDP-licens.
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 source-git-commit: 17550a71c473cde2970294ef1b83632f5c8d943c
