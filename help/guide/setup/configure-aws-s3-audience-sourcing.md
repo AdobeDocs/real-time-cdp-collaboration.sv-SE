@@ -1,7 +1,8 @@
 ---
 title: Konfigurera [!DNL Amazon S3] för målgruppskälla
 description: Lär dig hur du konfigurerar och ansluter ditt [!DNL Amazon S3] lagringsutrymme som en självbetjäningsdatakälla för att importera målgruppsdata till Real-Time CDP Collaboration.
-source-git-commit: 7a2bfb524d77d42690f3abe848a59aae5b16b667
+exl-id: 566ceb1b-a72a-413d-b07d-409723892616
+source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Målgrupper som köps via S3 följer samma regler för styrning och datahanterin
 
 Innan du konfigurerar din S3-dataanslutning bör du kontrollera följande:
 
-* Du har åtkomst till en aktiv **[!DNL Amazon S3]-bucket** som innehåller målgruppsfiler som uppfyller **[specifikationen för målgruppskälla (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)**.
+* Du har åtkomst till en aktiv **[!DNL Amazon S3]-bucket** som innehåller målgruppsfiler som uppfyller **[specifikationen för målgruppskälla (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
 * Du har skapat en **IAM-roll** i AWS som ger Adobe behörighet att komma åt din bucket med metoden **antagen role** (inte åtkomst/hemliga nycklar). Mer information finns i **[Konfigurera AWS-behörigheter för målgruppskälla](./configure-aws-permissions-audience-sourcing.md)**. IAM-rollen måste innehålla följande behörigheter:
 
    * `ListBucket`
@@ -70,7 +71,7 @@ Välj **[!UICONTROL Amazon S3]** som dataanslutning, följt av **[!UICONTROL Nex
 >abstract="Läs guiden Audience Sourcing om hur du formaterar och strukturerar målgruppsdata från Amazon S3 för Collaboration."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Se guiden"
 
-En dialogruta som förklarar hur målgruppsfilerna måste struktureras visas. Använd länken till **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)** för att lära dig att formatera och strukturera målgruppsdata från [!DNL Amazon S3] så att Collaboration kan läsa dem korrekt.
+En dialogruta som förklarar hur målgruppsfilerna måste struktureras visas. Använd länken till **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** för att lära dig att formatera och strukturera målgruppsdata från [!DNL Amazon S3] så att Collaboration kan läsa dem korrekt.
 
 >[!IMPORTANT]
 >
@@ -197,7 +198,7 @@ I stödrastervyn eller tabellvyn väljer du ett radobjekt eller **[!UICONTROL Vi
 
 Använd den här vyn för att bekräfta inställningar för målgruppskonfiguration och synlighet innan du använder målgruppen i samarbetsprojekt.
 
-Mer information finns i [Visa dokumentationen för målgruppspanelen](https://experienceleague.adobe.com/sv/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
+Mer information finns i [Visa dokumentationen för målgruppspanelen](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
 
 ## Visa din S3-dataanslutning {#view-s3-connection}
 
