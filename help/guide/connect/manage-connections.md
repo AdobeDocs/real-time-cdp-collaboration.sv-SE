@@ -33,7 +33,7 @@ Arbetsytan för anslutningsinställningar visas och visar anslutningsinformation
 
 ## Ta bort anslutning {#delete-connection}
 
-Du kan ta bort alla anslutningar med medarbetare som du inte vill fortsätta arbeta med. Om du vill ta bort en anslutning navigerar du till anslutningen som du vill ta bort och väljer sedan borttagningsikonen ![ta bort ](/help/assets/common/delete.svg) på arbetsytan för anslutningen.
+Du kan ta bort alla anslutningar med medarbetare som du inte vill fortsätta arbeta med. Om du vill ta bort en anslutning navigerar du till anslutningen som du vill ta bort och väljer sedan borttagningsikonen ![ta bort &#x200B;](/help/assets/common/delete.svg) på arbetsytan för anslutningen.
 
 ![Ikonen Ta bort är markerad på arbetsytan för anslutning.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
 
