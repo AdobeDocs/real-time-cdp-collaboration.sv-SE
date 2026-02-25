@@ -2,11 +2,11 @@
 title: Konfigurera och hantera ditt konto
 description: Lär dig konfigurera och hantera olika aspekter av ditt konto i Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
+source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
@@ -156,23 +156,25 @@ Nu kan du redigera din kontoinformation. Uppdatera de fält som du vill ändra o
 
 ### Redigera matchningsnycklar {#edit-match-keys}
 
->[!IMPORTANT]
->
->Om du redigerar matchningsnycklar påverkas inte dina befintliga anslutningar. När en anslutning har upprättats är de matchningsnycklar som du väljer under anslutningsinställningarna fasta. Det är viktigt att du väljer **alla** matchningsnycklar som du tänker använda i framtida kampanjer under kontokonfigurationen.
-
 Du kan också uppdatera de matchningsnycklar som du valde från början när du skapade ditt konto. Dessa matchningsnycklar avgör vilka matchningsnycklar som är tillgängliga för framtida anslutningar.
 
 Välj **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Match keys]**.
 
 ![Arbetsytan Konfigurera med alternativet Redigera markerat i avsnittet Matcha nycklar för kontot.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-Dialogrutan **[!UICONTROL Match keys]** visas. Aktivera och inaktivera matchningsnycklar eller uppdatera **[!UICONTROL Account ID]** för [!UICONTROL AdFixus ID's] och välj sedan **[!UICONTROL Save]** för att bekräfta ändringarna.
+Dialogrutan **[!UICONTROL Match keys]** visas. Växla på matchningsnycklar eller uppdatera **[!UICONTROL Account ID]** för [!UICONTROL AdFixus ID's] och välj sedan **[!UICONTROL Save]** för att bekräfta ändringarna.
 
 >[!IMPORTANT]
 >
 >Om du ändrar [!UICONTROL AdFixus ID] utlöses ingen [dataskiss](../glossary.md#sketches)-uppdatering för dina befintliga dataanslutningar med matchningsnyckeln. När dina data har skisserats återspeglas inte eventuella ändringar i [!UICONTROL AdFixus ID] förrän nästa målgrupp uppdateras enligt inställningarna för [dataanslutningsschemat](./manage-data-connection.md#scheduling). Om du behöver göra ändringar innan du uppdaterar nästa gång kan du ta bort och återskapa din dataanslutning.
+>
+>För närvarande går det inte att ta bort matchningsnycklar när de har lagts till i ditt konto.
 
 ![Dialogrutan Matcha nycklar med alternativet Spara markerat.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+
+En dialogruta som bekräftar att matchningsnycklarna för ditt konto har uppdaterats.
+
+![En dialogruta som bekräftar att ditt konto matchar nycklarna har uppdaterats.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## Nästa steg
 

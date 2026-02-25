@@ -2,11 +2,11 @@
 title: Hantera dataanslutningar
 description: Lär dig hantera dataanslutningar, inklusive matchningsnycklar, schemaläggning, användningsfall och målgruppsfiltrering i Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
+source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Om du vill visa befintliga dataanslutningar går du till **[!UICONTROL Setup]** 
 >title="Matcha nycklar"
 >abstract="Matchningsnycklar avgör hur data från olika källor matchas. De matchningsnycklar som visas nedan är de målfält som du har mappat källfälten till."
 
-Matchande nycklar är de målfält som du [mappade dina källfält till &#x200B;](./onboard-audiences.md#map-fields). Du kan inte redigera de matchningsnycklar som du ursprungligen valde för din dataanslutning. Om du vill uppdatera matchningsnycklar måste du skapa en ny dataanslutning. Mer information om hur matchningsnycklar fungerar finns i guiden [matchningsnycklar](./onboard-account.md#set-up-match-keys).
+Matchande nycklar är de målfält som du [mappade dina källfält till ](./onboard-audiences.md#map-fields). Mer information om hur matchningsnycklar fungerar finns i guiden [matchningsnycklar](./onboard-account.md#set-up-match-keys).
 
 ![En arbetsyta för dataanslutningar med avsnittet Matcha nycklar markerat.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -41,11 +41,11 @@ Matchande nycklar är de målfält som du [mappade dina källfält till &#x200B;
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Schemaläggning"
->abstract="Visa schemaläggningsinformation för din dataanslutning och redigera uppdateringsfrekvensen om det behövs."
+>abstract="Visa schemaläggningsinformation för din dataanslutning och redigera konfigurationerna om det behövs."
 
 Visa och hantera schemainställningarna för dataanslutningarna. Schemaläggningen bestämmer hur ofta målgruppen uppdateras.
 
-När en dataanslutning har skapats kan du uppdatera uppdateringsfrekvensen direkt från avsnittet **[!UICONTROL Scheduling]** på arbetsytan för dataanslutning.
+När en dataanslutning har skapats kan du uppdatera dess uppdateringsfrekvens, startdatum och slutdatum direkt från avsnittet **[!UICONTROL Scheduling]** på arbetsytan för dataanslutning.
 
 >[!NOTE]
 >
@@ -55,15 +55,78 @@ Mer information om schemaläggning finns i avsnittet [schemaläggning](/help/gui
 
 ![En dataanslutnings arbetsyta med avsnittet Schemaläggning markerat.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
-#### Redigera schemaläggning {#edit-scheduling}
+## Redigera dataanslutning {#edit-data-connection}
+
+Läs följande avsnitt för att lära dig hur du uppdaterar matchningsnycklar och schemaläggningsinställningar för en befintlig dataanslutning.
+
+### Redigera matchningsnycklar {#edit-match-keys}
+
+>[!IMPORTANT]
+>
+>Observera följande innan du redigerar matchningsnycklarna för en dataanslutning:
+>
+>* Endast matchande nycklar som har konfigurerats för ditt konto kan användas för dataanslutningar.
+>* För närvarande kan du lägga till ytterligare matchningsnycklar i en dataanslutning, men när en matchningsnyckel har aktiverats kan den inte tas bort.
+
+Välj **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Match keys]**.
+
+![Avsnittet Matcha nycklar med alternativet Redigera markerat.](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
+
+En bekräftelsedialogruta visas som förklarar att eventuella ändringar i dataanslutningen kommer att gälla för alla associerade målgrupper. Bekräfta genom att välja **[!UICONTROL OK]**. Du kan välja att hoppa över den här bekräftelsen i framtiden.
+
+![Bekräftelsedialogruta som visar att alla ändringar i dataanslutningen kommer att gälla för alla associerade målgrupper.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+
+I dialogrutan **[!UICONTROL Match keys]** kan du visa befintliga mappningar mellan källfält och deras motsvarande målfält (matchningsnycklar). Du kan redigera en matchningsnyckel genom att uppdatera det mappade källfältet eller lägga till ytterligare mappningsfältrader för att fylla i nya matchningsnycklar.
+
+![Dialogrutan Matcha nycklar visar befintliga mappningar mellan källfält och motsvarande målfält.](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
+
+#### Lägg till matchningsnycklar {#add-match-keys}
+
+Välj **[!UICONTROL Add field]** om du vill lägga till en ny fältrad.
+
+![När du har valt Lägg till fält visas ett tomt nytt mappningsfält som är klart för indata i dialogrutan Matcha nycklar.](/help/assets/setup/manage-data-connection/add-new-field.png){zoomable="yes"}
+
+Välj sedan det tomma källfältet. Dialogrutan **[!UICONTROL Select source field]** visas med alternativen **[!UICONTROL Identity namespaces]** och **[!UICONTROL Profile attributes]**. Du kan filtrera listan och hitta det önskade källfältet med sökalternativet.
+
+Välj det källfält som du vill använda, följt av **[!UICONTROL Select]**.
+
+![Dialogrutan Välj källfält med alternativet GAID markerat.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+Använd listrutemenyn i dialogrutan **[!UICONTROL Match keys]** för att mappa det nya källfältet till ett målfält. Alla tillgängliga målfält är matchningsnycklar som konfigurerats för ditt medarbetarkonto. Om du inte ser målfältet som du behöver kan du [redigera kontots matchningsnycklar](./onboard-account.md#edit-match-keys) för att lägga till det.
+
+Använd alternativet **[!UICONTROL Apply transformation]** om du vill skapa ett icke-hash-kodat fält till ett hash-kodat målfält, till exempel när du mappar ett e-postkällfält med oformaterad text till målfältet **[!UICONTROL Hashed email]**.
+
+![Listrutan med alla tillgängliga målfält som ska mappas med det nya källfältet.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+
+När du är klar med mappningen av fält granskar du uppdateringarna och väljer **[!UICONTROL Confirm]** för att tillämpa ändringarna.
+
+![Dialogrutan Matcha nycklar visar den uppdaterade fältmappningen med alternativet Bekräfta markerat.](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
+
+En bekräftelsedialogruta bekräftar att matchningsnycklarna har uppdaterats.
+
+### Redigera schemaläggning {#edit-scheduling}
+
+När en dataanslutning har skapats kan du uppdatera dess uppdateringsfrekvens, startdatum och slutdatum direkt från avsnittet **[!UICONTROL Scheduling]** på arbetsytan för dataanslutning.
 
 Du kan redigera frekvensen för en befintlig dataanslutning för att bättre kontrollera hur ofta målgrupperna uppdateras. Om du vill redigera schemat väljer du **[!UICONTROL Edit]** i dataanslutningen på schemaläggningskortet.
 
-Schemaläggningen påverkar alla målgrupper som kommer från dataanslutningen.
+![Avsnittet Schemaläggning med alternativet Redigera markerat.](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
 
-I dialogrutan **[!UICONTROL Scheduling]** väljer du listrutan för att uppdatera **[!UICONTROL Frequency]**. Ställ in uppdateringsfrekvensen så att den körs dagligen eller varannan till var sjätte dag. När du är klar väljer du **[!UICONTROL Save]** för att tillämpa ändringarna.
+En bekräftelsedialogruta visas som förklarar att eventuella ändringar i dataanslutningen kommer att gälla för alla associerade målgrupper. Bekräfta genom att välja **[!UICONTROL OK]**. Du kan välja att hoppa över den här bekräftelsen i framtiden.
 
-![Dialogrutan Schemaläggning innehåller alternativ för att ange frekvens och datumintervall.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
+![Bekräftelsedialogruta som visar att alla ändringar i dataanslutningen kommer att gälla för alla associerade målgrupper.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+
+I dialogrutan **[!UICONTROL Scheduling]** väljer du listrutan för att uppdatera **[!UICONTROL Frequency]**. Ställ in uppdateringsfrekvensen så att den körs dagligen eller varannan till var sjätte dag.
+
+![Dialogrutan Schemaläggning med listrutan Frekvens utökad för att visa alternativ för målgruppens uppdateringsfrekvens.](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
+
+Välj sedan **[!UICONTROL Date range]** om du vill uppdatera den period under vilken målgrupper fylls i och uppdateras.
+
+![Dialogrutan Schemaläggning visar listrutan Datumintervall utökat för att redigera start- och slutdatum för målgruppspopulationen och uppdatera.](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
+
+När du är klar granskar du uppdateringarna och väljer **[!UICONTROL Save]** för att tillämpa ändringarna.
+
+![I dialogrutan Schemaläggning markeras uppdateringarna och alternativet Spara.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## Ta bort dataanslutning
 
