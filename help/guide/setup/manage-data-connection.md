@@ -2,11 +2,11 @@
 title: Hantera dataanslutningar
 description: Lär dig hantera dataanslutningar, inklusive matchningsnycklar, schemaläggning, användningsfall och målgruppsfiltrering i Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Om du vill visa befintliga dataanslutningar går du till **[!UICONTROL Setup]** 
 >title="Matcha nycklar"
 >abstract="Matchningsnycklar avgör hur data från olika källor matchas. De matchningsnycklar som visas nedan är de målfält som du har mappat källfälten till."
 
-Matchande nycklar är de målfält som du [mappade dina källfält till &#x200B;](./onboard-audiences.md#map-fields). Mer information om hur matchningsnycklar fungerar finns i guiden [matchningsnycklar](./onboard-account.md#set-up-match-keys).
+Matchande nycklar är de målfält som du [mappade dina källfält till ](./onboard-audiences.md#map-fields). Mer information om hur matchningsnycklar fungerar finns i guiden [matchningsnycklar](./onboard-account.md#set-up-match-keys).
 
 ![En arbetsyta för dataanslutningar med avsnittet Matcha nycklar markerat.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -60,6 +60,12 @@ Mer information om schemaläggning finns i avsnittet [schemaläggning](/help/gui
 Läs följande avsnitt för att lära dig hur du uppdaterar matchningsnycklar och schemaläggningsinställningar för en befintlig dataanslutning.
 
 ### Redigera matchningsnycklar {#edit-match-keys}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
+>title="Berikning"
+>abstract="Inaktivering av anrikning stöds inte. Du kan ändra anrikningsnycklarna i stället."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="Berikning"
 
 >[!IMPORTANT]
 >
