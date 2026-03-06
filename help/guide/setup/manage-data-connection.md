@@ -2,7 +2,7 @@
 title: Hantera dataanslutningar
 description: Lär dig hantera dataanslutningar, inklusive matchningsnycklar, schemaläggning, användningsfall och målgruppsfiltrering i Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
