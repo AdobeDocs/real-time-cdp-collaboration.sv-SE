@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration möjliggör smidig och säker datadelning och samarbete mellan annonsörer och utgivare, vilket underlättar målgruppsinsikter i realtid och personaliserade marknadsföringsstrategier.
-source-git-commit: 469c1e650235e15d7b09650d3affa3c8c7563b09
+source-git-commit: 692435be1921043148c5fa70fbdf615d2af088bd
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 8%
+source-wordcount: '179'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 * [Real-Time CDP Collaboration - startsida](./home.md)
 * [Snabbstartsguide](./quick-start-guide.md)
-* Översikt {#overview}
+* Ökning {#overview}
    * [Användningsfall](./overview/use-cases.md)
    * [Kontoroller](./overview/roles.md)
    * [Collaboration-mönster](./overview/collaboration-patterns.md)
@@ -35,15 +35,15 @@ ht-degree: 8%
    * [Lägga till och hantera mätdata](./setup/onboard-measurement-data.md)
    * [Granskningsloggar](./setup/audit-logs.md)
 * Upprättar anslutningar {#connect}
-   * [Overview.md](./connect/overview.md)
+   * [Översikt.md](./connect/overview.md)
    * [Upptäck medarbetare](./connect/discover-collaborators.md)
    * [Upprätta samarbetspartneranslutningar](./connect/establishing-connections.md)
    * [Hantera anslutningar](./connect/manage-connections.md)
    * Advertising plattformsanslutningar {#ad-platform-connections}
-      * [Översikt](./connect/advertising-platforms/overview.md)
+      * [Ökning](./connect/advertising-platforms/overview.md)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Samarbeta {#collaborate}
-   * [Översikt](./collaborate/overview.md)
+   * [Ökning](./collaborate/overview.md)
    * [Hantera projekt](./collaborate/manage-projects.md)
    * Samarbetsanslutningar {#collaborator-connections}
       * [Upptäck](./collaborate/discover.md)
@@ -51,11 +51,12 @@ ht-degree: 8%
       * [Mät](./collaborate/measure.md)
    * Advertising plattformsanslutningar {#ad-platform-connections}
       * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
-* Mål {#destinations}
-   * [Översikt](./destinations/overview.md)
+      * [Skapa AMC-mätningsrapporter](./collaborate/advertising-platforms/amc-measure.md)
+* Destinationer {#destinations}
+   * [Ökning](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Behörigheter {#permissions}
-   * [Översikt](./permissions/overview.md)
+   * [Ökning](./permissions/overview.md)
    * [Hantera användaråtkomst](./permissions/manage-user-access.md)
    * [Hantera roller](./permissions/manage-roles.md)
 * Referens {#reference}
