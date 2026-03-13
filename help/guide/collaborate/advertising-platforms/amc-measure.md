@@ -4,7 +4,7 @@ description: Lär dig hur du skapar och tolkar mätrapporter för Amazon Marketi
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, mätningsrapporter, kampanjsammanfattning, attribuering, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 source-git-commit: 9f1dc87ae312961244ee8f48553d367a977cc20d
