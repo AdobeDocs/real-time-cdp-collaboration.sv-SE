@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration möjliggör smidig och säker datadelning och samarbete mellan annonsörer och utgivare, vilket underlättar målgruppsinsikter i realtid och personaliserade marknadsföringsstrategier.
-source-git-commit: 692435be1921043148c5fa70fbdf615d2af088bd
+source-git-commit: 6d2691e8024a8f4c1a91e5fa4e6d00d322dde13a
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 1%
+source-wordcount: '195'
+ht-degree: 4%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 * [Real-Time CDP Collaboration - startsida](./home.md)
 * [Snabbstartsguide](./quick-start-guide.md)
-* Ökning {#overview}
+* Översikt {#overview}
    * [Användningsfall](./overview/use-cases.md)
    * [Kontoroller](./overview/roles.md)
    * [Collaboration-mönster](./overview/collaboration-patterns.md)
@@ -34,16 +34,20 @@ ht-degree: 1%
    * [Korsningar av identiteter](./setup/identity-crosswalk.md)
    * [Lägga till och hantera mätdata](./setup/onboard-measurement-data.md)
    * [Granskningsloggar](./setup/audit-logs.md)
+   * Installation av Real-Time CDP Collaboration Starter {#starter-setup}
+      * [Konfigurera administratörsåtkomst](./setup/starter-admin-access.md)
+      * [Konfigurera behörighetskontroller](./setup/starter-permission-controls.md)
+      * [Kreditanvändning och förbrukning](./setup/starter-credit-usage.md)
 * Upprättar anslutningar {#connect}
    * [Översikt.md](./connect/overview.md)
    * [Upptäck medarbetare](./connect/discover-collaborators.md)
    * [Upprätta samarbetspartneranslutningar](./connect/establishing-connections.md)
    * [Hantera anslutningar](./connect/manage-connections.md)
    * Advertising plattformsanslutningar {#ad-platform-connections}
-      * [Ökning](./connect/advertising-platforms/overview.md)
+      * [Översikt](./connect/advertising-platforms/overview.md)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Samarbeta {#collaborate}
-   * [Ökning](./collaborate/overview.md)
+   * [Översikt](./collaborate/overview.md)
    * [Hantera projekt](./collaborate/manage-projects.md)
    * Samarbetsanslutningar {#collaborator-connections}
       * [Upptäck](./collaborate/discover.md)
@@ -53,10 +57,10 @@ ht-degree: 1%
       * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
       * [Skapa AMC-mätningsrapporter](./collaborate/advertising-platforms/amc-measure.md)
 * Destinationer {#destinations}
-   * [Ökning](./destinations/overview.md)
+   * [Översikt](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Behörigheter {#permissions}
-   * [Ökning](./permissions/overview.md)
+   * [Översikt](./permissions/overview.md)
    * [Hantera användaråtkomst](./permissions/manage-user-access.md)
    * [Hantera roller](./permissions/manage-roles.md)
 * Referens {#reference}
