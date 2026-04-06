@@ -2,7 +2,7 @@
 title: Konfigurera [!DNL Snowflake] för målgruppskälla
 description: Lär dig hur du konfigurerar och ansluter  [!DNL Snowflake Secure Data Share]  som en självbetjäningsdatakälla för att importera målgruppsdata till Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 517a28afc83b0e1b4a9e64fa53eb90e0ad5541e9
 workflow-type: tm+mt
 source-wordcount: '1142'
