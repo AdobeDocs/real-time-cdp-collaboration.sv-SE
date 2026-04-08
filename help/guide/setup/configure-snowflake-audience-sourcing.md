@@ -2,10 +2,11 @@
 title: Konfigurera [!DNL Snowflake] för målgruppskälla
 description: Lär dig hur du konfigurerar och ansluter  [!DNL Snowflake Secure Data Share]  som en självbetjäningsdatakälla för att importera målgruppsdata till Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 517a28afc83b0e1b4a9e64fa53eb90e0ad5541e9
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
+source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -54,6 +55,12 @@ Välj sedan **[!UICONTROL Snowflake]** som dataanslutning, följt av **[!UICONTR
 ![Väljningsskärmen för dataanslutning med [!DNL Snowflake] tillgänglig som ett valbart alternativ.](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png)
 
 ### Granska målgruppsfil {#review-audience-file}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
+>title="Förbered data för introduktion"
+>abstract="Läs guiden Audience Sourcing om hur du formaterar och strukturerar målgruppsdata från Snowflake för Collaboration."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Se guiden"
 
 En dialogruta visas där kraven för målgruppsfilen [!DNL Snowflake Share] och [!DNL Snowflake] förklaras innan du kan börja använda källkoden. Kontrollera att [!DNL Snowflake Share] har skapats med rätt resursnamn, kontoidentifierare, schema och vy. Om du vill bekräfta att målgruppsdata är korrekt formaterade och strukturerade för användning i Collaboration kan du läsa handboken för **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
 
