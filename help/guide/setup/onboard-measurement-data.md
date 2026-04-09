@@ -2,11 +2,11 @@
 title: Lägga till och hantera mätdata
 description: Lär dig hur du lägger till mätdata i Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: 42bbd17878701cfaf2cba170a9471cf5c7285796
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '2562'
 ht-degree: 0%
 
 ---
@@ -156,13 +156,12 @@ Om du [aktiverar profilberikning under mappningssteget](#enrich-event-data) kan 
 * **Medgivanderegler**: Välj de medgivanderegler som ska gälla för data som hämtas till Collaboration.
 * **Målgrupp**: Använd målgruppsfiltret för att inkludera eller exkludera målgruppsprofiler för samtycke.
 
-
 >[!NOTE]
 >
 >**[!UICONTROL Data Collaboration]** har stöd för dataanvändningsetiketter i C4, C5 och C9, medan **[!UICONTROL Data Science]** endast har stöd för C9. Läs mer om dataanvändningsetiketter i Experience Platform-dokumentationen:
 >
->* [Översikt över etiketter för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/overview){target="_blank"}
->* [Ordlista](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+>* [Översikt över etiketter för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+>* [Ordlista](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 Välj önskade inställningar och välj sedan **[!UICONTROL Next]**.
 
@@ -238,6 +237,100 @@ I stödrastervyn eller tabellvyn väljer du ett radobjekt eller alternativet **[
 * **[!UICONTROL Conditions]**: Visar de villkorsregler som används för den här konverteringshändelsen.
 
 ![Skärmen Översikt visar information om en konverteringshändelse.](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
+
+## Redigera mätdata {#edit-measurement-data}
+
+När du har hämtat mätdata kan du när som helst redigera detaljerna och villkorsreglerna för en konverteringshändelse.
+
+På fliken **[!UICONTROL My measurement data]** väljer du ellipsalternativet (![Mer ikon](/help/assets/icons/more.png)) i det relevanta konverteringshändelsekortet. Välj sedan **[!UICONTROL View conversion]** i listrutan för att öppna den detaljerade sidan för den konverteringshändelsen.
+
+![Fliken Mina mätdata med ellipsmenyn öppen och alternativet Visa konvertering markerat.](/help/assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
+
+### Redigera namn och beskrivning {#edit-name-and-description}
+
+Om du vill uppdatera händelsens namn och beskrivning väljer du redigeringsikonen (![redigeringsikonen](/help/assets/icons/edit.png)) längst upp till höger på sidan.
+
+![Händelsesidan för webbplatsbesök med redigeringsikonen längst upp till höger markerad.](/help/assets/setup/add-manage-measurement-data/edit-name-description.png){zoomable="yes"}
+
+Uppdatera fälten i dialogrutan **[!UICONTROL Edit name and description]** med önskade värden och välj sedan **[!UICONTROL Save]** för att tillämpa ändringarna.
+
+![Dialogrutan Redigera namn och beskrivning med alternativet Spara markerat.](/help/assets/setup/add-manage-measurement-data/edit-name-description-dialog.png){zoomable="yes"}
+
+En bekräftelsedialogruta visas som bekräftar att informationen har uppdaterats.
+
+### Redigera konverteringsinformation {#edit-conversion-details}
+
+Du kan uppdatera följande konverteringsinformation för händelsen:
+
+| Fält | Beskrivning |
+|-------------------|-------------|
+| Konverteringstyp | Kategorin för konverteringsevenemanget, till exempel ett webbplatsbesök, ett köp eller en anmälan. |
+| Dupliceringsnyckel | Identifierare för rader i händelsedatamängden som tillhör samma konverteringshändelse (till exempel samma tidsstämpel). Förhindrar dubblettantal. |
+| Konverteringsvärde | Värdet som är associerat med varje konvertering. |
+
+{style="table-layout:auto"}
+
+Om du vill börja redigera väljer du **[!UICONTROL Edit]** på panelen **[!UICONTROL Conversion details]**.
+
+![Händelsesidan Besök webbplats som markerar alternativet Redigera på panelen Konverteringsinformation.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details.png){zoomable="yes"}
+
+Använd listrutan i dialogrutan **[!UICONTROL Edit conversion details]** för att uppdatera konverteringstypen. Du kan ange ett värde för konverteringen, eller lämna det tomt om du inte vill tilldela något värde. Om du vill redigera dupliceringsnyckeln markerar du det befintliga nyckelalternativet.
+
+![Dialogrutan Redigera konverteringsinformation med alternativet Exempel på person-ID markerat.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-dialog.png){zoomable="yes"}
+
+Dialogrutan **[!UICONTROL Duplication key]** visar en lista med tillgängliga fält som grupperats under alternativ som **[!UICONTROL Identity namespace]** och **[!UICONTROL Event schema]**. Sök efter och välj önskad tangent, följt av **[!UICONTROL Select]**.
+
+![Dialogrutan Dupliceringsnyckel med vald tangent och alternativet Välj.](../../assets/setup/add-manage-measurement-data/edit-duplication-key-dialog.png){zoomable="yes"}
+
+När du är klar granskar du uppdateringarna och väljer **[!UICONTROL Save]** för att tillämpa ändringarna.
+
+![Dialogrutan Redigera konverteringsinformation med alternativet Spara markerat.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-save.png){zoomable="yes"}
+
+En bekräftelsedialogruta visas som bekräftar att informationen har uppdaterats.
+
+### Redigera villkor {#edit-conditions}
+
+Villkorsreglerna anger vilka datarader från din händelsedatamängd som inkluderas som konverteringar. Uppdatera dessa regler efter behov för att säkerställa att mätningen endast speglar de data som är mest relevanta för analysen.
+
+Om du vill redigera villkor väljer du **[!UICONTROL Edit]** på panelen **[!UICONTROL Conditions]**.
+
+![Händelsesidan för webbplatsbesök visar redigeringsalternativet på villkorspanelen.](/help/assets/setup/add-manage-measurement-data/edit-conditions.png){zoomable="yes"}
+
+I dialogrutan **[!UICONTROL Edit conversion rules]** kan du visa aktuell information om alla villkor. Välj ett befintligt villkorsalternativ om du vill uppdatera informationen, inklusive källfält, logikregel och värde.
+
+![Dialogrutan Redigera konverteringsregler visar alternativen för att redigera källfält, logikregel och värde för ett befintligt villkor.](/help/assets/setup/add-manage-measurement-data/edit-exisiting-condition.png){zoomable="yes"}
+
+Om du vill inkludera ytterligare konverteringsregler väljer du **[!UICONTROL Add condition]**. Välj sedan det nya tomma villkorsalternativet.
+
+![Dialogrutan Redigera konverteringsregler visar det nya tomma villkorsalternativet när du har valt alternativet Lägg till villkor.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-add-condition.png){zoomable="yes"}
+
+I dialogrutan **[!UICONTROL Select source field]** kan du se tillgängliga fält grupperade under alternativ som **[!UICONTROL Identity namespace]** och **[!UICONTROL Event schema]**. Välj det fält som du vill använda för villkoret och välj sedan **[!UICONTROL Select]**. Du kan använda alternativet **[!UICONTROL Search]** för att snabbt hitta det önskade fältet.
+
+![Dialogrutan Välj källfält visar det valda fältet och alternativet Välj.](../../assets/setup/add-manage-measurement-data/edit-condition-source-key.png){zoomable="yes"}
+
+Använd sedan listrutemenyn för att välja en logikoperator i listan och ange ett värde för villkoret.
+
+![Dialogrutan Redigera konverteringsregler markerar listrutan med logik.](../../assets/setup/add-manage-measurement-data/edit-condition-logic-dropdown.png){zoomable="yes"}
+
+Använd **[!UICONTROL Include all conditions]** om alla angivna villkor krävs för varje konvertering, eller använd **[!UICONTROL Include any of the conditions]** för att tillåta konverteringar som matchar minst ett villkor. När du är klar med uppdateringen granskar du och väljer **[!UICONTROL Save]** för att tillämpa ändringarna.
+
+![Dialogrutan Redigera konverteringsregler med alternativet Spara markerat.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-save.png){zoomable="yes"}
+
+En bekräftelsedialogruta visas som bekräftar att informationen har uppdaterats.
+
+## Ta bort mätdata {#delete-measurement-data}
+
+Om du tar bort mätdata tas den associerade konverteringshändelsen och alla länkade mätningsdetaljer bort permanent från projektet. Alla mätningsrapporter som förlitar sig på den här händelsen förlorar motsvarande konverteringsmått och kan inte längre uppdateras. Det går inte att ångra den här åtgärden.
+
+Om du vill ta bort en befintlig konverteringshändelse går du till fliken **[!UICONTROL My measurement data]** på arbetsytan i **[!UICONTROL Setup]**. I stödrastervyn väljer du **[!UICONTROL Delete]** i det relevanta händelsekortet. I tabellvyn väljer du ikonen Ta bort (![ikonen Ta bort](/help/assets/common/delete.svg)) bredvid händelsenamnet.
+
+![Fliken Mina mätdata markerar alternativet Ta bort i en konverteringshändelserad.](/help/assets/setup/add-manage-measurement-data/delete-measurement-data.png){zoomable="yes"}
+
+Dialogrutan **[!UICONTROL Delete measurement]** visas och du uppmanas att bekräfta borttagningen av händelsen. Välj **[!UICONTROL Delete]**.
+
+![Dialogrutan Ta bort mätning med alternativet Ta bort markerat.](/help/assets/setup/add-manage-measurement-data/delete-measurement-dialog.png){zoomable="yes"}
+
+En bekräftelsedialogruta visas som bekräftar att konverteringshändelsen har tagits bort.
 
 ## Nästa steg {#next-steps}
 

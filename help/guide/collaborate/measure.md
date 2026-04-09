@@ -2,11 +2,11 @@
 title: Mät prestanda
 description: Mät kampanjernas resultat i olika kanaler. Lär dig hur du använder och tolkar olika rapporter.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '2494'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Arbetsytan **[!UICONTROL Measure]** är bara tillgänglig om användningsfallet **Measurement** aktiverades [&#x200B; under anslutningsprocessen](../connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./manage-projects.md#project-use-cases).
+>Arbetsytan **[!UICONTROL Measure]** är bara tillgänglig om användningsfallet **Measurement** aktiverades [ under anslutningsprocessen](../connect/establishing-connections.md#connection-settings). Mer information om användningsfall finns i guiden [hantera projekt](./manage-projects.md#project-use-cases).
 
 Läs mer om tillgängliga rapporter i Adobe Real-Time CDP Collaboration och förstå hur ni mäter och analyserar hur era marknadsföringskampanjer fungerar i olika kanaler.
 
@@ -239,3 +239,81 @@ Granska slutligen dina inställningar och välj **[!UICONTROL Create]** för att
 När rapporten är tillgänglig kan du när som helst visa den på fliken **[!UICONTROL Measure]** på din projektarbetsyta.
 
 ![Skärmen Skapa mätningsrapport visar informationen och alternativet Skapa markerat.](/help/assets/collaborate/measure/attribution-review.png)
+
+## Redigera mätningsrapport {#edit-measurement-report}
+
+>[!IMPORTANT]
+>
+>Du kan bara redigera inställningarna för en mätrapport om den är schemalagd att köras i framtiden. Inställningarna kan inte ändras för rapporter som redan har körts.
+
+Uppdatera inställningarna för en mätrapport för att säkerställa att rapporten ger rätt analys av kampanjen under en viss period och körs på ett önskat datum.
+
+Börja med att navigera till arbetsytan i den mätrapport som du vill uppdatera. Markera redigeringsikonen (![ikonen Redigera](/help/assets/icons/edit.png)) bredvid ikonen Ta bort.
+
+![Mätrapportens arbetsyta med redigeringsikonen markerad.](/help/assets/collaborate/measure/edit-report.png)
+
+>[!TIP]
+>
+>Gå till det rapportavsnitt du vill redigera på fliken **[!UICONTROL Measure]**. Välj redigeringsikonen (![redigeringsikonen](/help/assets/icons/edit.png)) bredvid **[!UICONTROL View full report]** för att uppdatera inställningarna.
+>![Fliken Mått markerar redigeringsikonen i ett rapportavsnitt.](/help/assets/collaborate/measure/measure-tab-edit-report.png)
+
+Dialogrutan **[!UICONTROL Edit measurement report]** visas med rapportens aktuella inställningar i följande avsnitt:
+
+* [**Faktureringsinformation**](#billing-details): Visar information om krediter när mätningsrapporter körs. Ingen konfiguration krävs.
+* [**Kampanjinformation**](#campaign-details): Visar inställningar för annonseraren, kampanj-ID, rapporteringsperiod och ett användarvänligt rapportnamn.
+* [**Rapportinformation**](#report-details): Visar inställningar för rapporttypen, rapportens körningsdatum och konfigurationsalternativ specifikt för attribueringsrapporter.
+
+![Dialogrutan Redigera mätningsrapport visar de aktuella inställningarna under Faktureringsinformation, Kampanjinformation och Rapportdetaljer.](/help/assets/collaborate/measure/edit-measurement-report-dialog.png)
+
+### Redigera kampanjinformation {#edit-campaign-details}
+
+I dialogrutan **[!UICONTROL Edit measurement report]** använder du listrutemenyerna **[!UICONTROL Advertiser ID (Name)]** och **[!UICONTROL Campaign ID]** för att redigera annonseraren och kampanj-ID för din rapport.
+
+![Dialogrutan Redigera mätningsrapport som markerar den nedrullningsbara menyn för kampanj-ID som är öppen.](/help/assets/collaborate/measure/edit-campaign-id.png)
+
+Välj sedan **[!UICONTROL Report date range]** och använd kalendern för att ändra rapportens start- och slutdatum.
+
+![Dialogrutan Redigera mätningsrapport visar rapportdatumintervallkalendern som är öppen.](/help/assets/collaborate/measure/edit-report-date-range.png)
+
+Ange ett uppdaterat eget rapportnamn för att fånga upp dina senaste ändringar. Detta hjälper er att identifiera och hitta den här rapporten i framtiden.
+
+![Dialogrutan Redigera mätningsrapport visar det uppdaterade anpassade rapportnamnet.](/help/assets/collaborate/measure/edit-friendly-report-name.png)
+
+### Redigera rapportinformation {#edit-report-details}
+
+Navigera till avsnittet **[!UICONTROL Report details]** om du vill schemalägga rapporten för ett annat datum. Välj det aktuella körningsdatumet och använd sedan kalendern för att välja önskat datum.
+
+![Dialogrutan Redigera mätningsrapport visar rapportens körningsdatumkalender.](/help/assets/collaborate/measure/edit-report-run-date.png)
+
+Som annonsörer kan du välja eller ta bort rapporttypen **[!UICONTROL Attribution]** utöver **[!UICONTROL Campaign summary]**. Om du väljer **[!UICONTROL Attribution]** innehåller din attribueringsrapport både standardvärden för kampanjsammanfattning och djupgående attribueringsinsikter. Mer information om rapporttyperna **Kampanjsammanfattning** och **Attribution** finns i avsnittet [Skapa mätningsrapport](#create-measurement-report).
+
+>[!IMPORTANT]
+>
+>Om du är **utgivare** är standardrapporttypen **[!UICONTROL Campaign summary]** och kan inte ändras just nu.
+
+* Om du väljer **[!UICONTROL Attribution]** som rapporttyp måste du fylla i de obligatoriska fälten i avsnittet **[!UICONTROL Attribution]**. Instruktioner finns i avsnittet [attribueringsrapportinformation](#report-details-attribution).
+* Om du tidigare konfigurerade attribueringsinställningar när du skapar rapporten kan du välja att redigera uppslagsfönstret (mätt i dagar) och välja vilka konverteringshändelser som ska rapporteras.
+
+Om du vill uppdatera **[!UICONTROL Lookback window in days]** anger du ett numeriskt värde eller justerar det med alternativen för ökning/minskning. Välj sedan de konverteringshändelser som du vill rapportera om. Du kan välja upp till **3** konverteringar i den tillgängliga listan.
+
+![Dialogrutan Redigera mätningsrapport visar de uppdaterade konverteringshändelserna.](/help/assets/collaborate/measure/edit-conversion-events.png)
+
+När du är klar granskar du uppdateringarna och väljer **[!UICONTROL Edit]** för att tillämpa ändringarna.
+
+![Dialogrutan Redigera mätningsrapport med alternativet Redigera markerat.](/help/assets/collaborate/measure/edit-report-confirm.png)
+
+En bekräftelsedialogruta bekräftar att rapporten har sparats.
+
+## Ta bort mätningsrapport {#delete-measurement-report}
+
+Om du tar bort en mätrapport i Collaboration tas den bort permanent från systemet. Det går inte att ångra den här åtgärden. Det gör du genom att markera den rapport som du vill ta bort på fliken **[!UICONTROL Measure]**.
+
+I mätningsrapportens arbetsyta väljer du ikonen Ta bort (![ikonen Ta bort](/help/assets/common/delete.svg)).
+
+![Mätrapportens arbetsyta med ikonen Ta bort markerad.](/help/assets/collaborate/measure/delete-report.png)
+
+Dialogrutan **[!UICONTROL Delete report]** visas och du uppmanas att bekräfta borttagningen. Välj **[!UICONTROL Delete]**.
+
+![Dialogrutan Ta bort rapport med alternativet Ta bort markerat.](/help/assets/collaborate/measure/delete-report-confirm.png)
+
+En bekräftelsedialogruta bekräftar att rapporten har tagits bort.
