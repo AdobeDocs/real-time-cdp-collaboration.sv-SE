@@ -118,7 +118,7 @@ Om du vill uppdatera **[!UICONTROL Connect code]** väljer du uppdateringsikonen
 
 #### Skicka inbjudan om privat anslutning {#send-private-connection-invite}
 
-När du har **[!UICONTROL Connect code]** från din medarbetare kan du skicka en privat anslutningsinbjudan. Det gör du genom att navigera till arbetsytan **[!UICONTROL Connect]** och välja plusikonen (![plustecknet ](/help/assets/icons/plus.png)) i det övre högra hörnet.
+När du har **[!UICONTROL Connect code]** från din medarbetare kan du skicka en privat anslutningsinbjudan. Det gör du genom att navigera till arbetsytan **[!UICONTROL Connect]** och välja plusikonen (![plustecknet &#x200B;](/help/assets/icons/plus.png)) i det övre högra hörnet.
 
 ![Plustecknet är markerat på arbetsytan Anslut.](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
 
