@@ -2,7 +2,7 @@
 title: Lägga till och hantera mätdata
 description: Lär dig hur du lägger till mätdata i Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Begränsad tillgänglighet" type="Informative" url="https://helpx.adobe.com/se/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
 source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
@@ -160,8 +160,8 @@ Om du [aktiverar profilberikning under mappningssteget](#enrich-event-data) kan 
 >
 >**[!UICONTROL Data Collaboration]** har stöd för dataanvändningsetiketter i C4, C5 och C9, medan **[!UICONTROL Data Science]** endast har stöd för C9. Läs mer om dataanvändningsetiketter i Experience Platform-dokumentationen:
 >
->* [Översikt över etiketter för dataanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
->* [Ordlista](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+>* [Översikt över etiketter för dataanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+>* [Ordlista](https://experienceleague.adobe.com/sv/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 Välj önskade inställningar och välj sedan **[!UICONTROL Next]**.
 
